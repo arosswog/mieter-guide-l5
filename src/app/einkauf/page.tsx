@@ -30,7 +30,7 @@ const categorySymbols: Record<string, string> = {
   Markt: "🧺",
 };
 
-const EARTH_RADIUS_METERS = 6_371_000; // Earth's radius: 6,371 km in meters
+const EARTH_RADIUS_METERS = 6_371_000; // Earth's radius in meters
 
 function distanceInMeters(
   from: { lat: number; lng: number },
