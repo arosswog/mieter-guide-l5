@@ -22,7 +22,7 @@ function detectWasteType(summary: string): WasteType {
   if (upper.includes("BIO")) return "BT";
   if (upper.includes("REST")) return "RT";
   if (upper.includes("PAPIER")) return "PT";
-  if (upper.includes("LEICHT") || upper.includes("VERPACKUNG")) return "LT";
+  if (upper.includes("LEICHT") || upper.includes("VERPACKUNG") || upper.includes("GELBE TONNE")) return "LT";
   if (upper.includes("GRUEN") || upper.includes("GRÜN")) return "GT";
   if (upper.includes("GLAS")) return "GT";
 
