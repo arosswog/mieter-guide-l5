@@ -56,6 +56,12 @@ export default function Home() {
               >
                 Zur EG-Wohnung
               </Link>
+		<Link
+    		href="/muell"
+    		className="rounded-full border border-stone-300 bg-white px-6 py-3 text-sm font-medium text-stone-800 transition hover:bg-stone-100"
+  		>
+    		Müllabholung
+  		</Link>
             </div>
           </div>
 
