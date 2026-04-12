@@ -84,7 +84,10 @@ export default function Home() {
 
         <section className="mt-10 grid gap-4 md:grid-cols-7">
           <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
-            <div className="flex items-center gap-2 mb-2"><MdWifi className="text-2xl text-stone-500" /><h3 className="text-lg font-semibold">WLAN & Technik</h3></div>
+            <div className="flex flex-col items-center mb-3">
+  <MdWifi className="text-4xl text-blue-500 drop-shadow-sm mb-2" />
+  <h3 className="text-lg font-semibold text-center">WLAN & Technik</h3>
+</div>
             <p className="mt-2 text-sm leading-6 text-stone-600">
               Alle Zugänge, Gerätehinweise und technische Infos sauber an einem
               Ort.
@@ -92,14 +95,20 @@ export default function Home() {
           </div>
 
           <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
-            <div className="flex items-center gap-2 mb-2"><MdLogin className="text-2xl text-stone-500" /><h3 className="text-lg font-semibold">Check-in Infos</h3></div>
+            <div className="flex flex-col items-center mb-3">
+  <MdLogin className="text-4xl text-green-600 drop-shadow-sm mb-2" />
+  <h3 className="text-lg font-semibold text-center">Check-in Infos</h3>
+</div>
             <p className="mt-2 text-sm leading-6 text-stone-600">
               Alles zum Ankommen: Schlüssel, Zeiten, Ablauf und erste Schritte.
             </p>
           </div>
 
           <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
-            <div className="flex items-center gap-2 mb-2"><MdHome className="text-2xl text-stone-500" /><h3 className="text-lg font-semibold">Haus & Regeln</h3></div>
+            <div className="flex flex-col items-center mb-3">
+  <MdHome className="text-4xl text-yellow-600 drop-shadow-sm mb-2" />
+  <h3 className="text-lg font-semibold text-center">Haus & Regeln</h3>
+</div>
             <p className="mt-2 text-sm leading-6 text-stone-600">
               Ruhezeiten, Mülltrennung, Lüften und wichtige Alltagshinweise
               verständlich erklärt.
@@ -107,7 +116,10 @@ export default function Home() {
           </div>
 
           <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
-            <div className="flex items-center gap-2 mb-2"><MdContactPhone className="text-2xl text-stone-500" /><h3 className="text-lg font-semibold">Kontakt & Hilfe</h3></div>
+            <div className="flex flex-col items-center mb-3">
+  <MdContactPhone className="text-4xl text-pink-600 drop-shadow-sm mb-2" />
+  <h3 className="text-lg font-semibold text-center">Kontakt & Hilfe</h3>
+</div>
             <p className="mt-2 text-sm leading-6 text-stone-600">
               Kontaktmöglichkeiten, Notfallinfos und Unterstützung bei Fragen
               direkt verfügbar.
@@ -115,21 +127,30 @@ export default function Home() {
           </div>
 
           <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
-            <div className="flex items-center gap-2 mb-2"><MdDirectionsTransit className="text-2xl text-stone-500" /><h3 className="text-lg font-semibold">Öffentliche Verkehrsmittel</h3></div>
+            <div className="flex flex-col items-center mb-3">
+  <MdDirectionsTransit className="text-4xl text-purple-600 drop-shadow-sm mb-2" />
+  <h3 className="text-lg font-semibold text-center">Öffentliche Verkehrsmittel</h3>
+</div>
             <p className="mt-2 text-sm leading-6 text-stone-600">
               Infos zu Bus, Bahn und Anbindung in der Umgebung.
             </p>
           </div>
 
           <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
-            <div className="flex items-center gap-2 mb-2"><MdShoppingCart className="text-2xl text-stone-500" /><h3 className="text-lg font-semibold">Einkaufsmöglichkeiten</h3></div>
+            <div className="flex flex-col items-center mb-3">
+  <MdShoppingCart className="text-4xl text-orange-500 drop-shadow-sm mb-2" />
+  <h3 className="text-lg font-semibold text-center">Einkaufsmöglichkeiten</h3>
+</div>
             <p className="mt-2 text-sm leading-6 text-stone-600">
               Supermärkte, Bäcker und weitere Geschäfte in der Nähe.
             </p>
           </div>
 
           <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
-            <div className="flex items-center gap-2 mb-2"><MdLocationOn className="text-2xl text-stone-500" /><h3 className="text-lg font-semibold">Sehenswürdigkeiten</h3></div>
+            <div className="flex flex-col items-center mb-3">
+  <MdLocationOn className="text-4xl text-red-500 drop-shadow-sm mb-2" />
+  <h3 className="text-lg font-semibold text-center">Sehenswürdigkeiten</h3>
+</div>
             <p className="mt-2 text-sm leading-6 text-stone-600">
               Tipps zu Ausflugszielen und Highlights in der Umgebung.
             </p>
