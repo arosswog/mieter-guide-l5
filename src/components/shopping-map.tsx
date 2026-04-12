@@ -35,6 +35,15 @@ const markerColors: Record<string, string> = {
   Markt: "#ca8a04",
 };
 
+const createCircleMarkerIcon = (fillColor: string, strokeColor: string, scale: number) => ({
+  path: 0 as google.maps.SymbolPath,
+  scale,
+  fillColor,
+  fillOpacity: 0.9,
+  strokeColor,
+  strokeWeight: 2,
+});
+
 export default function ShoppingMap({
   house,
   locations,
@@ -50,7 +59,7 @@ export default function ShoppingMap({
   if (!apiKey) {
     return (
       <div className="flex h-[420px] w-full items-center justify-center rounded-2xl bg-stone-100 px-6 text-center text-sm text-stone-600 shadow-sm">
-        Google Maps kann nicht geladen werden: Bitte setzen Sie die Umgebungsvariable
+        Google Maps kann nicht geladen werden: Bitte setzen Sie zur Build-Zeit die Umgebungsvariable
         {" "}
         <code className="rounded bg-stone-200 px-1 py-0.5 text-xs">NEXT_PUBLIC_GOOGLE_MAPS_API_KEY</code>.
       </div>
@@ -97,14 +106,7 @@ export default function ShoppingMap({
 
       <MarkerF
         position={{ lat: house.lat, lng: house.lng }}
-        icon={{
-          path: google.maps.SymbolPath.CIRCLE,
-          scale: 9,
-          fillColor: "#14b8a6",
-          fillOpacity: 0.9,
-          strokeColor: "#0f766e",
-          strokeWeight: 2,
-        }}
+        icon={createCircleMarkerIcon("#14b8a6", "#0f766e", 9)}
         onClick={() => setActiveMarkerId("house")}
       />
       {activeMarkerId === "house" ? (
@@ -124,14 +126,11 @@ export default function ShoppingMap({
         <MarkerF
           key={location.id}
           position={{ lat: location.lat, lng: location.lng }}
-          icon={{
-            path: google.maps.SymbolPath.CIRCLE,
-            scale: 7,
-            fillColor: markerColors[location.category] ?? "#64748b",
-            fillOpacity: 0.9,
-            strokeColor: markerColors[location.category] ?? "#475569",
-            strokeWeight: 2,
-          }}
+          icon={createCircleMarkerIcon(
+            markerColors[location.category] ?? "#64748b",
+            markerColors[location.category] ?? "#475569",
+            7,
+          )}
           onClick={() => setActiveMarkerId(location.id)}
         />
       ))}
