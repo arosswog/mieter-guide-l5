@@ -11,7 +11,7 @@ const WASTE_LABELS: Record<WasteType, string> = {
   BT: "Bioabfall",
   RT: "Restmüll",
   PT: "Papier",
-  LT: "Verpackung",
+  LT: "Leichtverpackung",
   GT: "Grüngut / Glas",
   UNKNOWN: "Abholung",
 };

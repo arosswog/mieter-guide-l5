@@ -47,34 +47,19 @@ export default function Home() {
               mobil optimiert und in mehreren Sprachen.
             </p>
 
-            <div className="mt-8 flex flex-col items-center gap-3">
-              <div className="relative w-32 h-40 mb-2">
-  {/* Haus-Umriss als SVG */}
-  <svg viewBox="0 0 100 120" className="absolute inset-0 w-full h-full">
-    <polygon points="50,10 10,50 10,110 90,110 90,50" fill="#f3f4f6" stroke="#222" strokeWidth="2" />
-    <rect x="20" y="60" width="60" height="40" fill="#e5e7eb" stroke="#222" strokeWidth="1.5" />
-  </svg>
-  {/* OG-Bereich (oben, transparent Button) */}
-  <Link href="/og">
-    <button
-      className="absolute left-0 top-0 w-full h-1/2 flex items-center justify-center group"
-      style={{ background: "rgba(255,255,255,0)", border: "none", cursor: "pointer" }}
-      aria-label="Zur OG-Wohnung"
-    >
-      <span className="text-xs font-bold text-stone-700 group-hover:underline group-hover:text-blue-700">OG-Wohnung</span>
-    </button>
-  </Link>
-  {/* EG-Bereich (unten, transparent Button) */}
-  <Link href="/eg">
-    <button
-      className="absolute left-0 bottom-0 w-full h-1/2 flex items-center justify-center group"
-      style={{ background: "rgba(255,255,255,0)", border: "none", cursor: "pointer" }}
-      aria-label="Zur EG-Wohnung"
-    >
-      <span className="text-xs font-bold text-stone-700 group-hover:underline group-hover:text-green-700">EG-Wohnung</span>
-    </button>
-  </Link>
-</div>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Link
+                href="/og"
+                className="rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-white transition hover:bg-stone-700"
+              >
+                Zur OG-Wohnung
+              </Link>
+              <Link
+                href="/eg"
+                className="rounded-full border border-stone-300 bg-white px-6 py-3 text-sm font-medium text-stone-800 transition hover:bg-stone-100"
+              >
+                Zur EG-Wohnung
+              </Link>
 		<Link
     		href="/muell"
     		className="rounded-full border border-stone-300 bg-white px-6 py-3 text-sm font-medium text-stone-800 transition hover:bg-stone-100"
