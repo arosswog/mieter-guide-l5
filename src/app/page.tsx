@@ -69,12 +69,12 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="rounded-3xl bg-white p-0 shadow-lg ring-1 ring-stone-200 flex items-center justify-center">
+          <div className="rounded-3xl bg-white p-0 shadow-lg ring-1 ring-stone-200 flex items-center justify-center h-full">
   <img
     src="/images/haus-1890.png"
     alt="Haus 1890"
-    className="w-full h-auto rounded-3xl shadow-xl border-4 border-stone-200 object-cover"
-    style={{ maxHeight: 340, objectFit: 'cover' }}
+    className="w-full h-full rounded-3xl shadow-xl border-4 border-stone-200 object-cover"
+    style={{ aspectRatio: 'auto 3/2', height: '100%', maxHeight: '600px', objectFit: 'cover' }}
   />
 </div>
         </section>
