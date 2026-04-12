@@ -4,7 +4,7 @@ import { getLanguageFromSearchParams, withLanguage } from "@/lib/language";
 
 const HOUSE = {
   name: "Zentrales Haus",
-  address: "Zentrales Haus, Ludwigsburg (48.893725, 9.227668)",
+  address: "Zentrales Haus, Oßweil, 71640 Ludwigsburg",
   lat: 48.893725,
   lng: 9.227668,
 };
