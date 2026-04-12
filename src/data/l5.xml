@@ -1,0 +1,17 @@
+<osm version="0.6" generator="openstreetmap-cgimap 2.1.0 (1312241 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="546812896" visible="true" version="2" changeset="54629263" timestamp="2017-12-14T16:36:47Z" user="Chrysopras" uid="485074">
+<nd ref="3059275825"/>
+<nd ref="5283882434"/>
+<nd ref="5283882435"/>
+<nd ref="5283882433"/>
+<nd ref="3059275835"/>
+<nd ref="3059275825"/>
+<tag k="addr:city" v="Ludwigsburg"/>
+<tag k="addr:country" v="DE"/>
+<tag k="addr:housenumber" v="5"/>
+<tag k="addr:postcode" v="71640"/>
+<tag k="addr:street" v="Lange Straße"/>
+<tag k="addr:suburb" v="Oßweil"/>
+<tag k="building" v="yes"/>
+</way>
+</osm>
