@@ -20,14 +20,12 @@ export default async function WlanPage({
 }) {
   const language = await getLanguageFromSearchParams(searchParams);
   const messages = translationsByLanguage[language];
-  const title = messages.title ?? deMessages.title;
-  const content = messages.content ?? deMessages.content;
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-stone-50 to-stone-100 text-stone-800 flex items-center justify-center">
       <div className="max-w-xl w-full bg-white rounded-3xl shadow-lg p-8 mt-10">
-        <h1 className="text-2xl font-bold mb-4">{title}</h1>
-        <p className="text-base text-stone-700">{content}</p>
+        <h1 className="text-2xl font-bold mb-4">{messages.title}</h1>
+        <p className="text-base text-stone-700">{messages.content}</p>
       </div>
     </main>
   );

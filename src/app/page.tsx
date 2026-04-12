@@ -27,16 +27,16 @@ export default async function Home({
   <span role="img" aria-label="Deutsch">🇩🇪</span> DE
 </Link>
 <Link href={withLanguage("/", "en")} className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
-  <span role="img" aria-label="English">🇬🇧</span> EN
+  <span role="img" aria-label="Englisch">🇬🇧</span> EN
 </Link>
 <Link href={withLanguage("/", "fr")} className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
-  <span role="img" aria-label="Français">🇫🇷</span> FR
+  <span role="img" aria-label="Französisch">🇫🇷</span> FR
 </Link>
 <Link href={withLanguage("/", "pl")} className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
-  <span role="img" aria-label="Polski">🇵🇱</span> PL
+  <span role="img" aria-label="Polnisch">🇵🇱</span> PL
 </Link>
 <Link href={withLanguage("/", "zh")} className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
-  <span role="img" aria-label="中文">🇨🇳</span> 中文
+  <span role="img" aria-label="Chinesisch">🇨🇳</span> 中文
 </Link>
           </div>
         </header>
