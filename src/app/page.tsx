@@ -69,17 +69,14 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="rounded-3xl bg-stone-900 p-8 text-white shadow-sm">
-            <p className="text-sm uppercase tracking-[0.2em] text-stone-300">
-              Für Mieter
-            </p>
-            <ul className="mt-6 space-y-4 text-sm leading-6 text-stone-200">
-              <li>• Schneller Zugriff per QR-Code</li>
-              <li>• Mehrsprachige Informationen</li>
-              <li>• Mobil perfekt lesbar</li>
-              <li>• Einfach später erweiterbar</li>
-            </ul>
-          </div>
+          <div className="rounded-3xl bg-white p-0 shadow-lg ring-1 ring-stone-200 flex items-center justify-center">
+  <img
+    src="/images/haus-1890.png"
+    alt="Haus 1890"
+    className="w-full h-auto rounded-3xl shadow-xl border-4 border-stone-200 object-cover"
+    style={{ maxHeight: 340, objectFit: 'cover' }}
+  />
+</div>
         </section>
 
         <section className="mt-10 grid gap-6 grid-cols-1 md:grid-cols-3">
