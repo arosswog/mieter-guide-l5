@@ -20,12 +20,13 @@ const SHOPPING_LOCATIONS = [
   { name: "Wochenmarkt Ludwigsburg", category: "Markt", lat: 48.89866, lng: 9.18195 },
 ];
 
+const EARTH_RADIUS_METERS = 6_371_000;
+
 function distanceInMeters(
   from: { lat: number; lng: number },
   to: { lat: number; lng: number },
 ) {
   const toRadians = (value: number) => (value * Math.PI) / 180;
-  const earthRadius = 6_371_000;
   const dLat = toRadians(to.lat - from.lat);
   const dLng = toRadians(to.lng - from.lng);
   const fromLat = toRadians(from.lat);
@@ -36,7 +37,7 @@ function distanceInMeters(
     Math.cos(fromLat) * Math.cos(toLat) * Math.sin(dLng / 2) ** 2;
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
-  return Math.round(earthRadius * c);
+  return Math.round(EARTH_RADIUS_METERS * c);
 }
 
 export default async function EinkaufPage({

@@ -67,7 +67,7 @@ export default function ShoppingMap({ house, locations }: ShoppingMapProps) {
 
       {locations.map((location) => (
         <CircleMarker
-          key={location.name}
+          key={`${location.name}-${location.lat}-${location.lng}`}
           center={[location.lat, location.lng]}
           radius={8}
           pathOptions={{
