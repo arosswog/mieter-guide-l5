@@ -1,4 +1,46 @@
 {
   "title": "Wi-Fi et technologie",
-  "content": "Tous les accès, instructions d'appareils et infos techniques en un seul endroit."
+  "content": "Tous les accès, instructions d'appareils et infos techniques en un seul endroit.",
+  "home": {
+    "eyebrow": "Guide de l'appartement",
+    "welcomeLabel": "Bienvenue",
+    "introTitle": "Toutes les informations importantes pour votre séjour en un seul endroit.",
+    "introDescription": "Wi-Fi, check-in, règles de la maison, appareils, environnement et contact — clair, optimisé mobile et disponible en plusieurs langues.",
+    "buttons": {
+      "toOg": "Vers l'appartement à l'étage",
+      "toEg": "Vers l'appartement au rez-de-chaussée",
+      "wasteCollection": "Collecte des déchets"
+    },
+    "imageAlt": "Maison 1890",
+    "cards": {
+      "wlan": {
+        "title": "Wi-Fi et technologie",
+        "description": "Tous les accès, instructions d'appareils et infos techniques en un seul endroit."
+      },
+      "checkin": {
+        "title": "Infos check-in",
+        "description": "Tout pour votre arrivée : clés, horaires, déroulement et premières étapes."
+      },
+      "houseRules": {
+        "title": "Maison & règles",
+        "description": "Heures de calme, tri des déchets, aération et consignes du quotidien expliqués clairement."
+      },
+      "contact": {
+        "title": "Contact & aide",
+        "description": "Moyens de contact, infos d'urgence et assistance pour vos questions."
+      },
+      "transport": {
+        "title": "Transports en commun",
+        "description": "Informations sur bus, train et liaisons dans les environs."
+      },
+      "shopping": {
+        "title": "Commerces",
+        "description": "Supermarchés, boulangeries et autres magasins à proximité."
+      },
+      "sights": {
+        "title": "Sites touristiques",
+        "description": "Conseils d'excursions et points forts dans les environs."
+      }
+    }
+  }
 }

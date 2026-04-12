@@ -1,4 +1,46 @@
 {
   "title": "WiFi & Technology",
-  "content": "All access codes, device instructions and technical info in one place."
+  "content": "All access codes, device instructions and technical info in one place.",
+  "home": {
+    "eyebrow": "Apartment Guide",
+    "welcomeLabel": "Welcome",
+    "introTitle": "All important information for your stay in one place.",
+    "introDescription": "Wi-Fi, check-in, house rules, appliances, local area and contact — clear, mobile-optimized and available in multiple languages.",
+    "buttons": {
+      "toOg": "Go to upper-floor apartment",
+      "toEg": "Go to ground-floor apartment",
+      "wasteCollection": "Waste collection"
+    },
+    "imageAlt": "House 1890",
+    "cards": {
+      "wlan": {
+        "title": "WiFi & Technology",
+        "description": "All access codes, device instructions and technical info in one place."
+      },
+      "checkin": {
+        "title": "Check-in Info",
+        "description": "Everything you need on arrival: keys, times, process and first steps."
+      },
+      "houseRules": {
+        "title": "House & Rules",
+        "description": "Quiet hours, waste separation, ventilation and daily house guidance explained clearly."
+      },
+      "contact": {
+        "title": "Contact & Help",
+        "description": "Contact options, emergency information and support for your questions."
+      },
+      "transport": {
+        "title": "Public Transport",
+        "description": "Information about buses, trains and local connections."
+      },
+      "shopping": {
+        "title": "Shopping",
+        "description": "Supermarkets, bakeries and other shops nearby."
+      },
+      "sights": {
+        "title": "Sights",
+        "description": "Tips for excursions and highlights in the area."
+      }
+    }
+  }
 }

@@ -1,4 +1,46 @@
 {
   "title": "WLAN & Technik",
-  "content": "Alle Zugänge, Gerätehinweise und technische Infos sauber an einem Ort."
+  "content": "Alle Zugänge, Gerätehinweise und technische Infos sauber an einem Ort.",
+  "home": {
+    "eyebrow": "Apartment Guide",
+    "welcomeLabel": "Willkommen",
+    "introTitle": "Alle wichtigen Informationen für Ihren Aufenthalt an einem Ort.",
+    "introDescription": "WLAN, Check-in, Hausregeln, Geräte, Umgebung und Kontakt – klar, mobil optimiert und in mehreren Sprachen.",
+    "buttons": {
+      "toOg": "Zur OG-Wohnung",
+      "toEg": "Zur EG-Wohnung",
+      "wasteCollection": "Müllabholung"
+    },
+    "imageAlt": "Haus 1890",
+    "cards": {
+      "wlan": {
+        "title": "WLAN & Technik",
+        "description": "Alle Zugänge, Gerätehinweise und technische Infos sauber an einem Ort."
+      },
+      "checkin": {
+        "title": "Check-in Infos",
+        "description": "Alles zum Ankommen: Schlüssel, Zeiten, Ablauf und erste Schritte."
+      },
+      "houseRules": {
+        "title": "Haus & Regeln",
+        "description": "Ruhezeiten, Mülltrennung, Lüften und wichtige Alltagshinweise verständlich erklärt."
+      },
+      "contact": {
+        "title": "Kontakt & Hilfe",
+        "description": "Kontaktmöglichkeiten, Notfallinfos und Unterstützung bei Fragen direkt verfügbar."
+      },
+      "transport": {
+        "title": "Öffentliche Verkehrsmittel",
+        "description": "Infos zu Bus, Bahn und Anbindung in der Umgebung."
+      },
+      "shopping": {
+        "title": "Einkaufsmöglichkeiten",
+        "description": "Supermärkte, Bäcker und weitere Geschäfte in der Nähe."
+      },
+      "sights": {
+        "title": "Sehenswürdigkeiten",
+        "description": "Tipps zu Ausflugszielen und Highlights in der Umgebung."
+      }
+    }
+  }
 }

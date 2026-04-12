@@ -1,4 +1,46 @@
 {
   "title": "无线网络与技术",
-  "content": "所有访问、设备说明和技术信息一站式呈现。"
+  "content": "所有访问、设备说明和技术信息一站式呈现。",
+  "home": {
+    "eyebrow": "公寓指南",
+    "welcomeLabel": "欢迎",
+    "introTitle": "您入住期间的重要信息都在这里。",
+    "introDescription": "无线网络、入住、房屋规则、设备、周边与联系方式——清晰、移动端友好，并提供多语言。",
+    "buttons": {
+      "toOg": "前往楼上公寓",
+      "toEg": "前往一楼公寓",
+      "wasteCollection": "垃圾回收"
+    },
+    "imageAlt": "1890号住宅",
+    "cards": {
+      "wlan": {
+        "title": "无线网络与技术",
+        "description": "所有访问、设备说明和技术信息一站式呈现。"
+      },
+      "checkin": {
+        "title": "入住信息",
+        "description": "抵达所需信息：钥匙、时间、流程与第一步。"
+      },
+      "houseRules": {
+        "title": "房屋与规则",
+        "description": "安静时段、垃圾分类、通风和日常注意事项清晰说明。"
+      },
+      "contact": {
+        "title": "联系与帮助",
+        "description": "联系方式、紧急信息与问题支持随时可用。"
+      },
+      "transport": {
+        "title": "公共交通",
+        "description": "周边公交、火车及交通连接信息。"
+      },
+      "shopping": {
+        "title": "购物",
+        "description": "附近超市、面包店及其他商店。"
+      },
+      "sights": {
+        "title": "景点",
+        "description": "周边游玩推荐与亮点。"
+      }
+    }
+  }
 }

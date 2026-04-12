@@ -1,4 +1,46 @@
 {
   "title": "Wi-Fi i technika",
-  "content": "Wszystkie dostępy, instrukcje urządzeń i informacje techniczne w jednym miejscu."
+  "content": "Wszystkie dostępy, instrukcje urządzeń i informacje techniczne w jednym miejscu.",
+  "home": {
+    "eyebrow": "Przewodnik po apartamencie",
+    "welcomeLabel": "Witamy",
+    "introTitle": "Wszystkie ważne informacje o Twoim pobycie w jednym miejscu.",
+    "introDescription": "Wi-Fi, check-in, zasady domu, urządzenia, okolica i kontakt — przejrzyście, mobilnie i w wielu językach.",
+    "buttons": {
+      "toOg": "Do apartamentu na piętrze",
+      "toEg": "Do apartamentu na parterze",
+      "wasteCollection": "Odbiór odpadów"
+    },
+    "imageAlt": "Dom 1890",
+    "cards": {
+      "wlan": {
+        "title": "Wi-Fi i technika",
+        "description": "Wszystkie dostępy, instrukcje urządzeń i informacje techniczne w jednym miejscu."
+      },
+      "checkin": {
+        "title": "Informacje check-in",
+        "description": "Wszystko na start: klucze, godziny, przebieg i pierwsze kroki."
+      },
+      "houseRules": {
+        "title": "Dom i zasady",
+        "description": "Cisza nocna, segregacja odpadów, wietrzenie i ważne wskazówki na co dzień wyjaśnione jasno."
+      },
+      "contact": {
+        "title": "Kontakt i pomoc",
+        "description": "Sposoby kontaktu, informacje alarmowe i wsparcie przy pytaniach."
+      },
+      "transport": {
+        "title": "Transport publiczny",
+        "description": "Informacje o autobusach, pociągach i połączeniach w okolicy."
+      },
+      "shopping": {
+        "title": "Zakupy",
+        "description": "Supermarkety, piekarnie i inne sklepy w pobliżu."
+      },
+      "sights": {
+        "title": "Atrakcje",
+        "description": "Wskazówki dotyczące wycieczek i najciekawszych miejsc w okolicy."
+      }
+    }
+  }
 }
