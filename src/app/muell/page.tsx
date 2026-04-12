@@ -1,10 +1,16 @@
 import Link from "next/link";
 import { getWasteEvents } from "@/lib/waste";
 import { FaLeaf, FaTrash, FaRecycle, FaGlassWhiskey, FaRegLemon } from "react-icons/fa";
+import { getLanguageFromSearchParams, withLanguage } from "@/lib/language";
 
 export const dynamic = "force-dynamic";
 
-export default async function WastePage() {
+export default async function WastePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string | string[] }>;
+}) {
+  const language = await getLanguageFromSearchParams(searchParams);
   const events = await getWasteEvents(8);
 
   return (
@@ -13,7 +19,7 @@ export default async function WastePage() {
         <header className="mb-10 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <div>
             <Link
-              href="/"
+              href={withLanguage("/", language)}
               className="text-sm text-stone-500 transition hover:text-stone-800"
             >
               ← Zur Übersicht

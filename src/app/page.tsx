@@ -1,7 +1,14 @@
 import Link from "next/link";
 import { MdWifi, MdLogin, MdHome, MdContactPhone, MdDirectionsTransit, MdShoppingCart, MdLocationOn } from "react-icons/md";
+import { getLanguageFromSearchParams, withLanguage } from "@/lib/language";
 
-export default function Home() {
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string | string[] }>;
+}) {
+  const language = await getLanguageFromSearchParams(searchParams);
+
   return (
     <main className="min-h-screen bg-gradient-to-b from-stone-50 to-stone-100 text-stone-800">
       <div className="mx-auto max-w-6xl px-6 py-10">
@@ -16,21 +23,21 @@ export default function Home() {
           </div>
 
           <div className="flex flex-wrap gap-2 sm:flex-nowrap sm:gap-2 ml-2 md:ml-0">
-            <button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
+            <Link href={withLanguage("/", "de")} className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
   <span role="img" aria-label="Deutsch">🇩🇪</span> DE
-</button>
-<button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
+</Link>
+<Link href={withLanguage("/", "en")} className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
   <span role="img" aria-label="Englisch">🇬🇧</span> EN
-</button>
-<button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
+</Link>
+<Link href={withLanguage("/", "fr")} className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
   <span role="img" aria-label="Französisch">🇫🇷</span> FR
-</button>
-<button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
-  <span role="img" aria-label="Japanisch">🇯🇵</span> 日本語
-</button>
-<button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
+</Link>
+<Link href={withLanguage("/", "pl")} className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
+  <span role="img" aria-label="Polnisch">🇵🇱</span> PL
+</Link>
+<Link href={withLanguage("/", "zh")} className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
   <span role="img" aria-label="Chinesisch">🇨🇳</span> 中文
-</button>
+</Link>
           </div>
         </header>
 
@@ -49,19 +56,19 @@ export default function Home() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
-                href="/og"
+                href={withLanguage("/og", language)}
                 className="rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-white transition hover:bg-stone-700"
               >
                 Zur OG-Wohnung
               </Link>
               <Link
-                href="/eg"
+                href={withLanguage("/eg", language)}
                 className="rounded-full border border-stone-300 bg-white px-6 py-3 text-sm font-medium text-stone-800 transition hover:bg-stone-100"
               >
                 Zur EG-Wohnung
               </Link>
 		<Link
-    		href="/muell"
+    		href={withLanguage("/muell", language)}
     		className="rounded-full border border-stone-300 bg-white px-6 py-3 text-sm font-medium text-stone-800 transition hover:bg-stone-100"
   		>
     		Müllabholung
@@ -80,7 +87,7 @@ export default function Home() {
         </section>
 
         <section className="mt-10 grid gap-6 grid-cols-1 md:grid-cols-3">
-  <Link href="/wlan" className="group rounded-2xl bg-white p-4 min-h-[110px] shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
+  <Link href={withLanguage("/wlan", language)} className="group rounded-2xl bg-white p-4 min-h-[110px] shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
     <div className="flex flex-col items-center mb-2">
       <MdWifi className="text-4xl text-blue-500 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
       <h3 className="text-xl font-semibold text-center leading-tight">WLAN & Technik</h3>
@@ -89,7 +96,7 @@ export default function Home() {
       Alle Zugänge, Gerätehinweise und technische Infos sauber an einem Ort.
     </p>
   </Link>
-  <Link href="/checkin" className="group rounded-2xl bg-white p-4 min-h-[110px] shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-green-300 focus:outline-none focus:ring-2 focus:ring-green-400">
+  <Link href={withLanguage("/checkin", language)} className="group rounded-2xl bg-white p-4 min-h-[110px] shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-green-300 focus:outline-none focus:ring-2 focus:ring-green-400">
     <div className="flex flex-col items-center mb-2">
       <MdLogin className="text-4xl text-green-600 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
       <h3 className="text-xl font-semibold text-center leading-tight">Check-in Infos</h3>
@@ -98,7 +105,7 @@ export default function Home() {
       Alles zum Ankommen: Schlüssel, Zeiten, Ablauf und erste Schritte.
     </p>
   </Link>
-  <Link href="/hausregeln" className="group rounded-2xl bg-white p-4 min-h-[110px] shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+  <Link href={withLanguage("/hausregeln", language)} className="group rounded-2xl bg-white p-4 min-h-[110px] shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-400">
     <div className="flex flex-col items-center mb-2">
       <MdHome className="text-4xl text-yellow-600 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
       <h3 className="text-xl font-semibold text-center leading-tight">Haus & Regeln</h3>
@@ -107,7 +114,7 @@ export default function Home() {
       Ruhezeiten, Mülltrennung, Lüften und wichtige Alltagshinweise verständlich erklärt.
     </p>
   </Link>
-  <Link href="/kontakt" className="group rounded-2xl bg-white p-4 min-h-[110px] shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-pink-300 focus:outline-none focus:ring-2 focus:ring-pink-400">
+  <Link href={withLanguage("/kontakt", language)} className="group rounded-2xl bg-white p-4 min-h-[110px] shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-pink-300 focus:outline-none focus:ring-2 focus:ring-pink-400">
     <div className="flex flex-col items-center mb-2">
       <MdContactPhone className="text-4xl text-pink-600 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
       <h3 className="text-xl font-semibold text-center leading-tight">Kontakt & Hilfe</h3>
@@ -116,7 +123,7 @@ export default function Home() {
       Kontaktmöglichkeiten, Notfallinfos und Unterstützung bei Fragen direkt verfügbar.
     </p>
   </Link>
-  <Link href="/verkehr" className="group rounded-2xl bg-white p-4 min-h-[110px] shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-purple-300 focus:outline-none focus:ring-2 focus:ring-purple-400">
+  <Link href={withLanguage("/verkehr", language)} className="group rounded-2xl bg-white p-4 min-h-[110px] shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-purple-300 focus:outline-none focus:ring-2 focus:ring-purple-400">
     <div className="flex flex-col items-center mb-2">
       <MdDirectionsTransit className="text-4xl text-purple-600 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
       <h3 className="text-xl font-semibold text-center leading-tight">Öffentliche Verkehrsmittel</h3>
@@ -125,7 +132,7 @@ export default function Home() {
       Infos zu Bus, Bahn und Anbindung in der Umgebung.
     </p>
   </Link>
-  <Link href="/einkauf" className="group rounded-2xl bg-white p-4 min-h-[110px] shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-orange-300 focus:outline-none focus:ring-2 focus:ring-orange-400">
+  <Link href={withLanguage("/einkauf", language)} className="group rounded-2xl bg-white p-4 min-h-[110px] shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-orange-300 focus:outline-none focus:ring-2 focus:ring-orange-400">
     <div className="flex flex-col items-center mb-2">
       <MdShoppingCart className="text-4xl text-orange-500 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
       <h3 className="text-xl font-semibold text-center leading-tight">Einkaufsmöglichkeiten</h3>
@@ -134,7 +141,7 @@ export default function Home() {
       Supermärkte, Bäcker und weitere Geschäfte in der Nähe.
     </p>
   </Link>
-  <Link href="/sehenswuerdigkeiten" className="group rounded-2xl bg-white p-4 min-h-[110px] shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-red-300 focus:outline-none focus:ring-2 focus:ring-red-400">
+  <Link href={withLanguage("/sehenswuerdigkeiten", language)} className="group rounded-2xl bg-white p-4 min-h-[110px] shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-red-300 focus:outline-none focus:ring-2 focus:ring-red-400">
     <div className="flex flex-col items-center mb-2">
       <MdLocationOn className="text-4xl text-red-500 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
       <h3 className="text-xl font-semibold text-center leading-tight">Sehenswürdigkeiten</h3>

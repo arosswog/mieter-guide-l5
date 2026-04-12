@@ -1,7 +1,13 @@
 import Link from "next/link";
 import { apartments, common } from "@/data/apartments";
+import { getLanguageFromSearchParams, withLanguage } from "@/lib/language";
 
-export default function EGPage() {
+export default async function EGPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string | string[] }>;
+}) {
+  const language = await getLanguageFromSearchParams(searchParams);
   const data = apartments.eg;
 
   return (
@@ -10,7 +16,7 @@ export default function EGPage() {
         <header className="mb-10 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <div>
             <Link
-              href="/"
+              href={withLanguage("/", language)}
               className="text-sm text-stone-500 transition hover:text-stone-800"
             >
               ← Zur Übersicht
