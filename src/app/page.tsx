@@ -10,10 +10,10 @@ export default async function Home({
   const language = await getLanguageFromSearchParams(searchParams);
   const languageButtons = [
     { code: "de", label: "DE", flag: "🇩🇪", ariaLabel: "Deutsch" },
-    { code: "en", label: "EN", flag: "🇬🇧", ariaLabel: "Englisch" },
-    { code: "fr", label: "FR", flag: "🇫🇷", ariaLabel: "Französisch" },
-    { code: "pl", label: "PL", flag: "🇵🇱", ariaLabel: "Polnisch" },
-    { code: "zh", label: "中文", flag: "🇨🇳", ariaLabel: "Chinesisch" },
+    { code: "en", label: "EN", flag: "🇬🇧", ariaLabel: "English" },
+    { code: "fr", label: "FR", flag: "🇫🇷", ariaLabel: "Français" },
+    { code: "pl", label: "PL", flag: "🇵🇱", ariaLabel: "Polski" },
+    { code: "zh", label: "中文", flag: "🇨🇳", ariaLabel: "中文" },
   ] as const;
   const getLanguageButtonClassName = (targetLanguage: string) =>
     `rounded-full border px-4 py-2 text-sm shadow-sm flex items-center gap-2 transition ${
