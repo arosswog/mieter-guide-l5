@@ -5,19 +5,17 @@ import { getLanguageFromSearchParams, withLanguage } from "@/lib/language";
 const HOUSE = {
   name: "Haus Lange Str. 5",
   address: "Lange-Str. 5, 71640 Ludwigsburg, Deutschland",
-  lat: 48.89596,
-  lng: 9.18902,
+  lat: 48.8952,
+  lng: 9.1909,
 };
 
 const SHOPPING_LOCATIONS = [
-  { id: "bakery-troelsch", name: "Bäckerei Trölsch", category: "Bäcker", lat: 48.89654, lng: 9.18754 },
-  { id: "metzgerei-prister", name: "Metzgerei Prister", category: "Metzger", lat: 48.89712, lng: 9.1912 },
-  { id: "rewe", name: "REWE", category: "Supermarkt", lat: 48.8938, lng: 9.19235 },
-  { id: "aldi-sued", name: "ALDI SÜD", category: "Discounter", lat: 48.89267, lng: 9.18695 },
-  { id: "lidl", name: "Lidl", category: "Discounter", lat: 48.90034, lng: 9.18485 },
-  { id: "dm", name: "dm-drogerie markt", category: "Drogerie", lat: 48.89445, lng: 9.18588 },
-  { id: "denns-biomarkt", name: "denn's Biomarkt", category: "Biomarkt", lat: 48.89918, lng: 9.19262 },
-  { id: "wochenmarkt-ludwigsburg", name: "Wochenmarkt Ludwigsburg", category: "Markt", lat: 48.89866, lng: 9.18195 },
+  { id: "edeka-ueltzhoefer", name: "EDEKA Ueltzhöfer", category: "Supermarkt", lat: 48.8957, lng: 9.1911 },
+  { id: "alnatura", name: "Alnatura Super Natur Markt", category: "Biomarkt", lat: 48.8955, lng: 9.1893 },
+  { id: "dm-arsenalplatz", name: "dm-drogerie markt", category: "Drogerie", lat: 48.8957, lng: 9.1914 },
+  { id: "kaufland-wilhelmstrasse", name: "Kaufland", category: "Supermarkt", lat: 48.8929, lng: 9.1938 },
+  { id: "lidl-leonberger-strasse", name: "Lidl", category: "Discounter", lat: 48.894, lng: 9.1972 },
+  { id: "marstall", name: "Marstall Ludwigsburg", category: "Markt", lat: 48.8957, lng: 9.1918 },
 ];
 
 const categorySymbols: Record<string, string> = {
