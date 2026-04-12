@@ -47,48 +47,21 @@ export default function Home() {
               mobil optimiert und in mehreren Sprachen.
             </p>
 
-            <div className="mt-8 flex flex-col md:flex-row items-center gap-3 md:gap-8">
-  <div className="flex flex-col md:flex-row items-center w-full">
-    <div className="relative w-60 h-80 mb-4">
-      {/* Haus-Umriss als SVG */}
-      <svg viewBox="0 0 200 260" className="absolute inset-0 w-full h-full pointer-events-none">
-        <polygon points="100,20 20,100 20,240 180,240 180,100" fill="#f3f4f6" stroke="#222" strokeWidth="4" />
-      </svg>
-      {/* OG-Button im oberen Hausbereich */}
-      <Link href="/og" className="absolute left-1/2" style={{ top: '90px', transform: 'translateX(-50%)' }}>
-        <button className="rounded-full bg-stone-900 px-8 py-3 text-base font-medium text-white shadow transition hover:bg-stone-700">
-          OG-Wohnung
-        </button>
-      </Link>
-      {/* EG-Button direkt darunter */}
-      <Link href="/eg" className="absolute left-1/2" style={{ top: '150px', transform: 'translateX(-50%)' }}>
-        <button className="rounded-full border border-stone-300 bg-white px-8 py-3 text-base font-medium text-stone-800 shadow transition hover:bg-stone-100">
-          EG-Wohnung
-        </button>
-      </Link>
-    </div>
-    {/* Müllabholung-Button rechts neben dem Haus */}
-    <div className="hidden md:block md:ml-8 md:mt-16 flex-shrink-0">
-      <Link href="/muell">
-        <button className="rounded-full border border-stone-300 bg-white px-8 py-3 text-base font-medium text-stone-800 shadow transition hover:bg-stone-100">
-          Müllabholung
-        </button>
-      </Link>
-    </div>
-  </div>
+            <div className="mt-8 flex flex-col items-center gap-3">
               <div className="relative w-60 h-80 mb-4">
   {/* Haus-Umriss als SVG */}
   <svg viewBox="0 0 200 260" className="absolute inset-0 w-full h-full pointer-events-none">
     <polygon points="100,20 20,100 20,240 180,240 180,100" fill="#f3f4f6" stroke="#222" strokeWidth="4" />
+    <rect x="40" y="140" width="120" height="80" fill="#e5e7eb" stroke="#222" strokeWidth="2.5" />
   </svg>
   {/* OG-Button im oberen Hausbereich */}
-  <Link href="/og" className="absolute left-1/2" style={{ top: '90px', transform: 'translateX(-50%)' }}>
+  <Link href="/og" className="absolute left-1/2" style={{ top: '70px', transform: 'translateX(-50%)' }}>
     <button className="rounded-full bg-stone-900 px-8 py-3 text-base font-medium text-white shadow transition hover:bg-stone-700">
       OG-Wohnung
     </button>
   </Link>
-  {/* EG-Button direkt darunter */}
-  <Link href="/eg" className="absolute left-1/2" style={{ top: '150px', transform: 'translateX(-50%)' }}>
+  {/* EG-Button im unteren Hausbereich */}
+  <Link href="/eg" className="absolute left-1/2" style={{ top: '180px', transform: 'translateX(-50%)' }}>
     <button className="rounded-full border border-stone-300 bg-white px-8 py-3 text-base font-medium text-stone-800 shadow transition hover:bg-stone-100">
       EG-Wohnung
     </button>
