@@ -1,65 +1,100 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <main className="min-h-screen bg-gradient-to-b from-stone-50 to-stone-100 text-stone-800">
+      <div className="mx-auto max-w-6xl px-6 py-10">
+        <header className="mb-12 flex items-center justify-between">
+          <div>
+            <p className="text-sm uppercase tracking-[0.25em] text-stone-500">
+              Apartment Guide
+            </p>
+            <h1 className="mt-2 text-4xl font-semibold tracking-tight md:text-5xl">
+              Lange Str. 5
+            </h1>
+          </div>
+
+          <div className="flex gap-2">
+            <button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm">
+              DE
+            </button>
+            <button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm">
+              EN
+            </button>
+            <button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm">
+              FR
+            </button>
+          </div>
+        </header>
+
+        <section className="grid gap-6 md:grid-cols-[1.2fr_0.8fr]">
+          <div className="rounded-3xl bg-white p-8 shadow-sm ring-1 ring-stone-200">
+            <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-stone-500">
+              Willkommen
+            </p>
+            <h2 className="max-w-2xl text-3xl font-semibold leading-tight md:text-4xl">
+              Alle wichtigen Informationen für Ihren Aufenthalt an einem Ort.
+            </h2>
+            <p className="mt-4 max-w-2xl text-base leading-7 text-stone-600">
+              WLAN, Check-in, Hausregeln, Geräte, Umgebung und Kontakt – klar,
+              mobil optimiert und in mehreren Sprachen.
+            </p>
+
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Link
+                href="/og"
+                className="rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-white transition hover:bg-stone-700"
+              >
+                Zur OG-Wohnung
+              </Link>
+              <Link
+                href="/eg"
+                className="rounded-full border border-stone-300 bg-white px-6 py-3 text-sm font-medium text-stone-800 transition hover:bg-stone-100"
+              >
+                Zur EG-Wohnung
+              </Link>
+            </div>
+          </div>
+
+          <div className="rounded-3xl bg-stone-900 p-8 text-white shadow-sm">
+            <p className="text-sm uppercase tracking-[0.2em] text-stone-300">
+              Für Mieter
+            </p>
+            <ul className="mt-6 space-y-4 text-sm leading-6 text-stone-200">
+              <li>• Schneller Zugriff per QR-Code</li>
+              <li>• Mehrsprachige Informationen</li>
+              <li>• Mobil perfekt lesbar</li>
+              <li>• Einfach später erweiterbar</li>
+            </ul>
+          </div>
+        </section>
+
+        <section className="mt-10 grid gap-4 md:grid-cols-3">
+          <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
+            <h3 className="text-lg font-semibold">WLAN & Technik</h3>
+            <p className="mt-2 text-sm leading-6 text-stone-600">
+              Alle Zugänge, Gerätehinweise und technische Infos sauber an einem
+              Ort.
+            </p>
+          </div>
+
+          <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
+            <h3 className="text-lg font-semibold">Haus & Regeln</h3>
+            <p className="mt-2 text-sm leading-6 text-stone-600">
+              Ruhezeiten, Mülltrennung, Lüften und wichtige Alltagshinweise
+              verständlich erklärt.
+            </p>
+          </div>
+
+          <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
+            <h3 className="text-lg font-semibold">Kontakt & Hilfe</h3>
+            <p className="mt-2 text-sm leading-6 text-stone-600">
+              Kontaktmöglichkeiten, Notfallinfos und Unterstützung bei Fragen
+              direkt verfügbar.
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
   );
 }
