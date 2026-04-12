@@ -3,19 +3,17 @@ import ShoppingMap from "@/components/shopping-map";
 import { getLanguageFromSearchParams, withLanguage } from "@/lib/language";
 
 const HOUSE = {
-  name: "Haus Lange Str. 5",
-  address: "Lange-Str. 5, 71640 Ludwigsburg, Deutschland",
-  lat: 48.8952,
-  lng: 9.1909,
+  name: "Zentrales Haus",
+  address: "48.893725, 9.227668",
+  lat: 48.893725,
+  lng: 9.227668,
 };
 
 const SHOPPING_LOCATIONS = [
-  { id: "edeka-ueltzhoefer", name: "EDEKA Ueltzhöfer", category: "Supermarkt", lat: 48.8957, lng: 9.1911 },
-  { id: "alnatura", name: "Alnatura Super Natur Markt", category: "Biomarkt", lat: 48.8955, lng: 9.1893 },
-  { id: "dm-arsenalplatz", name: "dm-drogerie markt", category: "Drogerie", lat: 48.8957, lng: 9.1914 },
-  { id: "kaufland-wilhelmstrasse", name: "Kaufland", category: "Supermarkt", lat: 48.8929, lng: 9.1938 },
-  { id: "lidl-leonberger-strasse", name: "Lidl", category: "Discounter", lat: 48.894, lng: 9.1972 },
-  { id: "marstall", name: "Marstall Ludwigsburg", category: "Markt", lat: 48.8957, lng: 9.1918 },
+  { id: "rewe-ossweiler-strasse", name: "REWE", category: "Supermarkt", lat: 48.8938, lng: 9.2258 },
+  { id: "baeckerei-clement", name: "Bäckerei Clement", category: "Bäcker", lat: 48.89377, lng: 9.22588 },
+  { id: "netto-ossweiler", name: "Netto Marken-Discount", category: "Discounter", lat: 48.89133, lng: 9.23388 },
+  { id: "dm-bottwartalstrasse", name: "dm-drogerie markt", category: "Drogerie", lat: 48.89841, lng: 9.21506 },
 ];
 
 const categorySymbols: Record<string, string> = {
@@ -73,9 +71,9 @@ export default async function EinkaufPage({
           Einkaufsmöglichkeiten
         </h1>
         <p className="mt-3 text-stone-600">
-          Rund um die Lange Straße 5 finden Sie schnell alles für den Alltag.
-          Unten sehen Sie das Haus und wichtige Einrichtungen direkt auf der
-          Karte.
+          Rund um das zentrale Haus finden Sie schnell alles für den Alltag.
+          Unten sehen Sie das Haus und ausgewählte Geschäfte in der Umgebung
+          direkt auf der Karte.
         </p>
 
         <section className="mt-8 rounded-3xl bg-white p-5 shadow-sm ring-1 ring-stone-200 md:p-6">
