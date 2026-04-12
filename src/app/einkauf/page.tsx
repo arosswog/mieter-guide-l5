@@ -20,7 +20,7 @@ const SHOPPING_LOCATIONS = [
   { id: "wochenmarkt-ludwigsburg", name: "Wochenmarkt Ludwigsburg", category: "Markt", lat: 48.89866, lng: 9.18195 },
 ];
 
-const CATEGORY_SYMBOLS: Record<string, string> = {
+const categorySymbols: Record<string, string> = {
   Bäcker: "🥖",
   Metzger: "🥩",
   Supermarkt: "🛒",
@@ -106,7 +106,7 @@ export default async function EinkaufPage({
                   <div>
                     <p className="font-medium text-stone-900">{location.name}</p>
                     <p className="text-sm text-stone-600">
-                      {CATEGORY_SYMBOLS[location.category] ?? "📍"}{" "}
+                      {categorySymbols[location.category] ?? "📍"}{" "}
                       {location.category}
                     </p>
                   </div>

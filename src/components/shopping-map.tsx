@@ -34,12 +34,12 @@ const markerColors: Record<string, string> = {
 };
 
 export default function ShoppingMap({ house, locations }: ShoppingMapProps) {
-  const latOffset = Math.max(
-    ...locations.map((location) => Math.abs(location.lat - house.lat)),
+  const latOffset = locations.reduce(
+    (maxOffset, location) => Math.max(maxOffset, Math.abs(location.lat - house.lat)),
     0.0025,
   );
-  const lngOffset = Math.max(
-    ...locations.map((location) => Math.abs(location.lng - house.lng)),
+  const lngOffset = locations.reduce(
+    (maxOffset, location) => Math.max(maxOffset, Math.abs(location.lng - house.lng)),
     0.0025,
   );
   const padding = 0.001;
