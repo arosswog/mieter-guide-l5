@@ -20,7 +20,17 @@ const SHOPPING_LOCATIONS = [
   { id: "wochenmarkt-ludwigsburg", name: "Wochenmarkt Ludwigsburg", category: "Markt", lat: 48.89866, lng: 9.18195 },
 ];
 
-const EARTH_RADIUS_METERS = 6_371_000; // Earth's radius: 6,371 km in meters
+const categorySymbols: Record<string, string> = {
+  Bäcker: "🥖",
+  Metzger: "🥩",
+  Supermarkt: "🛒",
+  Discounter: "🏷️",
+  Drogerie: "🧴",
+  Biomarkt: "🌿",
+  Markt: "🧺",
+};
+
+const EARTH_RADIUS_METERS = 6_371_000; // Earth's radius in meters
 
 function distanceInMeters(
   from: { lat: number; lng: number },
@@ -95,7 +105,12 @@ export default async function EinkaufPage({
                 <div className="flex flex-wrap items-start justify-between gap-2">
                   <div>
                     <p className="font-medium text-stone-900">{location.name}</p>
-                    <p className="text-sm text-stone-600">{location.category}</p>
+                    <p className="text-sm text-stone-600">
+                      <span className="mr-1">
+                        {categorySymbols[location.category] ?? "📍"}
+                      </span>
+                      <span>{location.category}</span>
+                    </p>
                   </div>
                   <p className="rounded-full bg-white px-3 py-1 text-sm font-medium text-stone-800 ring-1 ring-stone-200">
                     ca. {location.distanceMeters} m

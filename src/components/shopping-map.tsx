@@ -33,14 +33,21 @@ const markerColors: Record<string, string> = {
   Markt: "#ca8a04",
 };
 
+const MIN_MAP_OFFSET = 0.0025;
+const MAP_PADDING = 0.001;
+
 export default function ShoppingMap({ house, locations }: ShoppingMapProps) {
-  const allPoints = [{ lat: house.lat, lng: house.lng }, ...locations];
-  const latitudes = allPoints.map((point) => point.lat);
-  const longitudes = allPoints.map((point) => point.lng);
+  const { latOffset, lngOffset } = locations.reduce(
+    (offsets, location) => ({
+      latOffset: Math.max(offsets.latOffset, Math.abs(location.lat - house.lat)),
+      lngOffset: Math.max(offsets.lngOffset, Math.abs(location.lng - house.lng)),
+    }),
+    { latOffset: MIN_MAP_OFFSET, lngOffset: MIN_MAP_OFFSET },
+  );
 
   const bounds: [[number, number], [number, number]] = [
-    [Math.min(...latitudes) - 0.0015, Math.min(...longitudes) - 0.0015],
-    [Math.max(...latitudes) + 0.0015, Math.max(...longitudes) + 0.0015],
+    [house.lat - latOffset - MAP_PADDING, house.lng - lngOffset - MAP_PADDING],
+    [house.lat + latOffset + MAP_PADDING, house.lng + lngOffset + MAP_PADDING],
   ];
 
   return (
