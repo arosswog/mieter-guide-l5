@@ -27,6 +27,7 @@ const categorySymbols: Record<string, string> = {
 };
 
 const EARTH_RADIUS_METERS = 6_371_000; // Earth's radius in meters
+const MAX_DISTANCE_METERS = 400;
 
 function distanceInMeters(
   from: { lat: number; lng: number },
@@ -50,6 +51,10 @@ const LOCATIONS_WITH_DISTANCE = SHOPPING_LOCATIONS.map((location) => ({
   ...location,
   distanceMeters: distanceInMeters(HOUSE, location),
 })).sort((a, b) => a.distanceMeters - b.distanceMeters);
+
+const LOCATIONS_IN_RADIUS = LOCATIONS_WITH_DISTANCE.filter(
+  (location) => location.distanceMeters <= MAX_DISTANCE_METERS,
+);
 
 export default async function EinkaufPage({
   searchParams,
@@ -84,45 +89,56 @@ export default async function EinkaufPage({
             Standort: {HOUSE.address}
           </p>
           <div className="mt-4">
-            <ShoppingMap house={HOUSE} locations={LOCATIONS_WITH_DISTANCE} />
+            <ShoppingMap
+              house={HOUSE}
+              locations={LOCATIONS_IN_RADIUS}
+              radiusMeters={MAX_DISTANCE_METERS}
+            />
           </div>
         </section>
 
         <section className="mt-8 rounded-3xl bg-white p-5 shadow-sm ring-1 ring-stone-200 md:p-6">
           <h2 className="text-xl font-semibold tracking-tight">
-            Einrichtungen in der Nähe
+            Einrichtungen im Umkreis von {MAX_DISTANCE_METERS} m
           </h2>
-          <ul className="mt-4 space-y-3">
-            {LOCATIONS_WITH_DISTANCE.map((location) => (
-              <li
-                key={location.id}
-                className="rounded-2xl border border-stone-200 bg-stone-50 p-4"
-              >
-                <div className="flex flex-wrap items-start justify-between gap-2">
-                  <div>
-                    <p className="font-medium text-stone-900">{location.name}</p>
-                    <p className="text-sm text-stone-600">
-                      <span className="mr-1">
-                        {categorySymbols[location.category] ?? "📍"}
-                      </span>
-                      <span>{location.category}</span>
+          {LOCATIONS_IN_RADIUS.length === 0 ? (
+            <p className="mt-4 text-sm text-stone-600">
+              Aktuell sind keine Geschäfte innerhalb von {MAX_DISTANCE_METERS} m
+              hinterlegt.
+            </p>
+          ) : (
+            <ul className="mt-4 space-y-3">
+              {LOCATIONS_IN_RADIUS.map((location) => (
+                <li
+                  key={location.id}
+                  className="rounded-2xl border border-stone-200 bg-stone-50 p-4"
+                >
+                  <div className="flex flex-wrap items-start justify-between gap-2">
+                    <div>
+                      <p className="font-medium text-stone-900">{location.name}</p>
+                      <p className="text-sm text-stone-600">
+                        <span className="mr-1">
+                          {categorySymbols[location.category] ?? "📍"}
+                        </span>
+                        <span>{location.category}</span>
+                      </p>
+                    </div>
+                    <p className="rounded-full bg-white px-3 py-1 text-sm font-medium text-stone-800 ring-1 ring-stone-200">
+                      ca. {location.distanceMeters} m
                     </p>
                   </div>
-                  <p className="rounded-full bg-white px-3 py-1 text-sm font-medium text-stone-800 ring-1 ring-stone-200">
-                    ca. {location.distanceMeters} m
-                  </p>
-                </div>
-                <a
-                  href={`https://www.google.com/maps/search/?api=1&query=${location.lat},${location.lng}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-3 inline-flex text-sm text-blue-700 transition hover:text-blue-900"
-                >
-                  In Google Maps öffnen →
-                </a>
-              </li>
-            ))}
-          </ul>
+                  <a
+                    href={`https://www.google.com/maps/search/?api=1&query=${location.lat},${location.lng}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 inline-flex text-sm text-blue-700 transition hover:text-blue-900"
+                  >
+                    In Google Maps öffnen →
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
         </section>
       </div>
     </main>
