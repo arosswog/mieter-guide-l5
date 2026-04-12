@@ -82,6 +82,11 @@ export default function ShoppingMap({
     );
   }
 
+  const activeLocation =
+    activeMarkerId && activeMarkerId !== "house"
+      ? locations.find((location) => location.id === activeMarkerId) ?? null
+      : null;
+
   return (
     <GoogleMap
       center={{ lat: house.lat, lng: house.lng }}
@@ -135,23 +140,21 @@ export default function ShoppingMap({
         />
       ))}
 
-      {locations.map((location) =>
-        activeMarkerId === location.id ? (
-          <InfoWindowF
-            key={`${location.id}-info`}
-            position={{ lat: location.lat, lng: location.lng }}
-            onCloseClick={() => setActiveMarkerId(null)}
-          >
-            <div>
-              <strong>{location.name}</strong>
-              <br />
-              {location.category}
-              <br />
-              ca. {location.distanceMeters} m entfernt
-            </div>
-          </InfoWindowF>
-        ) : null,
-      )}
+      {activeLocation ? (
+        <InfoWindowF
+          key={`${activeLocation.id}-info`}
+          position={{ lat: activeLocation.lat, lng: activeLocation.lng }}
+          onCloseClick={() => setActiveMarkerId(null)}
+        >
+          <div>
+            <strong>{activeLocation.name}</strong>
+            <br />
+            {activeLocation.category}
+            <br />
+            ca. {activeLocation.distanceMeters} m entfernt
+          </div>
+        </InfoWindowF>
+      ) : null}
     </GoogleMap>
   );
 }
