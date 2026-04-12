@@ -1,4 +1,4 @@
-export const SUPPORTED_LANGUAGES = ["de", "en", "fr", "ja", "zh"] as const;
+export const SUPPORTED_LANGUAGES = ["de", "en", "fr", "ja", "zh", "es"] as const;
 
 export type Language = (typeof SUPPORTED_LANGUAGES)[number];
 
