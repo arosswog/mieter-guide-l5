@@ -1,6 +1,7 @@
 "use client";
 
-import { Circle, CircleMarker, MapContainer, Popup, TileLayer } from "react-leaflet";
+import { useState } from "react";
+import { CircleF, GoogleMap, InfoWindowF, LoadScript, MarkerF } from "@react-google-maps/api";
 
 type HouseLocation = {
   name: string;
@@ -34,61 +35,114 @@ const markerColors: Record<string, string> = {
   Markt: "#ca8a04",
 };
 
+const createCircleMarkerIcon = (fillColor: string, strokeColor: string, scale: number) => ({
+  path: google.maps.SymbolPath.CIRCLE,
+  scale,
+  fillColor,
+  fillOpacity: 0.9,
+  strokeColor,
+  strokeWeight: 2,
+});
+
 export default function ShoppingMap({
   house,
   locations,
   radiusMeters,
 }: ShoppingMapProps) {
+  const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
+  const [activeMarkerId, setActiveMarkerId] = useState<string | "house" | null>(null);
+
+  if (!apiKey) {
+    return (
+      <div className="flex h-[420px] w-full items-center justify-center rounded-2xl bg-stone-100 px-6 text-center text-sm text-stone-600 shadow-sm">
+        Google Maps kann nicht geladen werden: Bitte setzen Sie zur Build-Zeit die Umgebungsvariable
+        {" "}
+        <code className="rounded bg-stone-200 px-1 py-0.5 text-xs">NEXT_PUBLIC_GOOGLE_MAPS_API_KEY</code>.
+      </div>
+    );
+  }
+
+  const activeLocation =
+    activeMarkerId && activeMarkerId !== "house"
+      ? locations.find((location) => location.id === activeMarkerId) ?? null
+      : null;
+
   return (
-    <MapContainer
-      center={[house.lat, house.lng]}
-      zoom={18}
-      scrollWheelZoom={false}
-      className="h-[420px] w-full rounded-2xl shadow-sm"
+    <LoadScript
+      googleMapsApiKey={apiKey}
+      loadingElement={
+        <div className="flex h-[420px] w-full items-center justify-center rounded-2xl bg-stone-100 px-6 text-center text-sm text-stone-600 shadow-sm">
+          Karte wird geladen…
+        </div>
+      }
     >
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-Mitwirkende'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-
-      <Circle
-        center={[house.lat, house.lng]}
-        radius={radiusMeters}
-        pathOptions={{ color: "#0f766e", fillColor: "#14b8a6", fillOpacity: 0.12, weight: 2 }}
-      />
-
-      <CircleMarker
-        center={[house.lat, house.lng]}
-        radius={11}
-        pathOptions={{ color: "#0f766e", fillColor: "#14b8a6", fillOpacity: 0.9 }}
+      <GoogleMap
+        center={{ lat: house.lat, lng: house.lng }}
+        zoom={18}
+        options={{
+          scrollwheel: false,
+          mapTypeControl: false,
+          streetViewControl: false,
+        }}
+        mapContainerClassName="h-[420px] w-full rounded-2xl shadow-sm"
       >
-        <Popup>
-          <strong>{house.name}</strong>
-          <br />
-          {house.address}
-        </Popup>
-      </CircleMarker>
-
-      {locations.map((location) => (
-        <CircleMarker
-          key={location.id}
-          center={[location.lat, location.lng]}
-          radius={8}
-          pathOptions={{
-            color: markerColors[location.category] ?? "#475569",
-            fillColor: markerColors[location.category] ?? "#64748b",
-            fillOpacity: 0.9,
+        <CircleF
+          center={{ lat: house.lat, lng: house.lng }}
+          radius={radiusMeters}
+          options={{
+            strokeColor: "#0f766e",
+            fillColor: "#14b8a6",
+            fillOpacity: 0.12,
+            strokeWeight: 2,
           }}
-        >
-          <Popup>
-            <strong>{location.name}</strong>
-            <br />
-            {location.category}
-            <br />
-            ca. {location.distanceMeters} m entfernt
-          </Popup>
-        </CircleMarker>
-      ))}
-    </MapContainer>
+        />
+
+        <MarkerF
+          position={{ lat: house.lat, lng: house.lng }}
+          icon={createCircleMarkerIcon("#14b8a6", "#0f766e", 9)}
+          onClick={() => setActiveMarkerId("house")}
+        />
+        {activeMarkerId === "house" ? (
+          <InfoWindowF
+            position={{ lat: house.lat, lng: house.lng }}
+            onCloseClick={() => setActiveMarkerId(null)}
+          >
+            <div>
+              <strong>{house.name}</strong>
+              <br />
+              {house.address}
+            </div>
+          </InfoWindowF>
+        ) : null}
+
+        {locations.map((location) => (
+          <MarkerF
+            key={location.id}
+            position={{ lat: location.lat, lng: location.lng }}
+            icon={createCircleMarkerIcon(
+              markerColors[location.category] ?? "#64748b",
+              markerColors[location.category] ?? "#475569",
+              7,
+            )}
+            onClick={() => setActiveMarkerId(location.id)}
+          />
+        ))}
+
+        {activeLocation ? (
+          <InfoWindowF
+            position={{ lat: activeLocation.lat, lng: activeLocation.lng }}
+            onCloseClick={() => setActiveMarkerId(null)}
+          >
+            <div>
+              <strong>{activeLocation.name}</strong>
+              <br />
+              {activeLocation.category}
+              <br />
+              ca. {activeLocation.distanceMeters} m entfernt
+            </div>
+          </InfoWindowF>
+        ) : null}
+      </GoogleMap>
+    </LoadScript>
   );
 }
