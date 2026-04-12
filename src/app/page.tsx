@@ -147,6 +147,47 @@ const homeTranslations: Record<
       },
     },
   },
+  es: {
+    topLabel: "Guía del apartamento",
+    welcomeLabel: "Bienvenido",
+    welcomeTitle: "Toda la información importante para su estancia en un solo lugar.",
+    welcomeDescription:
+      "Wi-Fi, check-in, normas de la casa, equipos, entorno y contacto: claro, optimizado para móvil y disponible en varios idiomas.",
+    toOg: "Apartamento en planta superior",
+    toEg: "Apartamento en planta baja",
+    wasteCollection: "Recogida de residuos",
+    houseImageAlt: "Casa 1890",
+    categories: {
+      wifi: {
+        title: "Wi-Fi y tecnología",
+        short: "Accesos, indicaciones de dispositivos e información técnica en un solo lugar.",
+      },
+      checkin: {
+        title: "Información de check-in",
+        short: "Todo para la llegada: llaves, horarios, proceso y primeros pasos.",
+      },
+      houseRules: {
+        title: "Casa y normas",
+        short: "Horas de silencio, separación de residuos, ventilación e indicaciones diarias explicadas claramente.",
+      },
+      contact: {
+        title: "Contacto y ayuda",
+        short: "Opciones de contacto, información de emergencia y apoyo disponibles al instante.",
+      },
+      transport: {
+        title: "Transporte público",
+        short: "Información sobre autobús, tren y conexiones en la zona.",
+      },
+      shopping: {
+        title: "Compras",
+        short: "Supermercados, panaderías y otras tiendas cercanas.",
+      },
+      sights: {
+        title: "Lugares de interés",
+        short: "Sugerencias de excursiones y puntos destacados de la zona.",
+      },
+    },
+  },
   ja: {
     topLabel: "アパートガイド",
     welcomeLabel: "ようこそ",
@@ -242,7 +283,8 @@ export default async function Home({
     { code: "de", label: "DE", flag: "🇩🇪", ariaLabel: "Deutsch" },
     { code: "en", label: "EN", flag: "🇬🇧", ariaLabel: "English" },
     { code: "fr", label: "FR", flag: "🇫🇷", ariaLabel: "Français" },
-    { code: "ja", label: "JA", flag: "🇯🇵", ariaLabel: "日本語" },
+    { code: "es", label: "ES", flag: "🇪🇸", ariaLabel: "Español" },
+    { code: "ja", label: "日本語", flag: "🇯🇵", ariaLabel: "日本語" },
     { code: "zh", label: "中文", flag: "🇨🇳", ariaLabel: "中文" },
   ] as const;
   const getLanguageButtonClasses = (targetLanguage: string) =>
