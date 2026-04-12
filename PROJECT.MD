@@ -30,6 +30,9 @@ Digitale Infoseite für Mieter (OG & EG Wohnungen)
 ## Hosting
 - Vercel (Auto Deploy via GitHub)
 
+## Testing
+- Die Webseite soll primär für mobile Nutzung (ioS) optimiert werden, bitte entsprechende UI Tests durchführen vor dem Deployment
+
 ## ToDos
 - [ ] Mehrsprachigkeit
 - [ ] WLAN QR Code

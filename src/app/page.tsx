@@ -15,7 +15,7 @@ export default function Home() {
             </h1>
           </div>
 
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2 sm:flex-nowrap sm:gap-2">
             <button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
   <span role="img" aria-label="Deutsch">🇩🇪</span> DE
 </button>
@@ -86,7 +86,7 @@ export default function Home() {
   <Link href="/wlan" className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
     <div className="flex flex-col items-center mb-2">
       <MdWifi className="text-4xl text-blue-500 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
-      <h3 className="text-base font-semibold text-center leading-tight">WLAN & Technik</h3>
+      <h3 className="text-xl font-semibold text-center leading-tight">WLAN & Technik</h3>
     </div>
     <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
       Alle Zugänge, Gerätehinweise und technische Infos sauber an einem Ort.
@@ -95,7 +95,7 @@ export default function Home() {
   <Link href="/checkin" className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-green-300 focus:outline-none focus:ring-2 focus:ring-green-400">
     <div className="flex flex-col items-center mb-2">
       <MdLogin className="text-4xl text-green-600 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
-      <h3 className="text-base font-semibold text-center leading-tight">Check-in Infos</h3>
+      <h3 className="text-xl font-semibold text-center leading-tight">Check-in Infos</h3>
     </div>
     <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
       Alles zum Ankommen: Schlüssel, Zeiten, Ablauf und erste Schritte.
@@ -104,7 +104,7 @@ export default function Home() {
   <Link href="/hausregeln" className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-400">
     <div className="flex flex-col items-center mb-2">
       <MdHome className="text-4xl text-yellow-600 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
-      <h3 className="text-base font-semibold text-center leading-tight">Haus & Regeln</h3>
+      <h3 className="text-xl font-semibold text-center leading-tight">Haus & Regeln</h3>
     </div>
     <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
       Ruhezeiten, Mülltrennung, Lüften und wichtige Alltagshinweise verständlich erklärt.
@@ -113,7 +113,7 @@ export default function Home() {
   <Link href="/kontakt" className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-pink-300 focus:outline-none focus:ring-2 focus:ring-pink-400">
     <div className="flex flex-col items-center mb-2">
       <MdContactPhone className="text-4xl text-pink-600 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
-      <h3 className="text-base font-semibold text-center leading-tight">Kontakt & Hilfe</h3>
+      <h3 className="text-xl font-semibold text-center leading-tight">Kontakt & Hilfe</h3>
     </div>
     <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
       Kontaktmöglichkeiten, Notfallinfos und Unterstützung bei Fragen direkt verfügbar.
@@ -122,7 +122,7 @@ export default function Home() {
   <Link href="/verkehr" className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-purple-300 focus:outline-none focus:ring-2 focus:ring-purple-400">
     <div className="flex flex-col items-center mb-2">
       <MdDirectionsTransit className="text-4xl text-purple-600 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
-      <h3 className="text-base font-semibold text-center leading-tight">Öffentliche Verkehrsmittel</h3>
+      <h3 className="text-xl font-semibold text-center leading-tight">Öffentliche Verkehrsmittel</h3>
     </div>
     <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
       Infos zu Bus, Bahn und Anbindung in der Umgebung.
@@ -131,7 +131,7 @@ export default function Home() {
   <Link href="/einkauf" className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-orange-300 focus:outline-none focus:ring-2 focus:ring-orange-400">
     <div className="flex flex-col items-center mb-2">
       <MdShoppingCart className="text-4xl text-orange-500 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
-      <h3 className="text-base font-semibold text-center leading-tight">Einkaufsmöglichkeiten</h3>
+      <h3 className="text-xl font-semibold text-center leading-tight">Einkaufsmöglichkeiten</h3>
     </div>
     <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
       Supermärkte, Bäcker und weitere Geschäfte in der Nähe.
@@ -140,7 +140,7 @@ export default function Home() {
   <Link href="/sehenswuerdigkeiten" className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-red-300 focus:outline-none focus:ring-2 focus:ring-red-400">
     <div className="flex flex-col items-center mb-2">
       <MdLocationOn className="text-4xl text-red-500 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
-      <h3 className="text-base font-semibold text-center leading-tight">Sehenswürdigkeiten</h3>
+      <h3 className="text-xl font-semibold text-center leading-tight">Sehenswürdigkeiten</h3>
     </div>
     <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
       Tipps zu Ausflugszielen und Highlights in der Umgebung.
