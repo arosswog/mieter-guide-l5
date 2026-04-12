@@ -1,6 +1,6 @@
 "use client";
 
-import { CircleMarker, MapContainer, Popup, TileLayer } from "react-leaflet";
+import { Circle, CircleMarker, MapContainer, Popup, TileLayer } from "react-leaflet";
 
 type HouseLocation = {
   name: string;
@@ -21,6 +21,7 @@ type ShoppingLocation = {
 type ShoppingMapProps = {
   house: HouseLocation;
   locations: ShoppingLocation[];
+  radiusMeters: number;
 };
 
 const markerColors: Record<string, string> = {
@@ -33,17 +34,27 @@ const markerColors: Record<string, string> = {
   Markt: "#ca8a04",
 };
 
-export default function ShoppingMap({ house, locations }: ShoppingMapProps) {
+export default function ShoppingMap({
+  house,
+  locations,
+  radiusMeters,
+}: ShoppingMapProps) {
   return (
     <MapContainer
       center={[house.lat, house.lng]}
-      zoom={10}
+      zoom={18}
       scrollWheelZoom={false}
       className="h-[420px] w-full rounded-2xl shadow-sm"
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-Mitwirkende'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      />
+
+      <Circle
+        center={[house.lat, house.lng]}
+        radius={radiusMeters}
+        pathOptions={{ color: "#0f766e", fillColor: "#14b8a6", fillOpacity: 0.12, weight: 2 }}
       />
 
       <CircleMarker
