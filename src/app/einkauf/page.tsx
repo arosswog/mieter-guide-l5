@@ -10,14 +10,14 @@ const HOUSE = {
 };
 
 const SHOPPING_LOCATIONS = [
-  { name: "Bäckerei Trölsch", category: "Bäcker", lat: 48.89654, lng: 9.18754 },
-  { name: "Metzgerei Prister", category: "Metzger", lat: 48.89712, lng: 9.1912 },
-  { name: "REWE", category: "Supermarkt", lat: 48.8938, lng: 9.19235 },
-  { name: "ALDI SÜD", category: "Discounter", lat: 48.89267, lng: 9.18695 },
-  { name: "Lidl", category: "Discounter", lat: 48.90034, lng: 9.18485 },
-  { name: "dm-drogerie markt", category: "Drogerie", lat: 48.89445, lng: 9.18588 },
-  { name: "denn's Biomarkt", category: "Biomarkt", lat: 48.89918, lng: 9.19262 },
-  { name: "Wochenmarkt Ludwigsburg", category: "Markt", lat: 48.89866, lng: 9.18195 },
+  { id: "bakery-troelsch", name: "Bäckerei Trölsch", category: "Bäcker", lat: 48.89654, lng: 9.18754 },
+  { id: "metzgerei-prister", name: "Metzgerei Prister", category: "Metzger", lat: 48.89712, lng: 9.1912 },
+  { id: "rewe", name: "REWE", category: "Supermarkt", lat: 48.8938, lng: 9.19235 },
+  { id: "aldi-sued", name: "ALDI SÜD", category: "Discounter", lat: 48.89267, lng: 9.18695 },
+  { id: "lidl", name: "Lidl", category: "Discounter", lat: 48.90034, lng: 9.18485 },
+  { id: "dm", name: "dm-drogerie markt", category: "Drogerie", lat: 48.89445, lng: 9.18588 },
+  { id: "denns-biomarkt", name: "denn's Biomarkt", category: "Biomarkt", lat: 48.89918, lng: 9.19262 },
+  { id: "wochenmarkt-ludwigsburg", name: "Wochenmarkt Ludwigsburg", category: "Markt", lat: 48.89866, lng: 9.18195 },
 ];
 
 const EARTH_RADIUS_METERS = 6_371_000; // Earth's radius: 6,371 km in meters
@@ -40,16 +40,17 @@ function distanceInMeters(
   return Math.round(EARTH_RADIUS_METERS * c);
 }
 
+const LOCATIONS_WITH_DISTANCE = SHOPPING_LOCATIONS.map((location) => ({
+  ...location,
+  distanceMeters: distanceInMeters(HOUSE, location),
+})).sort((a, b) => a.distanceMeters - b.distanceMeters);
+
 export default async function EinkaufPage({
   searchParams,
 }: {
   searchParams: Promise<{ lang?: string | string[] }>;
 }) {
   const language = await getLanguageFromSearchParams(searchParams);
-  const locationsWithDistance = SHOPPING_LOCATIONS.map((location) => ({
-    ...location,
-    distanceMeters: distanceInMeters(HOUSE, location),
-  })).sort((a, b) => a.distanceMeters - b.distanceMeters);
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-stone-50 to-stone-100 text-stone-800">
@@ -77,7 +78,7 @@ export default async function EinkaufPage({
             Standort: {HOUSE.address}
           </p>
           <div className="mt-4">
-            <ShoppingMap house={HOUSE} locations={locationsWithDistance} />
+            <ShoppingMap house={HOUSE} locations={LOCATIONS_WITH_DISTANCE} />
           </div>
         </section>
 
@@ -86,9 +87,9 @@ export default async function EinkaufPage({
             Einrichtungen in der Nähe
           </h2>
           <ul className="mt-4 space-y-3">
-            {locationsWithDistance.map((location) => (
+            {LOCATIONS_WITH_DISTANCE.map((location) => (
               <li
-                key={location.name}
+                key={location.id}
                 className="rounded-2xl border border-stone-200 bg-stone-50 p-4"
               >
                 <div className="flex flex-wrap items-start justify-between gap-2">
