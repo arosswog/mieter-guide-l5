@@ -106,8 +106,10 @@ export default async function EinkaufPage({
                   <div>
                     <p className="font-medium text-stone-900">{location.name}</p>
                     <p className="text-sm text-stone-600">
-                      {categorySymbols[location.category] ?? "📍"}{" "}
-                      {location.category}
+                      <span className="mr-1">
+                        {categorySymbols[location.category] ?? "📍"}
+                      </span>
+                      <span>{location.category}</span>
                     </p>
                   </div>
                   <p className="rounded-full bg-white px-3 py-1 text-sm font-medium text-stone-800 ring-1 ring-stone-200">
