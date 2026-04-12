@@ -15,15 +15,15 @@ export default function Home() {
           </div>
 
           <div className="flex gap-2">
-            <button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm">
-              DE
-            </button>
-            <button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm">
-              EN
-            </button>
-            <button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm">
-              FR
-            </button>
+            <button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
+  <span role="img" aria-label="Deutsch">🇩🇪</span> DE
+</button>
+<button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
+  <span role="img" aria-label="Englisch">🇬🇧</span> EN
+</button>
+<button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
+  <span role="img" aria-label="Französisch">🇫🇷</span> FR
+</button>
           </div>
         </header>
 
