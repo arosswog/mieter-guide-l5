@@ -36,7 +36,7 @@ export default async function Home({
   <span role="img" aria-label="Polski">🇵🇱</span> PL
 </Link>
 <Link href={withLanguage("/", "zh")} className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
-  <span role="img" aria-label="Chinesisch">🇨🇳</span> 中文
+  <span role="img" aria-label="中文">🇨🇳</span> 中文
 </Link>
           </div>
         </header>
