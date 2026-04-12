@@ -8,6 +8,19 @@ export default async function Home({
   searchParams: Promise<{ lang?: string | string[] }>;
 }) {
   const language = await getLanguageFromSearchParams(searchParams);
+  const languageButtons = [
+    { code: "de", label: "DE", flag: "🇩🇪", ariaLabel: "Deutsch" },
+    { code: "en", label: "EN", flag: "🇬🇧", ariaLabel: "English" },
+    { code: "fr", label: "FR", flag: "🇫🇷", ariaLabel: "Français" },
+    { code: "pl", label: "PL", flag: "🇵🇱", ariaLabel: "Polski" },
+    { code: "zh", label: "中文", flag: "🇨🇳", ariaLabel: "中文" },
+  ] as const;
+  const getLanguageButtonClasses = (targetLanguage: string) =>
+    `rounded-full border px-4 py-2 text-sm shadow-sm flex items-center gap-2 transition ${
+      language === targetLanguage
+        ? "border-stone-900 bg-stone-900 text-white"
+        : "border-stone-300 bg-white text-stone-800 hover:bg-stone-100"
+    }`;
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-stone-50 to-stone-100 text-stone-800">
@@ -23,21 +36,16 @@ export default async function Home({
           </div>
 
           <div className="flex flex-wrap gap-2 sm:flex-nowrap sm:gap-2 ml-2 md:ml-0">
-            <Link href={withLanguage("/", "de")} className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
-  <span role="img" aria-label="Deutsch">🇩🇪</span> DE
-</Link>
-<Link href={withLanguage("/", "en")} className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
-  <span role="img" aria-label="Englisch">🇬🇧</span> EN
-</Link>
-<Link href={withLanguage("/", "fr")} className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
-  <span role="img" aria-label="Französisch">🇫🇷</span> FR
-</Link>
-<Link href={withLanguage("/", "pl")} className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
-  <span role="img" aria-label="Polnisch">🇵🇱</span> PL
-</Link>
-<Link href={withLanguage("/", "zh")} className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
-  <span role="img" aria-label="Chinesisch">🇨🇳</span> 中文
-</Link>
+            {languageButtons.map(({ code, label, flag, ariaLabel }) => (
+              <Link
+                key={code}
+                href={withLanguage("/", code)}
+                className={getLanguageButtonClasses(code)}
+                aria-current={language === code ? "page" : undefined}
+              >
+                <span role="img" aria-label={ariaLabel}>{flag}</span> {label}
+              </Link>
+            ))}
           </div>
         </header>
 
