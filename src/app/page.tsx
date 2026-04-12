@@ -83,79 +83,70 @@ export default function Home() {
         </section>
 
         <section className="mt-10 grid gap-4 md:grid-cols-7">
-          <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
-            <div className="flex flex-col items-center mb-3">
-  <MdWifi className="text-4xl text-blue-500 drop-shadow-sm mb-2" />
-  <h3 className="text-lg font-semibold text-center">WLAN & Technik</h3>
-</div>
-            <p className="mt-2 text-sm leading-6 text-stone-600">
-              Alle Zugänge, Gerätehinweise und technische Infos sauber an einem
-              Ort.
-            </p>
-          </div>
-
-          <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
-            <div className="flex flex-col items-center mb-3">
-  <MdLogin className="text-4xl text-green-600 drop-shadow-sm mb-2" />
-  <h3 className="text-lg font-semibold text-center">Check-in Infos</h3>
-</div>
-            <p className="mt-2 text-sm leading-6 text-stone-600">
-              Alles zum Ankommen: Schlüssel, Zeiten, Ablauf und erste Schritte.
-            </p>
-          </div>
-
-          <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
-            <div className="flex flex-col items-center mb-3">
-  <MdHome className="text-4xl text-yellow-600 drop-shadow-sm mb-2" />
-  <h3 className="text-lg font-semibold text-center">Haus & Regeln</h3>
-</div>
-            <p className="mt-2 text-sm leading-6 text-stone-600">
-              Ruhezeiten, Mülltrennung, Lüften und wichtige Alltagshinweise
-              verständlich erklärt.
-            </p>
-          </div>
-
-          <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
-            <div className="flex flex-col items-center mb-3">
-  <MdContactPhone className="text-4xl text-pink-600 drop-shadow-sm mb-2" />
-  <h3 className="text-lg font-semibold text-center">Kontakt & Hilfe</h3>
-</div>
-            <p className="mt-2 text-sm leading-6 text-stone-600">
-              Kontaktmöglichkeiten, Notfallinfos und Unterstützung bei Fragen
-              direkt verfügbar.
-            </p>
-          </div>
-
-          <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
-            <div className="flex flex-col items-center mb-3">
-  <MdDirectionsTransit className="text-4xl text-purple-600 drop-shadow-sm mb-2" />
-  <h3 className="text-lg font-semibold text-center">Öffentliche Verkehrsmittel</h3>
-</div>
-            <p className="mt-2 text-sm leading-6 text-stone-600">
-              Infos zu Bus, Bahn und Anbindung in der Umgebung.
-            </p>
-          </div>
-
-          <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
-            <div className="flex flex-col items-center mb-3">
-  <MdShoppingCart className="text-4xl text-orange-500 drop-shadow-sm mb-2" />
-  <h3 className="text-lg font-semibold text-center">Einkaufsmöglichkeiten</h3>
-</div>
-            <p className="mt-2 text-sm leading-6 text-stone-600">
-              Supermärkte, Bäcker und weitere Geschäfte in der Nähe.
-            </p>
-          </div>
-
-          <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
-            <div className="flex flex-col items-center mb-3">
-  <MdLocationOn className="text-4xl text-red-500 drop-shadow-sm mb-2" />
-  <h3 className="text-lg font-semibold text-center">Sehenswürdigkeiten</h3>
-</div>
-            <p className="mt-2 text-sm leading-6 text-stone-600">
-              Tipps zu Ausflugszielen und Highlights in der Umgebung.
-            </p>
-          </div>
-        </section>
+  <Link href="/wlan" className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
+    <div className="flex flex-col items-center mb-2">
+      <MdWifi className="text-4xl text-blue-500 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
+      <h3 className="text-base font-semibold text-center leading-tight">WLAN & Technik</h3>
+    </div>
+    <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
+      Alle Zugänge, Gerätehinweise und technische Infos sauber an einem Ort.
+    </p>
+  </Link>
+  <Link href="/checkin" className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-green-300 focus:outline-none focus:ring-2 focus:ring-green-400">
+    <div className="flex flex-col items-center mb-2">
+      <MdLogin className="text-4xl text-green-600 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
+      <h3 className="text-base font-semibold text-center leading-tight">Check-in Infos</h3>
+    </div>
+    <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
+      Alles zum Ankommen: Schlüssel, Zeiten, Ablauf und erste Schritte.
+    </p>
+  </Link>
+  <Link href="/hausregeln" className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+    <div className="flex flex-col items-center mb-2">
+      <MdHome className="text-4xl text-yellow-600 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
+      <h3 className="text-base font-semibold text-center leading-tight">Haus & Regeln</h3>
+    </div>
+    <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
+      Ruhezeiten, Mülltrennung, Lüften und wichtige Alltagshinweise verständlich erklärt.
+    </p>
+  </Link>
+  <Link href="/kontakt" className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-pink-300 focus:outline-none focus:ring-2 focus:ring-pink-400">
+    <div className="flex flex-col items-center mb-2">
+      <MdContactPhone className="text-4xl text-pink-600 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
+      <h3 className="text-base font-semibold text-center leading-tight">Kontakt & Hilfe</h3>
+    </div>
+    <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
+      Kontaktmöglichkeiten, Notfallinfos und Unterstützung bei Fragen direkt verfügbar.
+    </p>
+  </Link>
+  <Link href="/verkehr" className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-purple-300 focus:outline-none focus:ring-2 focus:ring-purple-400">
+    <div className="flex flex-col items-center mb-2">
+      <MdDirectionsTransit className="text-4xl text-purple-600 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
+      <h3 className="text-base font-semibold text-center leading-tight">Öffentliche Verkehrsmittel</h3>
+    </div>
+    <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
+      Infos zu Bus, Bahn und Anbindung in der Umgebung.
+    </p>
+  </Link>
+  <Link href="/einkauf" className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-orange-300 focus:outline-none focus:ring-2 focus:ring-orange-400">
+    <div className="flex flex-col items-center mb-2">
+      <MdShoppingCart className="text-4xl text-orange-500 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
+      <h3 className="text-base font-semibold text-center leading-tight">Einkaufsmöglichkeiten</h3>
+    </div>
+    <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
+      Supermärkte, Bäcker und weitere Geschäfte in der Nähe.
+    </p>
+  </Link>
+  <Link href="/sehenswuerdigkeiten" className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-red-300 focus:outline-none focus:ring-2 focus:ring-red-400">
+    <div className="flex flex-col items-center mb-2">
+      <MdLocationOn className="text-4xl text-red-500 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
+      <h3 className="text-base font-semibold text-center leading-tight">Sehenswürdigkeiten</h3>
+    </div>
+    <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
+      Tipps zu Ausflugszielen und Highlights in der Umgebung.
+    </p>
+  </Link>
+</section>
       </div>
     </main>
   );
