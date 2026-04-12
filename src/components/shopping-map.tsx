@@ -37,7 +37,7 @@ export default function ShoppingMap({ house, locations }: ShoppingMapProps) {
   return (
     <MapContainer
       center={[house.lat, house.lng]}
-      zoom={15}
+      zoom={14}
       scrollWheelZoom={false}
       className="h-[420px] w-full rounded-2xl shadow-sm"
     >
