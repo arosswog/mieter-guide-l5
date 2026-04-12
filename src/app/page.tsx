@@ -29,19 +29,19 @@ export default async function Home({
           </div>
 
           <div className="flex flex-wrap gap-2 sm:flex-nowrap sm:gap-2 ml-2 md:ml-0">
-            <Link href={withLanguage("/", "de")} className={getLanguageButtonClassName("de")} aria-current={language === "de" ? "true" : undefined}>
+            <Link href={withLanguage("/", "de")} className={getLanguageButtonClassName("de")} aria-current={language === "de" ? true : undefined}>
   <span role="img" aria-label="Deutsch">🇩🇪</span> DE
 </Link>
-<Link href={withLanguage("/", "en")} className={getLanguageButtonClassName("en")} aria-current={language === "en" ? "true" : undefined}>
+<Link href={withLanguage("/", "en")} className={getLanguageButtonClassName("en")} aria-current={language === "en" ? true : undefined}>
   <span role="img" aria-label="Englisch">🇬🇧</span> EN
 </Link>
-<Link href={withLanguage("/", "fr")} className={getLanguageButtonClassName("fr")} aria-current={language === "fr" ? "true" : undefined}>
+<Link href={withLanguage("/", "fr")} className={getLanguageButtonClassName("fr")} aria-current={language === "fr" ? true : undefined}>
   <span role="img" aria-label="Französisch">🇫🇷</span> FR
 </Link>
-<Link href={withLanguage("/", "pl")} className={getLanguageButtonClassName("pl")} aria-current={language === "pl" ? "true" : undefined}>
+<Link href={withLanguage("/", "pl")} className={getLanguageButtonClassName("pl")} aria-current={language === "pl" ? true : undefined}>
   <span role="img" aria-label="Polnisch">🇵🇱</span> PL
 </Link>
-<Link href={withLanguage("/", "zh")} className={getLanguageButtonClassName("zh")} aria-current={language === "zh" ? "true" : undefined}>
+<Link href={withLanguage("/", "zh")} className={getLanguageButtonClassName("zh")} aria-current={language === "zh" ? true : undefined}>
   <span role="img" aria-label="Chinesisch">🇨🇳</span> 中文
 </Link>
           </div>
