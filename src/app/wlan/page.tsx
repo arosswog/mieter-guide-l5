@@ -5,7 +5,7 @@ import plMessages from "../../../messages/pl.json";
 import zhMessages from "../../../messages/zh.json";
 import { getLanguageFromSearchParams, type Language } from "@/lib/language";
 
-const translationsByLanguage: Record<Language, { title: string; content: string }> = {
+const translationsByLanguage: Record<Language, typeof deMessages> = {
   de: deMessages,
   en: enMessages,
   fr: frMessages,
