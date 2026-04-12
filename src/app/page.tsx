@@ -11,7 +11,7 @@ export default function Home() {
               Apartment Guide
             </p>
             <h1 className="mt-2 text-4xl font-semibold tracking-tight md:text-5xl">
-              Lange Str. 5
+              Haus 1890 / L5
             </h1>
           </div>
 
@@ -26,10 +26,10 @@ export default function Home() {
   <span role="img" aria-label="Französisch">🇫🇷</span> FR
 </button>
 <button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
-  <span role="img" aria-label="Japanisch">🇯🇵</span> JA
+  <span role="img" aria-label="Japanisch">🇯🇵</span> 日本語
 </button>
 <button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
-  <span role="img" aria-label="Chinesisch">🇨🇳</span> ZH
+  <span role="img" aria-label="Chinesisch">🇨🇳</span> 中文
 </button>
           </div>
         </header>

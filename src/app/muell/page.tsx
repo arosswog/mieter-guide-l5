@@ -35,7 +35,7 @@ export default async function WastePage() {
           <div className="mb-6 flex items-center justify-between">
             <h2 className="text-2xl font-semibold">Nächste Termine</h2>
             <span className="rounded-full bg-stone-100 px-3 py-1 text-sm text-stone-600">
-              automatisch aktualisiert
+              automatisch aktualisiert am {new Date().toLocaleDateString("de-DE")}
             </span>
           </div>
 
