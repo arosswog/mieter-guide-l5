@@ -82,7 +82,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mt-10 grid gap-6 grid-cols-1 md:grid-cols-2">
+        <section className="mt-10 grid gap-6 grid-cols-1 md:grid-cols-3">
   <Link href="/wlan" className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
     <div className="flex flex-col items-center mb-2">
       <MdWifi className="text-4xl text-blue-500 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
