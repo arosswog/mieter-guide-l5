@@ -142,7 +142,6 @@ export default function ShoppingMap({
 
       {activeLocation ? (
         <InfoWindowF
-          key={`${activeLocation.id}-info`}
           position={{ lat: activeLocation.lat, lng: activeLocation.lng }}
           onCloseClick={() => setActiveMarkerId(null)}
         >
