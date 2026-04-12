@@ -81,12 +81,19 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mt-10 grid gap-4 md:grid-cols-3">
+        <section className="mt-10 grid gap-4 md:grid-cols-7">
           <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
             <h3 className="text-lg font-semibold">WLAN & Technik</h3>
             <p className="mt-2 text-sm leading-6 text-stone-600">
               Alle Zugänge, Gerätehinweise und technische Infos sauber an einem
               Ort.
+            </p>
+          </div>
+
+          <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
+            <h3 className="text-lg font-semibold">Check-in Infos</h3>
+            <p className="mt-2 text-sm leading-6 text-stone-600">
+              Alles zum Ankommen: Schlüssel, Zeiten, Ablauf und erste Schritte.
             </p>
           </div>
 
@@ -103,6 +110,27 @@ export default function Home() {
             <p className="mt-2 text-sm leading-6 text-stone-600">
               Kontaktmöglichkeiten, Notfallinfos und Unterstützung bei Fragen
               direkt verfügbar.
+            </p>
+          </div>
+
+          <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
+            <h3 className="text-lg font-semibold">Öffentliche Verkehrsmittel</h3>
+            <p className="mt-2 text-sm leading-6 text-stone-600">
+              Infos zu Bus, Bahn und Anbindung in der Umgebung.
+            </p>
+          </div>
+
+          <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
+            <h3 className="text-lg font-semibold">Einkaufsmöglichkeiten</h3>
+            <p className="mt-2 text-sm leading-6 text-stone-600">
+              Supermärkte, Bäcker und weitere Geschäfte in der Nähe.
+            </p>
+          </div>
+
+          <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
+            <h3 className="text-lg font-semibold">Sehenswürdigkeiten</h3>
+            <p className="mt-2 text-sm leading-6 text-stone-600">
+              Tipps zu Ausflugszielen und Highlights in der Umgebung.
             </p>
           </div>
         </section>

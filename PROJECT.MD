@@ -14,6 +14,9 @@ Digitale Infoseite für Mieter (OG & EG Wohnungen)
 - Hausregeln
 - Geräte
 - Kontakt
+- Öffentliche Verkehrsmittel
+- Einkaufsmöglichkeiten
+- Sehenswürdigkeiten
 
 ## Anforderungen
 - Mehrsprachig (DE / EN / FR)
