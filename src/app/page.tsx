@@ -15,7 +15,7 @@ export default async function Home({
     { code: "pl", label: "PL", flag: "🇵🇱", ariaLabel: "Polski" },
     { code: "zh", label: "中文", flag: "🇨🇳", ariaLabel: "中文" },
   ] as const;
-  const getLanguageButtonClassName = (targetLanguage: string) =>
+  const getLanguageButtonClasses = (targetLanguage: string) =>
     `rounded-full border px-4 py-2 text-sm shadow-sm flex items-center gap-2 transition ${
       language === targetLanguage
         ? "border-stone-900 bg-stone-900 text-white"
@@ -40,7 +40,7 @@ export default async function Home({
               <Link
                 key={code}
                 href={withLanguage("/", code)}
-                className={getLanguageButtonClassName(code)}
+                className={getLanguageButtonClasses(code)}
                 aria-current={language === code ? "page" : undefined}
               >
                 <span role="img" aria-label={ariaLabel}>{flag}</span> {label}
