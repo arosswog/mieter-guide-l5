@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getWasteEvents } from "@/lib/waste";
-import { FaLeaf, FaTrash, FaRecycle, FaGlassWhiskey } from "react-icons/fa";
+import { FaLeaf, FaTrash, FaRecycle, FaGlassWhiskey, FaRegLemon } from "react-icons/fa";
 
 export const dynamic = "force-dynamic";
 
@@ -50,6 +50,7 @@ export default async function WastePage() {
   else if (event.wasteType === "BT") { icon = <FaLeaf className="text-2xl" style={{ color: '#a16207' }} />; color = "#a16207"; } // Bio braun
   else if (event.wasteType === "RT") { icon = <FaTrash className="text-2xl" style={{ color: '#222' }} />; color = "#222"; } // Rest schwarz
   else if (event.wasteType === "GT") { icon = <FaGlassWhiskey className="text-2xl" style={{ color: '#2563eb' }} />; color = "#2563eb"; } // Glas blau
+  else if (event.wasteType === "LT") { icon = <FaRegLemon className="text-2xl" style={{ color: '#facc15' }} />; color = "#facc15"; } // Verpackung gelb
   else { icon = <FaTrash className="text-2xl" style={{ color: '#888' }} />; }
   return (
     <div
