@@ -56,7 +56,7 @@ export default function ShoppingMap({ house, locations }: ShoppingMapProps) {
       <CircleMarker
         center={[house.lat, house.lng]}
         radius={11}
-        pathOptions={{ color: "#1d4ed8", fillColor: "#2563eb", fillOpacity: 0.9 }}
+        pathOptions={{ color: "#0f766e", fillColor: "#14b8a6", fillOpacity: 0.9 }}
       >
         <Popup>
           <strong>{house.name}</strong>

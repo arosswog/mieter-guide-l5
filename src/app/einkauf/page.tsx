@@ -20,7 +20,7 @@ const SHOPPING_LOCATIONS = [
   { name: "Wochenmarkt Ludwigsburg", category: "Markt", lat: 48.89866, lng: 9.18195 },
 ];
 
-const EARTH_RADIUS_METERS = 6_371_000;
+const EARTH_RADIUS_METERS = 6_371_000; // 6,371 km in meters
 
 function distanceInMeters(
   from: { lat: number; lng: number },
