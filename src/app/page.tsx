@@ -12,7 +12,7 @@ export default async function Home({
     { code: "de", label: "DE", flag: "🇩🇪", ariaLabel: "Deutsch" },
     { code: "en", label: "EN", flag: "🇬🇧", ariaLabel: "English" },
     { code: "fr", label: "FR", flag: "🇫🇷", ariaLabel: "Français" },
-    { code: "pl", label: "PL", flag: "🇵🇱", ariaLabel: "Polski" },
+    { code: "ja", label: "JA", flag: "🇯🇵", ariaLabel: "日本語" },
     { code: "zh", label: "中文", flag: "🇨🇳", ariaLabel: "中文" },
   ] as const;
   const getLanguageButtonClasses = (targetLanguage: string) =>

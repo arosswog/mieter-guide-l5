@@ -1,7 +1,7 @@
 import deMessages from "../../../messages/de.json";
 import enMessages from "../../../messages/en.json";
 import frMessages from "../../../messages/fr.json";
-import plMessages from "../../../messages/pl.json";
+import jaMessages from "../../../messages/ja.json";
 import zhMessages from "../../../messages/zh.json";
 import { getLanguageFromSearchParams, type Language } from "@/lib/language";
 
@@ -9,7 +9,7 @@ const translationsByLanguage: Record<Language, typeof deMessages> = {
   de: deMessages,
   en: enMessages,
   fr: frMessages,
-  pl: plMessages,
+  ja: jaMessages,
   zh: zhMessages,
 };
 
