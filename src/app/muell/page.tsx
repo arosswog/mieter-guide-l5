@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getWasteEvents } from "@/lib/waste";
+import { FaLeaf, FaTrash, FaRecycle, FaGlassWhiskey } from "react-icons/fa";
 
 export const dynamic = "force-dynamic";
 
@@ -42,22 +43,31 @@ export default async function WastePage() {
             <p className="text-stone-600">Aktuell wurden keine Termine gefunden.</p>
           ) : (
             <div className="grid gap-4">
-              {events.map((event) => (
-                <div
-                  key={`${event.isoDate}-${event.wasteType}`}
-                  className="rounded-2xl border border-stone-200 bg-stone-50 p-5"
-                >
-                  <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
-                    <div>
-                      <p className="text-lg font-semibold">{event.title}</p>
-                      <p className="text-sm text-stone-500">{event.wasteType}</p>
-                    </div>
-                    <div className="text-sm font-medium text-stone-700">
-                      {event.date}
-                    </div>
-                  </div>
-                </div>
-              ))}
+              {events.map((event) => {
+  let icon = null;
+  let color = "#888";
+  if (event.wasteType === "PT") { icon = <FaRecycle className="text-2xl" style={{ color: '#22c55e' }} />; color = "#22c55e"; } // Papier grün
+  else if (event.wasteType === "BT") { icon = <FaLeaf className="text-2xl" style={{ color: '#a16207' }} />; color = "#a16207"; } // Bio braun
+  else if (event.wasteType === "RT") { icon = <FaTrash className="text-2xl" style={{ color: '#222' }} />; color = "#222"; } // Rest schwarz
+  else if (event.wasteType === "GT") { icon = <FaGlassWhiskey className="text-2xl" style={{ color: '#2563eb' }} />; color = "#2563eb"; } // Glas blau
+  else { icon = <FaTrash className="text-2xl" style={{ color: '#888' }} />; }
+  return (
+    <div
+      key={`${event.isoDate}-${event.wasteType}`}
+      className="rounded-2xl border border-stone-200 bg-stone-50 p-5"
+    >
+      <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+        <div className="flex items-center gap-3">
+          {icon}
+          <p className="text-lg font-semibold" style={{ color }}>{event.title}</p>
+        </div>
+        <div className="text-sm font-medium text-stone-700">
+          {event.date}
+        </div>
+      </div>
+    </div>
+  );
+})}
             </div>
           )}
         </section>

@@ -15,7 +15,7 @@ export default function Home() {
             </h1>
           </div>
 
-          <div className="flex flex-wrap gap-2 sm:flex-nowrap sm:gap-2">
+          <div className="flex flex-wrap gap-2 sm:flex-nowrap sm:gap-2 ml-2 md:ml-0">
             <button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
   <span role="img" aria-label="Deutsch">🇩🇪</span> DE
 </button>
