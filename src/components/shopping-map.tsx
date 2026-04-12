@@ -34,18 +34,10 @@ const markerColors: Record<string, string> = {
 };
 
 export default function ShoppingMap({ house, locations }: ShoppingMapProps) {
-  const allPoints = [{ lat: house.lat, lng: house.lng }, ...locations];
-  const latitudes = allPoints.map((point) => point.lat);
-  const longitudes = allPoints.map((point) => point.lng);
-
-  const bounds: [[number, number], [number, number]] = [
-    [Math.min(...latitudes) - 0.0015, Math.min(...longitudes) - 0.0015],
-    [Math.max(...latitudes) + 0.0015, Math.max(...longitudes) + 0.0015],
-  ];
-
   return (
     <MapContainer
-      bounds={bounds}
+      center={[house.lat, house.lng]}
+      zoom={15}
       scrollWheelZoom={false}
       className="h-[420px] w-full rounded-2xl shadow-sm"
     >
