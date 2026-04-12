@@ -34,6 +34,10 @@ export async function getLanguageFromSearchParams(
 }
 
 export function withLanguage(path: string, language: Language): string {
-  const separator = path.includes("?") ? "&" : "?";
-  return `${path}${separator}lang=${language}`;
+  const [pathname, currentQuery = ""] = path.split("?");
+  const params = new URLSearchParams(currentQuery);
+  params.set("lang", language);
+
+  const queryString = params.toString();
+  return queryString ? `${pathname}?${queryString}` : pathname;
 }
