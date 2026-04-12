@@ -24,6 +24,9 @@ export default function Home() {
 <button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
   <span role="img" aria-label="Französisch">🇫🇷</span> FR
 </button>
+<button className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm shadow-sm flex items-center gap-2">
+  <span role="img" aria-label="Polnisch">🇵🇱</span> PL
+</button>
           </div>
         </header>
 
