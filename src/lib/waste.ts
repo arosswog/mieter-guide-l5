@@ -48,7 +48,7 @@ function parseICalDate(value: string): Date | null {
 }
 
 export async function getWasteEvents(limit = 8): Promise<WasteEvent[]> {
-  const url = "https://www.abfall-ludwigsburg.de/abfallkalender/abfallkalender_ical.ics";
+  const url = "https://kundenportal.avl-lb.de/WasteManagementLudwigsburg/WasteManagementServiceServlet?ApplicationName=Calendar&SubmitAction=sync&StandortID=984025001&AboID=551488&Fra=BT;RT;PT;LT;GT";
 
   if (!url) {
     throw new Error("AVL_ICS_URL is not set.");
