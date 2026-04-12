@@ -98,7 +98,7 @@ export default async function EinkaufPage({
                     <p className="text-sm text-stone-600">{location.category}</p>
                   </div>
                   <p className="rounded-full bg-white px-3 py-1 text-sm font-medium text-stone-800 ring-1 ring-stone-200">
-                    {location.distanceMeters} m
+                    ca. {location.distanceMeters} m
                   </p>
                 </div>
                 <a
