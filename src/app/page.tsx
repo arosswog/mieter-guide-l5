@@ -48,22 +48,30 @@ export default function Home() {
             </p>
 
             <div className="mt-8 flex flex-col items-center gap-3">
-              <div className="relative w-60 h-80 mb-4">
+              <div className="relative w-32 h-40 mb-2">
   {/* Haus-Umriss als SVG */}
-  <svg viewBox="0 0 200 260" className="absolute inset-0 w-full h-full">
-    <polygon points="100,20 20,100 20,240 180,240 180,100" fill="#f3f4f6" stroke="#222" strokeWidth="4" />
-    <rect x="40" y="140" width="120" height="80" fill="#e5e7eb" stroke="#222" strokeWidth="2.5" />
+  <svg viewBox="0 0 100 120" className="absolute inset-0 w-full h-full">
+    <polygon points="50,10 10,50 10,110 90,110 90,50" fill="#f3f4f6" stroke="#222" strokeWidth="2" />
+    <rect x="20" y="60" width="60" height="40" fill="#e5e7eb" stroke="#222" strokeWidth="1.5" />
   </svg>
-  {/* OG-Button */}
-  <Link href="/og" className="absolute left-1/2 top-[32%] -translate-x-1/2">
-    <button className="rounded-full bg-stone-900 px-8 py-3 text-base font-medium text-white shadow transition hover:bg-stone-700">
-      OG-Wohnung
+  {/* OG-Bereich (oben, transparent Button) */}
+  <Link href="/og">
+    <button
+      className="absolute left-0 top-0 w-full h-1/2 flex items-center justify-center group"
+      style={{ background: "rgba(255,255,255,0)", border: "none", cursor: "pointer" }}
+      aria-label="Zur OG-Wohnung"
+    >
+      <span className="text-xs font-bold text-stone-700 group-hover:underline group-hover:text-blue-700">OG-Wohnung</span>
     </button>
   </Link>
-  {/* EG-Button */}
-  <Link href="/eg" className="absolute left-1/2 top-[68%] -translate-x-1/2">
-    <button className="rounded-full border border-stone-300 bg-white px-8 py-3 text-base font-medium text-stone-800 shadow transition hover:bg-stone-100">
-      EG-Wohnung
+  {/* EG-Bereich (unten, transparent Button) */}
+  <Link href="/eg">
+    <button
+      className="absolute left-0 bottom-0 w-full h-1/2 flex items-center justify-center group"
+      style={{ background: "rgba(255,255,255,0)", border: "none", cursor: "pointer" }}
+      aria-label="Zur EG-Wohnung"
+    >
+      <span className="text-xs font-bold text-stone-700 group-hover:underline group-hover:text-green-700">EG-Wohnung</span>
     </button>
   </Link>
 </div>
