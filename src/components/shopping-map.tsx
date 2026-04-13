@@ -39,7 +39,7 @@ const createCircleMarkerIcon = (
   fillColor: string,
   strokeColor: string,
   scale: number,
-) => {
+): google.maps.Symbol | undefined => {
   if (typeof window === "undefined" || !window.google?.maps?.SymbolPath) {
     return undefined;
   }
