@@ -35,14 +35,24 @@ const markerColors: Record<string, string> = {
   Markt: "#ca8a04",
 };
 
-const createCircleMarkerIcon = (fillColor: string, strokeColor: string, scale: number) => ({
-  path: google.maps.SymbolPath.CIRCLE,
-  scale,
-  fillColor,
-  fillOpacity: 0.9,
-  strokeColor,
-  strokeWeight: 2,
-});
+const createCircleMarkerIcon = (
+  fillColor: string,
+  strokeColor: string,
+  scale: number,
+) => {
+  if (typeof window === "undefined" || !window.google?.maps?.SymbolPath) {
+    return undefined;
+  }
+
+  return {
+    path: window.google.maps.SymbolPath.CIRCLE,
+    scale,
+    fillColor,
+    fillOpacity: 0.9,
+    strokeColor,
+    strokeWeight: 2,
+  };
+};
 
 export default function ShoppingMap({
   house,
