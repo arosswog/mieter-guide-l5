@@ -27,9 +27,17 @@
     "ssid": "Nom du réseau (SSID): Haus1890-Guest",
     "password": "Mot de passe: guestWifi2024!",
     "tips": "Conseils WiFi:",
-    "tipsList": ["Veuillez ne pas utiliser votre réseau WiFi privé", "Maintenez une connexion stable", "En cas de problème: redémarrez le routeur (débranchez 30 secondes)"],
+    "tipsList": [
+      "Veuillez ne pas utiliser votre réseau WiFi privé",
+      "Maintenez une connexion stable",
+      "En cas de problème: redémarrez le routeur (débranchez 30 secondes)"
+    ],
     "devices": "Appareils dans l'appartement:",
-    "devicesList": ["Smart TV avec applications de streaming", "Haut-parleur Bluetooth", "Chargeurs USB dans toutes les pièces"]
+    "devicesList": [
+      "Smart TV avec applications de streaming",
+      "Haut-parleur Bluetooth",
+      "Chargeurs USB dans toutes les pièces"
+    ]
   },
   "checkin": {
     "title": "Info Enregistrement",
@@ -40,18 +48,38 @@
     "keyPickup": "Remise des clés: Veuillez regarder sous le paillasson",
     "codeMessage": "Le code de la porte d'entrée se trouve dans votre email de confirmation.",
     "important": "Important:",
-    "importantList": ["Respectez l'heure d'enregistrement", "Lisez les règles de la maison", "Activez le chauffage en hiver", "Enregistrez notre numéro de contact"]
+    "importantList": [
+      "Respectez l'heure d'enregistrement",
+      "Lisez les règles de la maison",
+      "Activez le chauffage en hiver",
+      "Enregistrez notre numéro de contact"
+    ]
   },
   "hausregeln": {
     "title": "Règles de la Maison",
     "description": "Règles pour une cohabitation harmonieuse – veuillez respecter.",
     "heading": "Règles de la Maison",
     "general": "Règles Générales:",
-    "generalList": ["Respect pour les autres clients et les voisins", "Heures de silence: 22:00 - 08:00", "Pas de fêtes bruyantes", "Demandez la permission avant d'inviter des invités"],
+    "generalList": [
+      "Respect pour les autres clients et les voisins",
+      "Heures de silence: 22:00 - 08:00",
+      "Pas de fêtes bruyantes",
+      "Demandez la permission avant d'inviter des invités"
+    ],
     "cleaning": "Nettoyage:",
-    "cleaningList": ["Gardez l'appartement propre", "Lavez la vaisselle après manger", "Videz la poubelle régulièrement", "Balayez avant le départ"],
+    "cleaningList": [
+      "Gardez l'appartement propre",
+      "Lavez la vaisselle après manger",
+      "Videz la poubelle régulièrement",
+      "Balayez avant le départ"
+    ],
     "safety": "Sécurité:",
-    "safetyList": ["Fermez la porte à clé en partant", "Respectez les règles de sécurité incendie", "Fumer uniquement sur le balcon", "Pas de flammes ouvertes"]
+    "safetyList": [
+      "Fermez la porte à clé en partant",
+      "Respectez les règles de sécurité incendie",
+      "Fumer uniquement sur le balcon",
+      "Pas de flammes ouvertes"
+    ]
   },
   "einkauf": {
     "title": "Courses",
@@ -59,11 +87,20 @@
     "heading": "Opportunités de Shopping à Ludwigsburg",
     "location": "Localisation: Lange Straße 5, 71640 Ludwigsburg",
     "bakery": "Boulangerie:",
-    "bakeryList": ["Bäckerei Meyer - 150m", "Backstube Müller - 300m"],
+    "bakeryList": [
+      "Bäckerei Meyer - 150m",
+      "Backstube Müller - 300m"
+    ],
     "butcher": "Boucherie:",
-    "butcherList": ["Metzgerei Schmidt - 200m", "Fleischerei Weibel - 350m"],
+    "butcherList": [
+      "Metzgerei Schmidt - 200m",
+      "Fleischerei Weibel - 350m"
+    ],
     "discounter": "Magasins Discount:",
-    "discounterList": ["Aldi Nord - 250m", "Lidl - 400m"],
+    "discounterList": [
+      "Aldi Nord - 250m",
+      "Lidl - 400m"
+    ],
     "mapInfo": "Carte: Tous les magasins et notre maison sont marqués sur la carte ci-dessous."
   },
   "muell": {
@@ -73,46 +110,99 @@
     "pickupTimes": "Horaires de collecte:",
     "pickupInfo": "Ordures ménagères: Mardis | Papier: Jeudis | Sac jaune: 1x par mois",
     "separation": "Tri des Déchets:",
-    "separationList": ["Ordures ménagères dans le bac vert", "Papier/carton dans le bac bleu", "Sac jaune pour plastique & métal", "Verre au conteneur à verre"],
+    "separationList": [
+      "Ordures ménagères dans le bac vert",
+      "Papier/carton dans le bac bleu",
+      "Sac jaune pour plastique & métal",
+      "Verre au conteneur à verre"
+    ],
     "tips": "Conseils Déchets:",
-    "tipsList": ["Mettez les bacs dehors la veille", "Ne remplissez pas trop le sac jaune", "Attachez les sacs plastiques avant de jeter", "Le compost va dans le bac bio"]
+    "tipsList": [
+      "Mettez les bacs dehors la veille",
+      "Ne remplissez pas trop le sac jaune",
+      "Attachez les sacs plastiques avant de jeter",
+      "Le compost va dans le bac bio"
+    ]
   },
   "sehenswuerdigkeiten": {
     "title": "Attractions",
     "description": "Points forts et attractions à proximité.",
     "heading": "Attractions Locales",
     "landmarks": "Points Forts Culturels:",
-    "landmarksList": ["Hôtel de Ville (200m) - centre historique", "Musée d'Art (500m) - Art Moderne", "Vieille Église (300m) - 17e siècle"],
+    "landmarksList": [
+      "Hôtel de Ville (200m) - centre historique",
+      "Musée d'Art (500m) - Art Moderne",
+      "Vieille Église (300m) - 17e siècle"
+    ],
     "parks": "Parcs & Nature:",
-    "parksList": ["Parc City (100m) - avec terrain de jeu", "Vallée Fluviale (800m) - sentier de randonnée", "Jardin Botanique (2km) - plus de 2000 plantes"],
+    "parksList": [
+      "Parc City (100m) - avec terrain de jeu",
+      "Vallée Fluviale (800m) - sentier de randonnée",
+      "Jardin Botanique (2km) - plus de 2000 plantes"
+    ],
     "activities": "Activités:",
-    "activitiesList": ["Promenade dans la vieille ville", "Tour à vélo le long de la rivière", "Parc d'escalade (3km)", "Cinéma en plein air (été)"]
+    "activitiesList": [
+      "Promenade dans la vieille ville",
+      "Tour à vélo le long de la rivière",
+      "Parc d'escalade (3km)",
+      "Cinéma en plein air (été)"
+    ]
   },
   "restaurants": {
     "title": "Restaurants",
     "description": "Auberges conviviales et restaurants à Oßweil.",
     "heading": "Restaurants à Oßweil",
     "fsv": "FSV Häusle Oßweil",
-    "fsvList": ["Auberge du club FSV Oßweil proposant une cuisine souabe-croate.", "Adresse: Walter-Flex-Str. 71, 71640 Ludwigsburg-Oßweil", "Site web: www.fsv-haeusle.de"],
+    "fsvList": [
+      "Auberge du club FSV Oßweil proposant une cuisine souabe-croate.",
+      "Adresse: Walter-Flex-Str. 71, 71640 Ludwigsburg-Oßweil",
+      "Site web: www.fsv-haeusle.de"
+    ],
     "asv": "Athletenhäusle (ASV Oßweil)",
-    "asvList": ["Auberge du club ASV Oßweil avec cuisine souabe-croate et jardin à bière.", "Adresse: Walter-Flex-Str. 75, 71640 Ludwigsburg-Oßweil", "Site web: www.asv-ossweil.de"],
+    "asvList": [
+      "Auberge du club ASV Oßweil avec cuisine souabe-croate et jardin à bière.",
+      "Adresse: Walter-Flex-Str. 75, 71640 Ludwigsburg-Oßweil",
+      "Site web: www.asv-ossweil.de"
+    ],
     "blutsbrueder": "Restaurant Blutsbrüder Oßweil",
-    "blutsbruederList": ["Restaurant proposant une cuisine allemande authentique et innovante.", "Adresse: Hanseatenstraße 54, 71640 Ludwigsburg-Oßweil", "Site web: www.restaurant-blutsbrueder.de"],
+    "blutsbruederList": [
+      "Restaurant proposant une cuisine allemande authentique et innovante.",
+      "Adresse: Hanseatenstraße 54, 71640 Ludwigsburg-Oßweil",
+      "Site web: www.restaurant-blutsbrueder.de"
+    ],
     "kleintier": "Kleintierzüchter Oßweil",
-    "kleintierList": ["Maison de l'association d'éleveurs avec cuisine régionale et jardin à bière.", "Adresse: Poppenweilerstraße 91, 71640 Ludwigsburg-Oßweil", "Site web: www.ktzvo.de"],
+    "kleintierList": [
+      "Maison de l'association d'éleveurs avec cuisine régionale et jardin à bière.",
+      "Adresse: Poppenweilerstraße 91, 71640 Ludwigsburg-Oßweil",
+      "Site web: www.ktzvo.de"
+    ],
     "pizzeria": "Pizzeria Da Gennaro Oßweil",
-    "pizzeriaList": ["Pizzeria & trattoria avec spécialités italiennes et pizzas à emporter.", "Adresse: Rudolf-Greiner-Straße 6, 71640 Ludwigsburg-Oßweil", "Site web: www.pizzeria-dagennaro.de"]
+    "pizzeriaList": [
+      "Pizzeria & trattoria avec spécialités italiennes et pizzas à emporter.",
+      "Adresse: Rudolf-Greiner-Straße 6, 71640 Ludwigsburg-Oßweil",
+      "Site web: www.pizzeria-dagennaro.de"
+    ],
+    "walkText": "{km} km · env. {minutes} min à pied depuis la Lange Str. 5",
+    "routeLabel": "Itinéraire dans Google Maps"
   },
   "verkehr": {
     "title": "Transport",
     "description": "Transports en commun, parking et itinéraires.",
     "heading": "Mobilité",
     "publicTransport": "Transports en Commun:",
-    "publicTransportList": ["Ligne U-Bahn 5 - 50m à pied", "Bus 23 & 45 - juste devant la maison", "Tramway - 200m"],
+    "publicTransportList": [
+      "Ligne U-Bahn 5 - 50m à pied",
+      "Bus 23 & 45 - juste devant la maison",
+      "Tramway - 200m"
+    ],
     "parking": "Parking:",
     "parkingInfo": "Parking gratuit dans la rue (pas de garantie). Garage souterrain 500m pour €15/jour.",
     "cycling": "Cyclisme:",
-    "cyclingList": ["Racks à vélos dans la cour", "Atelier vélo 100m", "Station de partage de vélos juste devant"],
+    "cyclingList": [
+      "Racks à vélos dans la cour",
+      "Atelier vélo 100m",
+      "Station de partage de vélos juste devant"
+    ],
     "taxi": "Taxi & Covoiturage:",
     "taxiInfo": "Uber & Bolt disponibles. Taxi local: +49 (0) 123 456789"
   },
@@ -121,7 +211,11 @@
     "description": "Contacts d'urgence et support.",
     "heading": "Contacts",
     "emergency": "Urgence:",
-    "emergencyNumbers": ["Police: 110", "Pompiers: 112", "Urgence Médicale: 0911 / 19292"],
+    "emergencyNumbers": [
+      "Police: 110",
+      "Pompiers: 112",
+      "Urgence Médicale: 0911 / 19292"
+    ],
     "support": "Support:",
     "supportInfo": "Gestion Immobilière: +49 (0) 123 4567890 | Email: support@haus1890.de | Site web: www.haus1890.de",
     "maintenance": "Maintenance & Réparations:",
@@ -134,21 +228,51 @@
     "description": "Informations sur l'appartement supérieur.",
     "heading": "Appartement Supérieur (OG)",
     "rooms": "Pièces & Équipements:",
-    "roomsList": ["Séjour avec balcon", "Chambre à coucher avec sommier à ressorts", "Cuisine avec tous les appareils", "Salle de bain avec douche & baignoire", "Couloir avec rangement"],
+    "roomsList": [
+      "Séjour avec balcon",
+      "Chambre à coucher avec sommier à ressorts",
+      "Cuisine avec tous les appareils",
+      "Salle de bain avec douche & baignoire",
+      "Couloir avec rangement"
+    ],
     "features": "Caractéristiques Spéciales:",
-    "featuresList": ["Balcon avec vue sur la ville", "Chauffage au sol", "Double isolation", "Machine à laver incluse"],
+    "featuresList": [
+      "Balcon avec vue sur la ville",
+      "Chauffage au sol",
+      "Double isolation",
+      "Machine à laver incluse"
+    ],
     "rules": "Règles Spécifiques:",
-    "rulesList": ["Balcon: pas de linge suspendu", "Fermez les fenêtres la nuit (perte de chaleur)", "Animaux uniquement avec permission"]
+    "rulesList": [
+      "Balcon: pas de linge suspendu",
+      "Fermez les fenêtres la nuit (perte de chaleur)",
+      "Animaux uniquement avec permission"
+    ]
   },
   "eg": {
     "title": "Rez-de-chaussée",
     "description": "Informations sur l'appartement du rez-de-chaussée.",
     "heading": "Rez-de-chaussée (EG)",
     "rooms": "Pièces & Équipements:",
-    "roomsList": ["Espace de vie ouvert", "Chambre à coucher", "Cuisine avec design moderne", "Salle de bain avec chauffage au sol", "Terrasse avec accès au jardin"],
+    "roomsList": [
+      "Espace de vie ouvert",
+      "Chambre à coucher",
+      "Cuisine avec design moderne",
+      "Salle de bain avec chauffage au sol",
+      "Terrasse avec accès au jardin"
+    ],
     "features": "Caractéristiques Spéciales:",
-    "featuresList": ["Terrasse avec jardin privé", "Accès au rez-de-chaussée", "Équipements domotiques modernes", "Place de parking assignée"],
+    "featuresList": [
+      "Terrasse avec jardin privé",
+      "Accès au rez-de-chaussée",
+      "Équipements domotiques modernes",
+      "Place de parking assignée"
+    ],
     "rules": "Règles Spécifiques:",
-    "rulesList": ["Jardin: travail de jardin jusqu'à 19:00", "Pas d'équipement bruyant le dimanche", "Taille de haie max 2m"]
+    "rulesList": [
+      "Jardin: travail de jardin jusqu'à 19:00",
+      "Pas d'équipement bruyant le dimanche",
+      "Taille de haie max 2m"
+    ]
   }
 }

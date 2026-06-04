@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" role="img" aria-label="Restaurants in Oßweil">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fef3c7"/>
+      <stop offset="1" stop-color="#fde68a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="240" fill="url(#sky)"/>
+  <circle cx="680" cy="56" r="34" fill="#fbbf24" opacity="0.8"/>
+  <!-- table -->
+  <rect x="0" y="176" width="800" height="64" fill="#92400e" opacity="0.15"/>
+  <!-- plate with cutlery -->
+  <g transform="translate(150,150)">
+    <ellipse cx="0" cy="14" rx="86" ry="20" fill="#78350f" opacity="0.18"/>
+    <circle cx="0" cy="0" r="58" fill="#ffffff" stroke="#e7e5e4" stroke-width="4"/>
+    <circle cx="0" cy="0" r="34" fill="#f5f5f4"/>
+    <rect x="-110" y="-34" width="6" height="64" rx="3" fill="#a8a29e"/>
+    <g transform="translate(104,-34)">
+      <rect x="0" y="0" width="5" height="64" rx="2.5" fill="#a8a29e"/>
+      <rect x="-9" y="0" width="3" height="22" rx="1.5" fill="#a8a29e"/>
+      <rect x="-3" y="0" width="3" height="22" rx="1.5" fill="#a8a29e"/>
+      <rect x="3" y="0" width="3" height="22" rx="1.5" fill="#a8a29e"/>
+    </g>
+  </g>
+  <!-- pizza slice -->
+  <g transform="translate(420,120)">
+    <path d="M0 0 L120 36 A124 124 0 0 1 36 120 Z" fill="#f59e0b" stroke="#d97706" stroke-width="3"/>
+    <path d="M14 14 L104 41 A104 104 0 0 1 41 104 Z" fill="#fcd34d"/>
+    <circle cx="46" cy="44" r="9" fill="#dc2626"/>
+    <circle cx="74" cy="40" r="8" fill="#dc2626"/>
+    <circle cx="44" cy="78" r="8" fill="#dc2626"/>
+    <circle cx="76" cy="74" r="7" fill="#16a34a"/>
+  </g>
+  <!-- beer mug -->
+  <g transform="translate(620,118)">
+    <rect x="0" y="20" width="64" height="84" rx="8" fill="#fcd34d" stroke="#d97706" stroke-width="3"/>
+    <rect x="0" y="20" width="64" height="22" rx="8" fill="#fffbeb"/>
+    <ellipse cx="32" cy="20" rx="32" ry="12" fill="#ffffff"/>
+    <ellipse cx="14" cy="14" rx="12" ry="10" fill="#ffffff"/>
+    <ellipse cx="40" cy="10" rx="14" ry="11" fill="#ffffff"/>
+    <rect x="64" y="38" width="22" height="48" rx="11" fill="none" stroke="#d97706" stroke-width="8"/>
+  </g>
+</svg>
