@@ -37,7 +37,7 @@ export default function PageTemplate({ section }: PageProps) {
           className="mb-8 inline-flex items-center gap-2 text-stone-600 hover:text-stone-900 transition"
         >
           <MdArrowBack className="text-xl" />
-          Zurück zur Startseite
+          {t('backToHome')}
         </Link>
 
         <header className="mb-8">
@@ -137,7 +137,7 @@ export default function PageTemplate({ section }: PageProps) {
               href={`/${locale}`}
               className="inline-block bg-stone-900 text-white px-6 py-3 rounded-full font-medium hover:bg-stone-700 transition"
             >
-              ← Zurück zur Startseite
+              ← {t('backToHome')}
             </Link>
           </div>
           
