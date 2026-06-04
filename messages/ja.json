@@ -24,19 +24,44 @@
     "title": "WiFi & テクノロジー",
     "description": "すべてのアクセス情報、機器の案内、技術情報を一か所にまとめました。",
     "heading": "WiFi アクセス",
-    "ssid": "ネットワーク名 (SSID): LONG-STREET-GUEST",
-    "password": "パスワード: 1sommer!",
+    "network": {
+      "ssidLabel": "ネットワーク名 (SSID)",
+      "ssid": "LONG-STREET-GUEST",
+      "passwordLabel": "パスワード",
+      "password": "1sommer!"
+    },
     "devices": "お部屋の機器:",
     "devicesList": [
-      "ストリーミングアプリ付きスマートTV",
-      "Bluetoothスピーカー",
-      "全室にUSB充電器"
+      {
+        "name": "ストリーミングアプリ付きスマートTV",
+        "icon": "tv"
+      },
+      {
+        "name": "Bluetoothスピーカー",
+        "icon": "speaker"
+      },
+      {
+        "name": "全室にUSB充電器",
+        "icon": "charger"
+      }
     ],
     "smartHome": "スマートホーム & 館内テクノロジー:",
     "smartHomeList": [
-      "Shellyの煙・浸水検知器が安全を守ります – 取り外さないでください。",
-      "窓・温度センサーが自動空調制御をサポートします。",
-      "コンセント型のEVE Thread/Matterリピーターは安定した無線ネットワークに重要です – 抜かないでください。"
+      {
+        "name": "煙・浸水検知器",
+        "description": "Shellyの煙・浸水検知器が安全を守ります – 取り外さないでください。",
+        "icon": "detector"
+      },
+      {
+        "name": "窓・温度センサー",
+        "description": "自動空調制御をサポートします。",
+        "icon": "sensor"
+      },
+      {
+        "name": "EVE Thread/Matter リピーター",
+        "description": "コンセント型 – 安定した無線ネットワークに重要です。抜かないでください。",
+        "icon": "repeater"
+      }
     ]
   },
   "checkin": {

@@ -24,19 +24,44 @@
     "title": "WiFi & Tech",
     "description": "Tous les accès, instructions et infos techniques au même endroit.",
     "heading": "Accès WiFi",
-    "ssid": "Nom du réseau (SSID): LONG-STREET-GUEST",
-    "password": "Mot de passe: 1sommer!",
+    "network": {
+      "ssidLabel": "Nom du réseau (SSID)",
+      "ssid": "LONG-STREET-GUEST",
+      "passwordLabel": "Mot de passe",
+      "password": "1sommer!"
+    },
     "devices": "Appareils dans l'appartement:",
     "devicesList": [
-      "Smart TV avec applications de streaming",
-      "Haut-parleur Bluetooth",
-      "Chargeurs USB dans toutes les pièces"
+      {
+        "name": "Smart TV avec applications de streaming",
+        "icon": "tv"
+      },
+      {
+        "name": "Haut-parleur Bluetooth",
+        "icon": "speaker"
+      },
+      {
+        "name": "Chargeurs USB dans toutes les pièces",
+        "icon": "charger"
+      }
     ],
     "smartHome": "Maison connectée & technique :",
     "smartHomeList": [
-      "Les détecteurs de fumée et de fuite Shelly assurent la sécurité – merci de ne pas les retirer.",
-      "Les capteurs de fenêtre et de température aident à la régulation automatique du climat.",
-      "Les répéteurs EVE Thread/Matter (sous forme de prise) sont importants pour un réseau sans fil stable – merci de les laisser branchés."
+      {
+        "name": "Détecteurs de fumée & de fuite",
+        "description": "Les détecteurs de fumée et de fuite Shelly assurent la sécurité – merci de ne pas les retirer.",
+        "icon": "detector"
+      },
+      {
+        "name": "Capteurs de fenêtre & de température",
+        "description": "Ils aident à la régulation automatique du climat.",
+        "icon": "sensor"
+      },
+      {
+        "name": "Répéteurs EVE Thread/Matter",
+        "description": "Sous forme de prise – importants pour un réseau sans fil stable, merci de les laisser branchés.",
+        "icon": "repeater"
+      }
     ]
   },
   "checkin": {

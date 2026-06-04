@@ -24,19 +24,44 @@
     "title": "WiFi & 技术",
     "description": "所有访问权限、设备说明和技术信息都在一处。",
     "heading": "WiFi 访问",
-    "ssid": "网络名称 (SSID): LONG-STREET-GUEST",
-    "password": "密码: 1sommer!",
+    "network": {
+      "ssidLabel": "网络名称 (SSID)",
+      "ssid": "LONG-STREET-GUEST",
+      "passwordLabel": "密码",
+      "password": "1sommer!"
+    },
     "devices": "公寓内的设备:",
     "devicesList": [
-      "具有流媒体应用的智能电视",
-      "蓝牙扬声器",
-      "所有房间的USB充电器"
+      {
+        "name": "具有流媒体应用的智能电视",
+        "icon": "tv"
+      },
+      {
+        "name": "蓝牙扬声器",
+        "icon": "speaker"
+      },
+      {
+        "name": "所有房间的USB充电器",
+        "icon": "charger"
+      }
     ],
     "smartHome": "智能家居与技术设备：",
     "smartHomeList": [
-      "Shelly 烟雾和漏水探测器保障安全——请勿移除。",
-      "门窗传感器和温度传感器有助于自动气候控制。",
-      "EVE Thread/Matter 中继器（插座式）对稳定的无线网络很重要——请勿拔除。"
+      {
+        "name": "烟雾与漏水探测器",
+        "description": "Shelly 烟雾和漏水探测器保障安全——请勿移除。",
+        "icon": "detector"
+      },
+      {
+        "name": "门窗与温度传感器",
+        "description": "有助于自动气候控制。",
+        "icon": "sensor"
+      },
+      {
+        "name": "EVE Thread/Matter 中继器",
+        "description": "插座式——对稳定的无线网络很重要，请勿拔除。",
+        "icon": "repeater"
+      }
     ]
   },
   "checkin": {

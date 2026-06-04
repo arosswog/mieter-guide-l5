@@ -24,19 +24,44 @@
     "title": "WLAN & Technik",
     "description": "Alle Zugänge, Gerätehinweise und technische Infos sauber an einem Ort.",
     "heading": "WLAN Zugang",
-    "ssid": "Netzwerkname (SSID): LONG-STREET-GUEST",
-    "password": "Passwort: 1sommer!",
+    "network": {
+      "ssidLabel": "Netzwerkname (SSID)",
+      "ssid": "LONG-STREET-GUEST",
+      "passwordLabel": "Passwort",
+      "password": "1sommer!"
+    },
     "devices": "Geräte in der Wohnung:",
     "devicesList": [
-      "Smart TV mit Streaming-Apps",
-      "Bluetooth-Lautsprecher",
-      "USB-Charger in allen Räumen"
+      {
+        "name": "Smart TV mit Streaming-Apps",
+        "icon": "tv"
+      },
+      {
+        "name": "Bluetooth-Lautsprecher",
+        "icon": "speaker"
+      },
+      {
+        "name": "USB-Charger in allen Räumen",
+        "icon": "charger"
+      }
     ],
     "smartHome": "SmartHome & Technik im Haus:",
     "smartHomeList": [
-      "Shelly Rauch- und Flutmelder sorgen für Deine Sicherheit – bitte nicht entfernen.",
-      "Fenster- und Temperatursensoren unterstützen die automatische Klimasteuerung.",
-      "Die EVE Thread/Matter Repeater in Steckdosenform sind wichtig für ein stabiles Funknetz – bitte stecken lassen."
+      {
+        "name": "Rauch- & Flutmelder",
+        "description": "Shelly Rauch- und Flutmelder sorgen für Deine Sicherheit – bitte nicht entfernen.",
+        "icon": "detector"
+      },
+      {
+        "name": "Fenster- & Temperatursensoren",
+        "description": "Unterstützen die automatische Klimasteuerung im Haus.",
+        "icon": "sensor"
+      },
+      {
+        "name": "EVE Thread/Matter Repeater",
+        "description": "In Steckdosenform – wichtig für ein stabiles Funknetz, bitte stecken lassen.",
+        "icon": "repeater"
+      }
     ]
   },
   "checkin": {
