@@ -15,6 +15,7 @@ import {
   MdKebabDining,
   MdLunchDining,
   MdStorefront,
+  MdLocalGasStation,
 } from 'react-icons/md';
 import Footer from './Footer';
 
@@ -35,6 +36,7 @@ const placeIcons: Record<string, { Icon: IconType; className: string }> = {
   bank: { Icon: MdAccountBalance, className: 'bg-blue-100 text-blue-700' },
   doener: { Icon: MdKebabDining, className: 'bg-orange-100 text-orange-600' },
   butcher: { Icon: MdLunchDining, className: 'bg-red-100 text-red-700' },
+  gasstation: { Icon: MdLocalGasStation, className: 'bg-yellow-100 text-yellow-700' },
   shop: { Icon: MdStorefront, className: 'bg-stone-200 text-stone-700' },
 };
 

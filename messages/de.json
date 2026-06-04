@@ -133,10 +133,23 @@
         "icon": "supermarket"
       },
       {
+        "name": "PENNY Oßweil",
+        "description": "Discounter in der Friesenstraße mit Lebensmitteln und Drogerieartikeln für den täglichen Bedarf.",
+        "distance": "ca. 350 m",
+        "url": "https://www.penny.de/markt/ludwigsburg/830052/penny-ossweil-friesenstr-32",
+        "icon": "discounter"
+      },
+      {
         "name": "Mark Anders Bäckerei-Konditorei",
         "description": "Bäckerei und Konditorei in der Friesenstraße mit Backwaren und Konditoreispezialitäten.",
         "distance": "ca. 400 m",
         "icon": "bakery"
+      },
+      {
+        "name": "AGIP Tankstelle Oßweil",
+        "description": "Tankstelle in der Friesenstraße mit Shop für Snacks, Getränke und Artikel des täglichen Bedarfs.",
+        "distance": "ca. 450 m",
+        "icon": "gasstation"
       }
     ]
   },

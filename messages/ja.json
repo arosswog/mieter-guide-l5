@@ -133,10 +133,23 @@
         "icon": "supermarket"
       },
       {
+        "name": "PENNY Oßweil",
+        "description": "フリーゼン通りのディスカウントスーパー。食料品や日用品・ドラッグストア商品。",
+        "distance": "約350m",
+        "url": "https://www.penny.de/markt/ludwigsburg/830052/penny-ossweil-friesenstr-32",
+        "icon": "discounter"
+      },
+      {
         "name": "Mark Anders Bäckerei-Konditorei",
         "description": "フリーゼン通りのパン・洋菓子店。各種焼き菓子と洋菓子。",
         "distance": "約400m",
         "icon": "bakery"
+      },
+      {
+        "name": "AGIP Tankstelle Oßweil",
+        "description": "フリーゼン通りのガソリンスタンド。スナック・飲み物・日用品のショップ併設。",
+        "distance": "約450m",
+        "icon": "gasstation"
       }
     ]
   },

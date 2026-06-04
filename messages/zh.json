@@ -133,10 +133,23 @@
         "icon": "supermarket"
       },
       {
+        "name": "PENNY Oßweil",
+        "description": "弗里森街上的折扣超市，提供食品和日用百货，满足日常所需。",
+        "distance": "约350米",
+        "url": "https://www.penny.de/markt/ludwigsburg/830052/penny-ossweil-friesenstr-32",
+        "icon": "discounter"
+      },
+      {
         "name": "Mark Anders Bäckerei-Konditorei",
         "description": "弗里森街上的面包糕点店，提供各类烘焙和糕点特色食品。",
         "distance": "约400米",
         "icon": "bakery"
+      },
+      {
+        "name": "AGIP Tankstelle Oßweil",
+        "description": "弗里森街上的加油站，附设便利店，提供零食、饮料和日常用品。",
+        "distance": "约450米",
+        "icon": "gasstation"
       }
     ]
   },
