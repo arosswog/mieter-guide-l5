@@ -14,6 +14,7 @@
     "einkauf": "购物",
     "muell": "垃圾",
     "sehenswuerdigkeiten": "景点",
+    "restaurants": "餐厅",
     "verkehr": "交通",
     "kontakt": "联系方式",
     "og": "上楼公寓",
@@ -86,6 +87,21 @@
     "parksList": ["城市公园（100米）- 带游乐场", "河谷（800米）- 登山步道", "植物园（2公里）- 超过2000种植物"],
     "activities": "活动:",
     "activitiesList": ["漫步老城区", "沿河自行车之旅", "攀岩公园（3公里）", "露天电影（夏季）"]
+  },
+  "restaurants": {
+    "title": "餐厅",
+    "description": "奥斯魏尔（Oßweil）温馨的餐馆和饭店。",
+    "heading": "奥斯魏尔的餐厅",
+    "fsv": "FSV Häusle Oßweil",
+    "fsvList": ["FSV Oßweil 俱乐部餐馆，供应施瓦本-克罗地亚风味菜肴。", "地址：Walter-Flex-Str. 71, 71640 Ludwigsburg-Oßweil", "网站：www.fsv-haeusle.de"],
+    "asv": "Athletenhäusle (ASV Oßweil)",
+    "asvList": ["ASV Oßweil 俱乐部餐馆，供应施瓦本-克罗地亚风味菜肴并设有啤酒花园。", "地址：Walter-Flex-Str. 75, 71640 Ludwigsburg-Oßweil", "网站：www.asv-ossweil.de"],
+    "blutsbrueder": "Restaurant Blutsbrüder Oßweil",
+    "blutsbruederList": ["供应创新而地道德国菜肴的餐厅。", "地址：Hanseatenstraße 54, 71640 Ludwigsburg-Oßweil", "网站：www.restaurant-blutsbrueder.de"],
+    "kleintier": "Kleintierzüchter Oßweil",
+    "kleintierList": ["小动物饲养协会会所，供应地方菜肴并设有啤酒花园。", "地址：Poppenweilerstraße 91, 71640 Ludwigsburg-Oßweil", "网站：www.ktzvo.de"],
+    "pizzeria": "Pizzeria Da Gennaro Oßweil",
+    "pizzeriaList": ["意式比萨店和小餐馆，供应意大利特色菜和外带比萨。", "地址：Rudolf-Greiner-Straße 6, 71640 Ludwigsburg-Oßweil", "网站：www.pizzeria-dagennaro.de"]
   },
   "verkehr": {
     "title": "交通",

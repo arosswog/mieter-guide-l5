@@ -6,7 +6,7 @@ import { MdArrowBack } from 'react-icons/md';
 import Footer from './Footer';
 
 interface PageProps {
-  section: 'wlan' | 'checkin' | 'hausregeln' | 'einkauf' | 'muell' | 'sehenswuerdigkeiten' | 'verkehr' | 'kontakt' | 'og' | 'eg';
+  section: 'wlan' | 'checkin' | 'hausregeln' | 'einkauf' | 'muell' | 'sehenswuerdigkeiten' | 'restaurants' | 'verkehr' | 'kontakt' | 'og' | 'eg';
 }
 
 export default function PageTemplate({ section }: PageProps) {
