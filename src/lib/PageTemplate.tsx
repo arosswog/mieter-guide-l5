@@ -21,6 +21,14 @@ import {
   MdMedicalServices,
   MdLocalHospital,
   MdEmail,
+  MdWifi,
+  MdVpnKey,
+  MdTv,
+  MdBluetoothAudio,
+  MdUsb,
+  MdWaterDamage,
+  MdThermostat,
+  MdRouter,
 } from 'react-icons/md';
 import Footer from './Footer';
 
@@ -49,7 +57,29 @@ const placeIcons: Record<string, { Icon: IconType; className: string }> = {
   doctor: { Icon: MdMedicalServices, className: 'bg-teal-100 text-teal-700' },
   hospital: { Icon: MdLocalHospital, className: 'bg-sky-100 text-sky-700' },
   mail: { Icon: MdEmail, className: 'bg-indigo-100 text-indigo-700' },
+  tv: { Icon: MdTv, className: 'bg-indigo-100 text-indigo-700' },
+  speaker: { Icon: MdBluetoothAudio, className: 'bg-blue-100 text-blue-700' },
+  charger: { Icon: MdUsb, className: 'bg-emerald-100 text-emerald-700' },
+  detector: { Icon: MdWaterDamage, className: 'bg-red-100 text-red-600' },
+  sensor: { Icon: MdThermostat, className: 'bg-amber-100 text-amber-700' },
+  repeater: { Icon: MdRouter, className: 'bg-violet-100 text-violet-700' },
 };
+
+interface WifiNetwork {
+  ssidLabel: string;
+  ssid: string;
+  passwordLabel: string;
+  password: string;
+}
+
+function isWifiNetwork(value: unknown): value is WifiNetwork {
+  return (
+    typeof value === 'object' &&
+    value !== null &&
+    typeof (value as Record<string, unknown>).ssid === 'string' &&
+    typeof (value as Record<string, unknown>).password === 'string'
+  );
+}
 
 function isPlace(value: unknown): value is Place {
   return (
@@ -96,6 +126,34 @@ export default function PageTemplate({ section }: PageProps) {
           <div className="space-y-8">
             {Object.entries(data).map(([key, value]: [string, unknown]) => {
               if (['title', 'description', 'heading'].includes(key)) return null;
+
+              if (isWifiNetwork(value)) {
+                return (
+                  <div
+                    key={key}
+                    className="grid gap-3 sm:grid-cols-2"
+                  >
+                    <div className="rounded-2xl bg-gradient-to-br from-sky-500 to-blue-600 p-5 text-white shadow-sm">
+                      <div className="flex items-center gap-2 text-sm font-medium text-white/90">
+                        <MdWifi className="text-xl" aria-hidden />
+                        {value.ssidLabel}
+                      </div>
+                      <p className="mt-2 break-words font-mono text-xl font-semibold">
+                        {value.ssid}
+                      </p>
+                    </div>
+                    <div className="rounded-2xl bg-gradient-to-br from-indigo-500 to-violet-600 p-5 text-white shadow-sm">
+                      <div className="flex items-center gap-2 text-sm font-medium text-white/90">
+                        <MdVpnKey className="text-xl" aria-hidden />
+                        {value.passwordLabel}
+                      </div>
+                      <p className="mt-2 break-words font-mono text-xl font-semibold">
+                        {value.password}
+                      </p>
+                    </div>
+                  </div>
+                );
+              }
 
               if (typeof value === 'string') {
                 return (

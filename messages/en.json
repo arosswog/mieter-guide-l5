@@ -24,19 +24,44 @@
     "title": "WiFi & Tech",
     "description": "All access, device instructions and technical info in one place.",
     "heading": "WiFi Access",
-    "ssid": "Network Name (SSID): LONG-STREET-GUEST",
-    "password": "Password: 1sommer!",
+    "network": {
+      "ssidLabel": "Network Name (SSID)",
+      "ssid": "LONG-STREET-GUEST",
+      "passwordLabel": "Password",
+      "password": "1sommer!"
+    },
     "devices": "Devices in the apartment:",
     "devicesList": [
-      "Smart TV with streaming apps",
-      "Bluetooth speaker",
-      "USB chargers in all rooms"
+      {
+        "name": "Smart TV with streaming apps",
+        "icon": "tv"
+      },
+      {
+        "name": "Bluetooth speaker",
+        "icon": "speaker"
+      },
+      {
+        "name": "USB chargers in all rooms",
+        "icon": "charger"
+      }
     ],
     "smartHome": "SmartHome & tech in the house:",
     "smartHomeList": [
-      "Shelly smoke and flood detectors keep things safe – please don't remove them.",
-      "Window and temperature sensors support the automatic climate control.",
-      "The EVE Thread/Matter repeaters (in plug form) are important for a stable wireless network – please leave them plugged in."
+      {
+        "name": "Smoke & flood detectors",
+        "description": "Shelly smoke and flood detectors keep things safe – please don't remove them.",
+        "icon": "detector"
+      },
+      {
+        "name": "Window & temperature sensors",
+        "description": "They support the automatic climate control.",
+        "icon": "sensor"
+      },
+      {
+        "name": "EVE Thread/Matter repeaters",
+        "description": "In plug form – important for a stable wireless network, please leave them plugged in.",
+        "icon": "repeater"
+      }
     ]
   },
   "checkin": {
