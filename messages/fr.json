@@ -363,10 +363,9 @@
         {
           "stop": "Wettemarkt",
           "lines": ["425"],
-          "direction": "Ludwigsburg",
           "heading": "Ligne 425 depuis Wettemarkt",
-          "subtitle": "Vers Ludwigsburg – en direct via VVS",
-          "empty": "Aucun bus de la ligne 425 vers Ludwigsburg dans les prochaines minutes."
+          "subtitle": "Tous les départs – en direct via VVS",
+          "empty": "Aucun bus de la ligne 425 depuis Wettemarkt dans les prochaines minutes."
         },
         {
           "stop": "Westfalenstraße",
