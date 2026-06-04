@@ -7,6 +7,8 @@ import { MdDirectionsBus, MdRefresh, MdOpenInNew, MdAccessTime } from 'react-ico
 interface Departure {
   line: string;
   destination: string;
+  plannedTime: string | null;
+  realTime: string | null;
   countdownMin: number;
   delayMin: number;
   realtime: boolean;
@@ -80,6 +82,13 @@ export default function Departures({
   const formatCountdown = (min: number) =>
     min <= 0 ? t('now') : `${min} ${t('minuteShort')}`;
 
+  const formatClock = (dep: Departure): string | null => {
+    const iso = dep.realTime ?? dep.plannedTime;
+    const date = iso ? new Date(iso) : null;
+    if (!date || Number.isNaN(date.getTime())) return null;
+    return date.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
+  };
+
   return (
     <div className="rounded-2xl bg-gradient-to-br from-violet-600 to-purple-700 p-5 text-white shadow-sm sm:p-6">
       <div className="flex items-start justify-between gap-3">
@@ -136,9 +145,14 @@ export default function Departures({
                   +{dep.delayMin}
                 </span>
               )}
-              <span className="flex items-center gap-1 text-sm font-semibold tabular-nums">
-                <MdAccessTime className="text-base text-white/70" aria-hidden />
-                {formatCountdown(dep.countdownMin)}
+              <span className="flex flex-col items-end text-sm font-semibold tabular-nums leading-tight">
+                <span className="flex items-center gap-1">
+                  <MdAccessTime className="text-base text-white/70" aria-hidden />
+                  {formatCountdown(dep.countdownMin)}
+                </span>
+                {formatClock(dep) && (
+                  <span className="text-xs font-medium text-white/70">{formatClock(dep)}</span>
+                )}
               </span>
             </div>
           ))}
