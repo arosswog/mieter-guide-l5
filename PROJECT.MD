@@ -16,10 +16,15 @@ Digitale Infoseite für Mieter (OG & EG Wohnungen)
 - Kontakt
 - Öffentliche Verkehrsmittel
 - Einkaufsmöglichkeiten
+    - Standort Lange-Str. 5, 71640 Ludwigsburg
+    - Bäcker
+    - Metzger
+    - Discounter
+    - Anzeige in einer Map wo Haus und alle relevanten Möglichkeiten angezeigt werden
 - Sehenswürdigkeiten
 
 ## Anforderungen
-- Mehrsprachig (DE / EN / FR)
+- Mehrsprachig (DE / EN / FR / JA / CN)
 - Mobile First
 - QR-Code Nutzung vor Ort
 
