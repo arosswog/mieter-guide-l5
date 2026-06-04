@@ -294,25 +294,147 @@
     ]
   },
   "verkehr": {
-    "title": "交通",
-    "description": "公共交通機関、駐車場、アクセス。",
-    "heading": "移動手段",
-    "publicTransport": "公共交通機関:",
-    "publicTransportList": [
-      "地下鉄5号線 - 徒歩50m",
-      "バス23番＆45番 - 家のすぐ前",
-      "路面電車 - 200m"
-    ],
-    "parking": "駐車場:",
-    "parkingInfo": "近くに無料の路上駐車場あり（保証なし）。地下駐車場は500m先、1日€15。",
-    "cycling": "自転車:",
-    "cyclingList": [
-      "中庭に駐輪場",
-      "自転車修理店が100m先",
-      "家のすぐ前にシェアサイクルステーション"
-    ],
-    "taxi": "タクシー & ライドシェア:",
-    "taxiInfo": "Uber & Bolt 利用可能。地元のタクシー: +49 (0) 123 456789"
+    "title": "交通とアクセス",
+    "description": "ルートヴィヒスブルク・オスヴァイルのLange Straße周辺のバス・市電・鉄道。",
+    "heading": "バスと電車での移動",
+    "intro": "Lange Straßeの住まいはオスヴァイルの中心にあります。複数のVVSバス路線が徒歩数分の場所に停車し、ルートヴィヒスブルクの中央バスターミナル（ZOB）や駅、シュトゥットガルト方面の市電U12へアクセスできます。",
+    "heroAlt": "バス・市電・近郊電車のイラスト",
+    "backLabel": "ホームに戻る",
+    "live": {
+      "stop": "Ludwigsburg Oßweil Comburgstraße",
+      "lines": [
+        "425",
+        "431"
+      ],
+      "vvsUrl": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+      "heading": "次の発車",
+      "subtitle": "Oßweil Comburgstraße発の425・431系統 – VVSのリアルタイム",
+      "loading": "発車情報を読み込み中 …",
+      "error": "リアルタイムの発車情報は現在利用できません。VVSで直接ご確認ください。",
+      "empty": "今後数分間、425・431系統のバスはありません。",
+      "now": "まもなく",
+      "minuteShort": "分",
+      "towards": "行き先",
+      "updated": "更新時刻",
+      "refresh": "更新",
+      "openLink": "VVSの時刻表で開く",
+      "disclaimer": "VVSのリアルタイムデータ（保証はありません）。"
+    },
+    "stops": {
+      "heading": "近くのバス停",
+      "subtitle": "いずれもLange Straßeから徒歩数分",
+      "list": [
+        {
+          "name": "Oßweil Comburgstraße",
+          "lines": [
+            "425",
+            "431",
+            "421"
+          ],
+          "distance": "約300m",
+          "description": "Lange Straßeから最も近いバス停。425系統でルートヴィヒスブルクZOBへ、431系統でレムゼック方面の市電U12へ。",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+          "urlLabel": "VVSで発車時刻を見る"
+        },
+        {
+          "name": "Oßweil Hirschstraße",
+          "lines": [
+            "425",
+            "431"
+          ],
+          "distance": "約450m",
+          "description": "オスヴァイル中心部の主要バス停。ルートヴィヒスブルク中心街へ接続。",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+          "urlLabel": "VVSで発車時刻を見る"
+        },
+        {
+          "name": "Oßweil Friesenstraße",
+          "lines": [
+            "425"
+          ],
+          "distance": "約500m",
+          "description": "425系統がルートヴィヒスブルクZOBおよびエグロスハイム方面へ運行するバス停。",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+          "urlLabel": "VVSで発車時刻を見る"
+        }
+      ]
+    },
+    "stadtbahn": {
+      "heading": "市電U12でシュトゥットガルトへ",
+      "badge": "U12",
+      "name": "レムゼック発 市電U12",
+      "description": "SSBの市電U12はレムゼック（Neckargröningen）を起点に、日中は約10分間隔で乗り換えなしでシュトゥットガルト中心部の中央駅・宮殿広場（Schlossplatz）まで運行します。オスヴァイルからはバス431系統でレムゼックへ。",
+      "points": [
+        "オスヴァイルからバス431でレムゼックへ、そこでU12に直接乗り換え",
+        "U12はバート・カンシュタット、中央駅を経由して宮殿広場まで",
+        "日中は約10分間隔"
+      ],
+      "url": "https://www.ssb-ag.de",
+      "urlLabel": "SSBでU12の詳細を見る",
+      "imageAlt": "市電U12のイラスト"
+    },
+    "bahnhof": {
+      "heading": "ルートヴィヒスブルク駅 – Sバーン＆鉄道",
+      "name": "ルートヴィヒスブルク駅",
+      "description": "ルートヴィヒスブルク駅は地域の中心的な交通拠点です。Sバーンで約15分でシュトゥットガルト中央駅に到着します。オスヴァイルからはバス425でZOB経由で駅へ。",
+      "lines": [
+        {
+          "code": "S4",
+          "name": "Backnang – Marbach – Ludwigsburg – Stuttgart – Schwabstraße"
+        },
+        {
+          "code": "S5",
+          "name": "Bietigheim-Bissingen – Ludwigsburg – Stuttgart – Schwabstraße"
+        }
+      ],
+      "points": [
+        "S4・S5は日中15分間隔でシュトゥットガルトへ",
+        "ハイルブロン、ヴュルツブルク、カールスルーエ方面の地域・長距離列車（IC/ICEを含む）",
+        "駅前広場に多数の地域バス路線"
+      ],
+      "url": "https://www.bahn.de",
+      "urlLabel": "ドイツ鉄道で時刻表・チケット",
+      "imageAlt": "Sバーン電車のイラスト"
+    },
+    "tickets": {
+      "heading": "チケットと運賃",
+      "description": "バス・市電・SバーンはすべてVVS連合に含まれ、1枚のチケットで全区間をカバーします。オスヴァイルとルートヴィヒスブルクは運賃ゾーン3、シュトゥットガルトはゾーン1です。",
+      "points": [
+        "1回券、1日券、またはVVSアプリの便利なモバイルチケット",
+        "シュトゥットガルトへの外出にはグループ1日券がお得"
+      ]
+    },
+    "links": {
+      "heading": "VVS・公共交通のその他の情報",
+      "subtitle": "時刻表・チケット・アプリ",
+      "list": [
+        {
+          "name": "VVS Fahrplanauskunft",
+          "description": "バス・鉄道の接続とリアルタイム発車情報。",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft"
+        },
+        {
+          "name": "VVS Tickets & Tarif",
+          "description": "チケット・料金・運賃ゾーンの概要。",
+          "url": "https://www.vvs.de/tickets"
+        },
+        {
+          "name": "SSB – Stadtbahn Stuttgart",
+          "description": "U12などの市電路線の情報。",
+          "url": "https://www.ssb-ag.de"
+        },
+        {
+          "name": "Deutsche Bahn",
+          "description": "Sバーン・地域・長距離列車の時刻表とチケット。",
+          "url": "https://www.bahn.de"
+        },
+        {
+          "name": "bwegt – Nahverkehr BW",
+          "description": "バーデン＝ヴュルテンベルク州のモビリティポータル。",
+          "url": "https://www.bwegt.de"
+        }
+      ]
+    }
   },
   "kontakt": {
     "title": "連絡先",

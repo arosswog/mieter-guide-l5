@@ -294,25 +294,147 @@
     ]
   },
   "verkehr": {
-    "title": "Transportation",
-    "description": "Public transport, parking and directions.",
-    "heading": "Mobility",
-    "publicTransport": "Public Transport:",
-    "publicTransportList": [
-      "U-Bahn Line 5 - 50m walk",
-      "Buses 23 & 45 - right in front of the house",
-      "Tram - 200m away"
-    ],
-    "parking": "Parking:",
-    "parkingInfo": "Free street parking nearby (no guarantee). Underground garage 500m for €15/day.",
-    "cycling": "Cycling:",
-    "cyclingList": [
-      "Bike stand in courtyard",
-      "Bike repair shop 100m away",
-      "Bike-sharing station right in front"
-    ],
-    "taxi": "Taxi & Ride-Sharing:",
-    "taxiInfo": "Uber & Bolt available. Local taxi: +49 (0) 123 456789"
+    "title": "Transport & Mobility",
+    "description": "Bus, light rail and train around Lange Straße in Ludwigsburg-Oßweil.",
+    "heading": "Getting around by bus & train",
+    "intro": "The apartment on Lange Straße sits right in the heart of Oßweil. Several VVS bus lines stop just a few minutes' walk away and take you to Ludwigsburg's central bus station (ZOB), the train station or the U12 light rail to Stuttgart.",
+    "heroAlt": "Illustration of a bus, light rail and commuter train",
+    "backLabel": "Back to home",
+    "live": {
+      "stop": "Ludwigsburg Oßweil Comburgstraße",
+      "lines": [
+        "425",
+        "431"
+      ],
+      "vvsUrl": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+      "heading": "Next departures",
+      "subtitle": "Lines 425 & 431 from Oßweil Comburgstraße – live via VVS",
+      "loading": "Loading departures …",
+      "error": "Live departures are unavailable right now. Please check directly on VVS.",
+      "empty": "No buses on lines 425 and 431 in the next few minutes.",
+      "now": "now",
+      "minuteShort": "min",
+      "towards": "to",
+      "updated": "Updated at",
+      "refresh": "Refresh",
+      "openLink": "Open in the VVS timetable",
+      "disclaimer": "VVS real-time data, without guarantee."
+    },
+    "stops": {
+      "heading": "Bus stops nearby",
+      "subtitle": "All just a few minutes' walk from Lange Straße",
+      "list": [
+        {
+          "name": "Oßweil Comburgstraße",
+          "lines": [
+            "425",
+            "431",
+            "421"
+          ],
+          "distance": "approx. 300 m",
+          "description": "Closest stop to Lange Straße. Take line 425 to Ludwigsburg ZOB or line 431 towards Remseck for the U12 light rail.",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+          "urlLabel": "View departures on VVS"
+        },
+        {
+          "name": "Oßweil Hirschstraße",
+          "lines": [
+            "425",
+            "431"
+          ],
+          "distance": "approx. 450 m",
+          "description": "Central stop in the heart of Oßweil with connections into downtown Ludwigsburg.",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+          "urlLabel": "View departures on VVS"
+        },
+        {
+          "name": "Oßweil Friesenstraße",
+          "lines": [
+            "425"
+          ],
+          "distance": "approx. 500 m",
+          "description": "Stop served by line 425 towards Ludwigsburg ZOB and Eglosheim.",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+          "urlLabel": "View departures on VVS"
+        }
+      ]
+    },
+    "stadtbahn": {
+      "heading": "To Stuttgart on the U12 light rail",
+      "badge": "U12",
+      "name": "U12 light rail from Remseck",
+      "description": "The SSB U12 light rail starts in Remseck (Neckargröningen) and runs about every 10 minutes during the day straight into central Stuttgart – no changes needed to reach the main station and Schlossplatz. From Oßweil, reach Remseck with bus line 431.",
+      "points": [
+        "Bus 431 from Oßweil to Remseck, then change directly to the U12",
+        "The U12 runs via Bad Cannstatt and the main station to Schlossplatz",
+        "Roughly every 10 minutes during the day"
+      ],
+      "url": "https://www.ssb-ag.de",
+      "urlLabel": "More about the U12 at SSB",
+      "imageAlt": "Illustration of a U12 light rail vehicle"
+    },
+    "bahnhof": {
+      "heading": "Ludwigsburg station – S-Bahn & rail",
+      "name": "Ludwigsburg station",
+      "description": "Ludwigsburg station is the region's central hub. The S-Bahn gets you to Stuttgart main station in about 15 minutes. From Oßweil, reach the station with bus 425 via the ZOB.",
+      "lines": [
+        {
+          "code": "S4",
+          "name": "Backnang – Marbach – Ludwigsburg – Stuttgart – Schwabstraße"
+        },
+        {
+          "code": "S5",
+          "name": "Bietigheim-Bissingen – Ludwigsburg – Stuttgart – Schwabstraße"
+        }
+      ],
+      "points": [
+        "S4 & S5 run every 15 minutes to Stuttgart during the day",
+        "Regional and long-distance trains (incl. IC/ICE) towards Heilbronn, Würzburg and Karlsruhe",
+        "Numerous regional bus lines right in front of the station"
+      ],
+      "url": "https://www.bahn.de",
+      "urlLabel": "Timetable & tickets at Deutsche Bahn",
+      "imageAlt": "Illustration of an S-Bahn train"
+    },
+    "tickets": {
+      "heading": "Tickets & fares",
+      "description": "Bus, light rail and S-Bahn all belong to the VVS network – one ticket covers the whole journey. Oßweil and Ludwigsburg are in fare zone 3, Stuttgart in zone 1.",
+      "points": [
+        "Single ticket, day ticket or the handy mobile ticket in the VVS app",
+        "For trips to Stuttgart, the group day ticket is worth it"
+      ]
+    },
+    "links": {
+      "heading": "More about VVS & public transport",
+      "subtitle": "Timetables, tickets and apps",
+      "list": [
+        {
+          "name": "VVS Fahrplanauskunft",
+          "description": "Connections and real-time departures for bus & rail.",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft"
+        },
+        {
+          "name": "VVS Tickets & Tarif",
+          "description": "Overview of tickets, prices and fare zones.",
+          "url": "https://www.vvs.de/tickets"
+        },
+        {
+          "name": "SSB – Stadtbahn Stuttgart",
+          "description": "Information on light rail lines such as the U12.",
+          "url": "https://www.ssb-ag.de"
+        },
+        {
+          "name": "Deutsche Bahn",
+          "description": "Timetables and tickets for S-Bahn, regional and long-distance trains.",
+          "url": "https://www.bahn.de"
+        },
+        {
+          "name": "bwegt – Nahverkehr BW",
+          "description": "Mobility portal of the state of Baden-Württemberg.",
+          "url": "https://www.bwegt.de"
+        }
+      ]
+    }
   },
   "kontakt": {
     "title": "Contact",

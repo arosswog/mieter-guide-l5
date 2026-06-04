@@ -294,25 +294,147 @@
     ]
   },
   "verkehr": {
-    "title": "交通",
-    "description": "公共交通、停车和方向。",
-    "heading": "出行方式",
-    "publicTransport": "公共交通:",
-    "publicTransportList": [
-      "U-Bahn第5线 - 步行50米",
-      "公交23和45线 - 就在房屋前",
-      "有轨电车 - 200米"
-    ],
-    "parking": "停车:",
-    "parkingInfo": "附近免费街道停车（无保证）。地下停车场500米，€15/天。",
-    "cycling": "骑车:",
-    "cyclingList": [
-      "院子里的自行车架",
-      "自行车修理店100米",
-      "共享单车站就在前面"
-    ],
-    "taxi": "出租车 & 拼车:",
-    "taxiInfo": "Uber & Bolt可用。本地出租车: +49 (0) 123 456789"
+    "title": "交通与出行",
+    "description": "路德维希堡-奥斯魏尔 Lange Straße 周边的公交、轻轨和火车。",
+    "heading": "乘公交和火车出行",
+    "intro": "Lange Straße 的公寓位于奥斯魏尔中心。多条 VVS 公交线路在步行几分钟处停靠，可前往路德维希堡中央公交枢纽（ZOB）、火车站，或前往通往斯图加特的 U12 轻轨。",
+    "heroAlt": "公交车、轻轨和市郊列车的插图",
+    "backLabel": "返回首页",
+    "live": {
+      "stop": "Ludwigsburg Oßweil Comburgstraße",
+      "lines": [
+        "425",
+        "431"
+      ],
+      "vvsUrl": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+      "heading": "下一班发车",
+      "subtitle": "Oßweil Comburgstraße 的 425 和 431 路 – VVS 实时信息",
+      "loading": "正在加载发车信息 …",
+      "error": "实时发车信息暂时不可用，请直接在 VVS 查询。",
+      "empty": "接下来几分钟内没有 425 和 431 路公交。",
+      "now": "即将",
+      "minuteShort": "分钟",
+      "towards": "开往",
+      "updated": "更新于",
+      "refresh": "刷新",
+      "openLink": "在 VVS 时刻表中打开",
+      "disclaimer": "VVS 实时数据，仅供参考。"
+    },
+    "stops": {
+      "heading": "附近的公交站",
+      "subtitle": "均距 Lange Straße 步行几分钟",
+      "list": [
+        {
+          "name": "Oßweil Comburgstraße",
+          "lines": [
+            "425",
+            "431",
+            "421"
+          ],
+          "distance": "约 300 米",
+          "description": "距 Lange Straße 最近的车站。乘 425 路前往路德维希堡 ZOB，或乘 431 路前往雷姆塞克换乘 U12 轻轨。",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+          "urlLabel": "在 VVS 查看发车"
+        },
+        {
+          "name": "Oßweil Hirschstraße",
+          "lines": [
+            "425",
+            "431"
+          ],
+          "distance": "约 450 米",
+          "description": "奥斯魏尔中心的主要车站，可换乘前往路德维希堡市中心。",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+          "urlLabel": "在 VVS 查看发车"
+        },
+        {
+          "name": "Oßweil Friesenstraße",
+          "lines": [
+            "425"
+          ],
+          "distance": "约 500 米",
+          "description": "425 路停靠站，开往路德维希堡 ZOB 和 Eglosheim。",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+          "urlLabel": "在 VVS 查看发车"
+        }
+      ]
+    },
+    "stadtbahn": {
+      "heading": "乘 U12 轻轨前往斯图加特",
+      "badge": "U12",
+      "name": "雷姆塞克始发的 U12 轻轨",
+      "description": "SSB 的 U12 轻轨从雷姆塞克（Neckargröningen）始发，白天约每 10 分钟一班，无需换乘即可直达斯图加特市中心，到达中央车站和宫殿广场（Schlossplatz）。从奥斯魏尔可乘 431 路公交前往雷姆塞克。",
+      "points": [
+        "从奥斯魏尔乘 431 路到雷姆塞克，在那里直接换乘 U12",
+        "U12 经巴德坎施塔特和中央车站抵达宫殿广场",
+        "白天约每 10 分钟一班"
+      ],
+      "url": "https://www.ssb-ag.de",
+      "urlLabel": "在 SSB 了解更多 U12 信息",
+      "imageAlt": "U12 轻轨插图"
+    },
+    "bahnhof": {
+      "heading": "路德维希堡火车站 – 城铁与火车",
+      "name": "路德维希堡火车站",
+      "description": "路德维希堡火车站是本地区的中心枢纽。乘城铁约 15 分钟即可抵达斯图加特中央车站。从奥斯魏尔可乘 425 路公交经 ZOB 前往火车站。",
+      "lines": [
+        {
+          "code": "S4",
+          "name": "Backnang – Marbach – Ludwigsburg – Stuttgart – Schwabstraße"
+        },
+        {
+          "code": "S5",
+          "name": "Bietigheim-Bissingen – Ludwigsburg – Stuttgart – Schwabstraße"
+        }
+      ],
+      "points": [
+        "S4 和 S5 白天每 15 分钟一班前往斯图加特",
+        "通往海尔布隆、维尔茨堡和卡尔斯鲁厄的区域和长途列车（含 IC/ICE）",
+        "站前广场有众多区域公交线路"
+      ],
+      "url": "https://www.bahn.de",
+      "urlLabel": "在德国铁路查看时刻表和车票",
+      "imageAlt": "城铁列车插图"
+    },
+    "tickets": {
+      "heading": "车票与票价",
+      "description": "公交、轻轨和城铁均属于 VVS 联运 —— 一张车票即可覆盖全程。奥斯魏尔和路德维希堡位于票价 3 区，斯图加特位于 1 区。",
+      "points": [
+        "单程票、日票，或在 VVS 应用中便捷购买手机票",
+        "前往斯图加特出游时，团体日票更划算"
+      ]
+    },
+    "links": {
+      "heading": "更多 VVS 与公共交通信息",
+      "subtitle": "时刻表、车票和应用",
+      "list": [
+        {
+          "name": "VVS Fahrplanauskunft",
+          "description": "公交与火车的换乘和实时发车信息。",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft"
+        },
+        {
+          "name": "VVS Tickets & Tarif",
+          "description": "车票、价格和票价区概览。",
+          "url": "https://www.vvs.de/tickets"
+        },
+        {
+          "name": "SSB – Stadtbahn Stuttgart",
+          "description": "U12 等轻轨线路的信息。",
+          "url": "https://www.ssb-ag.de"
+        },
+        {
+          "name": "Deutsche Bahn",
+          "description": "城铁、区域和长途列车的时刻表和车票。",
+          "url": "https://www.bahn.de"
+        },
+        {
+          "name": "bwegt – Nahverkehr BW",
+          "description": "巴登-符腾堡州的出行门户网站。",
+          "url": "https://www.bwegt.de"
+        }
+      ]
+    }
   },
   "kontakt": {
     "title": "联系方式",
