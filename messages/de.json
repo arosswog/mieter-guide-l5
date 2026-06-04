@@ -222,7 +222,7 @@
         "BT": "Bioabfall",
         "PT": "Papier",
         "LT": "Gelbe Tonne",
-        "GT": "Grüngut / Glas",
+        "GT": "Glas",
         "UNKNOWN": "Abholung"
       }
     },
