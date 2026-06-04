@@ -1,0 +1,25 @@
+<svg width="400" height="260" viewBox="0 0 400 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="S-Bahn und Bahn">
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#bae6fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" rx="20" fill="url(#sbg)"/>
+  <rect x="40" y="206" width="320" height="10" rx="5" fill="#0284c7" opacity="0.4"/>
+  <g transform="translate(56,52)">
+    <rect x="0" y="0" width="288" height="150" rx="30" fill="#ffffff"/>
+    <rect x="0" y="0" width="288" height="150" rx="30" fill="#0ea5e9" opacity="0.08"/>
+    <path d="M0 40 q0 -40 40 -40 h70 v50 h-110 z" fill="#bae6fd"/>
+    <rect x="128" y="18" width="58" height="50" rx="10" fill="#bae6fd"/>
+    <rect x="198" y="18" width="58" height="50" rx="10" fill="#bae6fd"/>
+    <rect x="0" y="104" width="288" height="22" fill="#0284c7"/>
+    <rect x="120" y="84" width="48" height="42" rx="8" fill="#16a34a"/>
+    <text x="130" y="114" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#fff">S</text>
+    <circle cx="80" cy="150" r="20" fill="#1e293b"/>
+    <circle cx="210" cy="150" r="20" fill="#1e293b"/>
+    <circle cx="80" cy="150" r="7" fill="#7dd3fc"/>
+    <circle cx="210" cy="150" r="7" fill="#7dd3fc"/>
+  </g>
+  <circle cx="320" cy="60" r="26" fill="#fde68a" opacity="0.8"/>
+</svg>

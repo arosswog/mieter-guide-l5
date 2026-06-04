@@ -1,0 +1,26 @@
+<svg width="400" height="260" viewBox="0 0 400 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stadtbahn U12">
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ede9fe"/>
+      <stop offset="1" stop-color="#ddd6fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" rx="20" fill="url(#tbg)"/>
+  <line x1="200" y1="20" x2="200" y2="58" stroke="#a78bfa" stroke-width="4"/>
+  <circle cx="200" cy="20" r="6" fill="#7c3aed"/>
+  <g transform="translate(60,58)">
+    <rect x="0" y="0" width="280" height="150" rx="26" fill="#ffffff"/>
+    <rect x="0" y="0" width="280" height="150" rx="26" fill="#7c3aed" opacity="0.08"/>
+    <rect x="22" y="30" width="58" height="56" rx="10" fill="#ddd6fe"/>
+    <rect x="92" y="30" width="58" height="56" rx="10" fill="#ddd6fe"/>
+    <rect x="162" y="30" width="58" height="56" rx="10" fill="#ddd6fe"/>
+    <rect x="232" y="30" width="30" height="56" rx="10" fill="#ddd6fe"/>
+    <rect x="0" y="102" width="280" height="20" fill="#6d28d9"/>
+    <rect x="118" y="116" width="44" height="34" rx="6" fill="#312e81"/>
+    <text x="128" y="142" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#fff">U12</text>
+    <circle cx="78" cy="150" r="20" fill="#1e293b"/>
+    <circle cx="210" cy="150" r="20" fill="#1e293b"/>
+    <circle cx="78" cy="150" r="7" fill="#a78bfa"/>
+    <circle cx="210" cy="150" r="7" fill="#a78bfa"/>
+  </g>
+</svg>

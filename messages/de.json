@@ -308,25 +308,147 @@
     ]
   },
   "verkehr": {
-    "title": "Verkehr",
-    "description": "Öffentliche Verkehrsmittel, Parkplätze und Anfahrt.",
-    "heading": "Mobilität",
-    "publicTransport": "Öffentliche Verkehrsmittel:",
-    "publicTransportList": [
-      "U-Bahn Linie 5 - 50m Fußweg",
-      "Bus 23 & 45 - direkt vor dem Haus",
-      "Straßenbahn - 200m entfernt"
-    ],
-    "parking": "Parkplätze:",
-    "parkingInfo": "Kostenlose Straßenparkplätze in der Nähe (keine Garantie). Tiefgarage 500m für €15/Tag.",
-    "cycling": "Radfahren:",
-    "cyclingList": [
-      "Fahrradständer im Hof",
-      "Fahrradwerkstatt 100m entfernt",
-      "Bike-Sharing Station direkt vor dem Haus"
-    ],
-    "taxi": "Taxi & Ride-Sharing:",
-    "taxiInfo": "Uber & Bolt verfügbar. Lokales Taxi: +49 (0) 123 456789"
+    "title": "Verkehr & Mobilität",
+    "description": "Bus, Stadtbahn und Bahn rund um die Lange Straße in Ludwigsburg-Oßweil.",
+    "heading": "Mit Bus & Bahn unterwegs",
+    "intro": "Die Wohnung in der Lange Straße liegt mitten in Oßweil. Mehrere VVS-Buslinien halten nur wenige Gehminuten entfernt und bringen Sie zum Ludwigsburger ZOB, zum Bahnhof oder zur Stadtbahn U12 nach Stuttgart.",
+    "heroAlt": "Illustration von Bus, Stadtbahn und S-Bahn",
+    "backLabel": "Zurück zur Startseite",
+    "live": {
+      "stop": "Ludwigsburg Oßweil Comburgstraße",
+      "lines": [
+        "425",
+        "431"
+      ],
+      "vvsUrl": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+      "heading": "Nächste Abfahrten",
+      "subtitle": "Linien 425 & 431 ab Oßweil Comburgstraße – live über VVS",
+      "loading": "Abfahrten werden geladen …",
+      "error": "Live-Abfahrten sind gerade nicht verfügbar. Bitte direkt beim VVS nachsehen.",
+      "empty": "In den nächsten Minuten fahren keine Busse der Linien 425 und 431.",
+      "now": "sofort",
+      "minuteShort": "Min",
+      "towards": "Richtung",
+      "updated": "Aktualisiert um",
+      "refresh": "Aktualisieren",
+      "openLink": "Im VVS-Fahrplan öffnen",
+      "disclaimer": "Echtzeitdaten des VVS, Angaben ohne Gewähr."
+    },
+    "stops": {
+      "heading": "Bushaltestellen in der Nähe",
+      "subtitle": "Alle nur wenige Gehminuten von der Lange Straße entfernt",
+      "list": [
+        {
+          "name": "Oßweil Comburgstraße",
+          "lines": [
+            "425",
+            "431",
+            "421"
+          ],
+          "distance": "ca. 300 m",
+          "description": "Nächste Haltestelle zur Lange Straße. Mit der 425 zum ZOB Ludwigsburg, mit der 431 Richtung Remseck zur Stadtbahn U12.",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+          "urlLabel": "Abfahrten im VVS ansehen"
+        },
+        {
+          "name": "Oßweil Hirschstraße",
+          "lines": [
+            "425",
+            "431"
+          ],
+          "distance": "ca. 450 m",
+          "description": "Zentrale Haltestelle im Ortskern von Oßweil mit Anschluss in die Ludwigsburger Innenstadt.",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+          "urlLabel": "Abfahrten im VVS ansehen"
+        },
+        {
+          "name": "Oßweil Friesenstraße",
+          "lines": [
+            "425"
+          ],
+          "distance": "ca. 500 m",
+          "description": "Haltestelle der Linie 425 Richtung Ludwigsburg ZOB und Eglosheim.",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
+          "urlLabel": "Abfahrten im VVS ansehen"
+        }
+      ]
+    },
+    "stadtbahn": {
+      "heading": "Mit der Stadtbahn U12 nach Stuttgart",
+      "badge": "U12",
+      "name": "Stadtbahn U12 ab Remseck",
+      "description": "Die SSB-Stadtbahn U12 startet in Remseck (Neckargröningen) und fährt tagsüber etwa alle 10 Minuten ohne Umsteigen ins Stuttgarter Zentrum bis zum Hauptbahnhof und Schlossplatz. Von Oßweil erreichen Sie Remseck mit der Buslinie 431.",
+      "points": [
+        "Bus 431 ab Oßweil bis Remseck, dort direkter Umstieg in die U12",
+        "U12 fährt über Bad Cannstatt und Hauptbahnhof bis zum Schlossplatz",
+        "Tagsüber ca. 10-Minuten-Takt"
+      ],
+      "url": "https://www.ssb-ag.de",
+      "urlLabel": "Mehr zur U12 bei der SSB",
+      "imageAlt": "Illustration einer Stadtbahn U12"
+    },
+    "bahnhof": {
+      "heading": "Bahnhof Ludwigsburg – S-Bahn & Bahn",
+      "name": "Bahnhof Ludwigsburg",
+      "description": "Der Bahnhof Ludwigsburg ist der zentrale Verkehrsknoten der Region. Mit der S-Bahn sind Sie in rund 15 Minuten am Stuttgarter Hauptbahnhof. Von Oßweil erreichen Sie den Bahnhof mit dem Bus 425 über den ZOB.",
+      "lines": [
+        {
+          "code": "S4",
+          "name": "Backnang – Marbach – Ludwigsburg – Stuttgart – Schwabstraße"
+        },
+        {
+          "code": "S5",
+          "name": "Bietigheim-Bissingen – Ludwigsburg – Stuttgart – Schwabstraße"
+        }
+      ],
+      "points": [
+        "S4 & S5 fahren tagsüber alle 15 Minuten nach Stuttgart",
+        "Regional- und Fernverkehr (u. a. IC/ICE) Richtung Heilbronn, Würzburg und Karlsruhe",
+        "Zahlreiche Regionalbuslinien direkt am Bahnhofsvorplatz"
+      ],
+      "url": "https://www.bahn.de",
+      "urlLabel": "Fahrplan & Tickets bei der Bahn",
+      "imageAlt": "Illustration einer S-Bahn"
+    },
+    "tickets": {
+      "heading": "Tickets & Tarif",
+      "description": "Bus, Stadtbahn und S-Bahn gehören alle zum VVS-Verbund – ein Ticket gilt für die ganze Fahrt. Oßweil und Ludwigsburg liegen in Tarifzone 3, Stuttgart in Zone 1.",
+      "points": [
+        "EinzelTicket, TagesTicket oder bequem das HandyTicket in der VVS-App",
+        "Für Ausflüge nach Stuttgart lohnt sich das GruppenTagesTicket"
+      ]
+    },
+    "links": {
+      "heading": "Weitere Infos rund um VVS & Nahverkehr",
+      "subtitle": "Fahrpläne, Tickets und Apps",
+      "list": [
+        {
+          "name": "VVS Fahrplanauskunft",
+          "description": "Verbindungen und Echtzeit-Abfahrten für Bus & Bahn.",
+          "url": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft"
+        },
+        {
+          "name": "VVS Tickets & Tarif",
+          "description": "Übersicht über Tickets, Preise und Tarifzonen.",
+          "url": "https://www.vvs.de/tickets"
+        },
+        {
+          "name": "SSB – Stadtbahn Stuttgart",
+          "description": "Infos zu Stadtbahnlinien wie der U12.",
+          "url": "https://www.ssb-ag.de"
+        },
+        {
+          "name": "Deutsche Bahn",
+          "description": "Fahrpläne und Tickets für S-Bahn, Regional- und Fernverkehr.",
+          "url": "https://www.bahn.de"
+        },
+        {
+          "name": "bwegt – Nahverkehr BW",
+          "description": "Mobilitätsportal des Landes Baden-Württemberg.",
+          "url": "https://www.bwegt.de"
+        }
+      ]
+    }
   },
   "kontakt": {
     "title": "Kontakt",
