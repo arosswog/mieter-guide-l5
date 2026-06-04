@@ -29,10 +29,9 @@ import {
   MdWaterDamage,
   MdThermostat,
   MdRouter,
-  MdHandshake,
-  MdNightsStay,
-  MdDelete,
-  MdSmokeFree,
+  MdPhoneIphone,
+  MdInfo,
+  MdFavorite,
 } from 'react-icons/md';
 import Footer from './Footer';
 
@@ -67,10 +66,10 @@ const placeIcons: Record<string, { Icon: IconType; className: string }> = {
   detector: { Icon: MdWaterDamage, className: 'bg-red-100 text-red-600' },
   sensor: { Icon: MdThermostat, className: 'bg-amber-100 text-amber-700' },
   repeater: { Icon: MdRouter, className: 'bg-violet-100 text-violet-700' },
-  respect: { Icon: MdHandshake, className: 'bg-amber-100 text-amber-700' },
-  quiet: { Icon: MdNightsStay, className: 'bg-indigo-100 text-indigo-700' },
-  trash: { Icon: MdDelete, className: 'bg-green-100 text-green-700' },
-  nosmoking: { Icon: MdSmokeFree, className: 'bg-red-100 text-red-600' },
+  key: { Icon: MdVpnKey, className: 'bg-amber-100 text-amber-700' },
+  app: { Icon: MdPhoneIphone, className: 'bg-sky-100 text-sky-700' },
+  info: { Icon: MdInfo, className: 'bg-blue-100 text-blue-700' },
+  welcome: { Icon: MdFavorite, className: 'bg-rose-100 text-rose-600' },
 };
 
 interface WifiNetwork {

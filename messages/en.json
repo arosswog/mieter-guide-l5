@@ -68,18 +68,29 @@
   },
   "checkin": {
     "title": "Check-in Info",
-    "description": "Everything about arrival: keys, times, process and first steps.",
+    "description": "Your arrival at our apartment – key handover, app-based door access and the most important first steps.",
     "heading": "Welcome!",
-    "checkInTime": "Check-in Time: 14:00",
-    "checkOutTime": "Check-out Time: 11:00",
-    "keyPickup": "Key Handover: Please look under the doormat",
-    "codeMessage": "The code for the front door is in your confirmation email.",
-    "important": "Important:",
-    "importantList": [
-      "Stick to check-in time",
-      "Read the house rules",
-      "Activate heating in winter",
-      "Save our contact number"
+    "steps": [
+      {
+        "icon": "key",
+        "name": "Key handover",
+        "description": "To arrange the key handover from the start of your contract, simply get in touch with us – we'll sort out all the details with you personally."
+      },
+      {
+        "icon": "app",
+        "name": "Open doors via app",
+        "description": "If you're interested, we can set up access for you through the Shelly app using an existing account, so you can open the building doors conveniently from your smartphone."
+      },
+      {
+        "icon": "info",
+        "name": "Further info",
+        "description": "You'll find all further information about arriving and living here on this website."
+      },
+      {
+        "icon": "welcome",
+        "name": "Great to have you",
+        "description": "Otherwise, we wish you a wonderful time in our apartment."
+      }
     ]
   },
   "hausregeln": {
