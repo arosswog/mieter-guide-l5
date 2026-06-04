@@ -362,10 +362,9 @@
         {
           "stop": "Wettemarkt",
           "lines": ["425"],
-          "direction": "Ludwigsburg",
           "heading": "Linie 425 ab Wettemarkt",
-          "subtitle": "Richtung Ludwigsburg – live über VVS",
-          "empty": "In den nächsten Minuten fährt kein Bus der Linie 425 Richtung Ludwigsburg."
+          "subtitle": "Alle Abfahrten – live über VVS",
+          "empty": "In den nächsten Minuten fährt kein Bus der Linie 425 ab Wettemarkt."
         },
         {
           "stop": "Westfalenstraße",

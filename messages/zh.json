@@ -362,10 +362,9 @@
         {
           "stop": "Wettemarkt",
           "lines": ["425"],
-          "direction": "Ludwigsburg",
           "heading": "Wettemarkt 发车 425 路",
-          "subtitle": "开往 Ludwigsburg – VVS 实时信息",
-          "empty": "接下来几分钟内没有开往 Ludwigsburg 的 425 路公交。"
+          "subtitle": "所有发车 – VVS 实时信息",
+          "empty": "接下来几分钟内没有从 Wettemarkt 发车的 425 路公交。"
         },
         {
           "stop": "Westfalenstraße",

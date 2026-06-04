@@ -362,10 +362,9 @@
         {
           "stop": "Wettemarkt",
           "lines": ["425"],
-          "direction": "Ludwigsburg",
           "heading": "Wettemarkt発 425系統",
-          "subtitle": "Ludwigsburg方面 – VVSのリアルタイム",
-          "empty": "今後数分間、Ludwigsburg方面の425系統のバスはありません。"
+          "subtitle": "全方面の発車 – VVSのリアルタイム",
+          "empty": "今後数分間、Wettemarkt発の425系統のバスはありません。"
         },
         {
           "stop": "Westfalenstraße",
