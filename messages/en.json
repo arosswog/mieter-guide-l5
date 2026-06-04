@@ -222,7 +222,7 @@
         "BT": "Bio waste",
         "PT": "Paper",
         "LT": "Yellow bin",
-        "GT": "Garden waste / Glass",
+        "GT": "Glass",
         "UNKNOWN": "Collection"
       }
     },
