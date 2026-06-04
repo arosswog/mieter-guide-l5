@@ -46,9 +46,9 @@ interface WasteMeta {
 const WASTE_META: Record<WasteType, WasteMeta> = {
   RT: { Icon: MdDeleteOutline, badge: 'bg-stone-700 text-white', dot: 'bg-stone-700' },
   BT: { Icon: MdCompost, badge: 'bg-amber-700 text-white', dot: 'bg-amber-700' },
-  PT: { Icon: MdNewspaper, badge: 'bg-blue-600 text-white', dot: 'bg-blue-600' },
+  PT: { Icon: MdNewspaper, badge: 'bg-green-600 text-white', dot: 'bg-green-600' },
   LT: { Icon: MdRecycling, badge: 'bg-yellow-400 text-yellow-950', dot: 'bg-yellow-400' },
-  GT: { Icon: MdLocalFlorist, badge: 'bg-green-600 text-white', dot: 'bg-green-600' },
+  GT: { Icon: MdLocalFlorist, badge: 'bg-blue-600 text-white', dot: 'bg-blue-600' },
   UNKNOWN: { Icon: MdEvent, badge: 'bg-stone-400 text-white', dot: 'bg-stone-400' },
 };
 
