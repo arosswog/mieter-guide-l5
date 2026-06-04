@@ -95,28 +95,30 @@
   },
   "hausregeln": {
     "title": "Hausregeln",
-    "description": "Regeln für ein harmonisches Zusammenleben – bitte beachten.",
-    "heading": "Hausregeln",
-    "general": "Allgemeine Regeln:",
-    "generalList": [
-      "Respekt vor anderen Gästen und dem Nachbarn",
-      "Ruhezeiten: 22:00 - 08:00 Uhr",
-      "Keine lauten Partys",
-      "Bitte um Erlaubnis vor Gästen"
-    ],
-    "cleaning": "Reinigung:",
-    "cleaningList": [
-      "Halte die Wohnung sauber",
-      "Spül das Geschirr nach dem Essen",
-      "Leere den Mülleimer regelmäßig",
-      "Kehre vor dem Check-out"
-    ],
-    "safety": "Sicherheit:",
-    "safetyList": [
-      "Sperre die Tür ab, wenn Du ausgehst",
-      "Beachte die Brandschutzordnung",
-      "Rauchen nur auf dem Balkon",
-      "Keine offenen Flammen"
+    "description": "Ein paar einfache Regeln für ein harmonisches Miteinander – vielen Dank, dass Du sie beachtest.",
+    "heading": "Schön, dass Du da bist!",
+    "intro": "Damit sich alle wohlfühlen – Gäste wie Nachbarn – bitten wir Dich, die folgenden Punkte zu beachten:",
+    "rules": [
+      {
+        "name": "Respekt & Rücksicht",
+        "description": "Bitte begegne den anderen Gästen und unseren Nachbarn mit Rücksicht und Respekt. So fühlen sich alle wohl.",
+        "icon": "respect"
+      },
+      {
+        "name": "Ruhezeiten beachten",
+        "description": "In Baden-Württemberg gelten Ruhezeiten von 22:00 bis 08:00 Uhr. Bitte vermeide in dieser Zeit lauten Lärm, damit die Nachbarschaft ungestört bleibt.",
+        "icon": "quiet"
+      },
+      {
+        "name": "Mülltermine & Tonnen",
+        "description": "Bitte achte auf die Termine der Müllleerung und stelle die passenden Mülltonnen rechtzeitig – am besten am Vorabend – an den Gehweg zur Straße. Die Abholtage findest Du auf der Seite „Müllabholung“.",
+        "icon": "trash"
+      },
+      {
+        "name": "Rauchfreie Wohnung",
+        "description": "Das Rauchen in den Wohnungen ist – wie auch im Mietvertrag hinterlegt – nicht gestattet. Zum Rauchen nutze bitte den Außenbereich.",
+        "icon": "nosmoking"
+      }
     ]
   },
   "einkauf": {
