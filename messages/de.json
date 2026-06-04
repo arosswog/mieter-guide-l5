@@ -289,20 +289,90 @@
   },
   "kontakt": {
     "title": "Kontakt",
-    "description": "Notfallkontakte und Ansprechpartner.",
-    "heading": "Kontakte",
-    "emergency": "Notfall:",
-    "emergencyNumbers": [
-      "Polizei: 110",
-      "Feuerwehr: 112",
-      "Ärztlicher Notfalldienst: 0911 / 19292"
+    "description": "Wichtige Notrufnummern, Ärzte und Kliniken in der Nähe sowie dein direkter Draht bei Fragen rund um die Wohnung.",
+    "heading": "Im Notfall & bei Fragen",
+    "emergencyHeading": "Notruf – rund um die Uhr erreichbar",
+    "emergency": [
+      {
+        "name": "Polizei",
+        "description": "Bei Gefahr, Unfall, Einbruch oder Diebstahl.",
+        "distance": "110",
+        "icon": "police",
+        "url": "tel:110"
+      },
+      {
+        "name": "Feuerwehr & Rettungsdienst",
+        "description": "Bei Feuer, Unfall oder medizinischem Notfall.",
+        "distance": "112",
+        "icon": "fire",
+        "url": "tel:112"
+      },
+      {
+        "name": "Ärztlicher Bereitschaftsdienst",
+        "description": "Wenn die Praxen geschlossen sind, aber kein lebensbedrohlicher Notfall vorliegt.",
+        "distance": "116 117",
+        "icon": "ambulance",
+        "url": "tel:116117"
+      }
     ],
-    "support": "Unterstützung:",
-    "supportInfo": "Hausverwaltung: +49 (0) 123 4567890 | Email: support@haus1890.de | Webseite: www.haus1890.de",
-    "maintenance": "Wartung & Reparaturen:",
-    "maintenanceInfo": "24/7 Notfall-Hotline: +49 (0) 123 9999999",
-    "feedback": "Feedback & Beschwerden:",
-    "feedbackInfo": "Bitte schreibe eine Email an: feedback@haus1890.de"
+    "doctorsHeading": "Ärzte in der Umgebung (Oßweil)",
+    "doctors": [
+      {
+        "name": "Hausarztpraxis Dr. Buhn & Mareike Graf",
+        "description": "Allgemeinmedizin · Westfalenstraße 30, 71640 Ludwigsburg-Oßweil · Tel. 07141 863050",
+        "distance": "ca. 700 m",
+        "icon": "doctor",
+        "url": "tel:07141863050"
+      },
+      {
+        "name": "Dr. med. Roger Klingel",
+        "description": "Allgemeinmedizin · Elfriede-Breitenbach-Str. 2, 71640 Ludwigsburg-Oßweil · Tel. 07141 926955",
+        "distance": "ca. 850 m",
+        "icon": "doctor",
+        "url": "tel:07141926955"
+      },
+      {
+        "name": "Dr. med. Joachim Ulmer",
+        "description": "Allgemeinmedizin · Friesenstraße 27, 71640 Ludwigsburg-Oßweil · Tel. 07141 86755",
+        "distance": "ca. 600 m",
+        "icon": "doctor",
+        "url": "tel:0714186755"
+      },
+      {
+        "name": "Dr. med. Gunther Witzig",
+        "description": "Allgemeinmedizin · Friesenstraße 54, 71640 Ludwigsburg-Oßweil · Tel. 07141 86715",
+        "distance": "ca. 650 m",
+        "icon": "doctor",
+        "url": "tel:0714186715"
+      }
+    ],
+    "hospitalsHeading": "Krankenhäuser in der Nähe",
+    "hospitals": [
+      {
+        "name": "RKH Klinikum Ludwigsburg – Notaufnahme",
+        "description": "Zentrale Notaufnahme, rund um die Uhr · Posilipostraße 4, 71640 Ludwigsburg · Tel. 07141 9966699",
+        "distance": "ca. 2,5 km",
+        "icon": "hospital",
+        "url": "tel:071419966699"
+      },
+      {
+        "name": "RKH Klinikum Ludwigsburg – Zentrale",
+        "description": "Allgemeine Auskunft & Vermittlung, 24 Stunden erreichbar · Tel. 07141 9990",
+        "distance": "ca. 2,5 km",
+        "icon": "hospital",
+        "url": "tel:071419990"
+      }
+    ],
+    "apartmentHeading": "Fragen rund um die Wohnung",
+    "apartment": [
+      {
+        "name": "Wohnungsfragen & Probleme",
+        "description": "Fehlt etwas, gibt es einen Defekt oder hast du eine Frage zur Wohnung? Schreib uns einfach – wir kümmern uns darum: wohnung@rosswog.info",
+        "distance": "E-Mail",
+        "icon": "mail",
+        "url": "mailto:wohnung@rosswog.info"
+      }
+    ]
   },
   "og": {
     "title": "OG-Wohnung",
