@@ -78,14 +78,18 @@
   },
   "sehenswuerdigkeiten": {
     "title": "Sehenswürdigkeiten",
-    "description": "Highlights und Attraktionen in der Nähe.",
-    "heading": "Sehenswürdigkeiten in der Umgebung",
-    "landmarks": "Kulturelle Highlights:",
-    "landmarksList": ["Rathaus (200m) - historisches Zentrum", "Kunstmuseum (500m) - Moderne Kunst", "alte Kirche (300m) - 17. Jahrhundert"],
-    "parks": "Parks & Natur:",
-    "parksList": ["Stadtpark (100m) - mit Spielplatz", "Flussaue (800m) - Wanderweg", "Botanischer Garten (2km) - über 2000 Pflanzen"],
-    "activities": "Aktivitäten:",
-    "activitiesList": ["Spaziergang durch die Altstadt", "Fahrradtour entlang des Flusses", "Kletterpark (3km entfernt)", "Open-Air Kino (Sommer)"]
+    "description": "Highlights und Attraktionen in Ludwigsburg und Umgebung.",
+    "heading": "Sehenswürdigkeiten in Ludwigsburg & Umgebung",
+    "places": [
+      { "name": "Residenzschloss Ludwigsburg", "description": "Eines der größten Barockschlösser Europas mit prunkvollen Sälen, Museen und weitläufigen Gartenanlagen.", "distance": "ca. 1,3 km", "url": "https://www.schloss-ludwigsburg.de" },
+      { "name": "Blühendes Barock & Märchengarten", "description": "Historische Gartenanlage rund um das Schloss mit dem beliebten Märchengarten und der herbstlichen Kürbisausstellung.", "distance": "ca. 1,4 km", "url": "https://www.blueba.de" },
+      { "name": "Schloss Favorite & Favoritepark", "description": "Barockes Jagd- und Lustschloss inmitten eines weitläufigen Wildparks mit frei lebendem Damwild.", "distance": "ca. 2,5 km", "url": "https://www.schloss-favorite-ludwigsburg.de" },
+      { "name": "Seeschloss Monrepos", "description": "Idyllisches Seeschloss am Eglosheimer See mit Park, Bootsverleih und Restaurant.", "distance": "ca. 3,5 km", "url": "https://www.monrepos.de" },
+      { "name": "Marktplatz Ludwigsburg", "description": "Barocker Marktplatz mit Arkaden, zwei Kirchen und Wochenmarkt im Herzen der Barockstadt.", "distance": "ca. 0,4 km", "url": "https://www.ludwigsburg.de" },
+      { "name": "Porsche Museum", "description": "Spektakuläres Museum in Stuttgart-Zuffenhausen mit über 80 historischen Sport- und Rennwagen.", "distance": "ca. 12 km", "url": "https://www.porsche.com/museum" },
+      { "name": "Mercedes-Benz Museum", "description": "Automobilgeschichte über neun Ebenen – von der ersten Kutsche bis zu modernen Rennwagen.", "distance": "ca. 15 km", "url": "https://www.mercedes-benz.com/de/art-and-culture/museum/" },
+      { "name": "Schloss Solitude", "description": "Elegantes Rokokoschloss über den Höhen von Stuttgart mit herrlicher Aussicht.", "distance": "ca. 14 km", "url": "https://www.schloss-solitude.de" }
+    ]
   },
   "verkehr": {
     "title": "Verkehr",

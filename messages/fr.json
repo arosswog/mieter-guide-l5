@@ -78,14 +78,18 @@
   },
   "sehenswuerdigkeiten": {
     "title": "Attractions",
-    "description": "Points forts et attractions à proximité.",
-    "heading": "Attractions Locales",
-    "landmarks": "Points Forts Culturels:",
-    "landmarksList": ["Hôtel de Ville (200m) - centre historique", "Musée d'Art (500m) - Art Moderne", "Vieille Église (300m) - 17e siècle"],
-    "parks": "Parcs & Nature:",
-    "parksList": ["Parc City (100m) - avec terrain de jeu", "Vallée Fluviale (800m) - sentier de randonnée", "Jardin Botanique (2km) - plus de 2000 plantes"],
-    "activities": "Activités:",
-    "activitiesList": ["Promenade dans la vieille ville", "Tour à vélo le long de la rivière", "Parc d'escalade (3km)", "Cinéma en plein air (été)"]
+    "description": "Points forts et attractions à Ludwigsburg et ses environs.",
+    "heading": "Attractions à Ludwigsburg & ses environs",
+    "places": [
+      { "name": "Château résidentiel de Ludwigsburg", "description": "L'un des plus grands châteaux baroques d'Europe, avec des salles somptueuses, des musées et de vastes jardins.", "distance": "env. 1,3 km", "url": "https://www.schloss-ludwigsburg.de" },
+      { "name": "Baroque en Fleurs & Jardin des Contes", "description": "Jardins historiques autour du château avec le célèbre jardin des contes et l'exposition de citrouilles en automne.", "distance": "env. 1,4 km", "url": "https://www.blueba.de" },
+      { "name": "Château Favorite & Favoritepark", "description": "Pavillon de chasse baroque au cœur d'un vaste parc animalier où vivent en liberté des daims.", "distance": "env. 2,5 km", "url": "https://www.schloss-favorite-ludwigsburg.de" },
+      { "name": "Château au bord du lac Monrepos", "description": "Château idyllique au bord du lac d'Eglosheim avec parc, location de bateaux et restaurant.", "distance": "env. 3,5 km", "url": "https://www.monrepos.de" },
+      { "name": "Place du marché de Ludwigsburg", "description": "Place de marché baroque avec arcades, deux églises et marché hebdomadaire au cœur de la ville baroque.", "distance": "env. 0,4 km", "url": "https://www.ludwigsburg.de" },
+      { "name": "Musée Porsche", "description": "Musée spectaculaire à Stuttgart-Zuffenhausen avec plus de 80 voitures de sport et de course historiques.", "distance": "env. 12 km", "url": "https://www.porsche.com/museum" },
+      { "name": "Musée Mercedes-Benz", "description": "L'histoire de l'automobile sur neuf niveaux – de la première calèche aux voitures de course modernes.", "distance": "env. 15 km", "url": "https://www.mercedes-benz.com/fr/art-and-culture/museum/" },
+      { "name": "Château de la Solitude", "description": "Élégant château rococo sur les hauteurs de Stuttgart offrant une vue magnifique.", "distance": "env. 14 km", "url": "https://www.schloss-solitude.de" }
+    ]
   },
   "verkehr": {
     "title": "Transport",

@@ -77,15 +77,19 @@
     "tipsList": ["Postaw pojemniki wieczorem", "Nie przepełniaj żółtej woreczki", "Zawiąż worki plastikowe przed wyrzuceniem", "Kompost do kompostownika"]
   },
   "sehenswuerdigkeiten": {
-    "title": "Atrakcje",
-    "description": "Punkty strengths i atrakcje w pobliżu.",
-    "heading": "Lokalne Atrakcje",
-    "landmarks": "Najważniejsze Miejsca Kulturalne:",
-    "landmarksList": ["Ratusz (200m) - centrum historyczne", "Muzeum Sztuki (500m) - Sztuka Nowoczesna", "Stary Kościół (300m) - XVII wiek"],
-    "parks": "Parki & Przyroda:",
-    "parksList": ["Park Miasta (100m) - z placem zabaw", "Dolina Rzeki (800m) - szlak turystyczny", "Ogród Botaniczny (2km) - ponad 2000 roślin"],
-    "activities": "Aktywności:",
-    "activitiesList": ["Spacer po starym mieście", "Wycieczka rowerowa wzdłuż rzeki", "Park linowy (3km)", "Kino letnie (lato)"]
+    "title": "観光スポット",
+    "description": "ルートヴィヒスブルクと周辺のおすすめ観光スポット。",
+    "heading": "ルートヴィヒスブルクと周辺の観光スポット",
+    "places": [
+      { "name": "ルートヴィヒスブルク城（レジデンツ宮殿）", "description": "ヨーロッパ最大級のバロック宮殿。豪華な広間、博物館、広大な庭園があります。", "distance": "約1.3 km", "url": "https://www.schloss-ludwigsburg.de" },
+      { "name": "花咲くバロック庭園＆おとぎの国", "description": "宮殿を囲む歴史的な庭園。人気のおとぎの国や秋のカボチャ展も開催されます。", "distance": "約1.4 km", "url": "https://www.blueba.de" },
+      { "name": "ファヴォリーテ城＆野生公園", "description": "広大な野生動物公園に建つバロック様式の狩猟用離宮。ダマジカが自由に歩き回ります。", "distance": "約2.5 km", "url": "https://www.schloss-favorite-ludwigsburg.de" },
+      { "name": "モンレポ湖上宮殿", "description": "エグロスハイム湖畔にある美しい宮殿。公園、ボートレンタル、レストランがあります。", "distance": "約3.5 km", "url": "https://www.monrepos.de" },
+      { "name": "ルートヴィヒスブルク マルクト広場", "description": "アーケード、2つの教会、週市があるバロックの街の中心にある広場。", "distance": "約0.4 km", "url": "https://www.ludwigsburg.de" },
+      { "name": "ポルシェ博物館", "description": "シュトゥットガルト・ツッフェンハウゼンにある博物館。80台以上の歴史的なスポーツカーやレーシングカーを展示。", "distance": "約12 km", "url": "https://www.porsche.com/museum" },
+      { "name": "メルセデス・ベンツ博物館", "description": "9つのフロアにわたる自動車の歴史。最初の馬車から最新のレーシングカーまで。", "distance": "約15 km", "url": "https://www.mercedes-benz.com/en/art-and-culture/museum/" },
+      { "name": "ゾリチュード城", "description": "シュトゥットガルトの丘の上に建つ優美なロココ様式の宮殿。素晴らしい眺望が楽しめます。", "distance": "約14 km", "url": "https://www.schloss-solitude.de" }
+    ]
   },
   "verkehr": {
     "title": "Transport",

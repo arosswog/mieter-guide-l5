@@ -78,14 +78,18 @@
   },
   "sehenswuerdigkeiten": {
     "title": "Attractions",
-    "description": "Highlights and attractions nearby.",
-    "heading": "Local Attractions",
-    "landmarks": "Cultural Highlights:",
-    "landmarksList": ["Town Hall (200m) - historic center", "Art Museum (500m) - Modern Art", "Old Church (300m) - 17th century"],
-    "parks": "Parks & Nature:",
-    "parksList": ["City Park (100m) - with playground", "River Valley (800m) - hiking trail", "Botanical Garden (2km) - over 2000 plants"],
-    "activities": "Activities:",
-    "activitiesList": ["Stroll through the old town", "Cycling tour along the river", "Climbing park (3km away)", "Open-air cinema (summer)"]
+    "description": "Highlights and attractions in Ludwigsburg and the surrounding area.",
+    "heading": "Attractions in Ludwigsburg & Surroundings",
+    "places": [
+      { "name": "Ludwigsburg Residential Palace", "description": "One of Europe's largest Baroque palaces, with magnificent halls, museums and extensive gardens.", "distance": "approx. 1.3 km", "url": "https://www.schloss-ludwigsburg.de" },
+      { "name": "Blooming Baroque & Fairy-Tale Garden", "description": "Historic gardens around the palace with the popular fairy-tale garden and the autumn pumpkin exhibition.", "distance": "approx. 1.4 km", "url": "https://www.blueba.de" },
+      { "name": "Favorite Palace & Favoritepark", "description": "Baroque hunting lodge set in a vast wildlife park with free-roaming fallow deer.", "distance": "approx. 2.5 km", "url": "https://www.schloss-favorite-ludwigsburg.de" },
+      { "name": "Monrepos Lakeside Palace", "description": "Idyllic lakeside palace on the Eglosheimer See with park, boat rental and restaurant.", "distance": "approx. 3.5 km", "url": "https://www.monrepos.de" },
+      { "name": "Ludwigsburg Market Square", "description": "Baroque market square with arcades, two churches and a weekly market in the heart of the Baroque town.", "distance": "approx. 0.4 km", "url": "https://www.ludwigsburg.de" },
+      { "name": "Porsche Museum", "description": "Spectacular museum in Stuttgart-Zuffenhausen with over 80 historic sports and racing cars.", "distance": "approx. 12 km", "url": "https://www.porsche.com/museum" },
+      { "name": "Mercedes-Benz Museum", "description": "Automotive history across nine levels – from the first carriage to modern racing cars.", "distance": "approx. 15 km", "url": "https://www.mercedes-benz.com/en/art-and-culture/museum/" },
+      { "name": "Solitude Palace", "description": "Elegant Rococo palace above the hills of Stuttgart with a wonderful view.", "distance": "approx. 14 km", "url": "https://www.schloss-solitude.de" }
+    ]
   },
   "verkehr": {
     "title": "Transportation",
