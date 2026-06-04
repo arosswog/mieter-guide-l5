@@ -139,6 +139,19 @@
       { "name": "Schloss Solitude", "description": "Elegantes Rokokoschloss über den Höhen von Stuttgart mit herrlicher Aussicht.", "distance": "ca. 14 km", "url": "https://www.schloss-solitude.de" }
     ]
   },
+  "restaurants": {
+    "title": "Restaurants",
+    "description": "Empfehlenswerte Restaurants in Ludwigsburg und Umgebung.",
+    "heading": "Restaurants in Ludwigsburg & Umgebung",
+    "places": [
+      { "name": "Post-Cantz", "description": "Traditionelles Wirtshaus von 1734 mit schwäbischer und mediterraner Küche – bekannt für seine vielen Maultaschen-Varianten.", "distance": "ca. 0,5 km", "url": "https://www.post-cantz.de" },
+      { "name": "La Signora Moro", "description": "Beliebtes italienisches Restaurant direkt am Marktplatz mit Pasta, frischem Fisch und sonniger Terrasse.", "distance": "ca. 0,4 km", "url": "https://www.lasignoramoro.de" },
+      { "name": "Lange am Markt", "description": "Gehobene europäische Küche mit anspruchsvoller Abendkarte und schönem Blick auf den Marktplatz.", "distance": "ca. 0,4 km", "url": "https://lange-am-markt.de" },
+      { "name": "Trattoria Antipasto", "description": "Authentische Trattoria nahe dem Marktplatz mit italienisch-mediterraner Küche und guter Weinauswahl.", "distance": "ca. 0,4 km", "url": "https://www.antipasto-wein.de" },
+      { "name": "Ristorante Pavarotti", "description": "Klassische italienische Küche mit hausgemachter Pasta in gemütlichem Ambiente.", "distance": "ca. 0,8 km", "url": "https://www.ristorante-pavarotti.de" },
+      { "name": "Restaurant Gutsschenke – Schlosshotel Monrepos", "description": "Gehobene regionale Küche im Schlosshotel Monrepos – ein Highlight für Feinschmecker am See.", "distance": "ca. 3,5 km", "url": "https://www.schlosshotel-monrepos.de" }
+    ]
+  },
   "verkehr": {
     "title": "Verkehr",
     "description": "Öffentliche Verkehrsmittel, Parkplätze und Anfahrt.",

@@ -139,6 +139,19 @@
       { "name": "ゾリチュード城", "description": "シュトゥットガルトの丘の上に建つ優美なロココ様式の宮殿。素晴らしい眺望が楽しめます。", "distance": "約14 km", "url": "https://www.schloss-solitude.de" }
     ]
   },
+  "restaurants": {
+    "title": "レストラン",
+    "description": "ルートヴィヒスブルクと周辺のおすすめレストラン。",
+    "heading": "ルートヴィヒスブルクと周辺のレストラン",
+    "places": [
+      { "name": "ポスト・カンツ（Post-Cantz）", "description": "1734年創業の伝統的な居酒屋。シュヴァーベン料理と地中海料理が楽しめ、多彩なマウルタッシェンで有名です。", "distance": "約0.5 km", "url": "https://www.post-cantz.de" },
+      { "name": "ラ・シニョーラ・モロ（La Signora Moro）", "description": "マルクト広場に面した人気のイタリアン。パスタや新鮮な魚介、陽当たりの良いテラスが魅力です。", "distance": "約0.4 km", "url": "https://www.lasignoramoro.de" },
+      { "name": "ランゲ・アム・マルクト（Lange am Markt）", "description": "洗練されたヨーロッパ料理。本格的なディナーメニューとマルクト広場の眺めが楽しめます。", "distance": "約0.4 km", "url": "https://lange-am-markt.de" },
+      { "name": "トラットリア・アンティパスト（Trattoria Antipasto）", "description": "マルクト広場近くの本格トラットリア。イタリア・地中海料理と豊富なワインが揃います。", "distance": "約0.4 km", "url": "https://www.antipasto-wein.de" },
+      { "name": "リストランテ・パヴァロッティ（Ristorante Pavarotti）", "description": "手打ちパスタが自慢の本格イタリアン。落ち着いた雰囲気でくつろげます。", "distance": "約0.8 km", "url": "https://www.ristorante-pavarotti.de" },
+      { "name": "グーツシェンケ（シュロスホテル・モンレポ）", "description": "シュロスホテル・モンレポの上質な郷土料理。湖畔で味わう美食家のための一軒です。", "distance": "約3.5 km", "url": "https://www.schlosshotel-monrepos.de" }
+    ]
+  },
   "verkehr": {
     "title": "Transport",
     "description": "Transport publiczny, parkowanie i wskazówki.",

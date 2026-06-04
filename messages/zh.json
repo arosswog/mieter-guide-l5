@@ -139,6 +139,19 @@
       { "name": "索利图德宫", "description": "坐落于斯图加特高地的优雅洛可可式宫殿，可俯瞰壮丽景色。", "distance": "约 14 公里", "url": "https://www.schloss-solitude.de" }
     ]
   },
+  "restaurants": {
+    "title": "餐厅",
+    "description": "路德维希堡及周边推荐餐厅。",
+    "heading": "路德维希堡及周边餐厅",
+    "places": [
+      { "name": "Post-Cantz", "description": "始于1734年的传统餐馆，供应施瓦本及地中海料理，以多种馅饺（Maultaschen）闻名。", "distance": "约 0.5 公里", "url": "https://www.post-cantz.de" },
+      { "name": "La Signora Moro", "description": "位于集市广场旁的人气意大利餐厅，提供意面、新鲜海鲜和阳光露台。", "distance": "约 0.4 公里", "url": "https://www.lasignoramoro.de" },
+      { "name": "Lange am Markt", "description": "高档欧式料理，晚餐菜单精致，可饱览集市广场美景。", "distance": "约 0.4 公里", "url": "https://lange-am-markt.de" },
+      { "name": "Trattoria Antipasto", "description": "邻近集市广场的地道意式小馆，主打意大利-地中海菜肴，配有优质葡萄酒。", "distance": "约 0.4 公里", "url": "https://www.antipasto-wein.de" },
+      { "name": "Ristorante Pavarotti", "description": "经典意大利料理，手工自制意面，氛围温馨舒适。", "distance": "约 0.8 公里", "url": "https://www.ristorante-pavarotti.de" },
+      { "name": "Restaurant Gutsschenke – Schlosshotel Monrepos", "description": "莫雷波宫酒店内的高档地方料理，湖畔美食爱好者的首选。", "distance": "约 3.5 公里", "url": "https://www.schlosshotel-monrepos.de" }
+    ]
+  },
   "verkehr": {
     "title": "交通",
     "description": "公共交通、停车和方向。",
