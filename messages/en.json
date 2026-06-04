@@ -144,11 +144,11 @@
     "description": "Recommended restaurants in Oßweil.",
     "heading": "Restaurants in Oßweil",
     "places": [
-      { "name": "FSV Oßweil – Club House", "description": "Cosy clubhouse of FSV Oßweil with hearty home cooking and a beer garden.", "distance": "approx. 2.5 km" },
-      { "name": "ASV Oßweil – Club House", "description": "Club restaurant of ASV Oßweil serving hearty dishes in a sociable atmosphere.", "distance": "approx. 2.7 km" },
-      { "name": "Blutsbrüder", "description": "Laid-back spot in Oßweil with burgers, snacks and drinks.", "distance": "approx. 2.4 km" },
-      { "name": "Kleintierzüchter Oßweil – Club House", "description": "Small animal breeders' clubhouse with homely cuisine and a cosy atmosphere.", "distance": "approx. 2.6 km" },
-      { "name": "Pizzeria Oßweil", "description": "Italian pizzeria in Oßweil with pizza, pasta and delivery service.", "distance": "approx. 2.3 km" }
+      { "name": "FSV Oßweil – Club House", "description": "Cosy clubhouse of FSV Oßweil with hearty home cooking and a beer garden.", "distance": "approx. 400 m", "url": "https://www.fsv-ossweil.de" },
+      { "name": "ASV Oßweil – Club House", "description": "Club restaurant of ASV Oßweil serving hearty dishes in a sociable atmosphere.", "distance": "approx. 400 m", "url": "https://www.asv-ossweil.de" },
+      { "name": "Blutsbrüder", "description": "Laid-back spot in Oßweil with burgers, snacks and drinks.", "distance": "approx. 500 m", "url": "https://restaurant-blutsbrueder.de" },
+      { "name": "Kleintierzüchter Oßweil – Club House", "description": "Small animal breeders' clubhouse with homely cuisine and a cosy atmosphere.", "distance": "approx. 1.1 km", "url": "https://www.ktzvo.de" },
+      { "name": "Pizzeria Oßweil", "description": "Italian pizzeria in Oßweil with pizza, pasta and delivery service.", "distance": "approx. 350 m", "url": "https://www.pizzeria-dagennaro.de" }
     ]
   },
   "verkehr": {

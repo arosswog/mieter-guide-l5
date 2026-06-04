@@ -144,11 +144,11 @@
     "description": "Restaurants recommandés à Oßweil.",
     "heading": "Restaurants à Oßweil",
     "places": [
-      { "name": "FSV Oßweil – Foyer du club", "description": "Foyer convivial du club FSV Oßweil proposant une cuisine maison copieuse et un biergarten.", "distance": "env. 2,5 km" },
-      { "name": "ASV Oßweil – Foyer du club", "description": "Restaurant du club ASV Oßweil servant des plats copieux dans une ambiance conviviale.", "distance": "env. 2,7 km" },
-      { "name": "Blutsbrüder", "description": "Adresse décontractée à Oßweil avec burgers, snacks et boissons.", "distance": "env. 2,4 km" },
-      { "name": "Kleintierzüchter Oßweil – Foyer du club", "description": "Foyer du club des éleveurs de petits animaux, cuisine familiale dans une ambiance chaleureuse.", "distance": "env. 2,6 km" },
-      { "name": "Pizzeria Oßweil", "description": "Pizzeria italienne à Oßweil avec pizzas, pâtes et service de livraison.", "distance": "env. 2,3 km" }
+      { "name": "FSV Oßweil – Foyer du club", "description": "Foyer convivial du club FSV Oßweil proposant une cuisine maison copieuse et un biergarten.", "distance": "env. 400 m", "url": "https://www.fsv-ossweil.de" },
+      { "name": "ASV Oßweil – Foyer du club", "description": "Restaurant du club ASV Oßweil servant des plats copieux dans une ambiance conviviale.", "distance": "env. 400 m", "url": "https://www.asv-ossweil.de" },
+      { "name": "Blutsbrüder", "description": "Adresse décontractée à Oßweil avec burgers, snacks et boissons.", "distance": "env. 500 m", "url": "https://restaurant-blutsbrueder.de" },
+      { "name": "Kleintierzüchter Oßweil – Foyer du club", "description": "Foyer du club des éleveurs de petits animaux, cuisine familiale dans une ambiance chaleureuse.", "distance": "env. 1,1 km", "url": "https://www.ktzvo.de" },
+      { "name": "Pizzeria Oßweil", "description": "Pizzeria italienne à Oßweil avec pizzas, pâtes et service de livraison.", "distance": "env. 350 m", "url": "https://www.pizzeria-dagennaro.de" }
     ]
   },
   "verkehr": {
