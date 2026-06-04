@@ -345,24 +345,37 @@
     "heroAlt": "Illustration von Bus, Stadtbahn und S-Bahn",
     "backLabel": "Zurück zur Startseite",
     "live": {
-      "stop": "Ludwigsburg Oßweil Comburgstraße",
-      "lines": [
-        "425",
-        "431"
-      ],
       "vvsUrl": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
       "heading": "Nächste Abfahrten",
-      "subtitle": "Linien 425 & 431 ab Oßweil Comburgstraße – live über VVS",
+      "subtitle": "Live über VVS",
       "loading": "Abfahrten werden geladen …",
       "error": "Live-Abfahrten sind gerade nicht verfügbar. Bitte direkt beim VVS nachsehen.",
-      "empty": "In den nächsten Minuten fahren keine Busse der Linien 425 und 431.",
+      "empty": "In den nächsten Minuten fahren keine Busse.",
       "now": "sofort",
       "minuteShort": "Min",
       "towards": "Richtung",
       "updated": "Aktualisiert um",
       "refresh": "Aktualisieren",
       "openLink": "Im VVS-Fahrplan öffnen",
-      "disclaimer": "Echtzeitdaten des VVS, Angaben ohne Gewähr."
+      "disclaimer": "Echtzeitdaten des VVS, Angaben ohne Gewähr.",
+      "boards": [
+        {
+          "stop": "Wettemarkt",
+          "lines": ["425"],
+          "direction": "Ludwigsburg",
+          "heading": "Linie 425 ab Wettemarkt",
+          "subtitle": "Richtung Ludwigsburg – live über VVS",
+          "empty": "In den nächsten Minuten fährt kein Bus der Linie 425 Richtung Ludwigsburg."
+        },
+        {
+          "stop": "Westfalenstraße",
+          "lines": ["431"],
+          "direction": "Waiblingen",
+          "heading": "Linie 431 ab Westfalenstraße",
+          "subtitle": "Richtung Waiblingen – live über VVS",
+          "empty": "In den nächsten Minuten fährt kein Bus der Linie 431 Richtung Waiblingen."
+        }
+      ]
     },
     "stops": {
       "heading": "Bushaltestellen in der Nähe",
