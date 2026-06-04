@@ -21,9 +21,9 @@ export default function Footer() {
   };
 
   return (
-    <footer className="mt-12 pt-8 border-t border-stone-200 text-center text-sm text-stone-500">
+    <footer className="px-6 py-6 text-center text-[11px] leading-5 text-stone-400">
       <p>
-        Version {buildVersion} • Gebaut am {formatDate(buildDate)}
+        Build {buildVersion} • {formatDate(buildDate)}
       </p>
     </footer>
   );

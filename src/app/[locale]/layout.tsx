@@ -1,6 +1,7 @@
 import { getMessages } from "next-intl/server";
 import type { ReactNode } from "react";
 import LocaleProvider from "./LocaleProvider";
+import Footer from "../../lib/Footer";
 
 interface Props {
   children: ReactNode;
@@ -13,6 +14,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <LocaleProvider locale={locale} messages={messages}>
       {children}
+      <Footer />
     </LocaleProvider>
   );
 }

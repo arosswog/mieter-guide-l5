@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { MdArrowBack } from 'react-icons/md';
-import Footer from './Footer';
 
 interface PageProps {
   section: 'wlan' | 'checkin' | 'hausregeln' | 'einkauf' | 'muell' | 'sehenswuerdigkeiten' | 'verkehr' | 'kontakt' | 'og' | 'eg';
@@ -78,8 +77,6 @@ export default function PageTemplate({ section }: PageProps) {
               ← Zurück zur Startseite
             </Link>
           </div>
-          
-          <Footer />
         </article>
       </div>
     </main>
