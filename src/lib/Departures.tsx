@@ -22,11 +22,23 @@ interface DeparturesProps {
   stop: string;
   lines: string[];
   vvsUrl: string;
+  direction?: string;
+  heading?: string;
+  subtitle?: string;
+  empty?: string;
 }
 
 const REFRESH_INTERVAL_MS = 60000;
 
-export default function Departures({ stop, lines, vvsUrl }: DeparturesProps) {
+export default function Departures({
+  stop,
+  lines,
+  vvsUrl,
+  direction,
+  heading,
+  subtitle,
+  empty,
+}: DeparturesProps) {
   const t = useTranslations('verkehr.live');
   const [departures, setDepartures] = useState<Departure[] | null>(null);
   const [status, setStatus] = useState<'loading' | 'ok' | 'error'>('loading');
@@ -41,6 +53,7 @@ export default function Departures({ stop, lines, vvsUrl }: DeparturesProps) {
     async function fetchData() {
       try {
         const params = new URLSearchParams({ stop, lines: linesKey });
+        if (direction) params.set('direction', direction);
         const res = await fetch(`/api/departures?${params.toString()}`, { cache: 'no-store' });
         const data: DeparturesResponse = await res.json();
         if (cancelled) return;
@@ -62,7 +75,7 @@ export default function Departures({ stop, lines, vvsUrl }: DeparturesProps) {
       cancelled = true;
       clearInterval(interval);
     };
-  }, [stop, linesKey, reloadKey]);
+  }, [stop, linesKey, direction, reloadKey]);
 
   const formatCountdown = (min: number) =>
     min <= 0 ? t('now') : `${min} ${t('minuteShort')}`;
@@ -75,8 +88,8 @@ export default function Departures({ stop, lines, vvsUrl }: DeparturesProps) {
             <MdDirectionsBus className="text-2xl" aria-hidden />
           </span>
           <div>
-            <h3 className="text-lg font-semibold leading-tight">{t('heading')}</h3>
-            <p className="text-sm text-white/80">{t('subtitle')}</p>
+            <h3 className="text-lg font-semibold leading-tight">{heading ?? t('heading')}</h3>
+            <p className="text-sm text-white/80">{subtitle ?? t('subtitle')}</p>
           </div>
         </div>
         <button
@@ -102,7 +115,7 @@ export default function Departures({ stop, lines, vvsUrl }: DeparturesProps) {
         )}
 
         {status === 'ok' && departures && departures.length === 0 && (
-          <p className="rounded-xl bg-white/10 px-4 py-3 text-sm text-white/90">{t('empty')}</p>
+          <p className="rounded-xl bg-white/10 px-4 py-3 text-sm text-white/90">{empty ?? t('empty')}</p>
         )}
 
         {status === 'ok' &&

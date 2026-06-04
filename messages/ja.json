@@ -315,24 +315,37 @@
     "heroAlt": "バス・市電・近郊電車のイラスト",
     "backLabel": "ホームに戻る",
     "live": {
-      "stop": "Ludwigsburg Oßweil Comburgstraße",
-      "lines": [
-        "425",
-        "431"
-      ],
       "vvsUrl": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
       "heading": "次の発車",
-      "subtitle": "Oßweil Comburgstraße発の425・431系統 – VVSのリアルタイム",
+      "subtitle": "VVSのリアルタイム",
       "loading": "発車情報を読み込み中 …",
       "error": "リアルタイムの発車情報は現在利用できません。VVSで直接ご確認ください。",
-      "empty": "今後数分間、425・431系統のバスはありません。",
+      "empty": "今後数分間、バスはありません。",
       "now": "まもなく",
       "minuteShort": "分",
       "towards": "行き先",
       "updated": "更新時刻",
       "refresh": "更新",
       "openLink": "VVSの時刻表で開く",
-      "disclaimer": "VVSのリアルタイムデータ（保証はありません）。"
+      "disclaimer": "VVSのリアルタイムデータ（保証はありません）。",
+      "boards": [
+        {
+          "stop": "Wettemarkt",
+          "lines": ["425"],
+          "direction": "Ludwigsburg",
+          "heading": "Wettemarkt発 425系統",
+          "subtitle": "Ludwigsburg方面 – VVSのリアルタイム",
+          "empty": "今後数分間、Ludwigsburg方面の425系統のバスはありません。"
+        },
+        {
+          "stop": "Westfalenstraße",
+          "lines": ["431"],
+          "direction": "Waiblingen",
+          "heading": "Westfalenstraße発 431系統",
+          "subtitle": "Waiblingen方面 – VVSのリアルタイム",
+          "empty": "今後数分間、Waiblingen方面の431系統のバスはありません。"
+        }
+      ]
     },
     "stops": {
       "heading": "近くのバス停",

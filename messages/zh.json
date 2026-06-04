@@ -315,24 +315,37 @@
     "heroAlt": "公交车、轻轨和市郊列车的插图",
     "backLabel": "返回首页",
     "live": {
-      "stop": "Ludwigsburg Oßweil Comburgstraße",
-      "lines": [
-        "425",
-        "431"
-      ],
       "vvsUrl": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
       "heading": "下一班发车",
-      "subtitle": "Oßweil Comburgstraße 的 425 和 431 路 – VVS 实时信息",
+      "subtitle": "VVS 实时信息",
       "loading": "正在加载发车信息 …",
       "error": "实时发车信息暂时不可用，请直接在 VVS 查询。",
-      "empty": "接下来几分钟内没有 425 和 431 路公交。",
+      "empty": "接下来几分钟内没有公交。",
       "now": "即将",
       "minuteShort": "分钟",
       "towards": "开往",
       "updated": "更新于",
       "refresh": "刷新",
       "openLink": "在 VVS 时刻表中打开",
-      "disclaimer": "VVS 实时数据，仅供参考。"
+      "disclaimer": "VVS 实时数据，仅供参考。",
+      "boards": [
+        {
+          "stop": "Wettemarkt",
+          "lines": ["425"],
+          "direction": "Ludwigsburg",
+          "heading": "Wettemarkt 发车 425 路",
+          "subtitle": "开往 Ludwigsburg – VVS 实时信息",
+          "empty": "接下来几分钟内没有开往 Ludwigsburg 的 425 路公交。"
+        },
+        {
+          "stop": "Westfalenstraße",
+          "lines": ["431"],
+          "direction": "Waiblingen",
+          "heading": "Westfalenstraße 发车 431 路",
+          "subtitle": "开往 Waiblingen – VVS 实时信息",
+          "empty": "接下来几分钟内没有开往 Waiblingen 的 431 路公交。"
+        }
+      ]
     },
     "stops": {
       "heading": "附近的公交站",

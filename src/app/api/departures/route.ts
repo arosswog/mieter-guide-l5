@@ -109,6 +109,7 @@ export async function GET(request: Request) {
         .map((l) => l.trim())
         .filter(Boolean)
     : DEFAULT_LINES;
+  const direction = (searchParams.get('direction') || '').trim().toLowerCase();
   const limit = Math.min(Number(searchParams.get('limit')) || 8, 20);
 
   try {
@@ -161,6 +162,7 @@ export async function GET(request: Request) {
       })
       .filter((d): d is Departure => d !== null)
       .filter((d) => (lines.length ? lines.includes(d.line) : true))
+      .filter((d) => (direction ? d.destination.toLowerCase().includes(direction) : true))
       .sort((a, b) => a.countdownMin - b.countdownMin)
       .slice(0, limit);
 
@@ -169,6 +171,7 @@ export async function GET(request: Request) {
         stopName: stop.name,
         stopId: stop.id,
         lines,
+        direction: direction || undefined,
         updatedAt: new Date().toISOString(),
         departures,
       },

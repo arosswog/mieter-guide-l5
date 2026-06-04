@@ -315,24 +315,37 @@
     "heroAlt": "Illustration of a bus, light rail and commuter train",
     "backLabel": "Back to home",
     "live": {
-      "stop": "Ludwigsburg Oßweil Comburgstraße",
-      "lines": [
-        "425",
-        "431"
-      ],
       "vvsUrl": "https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft",
       "heading": "Next departures",
-      "subtitle": "Lines 425 & 431 from Oßweil Comburgstraße – live via VVS",
+      "subtitle": "Live via VVS",
       "loading": "Loading departures …",
       "error": "Live departures are unavailable right now. Please check directly on VVS.",
-      "empty": "No buses on lines 425 and 431 in the next few minutes.",
+      "empty": "No buses in the next few minutes.",
       "now": "now",
       "minuteShort": "min",
       "towards": "to",
       "updated": "Updated at",
       "refresh": "Refresh",
       "openLink": "Open in the VVS timetable",
-      "disclaimer": "VVS real-time data, without guarantee."
+      "disclaimer": "VVS real-time data, without guarantee.",
+      "boards": [
+        {
+          "stop": "Wettemarkt",
+          "lines": ["425"],
+          "direction": "Ludwigsburg",
+          "heading": "Line 425 from Wettemarkt",
+          "subtitle": "Towards Ludwigsburg – live via VVS",
+          "empty": "No line 425 bus towards Ludwigsburg in the next few minutes."
+        },
+        {
+          "stop": "Westfalenstraße",
+          "lines": ["431"],
+          "direction": "Waiblingen",
+          "heading": "Line 431 from Westfalenstraße",
+          "subtitle": "Towards Waiblingen – live via VVS",
+          "empty": "No line 431 bus towards Waiblingen in the next few minutes."
+        }
+      ]
     },
     "stops": {
       "heading": "Bus stops nearby",

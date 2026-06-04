@@ -47,6 +47,15 @@ interface VerkehrData {
     stop?: string;
     lines?: string[];
     vvsUrl?: string;
+    heading?: string;
+    boards?: {
+      stop: string;
+      lines: string[];
+      direction?: string;
+      heading?: string;
+      subtitle?: string;
+      empty?: string;
+    }[];
   };
   stops?: {
     heading: string;
@@ -91,10 +100,17 @@ export default function VerkehrPage() {
   const data = t.raw('verkehr') as VerkehrData;
   const backLabel = data.backLabel ?? 'Zurück zur Startseite';
 
-  const liveStop = data.live?.stop ?? 'Ludwigsburg Oßweil Comburgstraße';
-  const liveLines = data.live?.lines ?? ['425', '431'];
   const liveVvsUrl =
     data.live?.vvsUrl ?? 'https://www.vvs.de/verbindungen-und-mobilitaet/fahrplanauskunft';
+  const liveBoards =
+    data.live?.boards && data.live.boards.length > 0
+      ? data.live.boards
+      : [
+          {
+            stop: data.live?.stop ?? 'Ludwigsburg Oßweil Comburgstraße',
+            lines: data.live?.lines ?? ['425', '431'],
+          },
+        ];
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-stone-50 to-stone-100">
@@ -130,8 +146,19 @@ export default function VerkehrPage() {
           )}
 
           {/* Live-Abfahrten */}
-          <section className="mb-10">
-            <Departures stop={liveStop} lines={liveLines} vvsUrl={liveVvsUrl} />
+          <section className="mb-10 space-y-4">
+            {liveBoards.map((board, idx) => (
+              <Departures
+                key={idx}
+                stop={board.stop}
+                lines={board.lines}
+                direction={board.direction}
+                heading={board.heading}
+                subtitle={board.subtitle}
+                empty={board.empty}
+                vvsUrl={liveVvsUrl}
+              />
+            ))}
           </section>
 
           {/* Bushaltestellen in der Nähe */}
