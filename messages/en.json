@@ -84,28 +84,30 @@
   },
   "hausregeln": {
     "title": "House Rules",
-    "description": "Rules for harmonious living – please observe.",
-    "heading": "House Rules",
-    "general": "General Rules:",
-    "generalList": [
-      "Respect for other guests and neighbors",
-      "Quiet hours: 22:00 - 08:00",
-      "No loud parties",
-      "Ask permission before inviting guests"
-    ],
-    "cleaning": "Cleaning:",
-    "cleaningList": [
-      "Keep the apartment clean",
-      "Wash dishes after eating",
-      "Empty trash regularly",
-      "Sweep before check-out"
-    ],
-    "safety": "Safety:",
-    "safetyList": [
-      "Lock the door when leaving",
-      "Observe fire safety regulations",
-      "Smoking only on the balcony",
-      "No open flames"
+    "description": "A few simple rules for a harmonious stay – thank you for keeping to them.",
+    "heading": "Welcome – we're glad you're here!",
+    "intro": "So that everyone feels comfortable – guests and neighbors alike – we kindly ask you to keep the following in mind:",
+    "rules": [
+      {
+        "name": "Respect & Consideration",
+        "description": "Please treat the other guests and our neighbors with consideration and respect. That way everyone feels at home.",
+        "icon": "respect"
+      },
+      {
+        "name": "Observe Quiet Hours",
+        "description": "In Baden-Württemberg, quiet hours apply from 22:00 to 08:00. Please avoid noise during this time so the neighborhood can rest undisturbed.",
+        "icon": "quiet"
+      },
+      {
+        "name": "Waste Dates & Bins",
+        "description": "Please note the waste collection dates and place the relevant bins out by the curb in good time – ideally the evening before. You can find the collection days on the “Waste Collection” page.",
+        "icon": "trash"
+      },
+      {
+        "name": "Smoke-Free Apartment",
+        "description": "Smoking inside the apartments is not permitted – as also stated in the rental contract. Please use the outdoor area if you wish to smoke.",
+        "icon": "nosmoking"
+      }
     ]
   },
   "einkauf": {

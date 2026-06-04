@@ -84,28 +84,30 @@
   },
   "hausregeln": {
     "title": "Règles de la Maison",
-    "description": "Règles pour une cohabitation harmonieuse – veuillez respecter.",
-    "heading": "Règles de la Maison",
-    "general": "Règles Générales:",
-    "generalList": [
-      "Respect pour les autres clients et les voisins",
-      "Heures de silence: 22:00 - 08:00",
-      "Pas de fêtes bruyantes",
-      "Demandez la permission avant d'inviter des invités"
-    ],
-    "cleaning": "Nettoyage:",
-    "cleaningList": [
-      "Gardez l'appartement propre",
-      "Lavez la vaisselle après manger",
-      "Videz la poubelle régulièrement",
-      "Balayez avant le départ"
-    ],
-    "safety": "Sécurité:",
-    "safetyList": [
-      "Fermez la porte à clé en partant",
-      "Respectez les règles de sécurité incendie",
-      "Fumer uniquement sur le balcon",
-      "Pas de flammes ouvertes"
+    "description": "Quelques règles simples pour un séjour harmonieux – merci de les respecter.",
+    "heading": "Bienvenue – ravis de vous accueillir !",
+    "intro": "Pour que chacun se sente bien – clients comme voisins – nous vous demandons de garder à l'esprit les points suivants :",
+    "rules": [
+      {
+        "name": "Respect & Considération",
+        "description": "Merci de traiter les autres clients et nos voisins avec considération et respect. Ainsi, tout le monde se sent chez soi.",
+        "icon": "respect"
+      },
+      {
+        "name": "Respecter les heures de silence",
+        "description": "Dans le Bade-Wurtemberg, les heures de silence s'appliquent de 22:00 à 08:00. Merci d'éviter le bruit durant cette période afin que le voisinage puisse se reposer.",
+        "icon": "quiet"
+      },
+      {
+        "name": "Dates & poubelles",
+        "description": "Merci de noter les dates de collecte des déchets et de sortir les poubelles concernées à temps – idéalement la veille au soir – sur le trottoir, au bord de la rue. Les jours de collecte figurent sur la page « Collecte des déchets ».",
+        "icon": "trash"
+      },
+      {
+        "name": "Logement non-fumeur",
+        "description": "Il est interdit de fumer à l'intérieur des logements – comme indiqué également dans le contrat de location. Merci d'utiliser l'espace extérieur pour fumer.",
+        "icon": "nosmoking"
+      }
     ]
   },
   "einkauf": {
