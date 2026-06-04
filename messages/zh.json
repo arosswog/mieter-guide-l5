@@ -83,25 +83,75 @@
   },
   "einkauf": {
     "title": "购物",
-    "description": "日常购物和用品的周边选项。",
-    "heading": "路德维希堡的购物机会",
-    "location": "地址: Lange Straße 5, 71640 Ludwigsburg",
-    "bakery": "面包店:",
-    "bakeryList": [
-      "Bäckerei Meyer - 150米",
-      "Backstube Müller - 300米"
-    ],
-    "butcher": "肉铺:",
-    "butcherList": [
-      "Metzgerei Schmidt - 200米",
-      "Fleischerei Weibel - 350米"
-    ],
-    "discounter": "折扣店:",
-    "discounterList": [
-      "Aldi Nord - 250米",
-      "Lidl - 400米"
-    ],
-    "mapInfo": "地图: 所有商店和我们的房子都标记在下面的地图上。"
+    "description": "距奥斯魏尔朗格街5号约1公里范围内的日常购物商店。",
+    "heading": "在奥斯魏尔购物",
+    "places": [
+      {
+        "name": "Kreissparkasse Ludwigsburg – Filiale Oßweil",
+        "description": "带ATM的州立储蓄银行（Kreissparkasse）分行，距住所仅几步之遥。",
+        "distance": "约50米",
+        "url": "https://www.ksklb.de",
+        "icon": "bank"
+      },
+      {
+        "name": "Bäckerei Lutz am Wettemarkt",
+        "description": "韦特市场旁的传统家庭面包店，提供新鲜面包、小面包和蛋糕。",
+        "distance": "约200米",
+        "icon": "bakery"
+      },
+      {
+        "name": "Döner & Pizza Imbiss am Wettemarkt",
+        "description": "韦特市场旁的小吃店，提供土耳其烤肉、披萨和外带快餐。",
+        "distance": "约220米",
+        "icon": "doener"
+      },
+      {
+        "name": "Apotheke am Wettemarkt",
+        "description": "位于奥斯魏尔中心韦特市场的药房，提供药品和咨询。",
+        "distance": "约250米",
+        "url": "https://www.apotheke-am-wettemarkt.de",
+        "icon": "pharmacy"
+      },
+      {
+        "name": "NORMA Oßweil",
+        "description": "商品种类丰富的折扣超市，适合实惠的每周采购。",
+        "distance": "约250米",
+        "url": "https://www.norma-online.de",
+        "icon": "discounter"
+      },
+      {
+        "name": "BOS Hairlines",
+        "description": "韦斯特法伦街上的发廊，男女均可。",
+        "distance": "约250米",
+        "icon": "hairdresser"
+      },
+      {
+        "name": "Frischemarkt KIWI (EDEKA)",
+        "description": "商品齐全的生鲜超市（EDEKA），设有肉类香肠柜台、烘焙坊和本地产品。",
+        "distance": "约350米",
+        "url": "https://frischemarkt-kiwi.de",
+        "icon": "supermarket"
+      },
+      {
+        "name": "PENNY Oßweil",
+        "description": "弗里森街上的折扣超市，提供食品和日用百货，满足日常所需。",
+        "distance": "约350米",
+        "url": "https://www.penny.de/markt/ludwigsburg/830052/penny-ossweil-friesenstr-32",
+        "icon": "discounter"
+      },
+      {
+        "name": "Mark Anders Bäckerei-Konditorei",
+        "description": "弗里森街上的面包糕点店，提供各类烘焙和糕点特色食品。",
+        "distance": "约400米",
+        "icon": "bakery"
+      },
+      {
+        "name": "AGIP Tankstelle Oßweil",
+        "description": "弗里森街上的加油站，附设便利店，提供零食、饮料和日常用品。",
+        "distance": "约450米",
+        "icon": "gasstation"
+      }
+    ]
   },
   "muell": {
     "title": "垃圾",
@@ -129,14 +179,54 @@
     "description": "路德维希堡及周边的亮点和景点。",
     "heading": "路德维希堡及周边景点",
     "places": [
-      { "name": "路德维希堡宫（住宅宫）", "description": "欧洲最大的巴洛克式宫殿之一，拥有华丽的大厅、博物馆和广阔的花园。", "distance": "约 1.3 公里", "url": "https://www.schloss-ludwigsburg.de" },
-      { "name": "盛开的巴洛克花园 & 童话花园", "description": "环绕宫殿的历史花园，设有广受欢迎的童话花园和秋季南瓜展。", "distance": "约 1.4 公里", "url": "https://www.blueba.de" },
-      { "name": "最爱宫 & 野生动物园", "description": "坐落于广阔野生动物园中的巴洛克式狩猎行宫，园中黇鹿自由漫步。", "distance": "约 2.5 公里", "url": "https://www.schloss-favorite-ludwigsburg.de" },
-      { "name": "蒙雷波湖畔宫", "description": "位于埃格洛斯海姆湖畔的迷人宫殿，设有公园、游船租赁和餐厅。", "distance": "约 3.5 公里", "url": "https://www.monrepos.de" },
-      { "name": "路德维希堡集市广场", "description": "巴洛克城中心的集市广场，拥有拱廊、两座教堂和每周集市。", "distance": "约 0.4 公里", "url": "https://www.ludwigsburg.de" },
-      { "name": "保时捷博物馆", "description": "位于斯图加特-楚芬豪森的精彩博物馆，展出 80 多辆历史悠久的跑车和赛车。", "distance": "约 12 公里", "url": "https://www.porsche.com/museum" },
-      { "name": "梅赛德斯-奔驰博物馆", "description": "横跨九层楼的汽车历史——从第一辆马车到现代赛车。", "distance": "约 15 公里", "url": "https://www.mercedes-benz.com/en/art-and-culture/museum/" },
-      { "name": "索利图德宫", "description": "坐落于斯图加特高地的优雅洛可可式宫殿，可俯瞰壮丽景色。", "distance": "约 14 公里", "url": "https://www.schloss-solitude.de" }
+      {
+        "name": "路德维希堡宫（住宅宫）",
+        "description": "欧洲最大的巴洛克式宫殿之一，拥有华丽的大厅、博物馆和广阔的花园。",
+        "distance": "约 1.3 公里",
+        "url": "https://www.schloss-ludwigsburg.de"
+      },
+      {
+        "name": "盛开的巴洛克花园 & 童话花园",
+        "description": "环绕宫殿的历史花园，设有广受欢迎的童话花园和秋季南瓜展。",
+        "distance": "约 1.4 公里",
+        "url": "https://www.blueba.de"
+      },
+      {
+        "name": "最爱宫 & 野生动物园",
+        "description": "坐落于广阔野生动物园中的巴洛克式狩猎行宫，园中黇鹿自由漫步。",
+        "distance": "约 2.5 公里",
+        "url": "https://www.schloss-favorite-ludwigsburg.de"
+      },
+      {
+        "name": "蒙雷波湖畔宫",
+        "description": "位于埃格洛斯海姆湖畔的迷人宫殿，设有公园、游船租赁和餐厅。",
+        "distance": "约 3.5 公里",
+        "url": "https://www.monrepos.de"
+      },
+      {
+        "name": "路德维希堡集市广场",
+        "description": "巴洛克城中心的集市广场，拥有拱廊、两座教堂和每周集市。",
+        "distance": "约 0.4 公里",
+        "url": "https://www.ludwigsburg.de"
+      },
+      {
+        "name": "保时捷博物馆",
+        "description": "位于斯图加特-楚芬豪森的精彩博物馆，展出 80 多辆历史悠久的跑车和赛车。",
+        "distance": "约 12 公里",
+        "url": "https://www.porsche.com/museum"
+      },
+      {
+        "name": "梅赛德斯-奔驰博物馆",
+        "description": "横跨九层楼的汽车历史——从第一辆马车到现代赛车。",
+        "distance": "约 15 公里",
+        "url": "https://www.mercedes-benz.com/en/art-and-culture/museum/"
+      },
+      {
+        "name": "索利图德宫",
+        "description": "坐落于斯图加特高地的优雅洛可可式宫殿，可俯瞰壮丽景色。",
+        "distance": "约 14 公里",
+        "url": "https://www.schloss-solitude.de"
+      }
     ]
   },
   "restaurants": {
@@ -144,11 +234,36 @@
     "description": "奥斯魏尔（Oßweil）推荐餐厅。",
     "heading": "奥斯魏尔的餐厅",
     "places": [
-      { "name": "FSV Oßweil 俱乐部餐厅", "description": "FSV奥斯魏尔的温馨俱乐部餐厅，提供家常料理和啤酒花园。", "distance": "约 400 米", "url": "https://www.fsv-ossweil.de" },
-      { "name": "ASV Oßweil 俱乐部餐厅", "description": "ASV奥斯魏尔的俱乐部餐厅，在热闹氛围中供应丰盛菜肴。", "distance": "约 400 米", "url": "https://www.asv-ossweil.de" },
-      { "name": "Blutsbrüder", "description": "奥斯魏尔一家轻松随性的小馆，供应汉堡、小食和饮品。", "distance": "约 500 米", "url": "https://restaurant-blutsbrueder.de" },
-      { "name": "Kleintierzüchter Oßweil 俱乐部餐厅", "description": "小动物饲养者俱乐部餐厅，提供家常料理，氛围温馨。", "distance": "约 1.1 公里", "url": "https://www.ktzvo.de" },
-      { "name": "Pizzeria Oßweil", "description": "奥斯魏尔的意大利比萨店，供应披萨、意面和外送服务。", "distance": "约 350 米", "url": "https://www.pizzeria-dagennaro.de" }
+      {
+        "name": "FSV Oßweil 俱乐部餐厅",
+        "description": "FSV奥斯魏尔的温馨俱乐部餐厅，提供家常料理和啤酒花园。",
+        "distance": "约 400 米",
+        "url": "https://www.fsv-ossweil.de"
+      },
+      {
+        "name": "ASV Oßweil 俱乐部餐厅",
+        "description": "ASV奥斯魏尔的俱乐部餐厅，在热闹氛围中供应丰盛菜肴。",
+        "distance": "约 400 米",
+        "url": "https://www.asv-ossweil.de"
+      },
+      {
+        "name": "Blutsbrüder",
+        "description": "奥斯魏尔一家轻松随性的小馆，供应汉堡、小食和饮品。",
+        "distance": "约 500 米",
+        "url": "https://restaurant-blutsbrueder.de"
+      },
+      {
+        "name": "Kleintierzüchter Oßweil 俱乐部餐厅",
+        "description": "小动物饲养者俱乐部餐厅，提供家常料理，氛围温馨。",
+        "distance": "约 1.1 公里",
+        "url": "https://www.ktzvo.de"
+      },
+      {
+        "name": "Pizzeria Oßweil",
+        "description": "奥斯魏尔的意大利比萨店，供应披萨、意面和外送服务。",
+        "distance": "约 350 米",
+        "url": "https://www.pizzeria-dagennaro.de"
+      }
     ]
   },
   "verkehr": {

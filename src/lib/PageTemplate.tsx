@@ -1,8 +1,22 @@
 'use client';
 
+import type { IconType } from 'react-icons';
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
-import { MdArrowBack, MdOpenInNew } from 'react-icons/md';
+import {
+  MdArrowBack,
+  MdOpenInNew,
+  MdBakeryDining,
+  MdLocalGroceryStore,
+  MdShoppingCart,
+  MdLocalPharmacy,
+  MdContentCut,
+  MdAccountBalance,
+  MdKebabDining,
+  MdLunchDining,
+  MdStorefront,
+  MdLocalGasStation,
+} from 'react-icons/md';
 import Footer from './Footer';
 
 interface Place {
@@ -10,7 +24,21 @@ interface Place {
   description?: string;
   distance?: string;
   url?: string;
+  icon?: string;
 }
+
+const placeIcons: Record<string, { Icon: IconType; className: string }> = {
+  bakery: { Icon: MdBakeryDining, className: 'bg-amber-100 text-amber-700' },
+  supermarket: { Icon: MdLocalGroceryStore, className: 'bg-green-100 text-green-700' },
+  discounter: { Icon: MdShoppingCart, className: 'bg-red-100 text-red-600' },
+  pharmacy: { Icon: MdLocalPharmacy, className: 'bg-rose-100 text-rose-600' },
+  hairdresser: { Icon: MdContentCut, className: 'bg-purple-100 text-purple-700' },
+  bank: { Icon: MdAccountBalance, className: 'bg-blue-100 text-blue-700' },
+  doener: { Icon: MdKebabDining, className: 'bg-orange-100 text-orange-600' },
+  butcher: { Icon: MdLunchDining, className: 'bg-red-100 text-red-700' },
+  gasstation: { Icon: MdLocalGasStation, className: 'bg-yellow-100 text-yellow-700' },
+  shop: { Icon: MdStorefront, className: 'bg-stone-200 text-stone-700' },
+};
 
 function isPlace(value: unknown): value is Place {
   return (
@@ -73,12 +101,24 @@ export default function PageTemplate({ section }: PageProps) {
                   return (
                     <div key={key} className="grid gap-4 sm:grid-cols-2">
                       {(value as Place[]).map((place, idx: number) => {
+                        const iconEntry =
+                          (place.icon && placeIcons[place.icon]) || null;
                         const card = (
                           <div className="h-full rounded-2xl bg-stone-50 ring-1 ring-stone-200 p-5 transition hover:shadow-md hover:ring-stone-300">
                             <div className="flex items-start justify-between gap-3">
-                              <h3 className="text-base font-semibold text-stone-900">
-                                {place.name}
-                              </h3>
+                              <div className="flex items-start gap-3">
+                                {iconEntry && (
+                                  <span
+                                    className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-xl ${iconEntry.className}`}
+                                    aria-hidden
+                                  >
+                                    <iconEntry.Icon className="text-xl" />
+                                  </span>
+                                )}
+                                <h3 className="text-base font-semibold text-stone-900">
+                                  {place.name}
+                                </h3>
+                              </div>
                               <div className="flex shrink-0 items-center gap-2">
                                 {place.distance && (
                                   <span className="rounded-full bg-stone-900 px-3 py-1 text-xs font-medium text-white">

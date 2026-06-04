@@ -83,25 +83,75 @@
   },
   "einkauf": {
     "title": "Courses",
-    "description": "Options d'achat et magasins à proximité.",
-    "heading": "Opportunités de Shopping à Ludwigsburg",
-    "location": "Localisation: Lange Straße 5, 71640 Ludwigsburg",
-    "bakery": "Boulangerie:",
-    "bakeryList": [
-      "Bäckerei Meyer - 150m",
-      "Backstube Müller - 300m"
-    ],
-    "butcher": "Boucherie:",
-    "butcherList": [
-      "Metzgerei Schmidt - 200m",
-      "Fleischerei Weibel - 350m"
-    ],
-    "discounter": "Magasins Discount:",
-    "discounterList": [
-      "Aldi Nord - 250m",
-      "Lidl - 400m"
-    ],
-    "mapInfo": "Carte: Tous les magasins et notre maison sont marqués sur la carte ci-dessous."
+    "description": "Commerces pour les besoins quotidiens à environ 1 km de la Lange Straße 5, Oßweil.",
+    "heading": "Faire ses courses à Oßweil",
+    "places": [
+      {
+        "name": "Kreissparkasse Ludwigsburg – Filiale Oßweil",
+        "description": "Agence de la Kreissparkasse avec distributeur – à quelques pas de la maison.",
+        "distance": "env. 50 m",
+        "url": "https://www.ksklb.de",
+        "icon": "bank"
+      },
+      {
+        "name": "Bäckerei Lutz am Wettemarkt",
+        "description": "Boulangerie familiale traditionnelle au Wettemarkt avec pain, petits pains et gâteaux frais.",
+        "distance": "env. 200 m",
+        "icon": "bakery"
+      },
+      {
+        "name": "Döner & Pizza Imbiss am Wettemarkt",
+        "description": "Snack au Wettemarkt proposant döner, pizza et plats rapides à emporter.",
+        "distance": "env. 220 m",
+        "icon": "doener"
+      },
+      {
+        "name": "Apotheke am Wettemarkt",
+        "description": "Pharmacie au Wettemarkt pour médicaments et conseils au cœur d'Oßweil.",
+        "distance": "env. 250 m",
+        "url": "https://www.apotheke-am-wettemarkt.de",
+        "icon": "pharmacy"
+      },
+      {
+        "name": "NORMA Oßweil",
+        "description": "Magasin discount avec un large choix pour des courses hebdomadaires économiques.",
+        "distance": "env. 250 m",
+        "url": "https://www.norma-online.de",
+        "icon": "discounter"
+      },
+      {
+        "name": "BOS Hairlines",
+        "description": "Salon de coiffure dans la Westfalenstraße pour femmes et hommes.",
+        "distance": "env. 250 m",
+        "icon": "hairdresser"
+      },
+      {
+        "name": "Frischemarkt KIWI (EDEKA)",
+        "description": "Marché frais bien achalandé (EDEKA) avec rayon viande et charcuterie, point chaud et produits régionaux.",
+        "distance": "env. 350 m",
+        "url": "https://frischemarkt-kiwi.de",
+        "icon": "supermarket"
+      },
+      {
+        "name": "PENNY Oßweil",
+        "description": "Magasin discount dans la Friesenstraße avec produits alimentaires et de droguerie pour le quotidien.",
+        "distance": "env. 350 m",
+        "url": "https://www.penny.de/markt/ludwigsburg/830052/penny-ossweil-friesenstr-32",
+        "icon": "discounter"
+      },
+      {
+        "name": "Mark Anders Bäckerei-Konditorei",
+        "description": "Boulangerie-pâtisserie dans la Friesenstraße avec viennoiseries et spécialités.",
+        "distance": "env. 400 m",
+        "icon": "bakery"
+      },
+      {
+        "name": "AGIP Tankstelle Oßweil",
+        "description": "Station-service dans la Friesenstraße avec boutique pour snacks, boissons et articles du quotidien.",
+        "distance": "env. 450 m",
+        "icon": "gasstation"
+      }
+    ]
   },
   "muell": {
     "title": "Ordures",
@@ -129,14 +179,54 @@
     "description": "Points forts et attractions à Ludwigsburg et ses environs.",
     "heading": "Attractions à Ludwigsburg & ses environs",
     "places": [
-      { "name": "Château résidentiel de Ludwigsburg", "description": "L'un des plus grands châteaux baroques d'Europe, avec des salles somptueuses, des musées et de vastes jardins.", "distance": "env. 1,3 km", "url": "https://www.schloss-ludwigsburg.de" },
-      { "name": "Baroque en Fleurs & Jardin des Contes", "description": "Jardins historiques autour du château avec le célèbre jardin des contes et l'exposition de citrouilles en automne.", "distance": "env. 1,4 km", "url": "https://www.blueba.de" },
-      { "name": "Château Favorite & Favoritepark", "description": "Pavillon de chasse baroque au cœur d'un vaste parc animalier où vivent en liberté des daims.", "distance": "env. 2,5 km", "url": "https://www.schloss-favorite-ludwigsburg.de" },
-      { "name": "Château au bord du lac Monrepos", "description": "Château idyllique au bord du lac d'Eglosheim avec parc, location de bateaux et restaurant.", "distance": "env. 3,5 km", "url": "https://www.monrepos.de" },
-      { "name": "Place du marché de Ludwigsburg", "description": "Place de marché baroque avec arcades, deux églises et marché hebdomadaire au cœur de la ville baroque.", "distance": "env. 0,4 km", "url": "https://www.ludwigsburg.de" },
-      { "name": "Musée Porsche", "description": "Musée spectaculaire à Stuttgart-Zuffenhausen avec plus de 80 voitures de sport et de course historiques.", "distance": "env. 12 km", "url": "https://www.porsche.com/museum" },
-      { "name": "Musée Mercedes-Benz", "description": "L'histoire de l'automobile sur neuf niveaux – de la première calèche aux voitures de course modernes.", "distance": "env. 15 km", "url": "https://www.mercedes-benz.com/fr/art-and-culture/museum/" },
-      { "name": "Château de la Solitude", "description": "Élégant château rococo sur les hauteurs de Stuttgart offrant une vue magnifique.", "distance": "env. 14 km", "url": "https://www.schloss-solitude.de" }
+      {
+        "name": "Château résidentiel de Ludwigsburg",
+        "description": "L'un des plus grands châteaux baroques d'Europe, avec des salles somptueuses, des musées et de vastes jardins.",
+        "distance": "env. 1,3 km",
+        "url": "https://www.schloss-ludwigsburg.de"
+      },
+      {
+        "name": "Baroque en Fleurs & Jardin des Contes",
+        "description": "Jardins historiques autour du château avec le célèbre jardin des contes et l'exposition de citrouilles en automne.",
+        "distance": "env. 1,4 km",
+        "url": "https://www.blueba.de"
+      },
+      {
+        "name": "Château Favorite & Favoritepark",
+        "description": "Pavillon de chasse baroque au cœur d'un vaste parc animalier où vivent en liberté des daims.",
+        "distance": "env. 2,5 km",
+        "url": "https://www.schloss-favorite-ludwigsburg.de"
+      },
+      {
+        "name": "Château au bord du lac Monrepos",
+        "description": "Château idyllique au bord du lac d'Eglosheim avec parc, location de bateaux et restaurant.",
+        "distance": "env. 3,5 km",
+        "url": "https://www.monrepos.de"
+      },
+      {
+        "name": "Place du marché de Ludwigsburg",
+        "description": "Place de marché baroque avec arcades, deux églises et marché hebdomadaire au cœur de la ville baroque.",
+        "distance": "env. 0,4 km",
+        "url": "https://www.ludwigsburg.de"
+      },
+      {
+        "name": "Musée Porsche",
+        "description": "Musée spectaculaire à Stuttgart-Zuffenhausen avec plus de 80 voitures de sport et de course historiques.",
+        "distance": "env. 12 km",
+        "url": "https://www.porsche.com/museum"
+      },
+      {
+        "name": "Musée Mercedes-Benz",
+        "description": "L'histoire de l'automobile sur neuf niveaux – de la première calèche aux voitures de course modernes.",
+        "distance": "env. 15 km",
+        "url": "https://www.mercedes-benz.com/fr/art-and-culture/museum/"
+      },
+      {
+        "name": "Château de la Solitude",
+        "description": "Élégant château rococo sur les hauteurs de Stuttgart offrant une vue magnifique.",
+        "distance": "env. 14 km",
+        "url": "https://www.schloss-solitude.de"
+      }
     ]
   },
   "restaurants": {
@@ -144,11 +234,36 @@
     "description": "Restaurants recommandés à Oßweil.",
     "heading": "Restaurants à Oßweil",
     "places": [
-      { "name": "FSV Oßweil – Foyer du club", "description": "Foyer convivial du club FSV Oßweil proposant une cuisine maison copieuse et un biergarten.", "distance": "env. 400 m", "url": "https://www.fsv-ossweil.de" },
-      { "name": "ASV Oßweil – Foyer du club", "description": "Restaurant du club ASV Oßweil servant des plats copieux dans une ambiance conviviale.", "distance": "env. 400 m", "url": "https://www.asv-ossweil.de" },
-      { "name": "Blutsbrüder", "description": "Adresse décontractée à Oßweil avec burgers, snacks et boissons.", "distance": "env. 500 m", "url": "https://restaurant-blutsbrueder.de" },
-      { "name": "Kleintierzüchter Oßweil – Foyer du club", "description": "Foyer du club des éleveurs de petits animaux, cuisine familiale dans une ambiance chaleureuse.", "distance": "env. 1,1 km", "url": "https://www.ktzvo.de" },
-      { "name": "Pizzeria Oßweil", "description": "Pizzeria italienne à Oßweil avec pizzas, pâtes et service de livraison.", "distance": "env. 350 m", "url": "https://www.pizzeria-dagennaro.de" }
+      {
+        "name": "FSV Oßweil – Foyer du club",
+        "description": "Foyer convivial du club FSV Oßweil proposant une cuisine maison copieuse et un biergarten.",
+        "distance": "env. 400 m",
+        "url": "https://www.fsv-ossweil.de"
+      },
+      {
+        "name": "ASV Oßweil – Foyer du club",
+        "description": "Restaurant du club ASV Oßweil servant des plats copieux dans une ambiance conviviale.",
+        "distance": "env. 400 m",
+        "url": "https://www.asv-ossweil.de"
+      },
+      {
+        "name": "Blutsbrüder",
+        "description": "Adresse décontractée à Oßweil avec burgers, snacks et boissons.",
+        "distance": "env. 500 m",
+        "url": "https://restaurant-blutsbrueder.de"
+      },
+      {
+        "name": "Kleintierzüchter Oßweil – Foyer du club",
+        "description": "Foyer du club des éleveurs de petits animaux, cuisine familiale dans une ambiance chaleureuse.",
+        "distance": "env. 1,1 km",
+        "url": "https://www.ktzvo.de"
+      },
+      {
+        "name": "Pizzeria Oßweil",
+        "description": "Pizzeria italienne à Oßweil avec pizzas, pâtes et service de livraison.",
+        "distance": "env. 350 m",
+        "url": "https://www.pizzeria-dagennaro.de"
+      }
     ]
   },
   "verkehr": {
