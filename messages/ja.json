@@ -33,7 +33,9 @@
     "devices": "お部屋の機器:",
     "devicesList": [
       {
-        "name": "ストリーミングアプリ付きスマートTV",
+        "name": "Panasonic Premium TV-65W80AEZ（65インチ、4K QLED、Fire TV）",
+        "description": "ストリーミングアプリ、Fire TV、Dolby Vision & Atmos、Alexa音声操作に対応したスマートTVです。取扱説明書はこちらをタップしてください。",
+        "url": "https://www.bedienungsanleitu.ng/panasonic/tv-65w80aez/anleitung",
         "icon": "tv"
       },
       {

@@ -33,7 +33,9 @@
     "devices": "公寓内的设备:",
     "devicesList": [
       {
-        "name": "具有流媒体应用的智能电视",
+        "name": "松下 Panasonic Premium TV-65W80AEZ（65 英寸，4K QLED，Fire TV）",
+        "description": "支持流媒体应用、Fire TV、Dolby Vision & Atmos 以及 Alexa 语音控制的智能电视。点击此处查看使用说明书。",
+        "url": "https://www.bedienungsanleitu.ng/panasonic/tv-65w80aez/anleitung",
         "icon": "tv"
       },
       {

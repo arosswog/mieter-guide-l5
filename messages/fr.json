@@ -33,7 +33,9 @@
     "devices": "Appareils dans l'appartement:",
     "devicesList": [
       {
-        "name": "Smart TV avec applications de streaming",
+        "name": "Panasonic Premium TV-65W80AEZ (65\", 4K QLED, Fire TV)",
+        "description": "Smart TV avec applications de streaming, Fire TV, Dolby Vision & Atmos et commande vocale Alexa. Appuyez ici pour le manuel d'utilisation.",
+        "url": "https://www.bedienungsanleitu.ng/panasonic/tv-65w80aez/anleitung",
         "icon": "tv"
       },
       {
