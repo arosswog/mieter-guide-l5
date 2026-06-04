@@ -1,84 +1,84 @@
 {
-  "title": "Dom 1890 / L5",
-  "subtitle": "Przewodnik po Mieszkaniu",
-  "welcome": "Witamy",
-  "welcomeHeading": "Wszystkie ważne informacje dotyczące Twojego pobytu w jednym miejscu.",
-  "welcomeDescription": "WiFi, zameldowanie, regulamin domu, urządzenia, otoczenie i kontakt – jasne, zoptymalizowane na urządzenia mobilne i w wielu językach.",
-  "toOG": "Do Mieszkania Piętra",
-  "toEG": "Do Mieszkania na Parterze",
-  "trash": "Zbieranie Śmieci",
+  "title": "ハウス 1890 / L5",
+  "subtitle": "アパートメントガイド",
+  "welcome": "ようこそ",
+  "welcomeHeading": "ご滞在に必要なすべての重要な情報を一か所にまとめました。",
+  "welcomeDescription": "WiFi、チェックイン、ハウスルール、設備、周辺情報、連絡先 – 分かりやすく、モバイル最適化、多言語対応です。",
+  "toOG": "上階のお部屋へ",
+  "toEG": "1階のお部屋へ",
+  "trash": "ゴミ収集",
   "nav": {
-    "wlan": "WiFi & Tech",
-    "checkin": "Info Zameldowania",
-    "hausregeln": "Regulamin Domu",
-    "einkauf": "Zakupy",
-    "muell": "Śmieci",
-    "sehenswuerdigkeiten": "Atrakcje",
-    "restaurants": "Restauracje",
-    "verkehr": "Transport",
-    "kontakt": "Kontakt",
-    "og": "Mieszkanie Piętra",
-    "eg": "Mieszkanie na Parterze"
+    "wlan": "WiFi & テクノロジー",
+    "checkin": "チェックイン情報",
+    "hausregeln": "ハウスルール",
+    "einkauf": "ショッピング",
+    "muell": "ゴミ",
+    "sehenswuerdigkeiten": "観光スポット",
+    "restaurants": "レストラン",
+    "verkehr": "交通",
+    "kontakt": "連絡先",
+    "og": "上階のお部屋",
+    "eg": "1階のお部屋"
   },
   "wlan": {
-    "title": "WiFi & Tech",
-    "description": "Wszystkie dostępy, instrukcje i informacje techniczne w jednym miejscu.",
-    "heading": "Dostęp WiFi",
-    "ssid": "Nazwa Sieci (SSID): LONG-STREET-GUEST",
-    "password": "Hasło: 1sommer!",
-    "devices": "Urządzenia w mieszkaniu:",
+    "title": "WiFi & テクノロジー",
+    "description": "すべてのアクセス情報、機器の案内、技術情報を一か所にまとめました。",
+    "heading": "WiFi アクセス",
+    "ssid": "ネットワーク名 (SSID): LONG-STREET-GUEST",
+    "password": "パスワード: 1sommer!",
+    "devices": "お部屋の機器:",
     "devicesList": [
-      "Smart TV z aplikacjami streamingowymi",
-      "Głośnik Bluetooth",
-      "Ładowarki USB w każdym pokoju"
+      "ストリーミングアプリ付きスマートTV",
+      "Bluetoothスピーカー",
+      "全室にUSB充電器"
     ],
-    "smartHome": "SmartHome i technika w domu:",
+    "smartHome": "スマートホーム & 館内テクノロジー:",
     "smartHomeList": [
-      "Czujniki dymu i zalania Shelly zapewniają bezpieczeństwo – prosimy ich nie usuwać.",
-      "Czujniki okienne i temperatury wspomagają automatyczną regulację klimatu.",
-      "Wzmacniacze EVE Thread/Matter (w formie gniazdka) są ważne dla stabilnej sieci bezprzewodowej – prosimy ich nie odłączać."
+      "Shellyの煙・浸水検知器が安全を守ります – 取り外さないでください。",
+      "窓・温度センサーが自動空調制御をサポートします。",
+      "コンセント型のEVE Thread/Matterリピーターは安定した無線ネットワークに重要です – 抜かないでください。"
     ]
   },
   "checkin": {
-    "title": "Info Zameldowania",
-    "description": "Wszystko o przyjściu: klucze, godziny, proces i pierwsze kroki.",
-    "heading": "Witamy u nas!",
-    "checkInTime": "Godzina Zameldowania: 14:00",
-    "checkOutTime": "Godzina Wymeldowania: 11:00",
-    "keyPickup": "Przekazanie Kluczy: Po wycieraczce",
-    "codeMessage": "Kod do drzwi wejściowych znajduje się w email potwierdzającym.",
-    "important": "Ważne:",
+    "title": "チェックイン情報",
+    "description": "到着に関するすべて：鍵、時間、流れ、最初のステップ。",
+    "heading": "ようこそお越しくださいました！",
+    "checkInTime": "チェックイン時間: 14:00",
+    "checkOutTime": "チェックアウト時間: 11:00",
+    "keyPickup": "鍵のお渡し: 玄関マットの下にあります",
+    "codeMessage": "玄関ドアのコードは確認メールに記載されています。",
+    "important": "重要:",
     "importantList": [
-      "Trzymaj się godziny zameldowania",
-      "Przeczytaj regulamin domu",
-      "Włącz ogrzewanie zimą",
-      "Zapamiętaj nasz numer kontaktowy"
+      "チェックイン時間を守ってください",
+      "ハウスルールをお読みください",
+      "冬は暖房を入れてください",
+      "私たちの連絡先番号を保存してください"
     ]
   },
   "hausregeln": {
-    "title": "Regulamin Domu",
-    "description": "Zasady harmonijnego współżycia – proszę przeglądać.",
-    "heading": "Regulamin Domu",
-    "general": "Zasady Ogólne:",
+    "title": "ハウスルール",
+    "description": "気持ちよく共同生活するためのルール – ご確認ください。",
+    "heading": "ハウスルール",
+    "general": "一般的なルール:",
     "generalList": [
-      "Poszanowanie dla innych gości i sąsiadów",
-      "Godziny ciszy: 22:00 - 08:00",
-      "Bez głośnych imprez",
-      "Poproś pozwolenie przed zaproszeniem gości"
+      "他のゲストや隣人への配慮",
+      "静粛時間: 22:00 - 08:00",
+      "騒がしいパーティーは禁止",
+      "ゲストを招く前に許可を求めてください"
     ],
-    "cleaning": "Czyszczenie:",
+    "cleaning": "清掃:",
     "cleaningList": [
-      "Trzymaj mieszkanie czystym",
-      "Mów naczynia po jedzeniu",
-      "Opróżniaj śmieci regularnie",
-      "Posprzątaj przed wymeldowaniem"
+      "お部屋を清潔に保ってください",
+      "食事の後は食器を洗ってください",
+      "ゴミは定期的に捨ててください",
+      "チェックアウト前に掃除してください"
     ],
-    "safety": "Bezpieczeństwo:",
+    "safety": "安全:",
     "safetyList": [
-      "Zamknij drzwi na klucz wychodząc",
-      "Przestrzegaj przepisów bezpieczeństwa pożarowego",
-      "Palenie tylko na balkonie",
-      "Bez otwartego ognia"
+      "外出時はドアを施錠してください",
+      "防火規則を守ってください",
+      "喫煙はバルコニーのみ",
+      "火気の使用は禁止"
     ]
   },
   "einkauf": {
@@ -104,24 +104,24 @@
     "mapInfo": "地図: すべての店舗と私たちの家は下の地図にマークされています。"
   },
   "muell": {
-    "title": "Śmieci",
-    "description": "Zarządzanie odpadami, godziny zbierania i segregacja.",
-    "heading": "Harmonogram Zbierania",
-    "pickupTimes": "Godziny zbierania:",
-    "pickupInfo": "Śmieci: Wtorki | Papier: Czwartki | Żółta Woreczka: 1x miesięcznie",
-    "separation": "Segregacja Odpadów:",
+    "title": "ゴミ",
+    "description": "廃棄物管理、収集時間、分別について。",
+    "heading": "ゴミ収集カレンダー",
+    "pickupTimes": "収集時間:",
+    "pickupInfo": "可燃ゴミ: 火曜日 | 紙: 木曜日 | 黄色い袋: 月1回",
+    "separation": "ゴミの分別:",
     "separationList": [
-      "Śmieci w zielonym pojemniku",
-      "Papier/karton w niebieskim pojemniku",
-      "Żółta woreczka na plastik i metal",
-      "Szkło w kontenerze na szkło"
+      "可燃ゴミは緑色のゴミ箱へ",
+      "紙・段ボールは青色のゴミ箱へ",
+      "プラスチック・金属は黄色い袋へ",
+      "ガラスはガラス用コンテナへ"
     ],
-    "tips": "Porady Śmieci:",
+    "tips": "ゴミに関するヒント:",
     "tipsList": [
-      "Postaw pojemniki wieczorem",
-      "Nie przepełniaj żółtej woreczki",
-      "Zawiąż worki plastikowe przed wyrzuceniem",
-      "Kompost do kompostownika"
+      "ゴミ箱は前日の夜に出してください",
+      "黄色い袋を入れすぎないでください",
+      "捨てる前にビニール袋を結んでください",
+      "生ゴミはバイオゴミ箱へ"
     ]
   },
   "sehenswuerdigkeiten": {
@@ -140,93 +140,93 @@
     ]
   },
   "verkehr": {
-    "title": "Transport",
-    "description": "Transport publiczny, parkowanie i wskazówki.",
-    "heading": "Mobilność",
-    "publicTransport": "Transport Publiczny:",
+    "title": "交通",
+    "description": "公共交通機関、駐車場、アクセス。",
+    "heading": "移動手段",
+    "publicTransport": "公共交通機関:",
     "publicTransportList": [
-      "Linia U-Bahn 5 - 50m spacerem",
-      "Autobusy 23 & 45 - tuż przed domem",
-      "Tramwaj - 200m"
+      "地下鉄5号線 - 徒歩50m",
+      "バス23番＆45番 - 家のすぐ前",
+      "路面電車 - 200m"
     ],
-    "parking": "Parkowanie:",
-    "parkingInfo": "Bezpłatny parking na ulicy (bez gwarancji). Garaż podziemny 500m za €15/dzień.",
-    "cycling": "Kolarstwo:",
+    "parking": "駐車場:",
+    "parkingInfo": "近くに無料の路上駐車場あり（保証なし）。地下駐車場は500m先、1日€15。",
+    "cycling": "自転車:",
     "cyclingList": [
-      "Stojak na rowery na podwórku",
-      "Warsztat rowerowy 100m",
-      "Stacja rowerów publicznych tuż przed domem"
+      "中庭に駐輪場",
+      "自転車修理店が100m先",
+      "家のすぐ前にシェアサイクルステーション"
     ],
-    "taxi": "Taxi & Ridesharing:",
-    "taxiInfo": "Uber & Bolt dostępne. Lokalne taxi: +49 (0) 123 456789"
+    "taxi": "タクシー & ライドシェア:",
+    "taxiInfo": "Uber & Bolt 利用可能。地元のタクシー: +49 (0) 123 456789"
   },
   "kontakt": {
-    "title": "Kontakt",
-    "description": "Kontakty awaryjne i wsparcie.",
-    "heading": "Kontakty",
-    "emergency": "Nagły Wypadek:",
+    "title": "連絡先",
+    "description": "緊急連絡先と担当者。",
+    "heading": "連絡先",
+    "emergency": "緊急:",
     "emergencyNumbers": [
-      "Policja: 110",
-      "Straż Pożarna: 112",
-      "Pogotowie Medyczne: 0911 / 19292"
+      "警察: 110",
+      "消防: 112",
+      "救急医療サービス: 0911 / 19292"
     ],
-    "support": "Wsparcie:",
-    "supportInfo": "Zarządzanie Nieruchomościami: +49 (0) 123 4567890 | Email: support@haus1890.de | Strona: www.haus1890.de",
-    "maintenance": "Konserwacja & Naprawy:",
-    "maintenanceInfo": "Linia Awaryjna 24/7: +49 (0) 123 9999999",
-    "feedback": "Opinie & Skargi:",
-    "feedbackInfo": "Proszę wysłać email na: feedback@haus1890.de"
+    "support": "サポート:",
+    "supportInfo": "建物管理: +49 (0) 123 4567890 | メール: support@haus1890.de | ウェブサイト: www.haus1890.de",
+    "maintenance": "メンテナンス & 修理:",
+    "maintenanceInfo": "24時間対応緊急ホットライン: +49 (0) 123 9999999",
+    "feedback": "フィードバック & 苦情:",
+    "feedbackInfo": "メールをお送りください: feedback@haus1890.de"
   },
   "og": {
-    "title": "Mieszkanie Piętra",
-    "description": "Informacje o mieszkaniu na piętrze.",
-    "heading": "Mieszkanie Piętra (OG)",
-    "rooms": "Pokoje & Wyposażenie:",
+    "title": "上階のお部屋",
+    "description": "上階のお部屋に関する情報。",
+    "heading": "上階のお部屋 (OG)",
+    "rooms": "部屋 & 設備:",
     "roomsList": [
-      "Salon z balkonem",
-      "Sypialnia z łóżkiem boxspring",
-      "Kuchnia ze wszystkimi urządzeniami",
-      "Łazienka z prysznicem i wanną",
-      "Przedpokój z przechowywaniem"
+      "バルコニー付きリビングルーム",
+      "ボックススプリングベッド付き寝室",
+      "全設備が揃ったキッチン",
+      "シャワー＆バスタブ付きバスルーム",
+      "収納スペース付き廊下"
     ],
-    "features": "Specjalne Cechy:",
+    "features": "特徴:",
     "featuresList": [
-      "Balkon z widokiem na miasto",
-      "Ogrzewanie podłogowe",
-      "Podwójna izolacja",
-      "Pralka w zestawie"
+      "街並みを望むバルコニー",
+      "床暖房",
+      "二重断熱",
+      "洗濯機完備"
     ],
-    "rules": "Zasady Specjalne:",
+    "rules": "特別なルール:",
     "rulesList": [
-      "Balkon: nie suszysz ubrań",
-      "Zamknij okna w nocy (strata ciepła)",
-      "Zwierzęta tylko za pozwoleniem"
+      "バルコニー: 洗濯物を干さないでください",
+      "夜は窓を閉めてください（熱が逃げます）",
+      "ペットは事前の相談が必要です"
     ]
   },
   "eg": {
-    "title": "Mieszkanie na Parterze",
-    "description": "Informacje o mieszkaniu na parterze.",
-    "heading": "Parter (EG)",
-    "rooms": "Pokoje & Wyposażenie:",
+    "title": "1階のお部屋",
+    "description": "1階のお部屋に関する情報。",
+    "heading": "1階 (EG)",
+    "rooms": "部屋 & 設備:",
     "roomsList": [
-      "Otwarta przestrzeń mieszkalna",
-      "Sypialnia",
-      "Kuchnia z nowoczesnym designem",
-      "Łazienka z ogrzewaniem podłogowym",
-      "Taras z dostępem do ogrodu"
+      "オープンな造りのリビングエリア",
+      "寝室",
+      "新しいデザインのキッチン",
+      "床暖房付きバスルーム",
+      "庭が利用できるテラス"
     ],
-    "features": "Specjalne Cechy:",
+    "features": "特徴:",
     "featuresList": [
-      "Taras z prywatnym ogrodem",
-      "Dostęp na parterze",
-      "Nowoczesne urządzenia smart home",
-      "Przypisane miejsce parkingowe"
+      "プライベートガーデン付きテラス",
+      "段差のないアクセス",
+      "最新のスマートホーム設備",
+      "専用駐車場"
     ],
-    "rules": "Zasady Specjalne:",
+    "rules": "特別なルール:",
     "rulesList": [
-      "Ogród: prace ogrodnicze tylko do 19:00",
-      "Bez głośnych urządzeń w niedzielę",
-      "Strzyżenie żywopłotu maks 2m"
+      "庭: 庭仕事は19:00まで",
+      "日曜日は騒がしい機器の使用禁止",
+      "生け垣は2m以上に伸ばさないでください"
     ]
   }
 }
