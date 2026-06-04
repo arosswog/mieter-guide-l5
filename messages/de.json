@@ -68,18 +68,29 @@
   },
   "checkin": {
     "title": "Check-in Infos",
-    "description": "Alles zum Ankommen: Schlüssel, Zeiten, Ablauf und erste Schritte.",
+    "description": "Dein Ankommen in unserer Wohnung – Schlüsselübergabe, Türöffnung per App und die wichtigsten ersten Schritte.",
     "heading": "Willkommen bei uns!",
-    "checkInTime": "Check-in Zeit: 14:00 Uhr",
-    "checkOutTime": "Check-out Zeit: 11:00 Uhr",
-    "keyPickup": "Schlüsselübergabe: Bitte unter der Fußmatte",
-    "codeMessage": "Der Code für die Haustür befindet sich in Deiner Bestätigungsemail.",
-    "important": "Wichtig:",
-    "importantList": [
-      "Halte Dich an die Check-in Zeit",
-      "Lese die Hausregeln durch",
-      "Aktiviere die Heizung im Winter",
-      "Speichere unsere Kontaktnummer"
+    "steps": [
+      {
+        "icon": "key",
+        "name": "Schlüsselübergabe",
+        "description": "Für die Schlüsselübergabe ab Vertragsbeginn setze Dich bitte einfach mit uns in Verbindung – wir stimmen alles Weitere persönlich mit Dir ab."
+      },
+      {
+        "icon": "app",
+        "name": "Türen per App öffnen",
+        "description": "Bei Interesse richten wir Dir über die Shelly-App mit einem bestehenden Account eine Freigabe ein, mit der Du die Haustüren bequem per Smartphone öffnen kannst."
+      },
+      {
+        "icon": "info",
+        "name": "Weitere Infos",
+        "description": "Alle weiteren Informationen rund ums Ankommen und Wohnen findest Du auf dieser Webseite."
+      },
+      {
+        "icon": "welcome",
+        "name": "Schön, dass Du da bist",
+        "description": "Ansonsten wünschen wir Dir und Euch eine wunderbare Zeit in unserer Wohnung."
+      }
     ]
   },
   "hausregeln": {

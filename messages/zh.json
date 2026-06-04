@@ -68,18 +68,29 @@
   },
   "checkin": {
     "title": "入住信息",
-    "description": "关于抵达的一切：钥匙、时间、流程和第一步。",
+    "description": "您到达我们公寓的相关信息 —— 钥匙交接、通过 App 开门以及最重要的第一步。",
     "heading": "欢迎入住！",
-    "checkInTime": "入住时间: 14:00",
-    "checkOutTime": "退房时间: 11:00",
-    "keyPickup": "钥匙交接: 请查看门垫下方",
-    "codeMessage": "前门代码在您的确认邮件中。",
-    "important": "重要:",
-    "importantList": [
-      "遵守入住时间",
-      "阅读房屋规则",
-      "冬季启动供暖",
-      "保存我们的联系电话"
+    "steps": [
+      {
+        "icon": "key",
+        "name": "钥匙交接",
+        "description": "关于自合同开始日起的钥匙交接，请直接与我们联系，我们会与您单独商定所有细节。"
+      },
+      {
+        "icon": "app",
+        "name": "通过 App 开门",
+        "description": "如有需要，我们可以通过 Shelly App 使用现有账户为您设置开门权限，让您可以方便地用手机打开大门。"
+      },
+      {
+        "icon": "info",
+        "name": "更多信息",
+        "description": "有关到达和居住的所有其他信息，您都可以在本网站上查阅。"
+      },
+      {
+        "icon": "welcome",
+        "name": "很高兴您的到来",
+        "description": "此外，我们祝您在我们的公寓里度过一段美好的时光。"
+      }
     ]
   },
   "hausregeln": {

@@ -67,19 +67,30 @@
     ]
   },
   "checkin": {
-    "title": "Info Enregistrement",
-    "description": "Tout sur l'arrivée: clés, horaires, processus et premiers pas.",
-    "heading": "Bienvenue chez nous!",
-    "checkInTime": "Enregistrement: 14:00",
-    "checkOutTime": "Départ: 11:00",
-    "keyPickup": "Remise des clés: Veuillez regarder sous le paillasson",
-    "codeMessage": "Le code de la porte d'entrée se trouve dans votre email de confirmation.",
-    "important": "Important:",
-    "importantList": [
-      "Respectez l'heure d'enregistrement",
-      "Lisez les règles de la maison",
-      "Activez le chauffage en hiver",
-      "Enregistrez notre numéro de contact"
+    "title": "Infos check-in",
+    "description": "Votre arrivée dans notre appartement – remise des clés, ouverture des portes via l'application et premières étapes essentielles.",
+    "heading": "Bienvenue chez nous !",
+    "steps": [
+      {
+        "icon": "key",
+        "name": "Remise des clés",
+        "description": "Pour la remise des clés à partir du début du contrat, contactez-nous simplement – nous réglons tous les détails personnellement avec vous."
+      },
+      {
+        "icon": "app",
+        "name": "Ouvrir les portes via l'application",
+        "description": "Si vous le souhaitez, nous pouvons vous configurer un accès via l'application Shelly avec un compte existant, afin que vous puissiez ouvrir les portes d'entrée facilement depuis votre smartphone."
+      },
+      {
+        "icon": "info",
+        "name": "Plus d'infos",
+        "description": "Vous trouverez toutes les autres informations sur l'arrivée et le séjour sur ce site web."
+      },
+      {
+        "icon": "welcome",
+        "name": "Ravis de vous accueillir",
+        "description": "Pour le reste, nous vous souhaitons un merveilleux séjour dans notre appartement."
+      }
     ]
   },
   "hausregeln": {
