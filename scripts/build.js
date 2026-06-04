@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable @typescript-eslint/no-require-imports */
 
 const fs = require('fs');
 const path = require('path');
@@ -21,6 +22,6 @@ console.log(`Build Info: Version ${version}, Built at ${buildDate}`);
 const { execSync } = require('child_process');
 try {
   execSync('next build', { stdio: 'inherit' });
-} catch (error) {
+} catch {
   process.exit(1);
 }

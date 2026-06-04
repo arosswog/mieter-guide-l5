@@ -1,6 +1,7 @@
 "use client";
 
 import { NextIntlClientProvider } from "next-intl";
+import type { AbstractIntlMessages } from "next-intl";
 import type { ReactNode } from "react";
 
 export default function LocaleProvider({
@@ -10,7 +11,7 @@ export default function LocaleProvider({
 }: {
   children: ReactNode;
   locale: string;
-  messages: Record<string, any>;
+  messages: AbstractIntlMessages;
 }) {
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>

@@ -12,7 +12,7 @@ interface PageProps {
 export default function PageTemplate({ section }: PageProps) {
   const t = useTranslations();
   const locale = useLocale();
-  const data = t.raw(section) as Record<string, any>;
+  const data = t.raw(section) as Record<string, unknown>;
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-stone-50 to-stone-100">
@@ -27,20 +27,20 @@ export default function PageTemplate({ section }: PageProps) {
 
         <header className="mb-8">
           <h1 className="text-4xl font-semibold text-stone-900 mb-3">
-            {data.title}
+            {String(data.title)}
           </h1>
           <p className="text-lg text-stone-600">
-            {data.description}
+            {String(data.description)}
           </p>
         </header>
 
         <article className="bg-white rounded-3xl shadow-sm ring-1 ring-stone-200 p-8">
           <h2 className="text-2xl font-semibold text-stone-900 mb-6">
-            {data.heading}
+            {String(data.heading)}
           </h2>
 
           <div className="space-y-8">
-            {Object.entries(data).map(([key, value]: [string, any]) => {
+            {Object.entries(data).map(([key, value]: [string, unknown]) => {
               if (['title', 'description', 'heading'].includes(key)) return null;
 
               if (typeof value === 'string') {
@@ -56,10 +56,10 @@ export default function PageTemplate({ section }: PageProps) {
               if (Array.isArray(value)) {
                 return (
                   <ul key={key} className="space-y-2">
-                    {value.map((item: string, idx: number) => (
+                    {(value as unknown[]).map((item, idx: number) => (
                       <li key={idx} className="flex gap-3 text-stone-700">
                         <span className="text-stone-900 font-bold min-w-6">•</span>
-                        <span>{item}</span>
+                        <span>{String(item)}</span>
                       </li>
                     ))}
                   </ul>
