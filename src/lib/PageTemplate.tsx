@@ -2,8 +2,23 @@
 
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
-import { MdArrowBack } from 'react-icons/md';
+import { MdArrowBack, MdOpenInNew } from 'react-icons/md';
 import Footer from './Footer';
+
+interface Place {
+  name: string;
+  description?: string;
+  distance?: string;
+  url?: string;
+}
+
+function isPlace(value: unknown): value is Place {
+  return (
+    typeof value === 'object' &&
+    value !== null &&
+    typeof (value as Record<string, unknown>).name === 'string'
+  );
+}
 
 interface PageProps {
   section: 'wlan' | 'checkin' | 'hausregeln' | 'einkauf' | 'muell' | 'sehenswuerdigkeiten' | 'restaurants' | 'verkehr' | 'kontakt' | 'og' | 'eg';
@@ -54,6 +69,53 @@ export default function PageTemplate({ section }: PageProps) {
               }
 
               if (Array.isArray(value)) {
+                if (value.length > 0 && isPlace(value[0])) {
+                  return (
+                    <div key={key} className="grid gap-4 sm:grid-cols-2">
+                      {(value as Place[]).map((place, idx: number) => {
+                        const card = (
+                          <div className="h-full rounded-2xl bg-stone-50 ring-1 ring-stone-200 p-5 transition hover:shadow-md hover:ring-stone-300">
+                            <div className="flex items-start justify-between gap-3">
+                              <h3 className="text-base font-semibold text-stone-900">
+                                {place.name}
+                              </h3>
+                              <div className="flex shrink-0 items-center gap-2">
+                                {place.distance && (
+                                  <span className="rounded-full bg-stone-900 px-3 py-1 text-xs font-medium text-white">
+                                    {place.distance}
+                                  </span>
+                                )}
+                                {place.url && (
+                                  <MdOpenInNew className="text-lg text-stone-500" aria-hidden />
+                                )}
+                              </div>
+                            </div>
+                            {place.description && (
+                              <p className="mt-2 text-sm leading-6 text-stone-600">
+                                {place.description}
+                              </p>
+                            )}
+                          </div>
+                        );
+
+                        return place.url ? (
+                          <a
+                            key={idx}
+                            href={place.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block focus:outline-none focus:ring-2 focus:ring-stone-400 rounded-2xl"
+                          >
+                            {card}
+                          </a>
+                        ) : (
+                          <div key={idx}>{card}</div>
+                        );
+                      })}
+                    </div>
+                  );
+                }
+
                 return (
                   <ul key={key} className="space-y-2">
                     {(value as unknown[]).map((item, idx: number) => (

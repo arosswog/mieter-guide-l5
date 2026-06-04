@@ -126,42 +126,18 @@
   },
   "sehenswuerdigkeiten": {
     "title": "景点",
-    "description": "附近的亮点和景点。",
-    "heading": "当地景点",
-    "landmarks": "文化亮点:",
-    "landmarksList": [
-      "市政厅（200米）- 历史中心",
-      "美术馆（500米）- 现代艺术",
-      "古教堂（300米）- 17世纪"
-    ],
-    "parks": "公园 & 自然:",
-    "parksList": [
-      "城市公园（100米）- 带游乐场",
-      "河谷（800米）- 登山步道",
-      "植物园（2公里）- 超过2000种植物"
-    ],
-    "activities": "活动:",
-    "activitiesList": [
-      "漫步老城区",
-      "沿河自行车之旅",
-      "攀岩公园（3公里）",
-      "露天电影（夏季）"
+    "description": "路德维希堡及周边的亮点和景点。",
+    "heading": "路德维希堡及周边景点",
+    "places": [
+      { "name": "路德维希堡宫（住宅宫）", "description": "欧洲最大的巴洛克式宫殿之一，拥有华丽的大厅、博物馆和广阔的花园。", "distance": "约 1.3 公里", "url": "https://www.schloss-ludwigsburg.de" },
+      { "name": "盛开的巴洛克花园 & 童话花园", "description": "环绕宫殿的历史花园，设有广受欢迎的童话花园和秋季南瓜展。", "distance": "约 1.4 公里", "url": "https://www.blueba.de" },
+      { "name": "最爱宫 & 野生动物园", "description": "坐落于广阔野生动物园中的巴洛克式狩猎行宫，园中黇鹿自由漫步。", "distance": "约 2.5 公里", "url": "https://www.schloss-favorite-ludwigsburg.de" },
+      { "name": "蒙雷波湖畔宫", "description": "位于埃格洛斯海姆湖畔的迷人宫殿，设有公园、游船租赁和餐厅。", "distance": "约 3.5 公里", "url": "https://www.monrepos.de" },
+      { "name": "路德维希堡集市广场", "description": "巴洛克城中心的集市广场，拥有拱廊、两座教堂和每周集市。", "distance": "约 0.4 公里", "url": "https://www.ludwigsburg.de" },
+      { "name": "保时捷博物馆", "description": "位于斯图加特-楚芬豪森的精彩博物馆，展出 80 多辆历史悠久的跑车和赛车。", "distance": "约 12 公里", "url": "https://www.porsche.com/museum" },
+      { "name": "梅赛德斯-奔驰博物馆", "description": "横跨九层楼的汽车历史——从第一辆马车到现代赛车。", "distance": "约 15 公里", "url": "https://www.mercedes-benz.com/en/art-and-culture/museum/" },
+      { "name": "索利图德宫", "description": "坐落于斯图加特高地的优雅洛可可式宫殿，可俯瞰壮丽景色。", "distance": "约 14 公里", "url": "https://www.schloss-solitude.de" }
     ]
-  },
-  "restaurants": {
-    "title": "餐厅",
-    "description": "奥斯魏尔（Oßweil）温馨的餐馆和饭店。",
-    "heading": "奥斯魏尔的餐厅",
-    "fsv": "FSV Häusle Oßweil",
-    "fsvList": ["FSV Oßweil 俱乐部餐馆，供应施瓦本-克罗地亚风味菜肴。", "地址：Walter-Flex-Str. 71, 71640 Ludwigsburg-Oßweil", "网站：www.fsv-haeusle.de"],
-    "asv": "Athletenhäusle (ASV Oßweil)",
-    "asvList": ["ASV Oßweil 俱乐部餐馆，供应施瓦本-克罗地亚风味菜肴并设有啤酒花园。", "地址：Walter-Flex-Str. 75, 71640 Ludwigsburg-Oßweil", "网站：www.asv-ossweil.de"],
-    "blutsbrueder": "Restaurant Blutsbrüder Oßweil",
-    "blutsbruederList": ["供应创新而地道德国菜肴的餐厅。", "地址：Hanseatenstraße 54, 71640 Ludwigsburg-Oßweil", "网站：www.restaurant-blutsbrueder.de"],
-    "kleintier": "Kleintierzüchter Oßweil",
-    "kleintierList": ["小动物饲养协会会所，供应地方菜肴并设有啤酒花园。", "地址：Poppenweilerstraße 91, 71640 Ludwigsburg-Oßweil", "网站：www.ktzvo.de"],
-    "pizzeria": "Pizzeria Da Gennaro Oßweil",
-    "pizzeriaList": ["意式比萨店和小餐馆，供应意大利特色菜和外带比萨。", "地址：Rudolf-Greiner-Straße 6, 71640 Ludwigsburg-Oßweil", "网站：www.pizzeria-dagennaro.de"]
   },
   "verkehr": {
     "title": "交通",
