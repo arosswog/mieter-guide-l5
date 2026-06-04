@@ -23,12 +23,20 @@
     "title": "WiFi & Tech",
     "description": "Wszystkie dostępy, instrukcje i informacje techniczne w jednym miejscu.",
     "heading": "Dostęp WiFi",
-    "ssid": "Nazwa Sieci (SSID): Haus1890-Guest",
-    "password": "Hasło: guestWifi2024!",
-    "tips": "Porady WiFi:",
-    "tipsList": ["Nie używaj swojej prywatnej sieci WiFi", "Utrzymuj stabilne połączenie", "Jeśli problemy: zrestartuj router (odłącz na 30 sekund)"],
+    "ssid": "Nazwa Sieci (SSID): LONG-STREET-GUEST",
+    "password": "Hasło: 1sommer!",
     "devices": "Urządzenia w mieszkaniu:",
-    "devicesList": ["Smart TV z aplikacjami streamingowymi", "Głośnik Bluetooth", "Ładowarki USB w każdym pokoju"]
+    "devicesList": [
+      "Smart TV z aplikacjami streamingowymi",
+      "Głośnik Bluetooth",
+      "Ładowarki USB w każdym pokoju"
+    ],
+    "smartHome": "SmartHome i technika w domu:",
+    "smartHomeList": [
+      "Czujniki dymu i zalania Shelly zapewniają bezpieczeństwo – prosimy ich nie usuwać.",
+      "Czujniki okienne i temperatury wspomagają automatyczną regulację klimatu.",
+      "Wzmacniacze EVE Thread/Matter (w formie gniazdka) są ważne dla stabilnej sieci bezprzewodowej – prosimy ich nie odłączać."
+    ]
   },
   "checkin": {
     "title": "Info Zameldowania",
@@ -39,18 +47,38 @@
     "keyPickup": "Przekazanie Kluczy: Po wycieraczce",
     "codeMessage": "Kod do drzwi wejściowych znajduje się w email potwierdzającym.",
     "important": "Ważne:",
-    "importantList": ["Trzymaj się godziny zameldowania", "Przeczytaj regulamin domu", "Włącz ogrzewanie zimą", "Zapamiętaj nasz numer kontaktowy"]
+    "importantList": [
+      "Trzymaj się godziny zameldowania",
+      "Przeczytaj regulamin domu",
+      "Włącz ogrzewanie zimą",
+      "Zapamiętaj nasz numer kontaktowy"
+    ]
   },
   "hausregeln": {
     "title": "Regulamin Domu",
     "description": "Zasady harmonijnego współżycia – proszę przeglądać.",
     "heading": "Regulamin Domu",
     "general": "Zasady Ogólne:",
-    "generalList": ["Poszanowanie dla innych gości i sąsiadów", "Godziny ciszy: 22:00 - 08:00", "Bez głośnych imprez", "Poproś pozwolenie przed zaproszeniem gości"],
+    "generalList": [
+      "Poszanowanie dla innych gości i sąsiadów",
+      "Godziny ciszy: 22:00 - 08:00",
+      "Bez głośnych imprez",
+      "Poproś pozwolenie przed zaproszeniem gości"
+    ],
     "cleaning": "Czyszczenie:",
-    "cleaningList": ["Trzymaj mieszkanie czystym", "Mów naczynia po jedzeniu", "Opróżniaj śmieci regularnie", "Posprzątaj przed wymeldowaniem"],
+    "cleaningList": [
+      "Trzymaj mieszkanie czystym",
+      "Mów naczynia po jedzeniu",
+      "Opróżniaj śmieci regularnie",
+      "Posprzątaj przed wymeldowaniem"
+    ],
     "safety": "Bezpieczeństwo:",
-    "safetyList": ["Zamknij drzwi na klucz wychodząc", "Przestrzegaj przepisów bezpieczeństwa pożarowego", "Palenie tylko na balkonie", "Bez otwartego ognia"]
+    "safetyList": [
+      "Zamknij drzwi na klucz wychodząc",
+      "Przestrzegaj przepisów bezpieczeństwa pożarowego",
+      "Palenie tylko na balkonie",
+      "Bez otwartego ognia"
+    ]
   },
   "einkauf": {
     "title": "ショッピング",
@@ -58,11 +86,20 @@
     "heading": "ルートヴィヒスブルクのショッピング機会",
     "location": "住所: Lange Straße 5, 71640 Ludwigsburg",
     "bakery": "ベーカリー:",
-    "bakeryList": ["Bäckerei Meyer - 150m", "Backstube Müller - 300m"],
+    "bakeryList": [
+      "Bäckerei Meyer - 150m",
+      "Backstube Müller - 300m"
+    ],
     "butcher": "肉屋:",
-    "butcherList": ["Metzgerei Schmidt - 200m", "Fleischerei Weibel - 350m"],
+    "butcherList": [
+      "Metzgerei Schmidt - 200m",
+      "Fleischerei Weibel - 350m"
+    ],
     "discounter": "ディスカウント店:",
-    "discounterList": ["Aldi Nord - 250m", "Lidl - 400m"],
+    "discounterList": [
+      "Aldi Nord - 250m",
+      "Lidl - 400m"
+    ],
     "mapInfo": "地図: すべての店舗と私たちの家は下の地図にマークされています。"
   },
   "muell": {
@@ -72,31 +109,62 @@
     "pickupTimes": "Godziny zbierania:",
     "pickupInfo": "Śmieci: Wtorki | Papier: Czwartki | Żółta Woreczka: 1x miesięcznie",
     "separation": "Segregacja Odpadów:",
-    "separationList": ["Śmieci w zielonym pojemniku", "Papier/karton w niebieskim pojemniku", "Żółta woreczka na plastik i metal", "Szkło w kontenerze na szkło"],
+    "separationList": [
+      "Śmieci w zielonym pojemniku",
+      "Papier/karton w niebieskim pojemniku",
+      "Żółta woreczka na plastik i metal",
+      "Szkło w kontenerze na szkło"
+    ],
     "tips": "Porady Śmieci:",
-    "tipsList": ["Postaw pojemniki wieczorem", "Nie przepełniaj żółtej woreczki", "Zawiąż worki plastikowe przed wyrzuceniem", "Kompost do kompostownika"]
+    "tipsList": [
+      "Postaw pojemniki wieczorem",
+      "Nie przepełniaj żółtej woreczki",
+      "Zawiąż worki plastikowe przed wyrzuceniem",
+      "Kompost do kompostownika"
+    ]
   },
   "sehenswuerdigkeiten": {
     "title": "Atrakcje",
     "description": "Punkty strengths i atrakcje w pobliżu.",
     "heading": "Lokalne Atrakcje",
     "landmarks": "Najważniejsze Miejsca Kulturalne:",
-    "landmarksList": ["Ratusz (200m) - centrum historyczne", "Muzeum Sztuki (500m) - Sztuka Nowoczesna", "Stary Kościół (300m) - XVII wiek"],
+    "landmarksList": [
+      "Ratusz (200m) - centrum historyczne",
+      "Muzeum Sztuki (500m) - Sztuka Nowoczesna",
+      "Stary Kościół (300m) - XVII wiek"
+    ],
     "parks": "Parki & Przyroda:",
-    "parksList": ["Park Miasta (100m) - z placem zabaw", "Dolina Rzeki (800m) - szlak turystyczny", "Ogród Botaniczny (2km) - ponad 2000 roślin"],
+    "parksList": [
+      "Park Miasta (100m) - z placem zabaw",
+      "Dolina Rzeki (800m) - szlak turystyczny",
+      "Ogród Botaniczny (2km) - ponad 2000 roślin"
+    ],
     "activities": "Aktywności:",
-    "activitiesList": ["Spacer po starym mieście", "Wycieczka rowerowa wzdłuż rzeki", "Park linowy (3km)", "Kino letnie (lato)"]
+    "activitiesList": [
+      "Spacer po starym mieście",
+      "Wycieczka rowerowa wzdłuż rzeki",
+      "Park linowy (3km)",
+      "Kino letnie (lato)"
+    ]
   },
   "verkehr": {
     "title": "Transport",
     "description": "Transport publiczny, parkowanie i wskazówki.",
     "heading": "Mobilność",
     "publicTransport": "Transport Publiczny:",
-    "publicTransportList": ["Linia U-Bahn 5 - 50m spacerem", "Autobusy 23 & 45 - tuż przed domem", "Tramwaj - 200m"],
+    "publicTransportList": [
+      "Linia U-Bahn 5 - 50m spacerem",
+      "Autobusy 23 & 45 - tuż przed domem",
+      "Tramwaj - 200m"
+    ],
     "parking": "Parkowanie:",
     "parkingInfo": "Bezpłatny parking na ulicy (bez gwarancji). Garaż podziemny 500m za €15/dzień.",
     "cycling": "Kolarstwo:",
-    "cyclingList": ["Stojak na rowery na podwórku", "Warsztat rowerowy 100m", "Stacja rowerów publicznych tuż przed domem"],
+    "cyclingList": [
+      "Stojak na rowery na podwórku",
+      "Warsztat rowerowy 100m",
+      "Stacja rowerów publicznych tuż przed domem"
+    ],
     "taxi": "Taxi & Ridesharing:",
     "taxiInfo": "Uber & Bolt dostępne. Lokalne taxi: +49 (0) 123 456789"
   },
@@ -105,7 +173,11 @@
     "description": "Kontakty awaryjne i wsparcie.",
     "heading": "Kontakty",
     "emergency": "Nagły Wypadek:",
-    "emergencyNumbers": ["Policja: 110", "Straż Pożarna: 112", "Pogotowie Medyczne: 0911 / 19292"],
+    "emergencyNumbers": [
+      "Policja: 110",
+      "Straż Pożarna: 112",
+      "Pogotowie Medyczne: 0911 / 19292"
+    ],
     "support": "Wsparcie:",
     "supportInfo": "Zarządzanie Nieruchomościami: +49 (0) 123 4567890 | Email: support@haus1890.de | Strona: www.haus1890.de",
     "maintenance": "Konserwacja & Naprawy:",
@@ -118,21 +190,51 @@
     "description": "Informacje o mieszkaniu na piętrze.",
     "heading": "Mieszkanie Piętra (OG)",
     "rooms": "Pokoje & Wyposażenie:",
-    "roomsList": ["Salon z balkonem", "Sypialnia z łóżkiem boxspring", "Kuchnia ze wszystkimi urządzeniami", "Łazienka z prysznicem i wanną", "Przedpokój z przechowywaniem"],
+    "roomsList": [
+      "Salon z balkonem",
+      "Sypialnia z łóżkiem boxspring",
+      "Kuchnia ze wszystkimi urządzeniami",
+      "Łazienka z prysznicem i wanną",
+      "Przedpokój z przechowywaniem"
+    ],
     "features": "Specjalne Cechy:",
-    "featuresList": ["Balkon z widokiem na miasto", "Ogrzewanie podłogowe", "Podwójna izolacja", "Pralka w zestawie"],
+    "featuresList": [
+      "Balkon z widokiem na miasto",
+      "Ogrzewanie podłogowe",
+      "Podwójna izolacja",
+      "Pralka w zestawie"
+    ],
     "rules": "Zasady Specjalne:",
-    "rulesList": ["Balkon: nie suszysz ubrań", "Zamknij okna w nocy (strata ciepła)", "Zwierzęta tylko za pozwoleniem"]
+    "rulesList": [
+      "Balkon: nie suszysz ubrań",
+      "Zamknij okna w nocy (strata ciepła)",
+      "Zwierzęta tylko za pozwoleniem"
+    ]
   },
   "eg": {
     "title": "Mieszkanie na Parterze",
     "description": "Informacje o mieszkaniu na parterze.",
     "heading": "Parter (EG)",
     "rooms": "Pokoje & Wyposażenie:",
-    "roomsList": ["Otwarta przestrzeń mieszkalna", "Sypialnia", "Kuchnia z nowoczesnym designem", "Łazienka z ogrzewaniem podłogowym", "Taras z dostępem do ogrodu"],
+    "roomsList": [
+      "Otwarta przestrzeń mieszkalna",
+      "Sypialnia",
+      "Kuchnia z nowoczesnym designem",
+      "Łazienka z ogrzewaniem podłogowym",
+      "Taras z dostępem do ogrodu"
+    ],
     "features": "Specjalne Cechy:",
-    "featuresList": ["Taras z prywatnym ogrodem", "Dostęp na parterze", "Nowoczesne urządzenia smart home", "Przypisane miejsce parkingowe"],
+    "featuresList": [
+      "Taras z prywatnym ogrodem",
+      "Dostęp na parterze",
+      "Nowoczesne urządzenia smart home",
+      "Przypisane miejsce parkingowe"
+    ],
     "rules": "Zasady Specjalne:",
-    "rulesList": ["Ogród: prace ogrodnicze tylko do 19:00", "Bez głośnych urządzeń w niedzielę", "Strzyżenie żywopłotu maks 2m"]
+    "rulesList": [
+      "Ogród: prace ogrodnicze tylko do 19:00",
+      "Bez głośnych urządzeń w niedzielę",
+      "Strzyżenie żywopłotu maks 2m"
+    ]
   }
 }
