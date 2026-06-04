@@ -144,11 +144,11 @@
     "description": "オスヴァイル（Oßweil）のおすすめレストラン。",
     "heading": "オスヴァイルのレストラン",
     "places": [
-      { "name": "FSV Oßweil（クラブハウス）", "description": "FSVオスヴァイルの居心地の良いクラブハウス。家庭的な料理とビアガーデンが楽しめます。", "distance": "約2.5 km" },
-      { "name": "ASV Oßweil（クラブハウス）", "description": "ASVオスヴァイルのクラブ食堂。和やかな雰囲気で素朴な料理を味わえます。", "distance": "約2.7 km" },
-      { "name": "Blutsbrüder", "description": "オスヴァイルのカジュアルなお店。バーガーや軽食、ドリンクが楽しめます。", "distance": "約2.4 km" },
-      { "name": "Kleintierzüchter Oßweil（クラブハウス）", "description": "小動物飼育クラブのクラブハウス。家庭的な料理と落ち着いた雰囲気が魅力です。", "distance": "約2.6 km" },
-      { "name": "Pizzeria Oßweil", "description": "オスヴァイルのイタリアンピッツェリア。ピザやパスタ、宅配サービスもあります。", "distance": "約2.3 km" }
+      { "name": "FSV Oßweil（クラブハウス）", "description": "FSVオスヴァイルの居心地の良いクラブハウス。家庭的な料理とビアガーデンが楽しめます。", "distance": "約3.4 km", "url": "https://www.fsv-ossweil.de" },
+      { "name": "ASV Oßweil（クラブハウス）", "description": "ASVオスヴァイルのクラブ食堂。和やかな雰囲気で素朴な料理を味わえます。", "distance": "約3.4 km", "url": "https://www.asv-ossweil.de" },
+      { "name": "Blutsbrüder", "description": "オスヴァイルのカジュアルなお店。バーガーや軽食、ドリンクが楽しめます。", "distance": "約3.4 km", "url": "https://restaurant-blutsbrueder.de" },
+      { "name": "Kleintierzüchter Oßweil（クラブハウス）", "description": "小動物飼育クラブのクラブハウス。家庭的な料理と落ち着いた雰囲気が魅力です。", "distance": "約2.6 km", "url": "https://www.ktzvo.de" },
+      { "name": "Pizzeria Oßweil", "description": "オスヴァイルのイタリアンピッツェリア。ピザやパスタ、宅配サービスもあります。", "distance": "約3.2 km", "url": "https://www.pizzeria-dagennaro.de" }
     ]
   },
   "verkehr": {
