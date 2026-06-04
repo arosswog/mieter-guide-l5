@@ -221,7 +221,7 @@
         "RT": "Restmüll",
         "BT": "Bioabfall",
         "PT": "Papier",
-        "LT": "Gelber Sack",
+        "LT": "Gelbe Tonne",
         "GT": "Grüngut / Glas",
         "UNKNOWN": "Abholung"
       }
@@ -229,19 +229,20 @@
     "separation": {
       "heading": "Mülltrennung",
       "list": [
-        "Restmüll in der grünen Tonne",
-        "Papier/Pappe in der blauen Tonne",
-        "Gelber Sack für Kunststoff & Metall",
-        "Glas in den Glascontainer"
+        "Glas in der blauen Tonne",
+        "Plastik/Styropor in der gelben Tonne",
+        "Restmüll in der schwarzen Tonne",
+        "Bioabfall in der braunen Tonne",
+        "Papier/Karton in der grünen Tonne"
       ]
     },
     "tips": {
       "heading": "Müll-Tipps",
       "list": [
         "Stelle die Tonnen am Vorabend raus",
-        "Fülle den Gelben Sack nicht zu voll",
-        "Binde Plastiktüten zu vor dem Werfen",
-        "Kompost gehört in die Bio-Tonne"
+        "Fülle die gelbe Tonne nicht zu voll",
+        "Wir haben keine Säcke – alles kommt direkt in die Tonnen",
+        "Kompost gehört in die braune Bio-Tonne"
       ]
     }
   },

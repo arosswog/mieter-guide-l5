@@ -221,7 +221,7 @@
         "RT": "General waste",
         "BT": "Bio waste",
         "PT": "Paper",
-        "LT": "Yellow sack",
+        "LT": "Yellow bin",
         "GT": "Garden waste / Glass",
         "UNKNOWN": "Collection"
       }
@@ -229,19 +229,20 @@
     "separation": {
       "heading": "Waste separation",
       "list": [
-        "General waste in green bin",
-        "Paper/cardboard in blue bin",
-        "Yellow sack for plastic & metal",
-        "Glass in glass container"
+        "Glass in the blue bin",
+        "Plastic/styrofoam in the yellow bin",
+        "General waste in the black bin",
+        "Bio waste in the brown bin",
+        "Paper/cardboard in the green bin"
       ]
     },
     "tips": {
       "heading": "Trash tips",
       "list": [
         "Put bins out the night before",
-        "Don't overfill yellow sack",
-        "Tie plastic bags before throwing",
-        "Compost belongs in bio-bin"
+        "Don't overfill the yellow bin",
+        "We have no sacks – everything goes straight into the bins",
+        "Compost belongs in the brown bio-bin"
       ]
     }
   },
