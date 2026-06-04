@@ -196,24 +196,54 @@
   },
   "muell": {
     "title": "Ordures",
-    "description": "Gestion des déchets, horaires de collecte et tri.",
+    "description": "Dates de collecte, tri des déchets et conseils.",
     "heading": "Calendrier de Collecte",
-    "pickupTimes": "Horaires de collecte:",
-    "pickupInfo": "Ordures ménagères: Mardis | Papier: Jeudis | Sac jaune: 1x par mois",
-    "separation": "Tri des Déchets:",
-    "separationList": [
-      "Ordures ménagères dans le bac vert",
-      "Papier/carton dans le bac bleu",
-      "Sac jaune pour plastique & métal",
-      "Verre au conteneur à verre"
-    ],
-    "tips": "Conseils Déchets:",
-    "tipsList": [
-      "Mettez les bacs dehors la veille",
-      "Ne remplissez pas trop le sac jaune",
-      "Attachez les sacs plastiques avant de jeter",
-      "Le compost va dans le bac bio"
-    ]
+    "intro": "Voici toutes les dates de collecte des 60 prochains jours – directement depuis le calendrier de collecte AVL Ludwigsburg pour la Lange Str. 5.",
+    "backLabel": "Retour à l'accueil",
+    "live": {
+      "days": 60,
+      "avlUrl": "https://www.avl-ludwigsburg.de/privatkunden/abfuhrtermine-abfuhrkalender/",
+      "heading": "Dates de collecte",
+      "subtitle": "60 prochains jours – en direct du calendrier AVL",
+      "loading": "Chargement des dates …",
+      "error": "Les dates de collecte sont actuellement indisponibles. Veuillez consulter directement l'AVL.",
+      "empty": "Aucune collecte prévue dans les 60 prochains jours.",
+      "updated": "Mis à jour à",
+      "refresh": "Actualiser",
+      "openLink": "Ouvrir le calendrier AVL",
+      "disclaimer": "Données de l'AVL Ludwigsburg, sans garantie.",
+      "dateHeader": "Date",
+      "wasteHeader": "Type de déchet",
+      "today": "Aujourd'hui",
+      "tomorrow": "Demain",
+      "legendTitle": "Types de déchets",
+      "types": {
+        "RT": "Ordures ménagères",
+        "BT": "Biodéchets",
+        "PT": "Papier",
+        "LT": "Sac jaune",
+        "GT": "Déchets verts / Verre",
+        "UNKNOWN": "Collecte"
+      }
+    },
+    "separation": {
+      "heading": "Tri des déchets",
+      "list": [
+        "Ordures ménagères dans le bac vert",
+        "Papier/carton dans le bac bleu",
+        "Sac jaune pour plastique & métal",
+        "Verre au conteneur à verre"
+      ]
+    },
+    "tips": {
+      "heading": "Conseils déchets",
+      "list": [
+        "Mettez les bacs dehors la veille",
+        "Ne remplissez pas trop le sac jaune",
+        "Attachez les sacs plastiques avant de jeter",
+        "Le compost va dans le bac bio"
+      ]
+    }
   },
   "sehenswuerdigkeiten": {
     "title": "Attractions",
