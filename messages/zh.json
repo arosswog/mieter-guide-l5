@@ -141,15 +141,14 @@
   },
   "restaurants": {
     "title": "餐厅",
-    "description": "路德维希堡及周边推荐餐厅。",
-    "heading": "路德维希堡及周边餐厅",
+    "description": "奥斯魏尔（Oßweil）推荐餐厅。",
+    "heading": "奥斯魏尔的餐厅",
     "places": [
-      { "name": "Post-Cantz", "description": "始于1734年的传统餐馆，供应施瓦本及地中海料理，以多种馅饺（Maultaschen）闻名。", "distance": "约 0.5 公里", "url": "https://www.post-cantz.de" },
-      { "name": "La Signora Moro", "description": "位于集市广场旁的人气意大利餐厅，提供意面、新鲜海鲜和阳光露台。", "distance": "约 0.4 公里", "url": "https://www.lasignoramoro.de" },
-      { "name": "Lange am Markt", "description": "高档欧式料理，晚餐菜单精致，可饱览集市广场美景。", "distance": "约 0.4 公里", "url": "https://lange-am-markt.de" },
-      { "name": "Trattoria Antipasto", "description": "邻近集市广场的地道意式小馆，主打意大利-地中海菜肴，配有优质葡萄酒。", "distance": "约 0.4 公里", "url": "https://www.antipasto-wein.de" },
-      { "name": "Ristorante Pavarotti", "description": "经典意大利料理，手工自制意面，氛围温馨舒适。", "distance": "约 0.8 公里", "url": "https://www.ristorante-pavarotti.de" },
-      { "name": "Restaurant Gutsschenke – Schlosshotel Monrepos", "description": "莫雷波宫酒店内的高档地方料理，湖畔美食爱好者的首选。", "distance": "约 3.5 公里", "url": "https://www.schlosshotel-monrepos.de" }
+      { "name": "FSV Oßweil 俱乐部餐厅", "description": "FSV奥斯魏尔的温馨俱乐部餐厅，提供家常料理和啤酒花园。", "distance": "约 2.5 公里" },
+      { "name": "ASV Oßweil 俱乐部餐厅", "description": "ASV奥斯魏尔的俱乐部餐厅，在热闹氛围中供应丰盛菜肴。", "distance": "约 2.7 公里" },
+      { "name": "Blutsbrüder", "description": "奥斯魏尔一家轻松随性的小馆，供应汉堡、小食和饮品。", "distance": "约 2.4 公里" },
+      { "name": "Kleintierzüchter Oßweil 俱乐部餐厅", "description": "小动物饲养者俱乐部餐厅，提供家常料理，氛围温馨。", "distance": "约 2.6 公里" },
+      { "name": "Pizzeria Oßweil", "description": "奥斯魏尔的意大利比萨店，供应披萨、意面和外送服务。", "distance": "约 2.3 公里" }
     ]
   },
   "verkehr": {

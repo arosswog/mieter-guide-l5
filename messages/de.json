@@ -141,15 +141,14 @@
   },
   "restaurants": {
     "title": "Restaurants",
-    "description": "Empfehlenswerte Restaurants in Ludwigsburg und Umgebung.",
-    "heading": "Restaurants in Ludwigsburg & Umgebung",
+    "description": "Empfehlenswerte Restaurants in Oßweil.",
+    "heading": "Restaurants in Oßweil",
     "places": [
-      { "name": "Post-Cantz", "description": "Traditionelles Wirtshaus von 1734 mit schwäbischer und mediterraner Küche – bekannt für seine vielen Maultaschen-Varianten.", "distance": "ca. 0,5 km", "url": "https://www.post-cantz.de" },
-      { "name": "La Signora Moro", "description": "Beliebtes italienisches Restaurant direkt am Marktplatz mit Pasta, frischem Fisch und sonniger Terrasse.", "distance": "ca. 0,4 km", "url": "https://www.lasignoramoro.de" },
-      { "name": "Lange am Markt", "description": "Gehobene europäische Küche mit anspruchsvoller Abendkarte und schönem Blick auf den Marktplatz.", "distance": "ca. 0,4 km", "url": "https://lange-am-markt.de" },
-      { "name": "Trattoria Antipasto", "description": "Authentische Trattoria nahe dem Marktplatz mit italienisch-mediterraner Küche und guter Weinauswahl.", "distance": "ca. 0,4 km", "url": "https://www.antipasto-wein.de" },
-      { "name": "Ristorante Pavarotti", "description": "Klassische italienische Küche mit hausgemachter Pasta in gemütlichem Ambiente.", "distance": "ca. 0,8 km", "url": "https://www.ristorante-pavarotti.de" },
-      { "name": "Restaurant Gutsschenke – Schlosshotel Monrepos", "description": "Gehobene regionale Küche im Schlosshotel Monrepos – ein Highlight für Feinschmecker am See.", "distance": "ca. 3,5 km", "url": "https://www.schlosshotel-monrepos.de" }
+      { "name": "FSV Oßweil – Vereinsheim", "description": "Gemütliches Vereinsheim des FSV Oßweil mit bürgerlicher Küche und Biergarten.", "distance": "ca. 2,5 km" },
+      { "name": "ASV Oßweil – Vereinsheim", "description": "Vereinsgaststätte des ASV Oßweil mit herzhafter Küche in geselliger Atmosphäre.", "distance": "ca. 2,7 km" },
+      { "name": "Blutsbrüder", "description": "Lockeres Lokal in Oßweil mit Burgern, Snacks und Getränken.", "distance": "ca. 2,4 km" },
+      { "name": "Kleintierzüchter Oßweil – Vereinsheim", "description": "Vereinsheim der Kleintierzüchter mit gutbürgerlicher Küche und gemütlichem Ambiente.", "distance": "ca. 2,6 km" },
+      { "name": "Pizzeria Oßweil", "description": "Italienische Pizzeria in Oßweil mit Pizza, Pasta und Lieferservice.", "distance": "ca. 2,3 km" }
     ]
   },
   "verkehr": {

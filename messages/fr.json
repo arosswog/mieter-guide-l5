@@ -141,15 +141,14 @@
   },
   "restaurants": {
     "title": "Restaurants",
-    "description": "Restaurants recommandés à Ludwigsburg et ses environs.",
-    "heading": "Restaurants à Ludwigsburg & ses environs",
+    "description": "Restaurants recommandés à Oßweil.",
+    "heading": "Restaurants à Oßweil",
     "places": [
-      { "name": "Post-Cantz", "description": "Auberge traditionnelle datant de 1734 proposant une cuisine souabe et méditerranéenne – réputée pour ses nombreuses variétés de Maultaschen.", "distance": "env. 0,5 km", "url": "https://www.post-cantz.de" },
-      { "name": "La Signora Moro", "description": "Restaurant italien apprécié, en plein sur la place du marché, avec pâtes, poisson frais et terrasse ensoleillée.", "distance": "env. 0,4 km", "url": "https://www.lasignoramoro.de" },
-      { "name": "Lange am Markt", "description": "Cuisine européenne raffinée avec une carte du soir élaborée et une belle vue sur la place du marché.", "distance": "env. 0,4 km", "url": "https://lange-am-markt.de" },
-      { "name": "Trattoria Antipasto", "description": "Trattoria authentique près de la place du marché, cuisine italo-méditerranéenne et belle sélection de vins.", "distance": "env. 0,4 km", "url": "https://www.antipasto-wein.de" },
-      { "name": "Ristorante Pavarotti", "description": "Cuisine italienne classique avec pâtes maison dans une ambiance chaleureuse.", "distance": "env. 0,8 km", "url": "https://www.ristorante-pavarotti.de" },
-      { "name": "Restaurant Gutsschenke – Schlosshotel Monrepos", "description": "Cuisine régionale raffinée au Schlosshotel Monrepos – un incontournable pour les gourmets au bord du lac.", "distance": "env. 3,5 km", "url": "https://www.schlosshotel-monrepos.de" }
+      { "name": "FSV Oßweil – Foyer du club", "description": "Foyer convivial du club FSV Oßweil proposant une cuisine maison copieuse et un biergarten.", "distance": "env. 2,5 km" },
+      { "name": "ASV Oßweil – Foyer du club", "description": "Restaurant du club ASV Oßweil servant des plats copieux dans une ambiance conviviale.", "distance": "env. 2,7 km" },
+      { "name": "Blutsbrüder", "description": "Adresse décontractée à Oßweil avec burgers, snacks et boissons.", "distance": "env. 2,4 km" },
+      { "name": "Kleintierzüchter Oßweil – Foyer du club", "description": "Foyer du club des éleveurs de petits animaux, cuisine familiale dans une ambiance chaleureuse.", "distance": "env. 2,6 km" },
+      { "name": "Pizzeria Oßweil", "description": "Pizzeria italienne à Oßweil avec pizzas, pâtes et service de livraison.", "distance": "env. 2,3 km" }
     ]
   },
   "verkehr": {
