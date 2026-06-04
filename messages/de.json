@@ -196,24 +196,54 @@
   },
   "muell": {
     "title": "Müllabholung",
-    "description": "Abfallwirtschaft, Abholzeiten und Trennung.",
-    "heading": "Müllabholung Kalender",
-    "pickupTimes": "Abholungszeiten:",
-    "pickupInfo": "Restmüll: Dienstags | Papier: Donnerstags | Gelber Sack: 1x monatlich",
-    "separation": "Müllseparation:",
-    "separationList": [
-      "Restmüll in der grünen Tonne",
-      "Papier/Pappe in der blauen Tonne",
-      "Gelber Sack für Kunststoff & Metall",
-      "Glas in den Glascontainer"
-    ],
-    "tips": "Müll-Tipps:",
-    "tipsList": [
-      "Stelle die Tonnen am Vorabend raus",
-      "Fülle den Gelben Sack nicht zu voll",
-      "Binde Plastiktüten zu vor dem Werfen",
-      "Kompost gehört in die Bio-Tonne"
-    ]
+    "description": "Abfuhrtermine, Mülltrennung und Tipps.",
+    "heading": "Abfuhrkalender",
+    "intro": "Hier siehst du alle Abholtermine der nächsten 60 Tage – direkt aus dem Abfuhrkalender der AVL Ludwigsburg für die Lange Str. 5.",
+    "backLabel": "Zurück zur Startseite",
+    "live": {
+      "days": 60,
+      "avlUrl": "https://www.avl-ludwigsburg.de/privatkunden/abfuhrtermine-abfuhrkalender/",
+      "heading": "Abholtermine",
+      "subtitle": "Nächste 60 Tage – live aus dem AVL-Abfuhrkalender",
+      "loading": "Termine werden geladen …",
+      "error": "Die Abholtermine sind gerade nicht verfügbar. Bitte direkt bei der AVL nachsehen.",
+      "empty": "In den nächsten 60 Tagen sind keine Abholtermine eingetragen.",
+      "updated": "Aktualisiert um",
+      "refresh": "Aktualisieren",
+      "openLink": "Zum AVL-Abfuhrkalender",
+      "disclaimer": "Daten der AVL Ludwigsburg, Angaben ohne Gewähr.",
+      "dateHeader": "Datum",
+      "wasteHeader": "Abfallart",
+      "today": "Heute",
+      "tomorrow": "Morgen",
+      "legendTitle": "Mülltypen",
+      "types": {
+        "RT": "Restmüll",
+        "BT": "Bioabfall",
+        "PT": "Papier",
+        "LT": "Gelber Sack",
+        "GT": "Grüngut / Glas",
+        "UNKNOWN": "Abholung"
+      }
+    },
+    "separation": {
+      "heading": "Mülltrennung",
+      "list": [
+        "Restmüll in der grünen Tonne",
+        "Papier/Pappe in der blauen Tonne",
+        "Gelber Sack für Kunststoff & Metall",
+        "Glas in den Glascontainer"
+      ]
+    },
+    "tips": {
+      "heading": "Müll-Tipps",
+      "list": [
+        "Stelle die Tonnen am Vorabend raus",
+        "Fülle den Gelben Sack nicht zu voll",
+        "Binde Plastiktüten zu vor dem Werfen",
+        "Kompost gehört in die Bio-Tonne"
+      ]
+    }
   },
   "sehenswuerdigkeiten": {
     "title": "Sehenswürdigkeiten",

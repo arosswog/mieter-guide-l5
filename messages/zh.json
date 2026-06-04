@@ -196,24 +196,54 @@
   },
   "muell": {
     "title": "垃圾",
-    "description": "废物管理、收集时间和分类。",
-    "heading": "垃圾收集时间表",
-    "pickupTimes": "收集时间:",
-    "pickupInfo": "普通垃圾: 周二 | 纸张: 周四 | 黄色袋: 1个月1次",
-    "separation": "垃圾分类:",
-    "separationList": [
-      "普通垃圾放在绿色垃圾桶",
-      "纸张/纸板放在蓝色垃圾桶",
-      "塑料和金属放在黄色袋",
-      "玻璃放在玻璃容器"
-    ],
-    "tips": "垃圾提示:",
-    "tipsList": [
-      "前一晚放出垃圾桶",
-      "不要将黄色袋填得过满",
-      "扔掉前系好塑料袋",
-      "堆肥放在生物垃圾桶"
-    ]
+    "description": "收集日期、垃圾分类和提示。",
+    "heading": "垃圾收集日历",
+    "intro": "这里显示未来60天的所有收集日期——直接来自AVL路德维希堡为Lange Str. 5提供的垃圾收集日历。",
+    "backLabel": "返回首页",
+    "live": {
+      "days": 60,
+      "avlUrl": "https://www.avl-ludwigsburg.de/privatkunden/abfuhrtermine-abfuhrkalender/",
+      "heading": "收集日期",
+      "subtitle": "未来60天 – AVL垃圾日历实时数据",
+      "loading": "正在加载收集日期 …",
+      "error": "收集日期当前不可用。请直接向AVL查询。",
+      "empty": "未来60天没有安排收集日期。",
+      "updated": "更新于",
+      "refresh": "刷新",
+      "openLink": "打开AVL垃圾日历",
+      "disclaimer": "数据来自AVL路德维希堡，不作保证。",
+      "dateHeader": "日期",
+      "wasteHeader": "垃圾类型",
+      "today": "今天",
+      "tomorrow": "明天",
+      "legendTitle": "垃圾类型",
+      "types": {
+        "RT": "普通垃圾",
+        "BT": "生物垃圾",
+        "PT": "纸张",
+        "LT": "黄色袋",
+        "GT": "园林垃圾／玻璃",
+        "UNKNOWN": "收集"
+      }
+    },
+    "separation": {
+      "heading": "垃圾分类",
+      "list": [
+        "普通垃圾放在绿色垃圾桶",
+        "纸张/纸板放在蓝色垃圾桶",
+        "塑料和金属放在黄色袋",
+        "玻璃放在玻璃容器"
+      ]
+    },
+    "tips": {
+      "heading": "垃圾提示",
+      "list": [
+        "前一晚放出垃圾桶",
+        "不要将黄色袋填得过满",
+        "扔掉前系好塑料袋",
+        "堆肥放在生物垃圾桶"
+      ]
+    }
   },
   "sehenswuerdigkeiten": {
     "title": "景点",

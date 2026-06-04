@@ -196,24 +196,54 @@
   },
   "muell": {
     "title": "Trash",
-    "description": "Waste management, collection times and separation.",
-    "heading": "Trash Collection Schedule",
-    "pickupTimes": "Collection times:",
-    "pickupInfo": "General waste: Tuesdays | Paper: Thursdays | Yellow Sack: Once monthly",
-    "separation": "Waste Separation:",
-    "separationList": [
-      "General waste in green bin",
-      "Paper/cardboard in blue bin",
-      "Yellow sack for plastic & metal",
-      "Glass in glass container"
-    ],
-    "tips": "Trash Tips:",
-    "tipsList": [
-      "Put bins out the night before",
-      "Don't overfill yellow sack",
-      "Tie plastic bags before throwing",
-      "Compost belongs in bio-bin"
-    ]
+    "description": "Collection dates, waste separation and tips.",
+    "heading": "Collection Calendar",
+    "intro": "Here are all collection dates for the next 60 days – straight from the AVL Ludwigsburg waste calendar for Lange Str. 5.",
+    "backLabel": "Back to Home",
+    "live": {
+      "days": 60,
+      "avlUrl": "https://www.avl-ludwigsburg.de/privatkunden/abfuhrtermine-abfuhrkalender/",
+      "heading": "Collection dates",
+      "subtitle": "Next 60 days – live from the AVL waste calendar",
+      "loading": "Loading collection dates …",
+      "error": "Collection dates are currently unavailable. Please check directly with AVL.",
+      "empty": "No collection dates scheduled for the next 60 days.",
+      "updated": "Updated at",
+      "refresh": "Refresh",
+      "openLink": "Open AVL waste calendar",
+      "disclaimer": "Data from AVL Ludwigsburg, without guarantee.",
+      "dateHeader": "Date",
+      "wasteHeader": "Waste type",
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "legendTitle": "Waste types",
+      "types": {
+        "RT": "General waste",
+        "BT": "Bio waste",
+        "PT": "Paper",
+        "LT": "Yellow sack",
+        "GT": "Garden waste / Glass",
+        "UNKNOWN": "Collection"
+      }
+    },
+    "separation": {
+      "heading": "Waste separation",
+      "list": [
+        "General waste in green bin",
+        "Paper/cardboard in blue bin",
+        "Yellow sack for plastic & metal",
+        "Glass in glass container"
+      ]
+    },
+    "tips": {
+      "heading": "Trash tips",
+      "list": [
+        "Put bins out the night before",
+        "Don't overfill yellow sack",
+        "Tie plastic bags before throwing",
+        "Compost belongs in bio-bin"
+      ]
+    }
   },
   "sehenswuerdigkeiten": {
     "title": "Attractions",
