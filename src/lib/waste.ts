@@ -94,6 +94,7 @@ export async function getWasteEvents(limit = 8): Promise<WasteEvent[]> {
     .filter((event) => event._dateObj >= now)
     .sort((a, b) => a._dateObj.getTime() - b._dateObj.getTime())
     .slice(0, limit)
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     .map(({ _dateObj, ...event }) => event);
 
   return events;

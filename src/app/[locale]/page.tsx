@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
 import { MdWifi, MdLogin, MdHome, MdContactPhone, MdDirectionsTransit, MdShoppingCart, MdLocationOn, MdShoppingBag } from 'react-icons/md';
 
@@ -84,11 +85,13 @@ export default function Home() {
           </div>
 
           <div className="rounded-3xl bg-white p-0 shadow-lg ring-1 ring-stone-200 flex items-center justify-center h-full">
-            <img
+            <Image
               src="/images/haus-1890.png"
               alt={t('title')}
+              width={600}
+              height={400}
               className="w-full h-full rounded-3xl shadow-xl border-4 border-stone-200 object-cover"
-              style={{ aspectRatio: 'auto 3/2', height: '100%', maxHeight: '600px', objectFit: 'cover' }}
+              style={{ maxHeight: '600px', objectFit: 'cover' }}
             />
           </div>
         </section>
