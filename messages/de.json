@@ -14,6 +14,7 @@
     "einkauf": "Einkauf",
     "muell": "Müllabholung",
     "sehenswuerdigkeiten": "Sehenswürdigkeiten",
+    "restaurants": "Restaurants",
     "verkehr": "Verkehr",
     "kontakt": "Kontakt",
     "og": "OG-Wohnung",
@@ -86,6 +87,21 @@
     "parksList": ["Stadtpark (100m) - mit Spielplatz", "Flussaue (800m) - Wanderweg", "Botanischer Garten (2km) - über 2000 Pflanzen"],
     "activities": "Aktivitäten:",
     "activitiesList": ["Spaziergang durch die Altstadt", "Fahrradtour entlang des Flusses", "Kletterpark (3km entfernt)", "Open-Air Kino (Sommer)"]
+  },
+  "restaurants": {
+    "title": "Restaurants",
+    "description": "Gemütliche Gaststätten und Restaurants in Oßweil.",
+    "heading": "Restaurants in Oßweil",
+    "fsv": "FSV Häusle Oßweil",
+    "fsvList": ["Vereinsgaststätte des FSV Oßweil mit schwäbisch-kroatischer Küche.", "Adresse: Walter-Flex-Str. 71, 71640 Ludwigsburg-Oßweil", "Webseite: www.fsv-haeusle.de"],
+    "asv": "Athletenhäusle (ASV Oßweil)",
+    "asvList": ["Vereinsgaststätte des ASV Oßweil mit schwäbisch-kroatischer Küche und Biergarten.", "Adresse: Walter-Flex-Str. 75, 71640 Ludwigsburg-Oßweil", "Webseite: www.asv-ossweil.de"],
+    "blutsbrueder": "Restaurant Blutsbrüder Oßweil",
+    "blutsbruederList": ["Restaurant mit innovativer, authentischer deutscher Küche.", "Adresse: Hanseatenstraße 54, 71640 Ludwigsburg-Oßweil", "Webseite: www.restaurant-blutsbrueder.de"],
+    "kleintier": "Kleintierzüchter Oßweil",
+    "kleintierList": ["Vereinsheim des Kleintierzuchtvereins mit regionaler Küche und Biergarten.", "Adresse: Poppenweilerstraße 91, 71640 Ludwigsburg-Oßweil", "Webseite: www.ktzvo.de"],
+    "pizzeria": "Pizzeria Da Gennaro Oßweil",
+    "pizzeriaList": ["Pizzeria & Trattoria mit italienischen Spezialitäten und Pizza zum Mitnehmen.", "Adresse: Rudolf-Greiner-Straße 6, 71640 Ludwigsburg-Oßweil", "Webseite: www.pizzeria-dagennaro.de"]
   },
   "verkehr": {
     "title": "Verkehr",

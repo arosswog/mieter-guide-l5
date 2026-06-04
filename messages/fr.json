@@ -14,6 +14,7 @@
     "einkauf": "Courses",
     "muell": "Ordures",
     "sehenswuerdigkeiten": "Attractions",
+    "restaurants": "Restaurants",
     "verkehr": "Transport",
     "kontakt": "Contact",
     "og": "Appartement Supérieur",
@@ -86,6 +87,21 @@
     "parksList": ["Parc City (100m) - avec terrain de jeu", "Vallée Fluviale (800m) - sentier de randonnée", "Jardin Botanique (2km) - plus de 2000 plantes"],
     "activities": "Activités:",
     "activitiesList": ["Promenade dans la vieille ville", "Tour à vélo le long de la rivière", "Parc d'escalade (3km)", "Cinéma en plein air (été)"]
+  },
+  "restaurants": {
+    "title": "Restaurants",
+    "description": "Auberges conviviales et restaurants à Oßweil.",
+    "heading": "Restaurants à Oßweil",
+    "fsv": "FSV Häusle Oßweil",
+    "fsvList": ["Auberge du club FSV Oßweil proposant une cuisine souabe-croate.", "Adresse: Walter-Flex-Str. 71, 71640 Ludwigsburg-Oßweil", "Site web: www.fsv-haeusle.de"],
+    "asv": "Athletenhäusle (ASV Oßweil)",
+    "asvList": ["Auberge du club ASV Oßweil avec cuisine souabe-croate et jardin à bière.", "Adresse: Walter-Flex-Str. 75, 71640 Ludwigsburg-Oßweil", "Site web: www.asv-ossweil.de"],
+    "blutsbrueder": "Restaurant Blutsbrüder Oßweil",
+    "blutsbruederList": ["Restaurant proposant une cuisine allemande authentique et innovante.", "Adresse: Hanseatenstraße 54, 71640 Ludwigsburg-Oßweil", "Site web: www.restaurant-blutsbrueder.de"],
+    "kleintier": "Kleintierzüchter Oßweil",
+    "kleintierList": ["Maison de l'association d'éleveurs avec cuisine régionale et jardin à bière.", "Adresse: Poppenweilerstraße 91, 71640 Ludwigsburg-Oßweil", "Site web: www.ktzvo.de"],
+    "pizzeria": "Pizzeria Da Gennaro Oßweil",
+    "pizzeriaList": ["Pizzeria & trattoria avec spécialités italiennes et pizzas à emporter.", "Adresse: Rudolf-Greiner-Straße 6, 71640 Ludwigsburg-Oßweil", "Site web: www.pizzeria-dagennaro.de"]
   },
   "verkehr": {
     "title": "Transport",
