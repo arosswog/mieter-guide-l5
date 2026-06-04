@@ -7,6 +7,7 @@ import {
   MdRecycling,
   MdLightbulbOutline,
 } from 'react-icons/md';
+import { FaTrashAlt } from 'react-icons/fa';
 import WasteCalendar from '@/lib/WasteCalendar';
 import Footer from '@/lib/Footer';
 
@@ -30,6 +31,26 @@ interface MuellData {
 }
 
 const DEFAULT_AVL_URL = 'https://www.avl-ludwigsburg.de/abfuhrkalender';
+
+// Maps a separation item to the matching bin colour by detecting colour
+// keywords across the supported locales (de/en/fr/ja/zh).
+const BIN_COLORS: { keywords: string[]; className: string }[] = [
+  { keywords: ['blau', 'blue', 'bleu', '青', '蓝'], className: 'text-blue-500' },
+  { keywords: ['gelb', 'yellow', 'jaune', '黄'], className: 'text-yellow-400' },
+  { keywords: ['schwarz', 'black', 'noir', '黒', '黑'], className: 'text-stone-800' },
+  { keywords: ['braun', 'brown', 'brun', '茶', '棕'], className: 'text-amber-700' },
+  { keywords: ['grün', 'grun', 'green', 'vert', '緑', '绿'], className: 'text-green-600' },
+];
+
+function binColorClass(item: string): string {
+  const text = item.toLowerCase();
+  for (const { keywords, className } of BIN_COLORS) {
+    if (keywords.some((keyword) => text.includes(keyword))) {
+      return className;
+    }
+  }
+  return 'text-stone-400';
+}
 
 export default function MuellPage() {
   const t = useTranslations();
@@ -80,9 +101,12 @@ export default function MuellPage() {
                 {data.separation.list.map((item, idx) => (
                   <li
                     key={idx}
-                    className="flex gap-2 rounded-2xl bg-stone-50 p-4 text-sm leading-6 text-stone-700 ring-1 ring-stone-200"
+                    className="flex items-center gap-3 rounded-2xl bg-stone-50 p-4 text-sm leading-6 text-stone-700 ring-1 ring-stone-200"
                   >
-                    <span className="font-bold text-green-600">•</span>
+                    <FaTrashAlt
+                      className={`shrink-0 text-lg ${binColorClass(item)}`}
+                      aria-hidden
+                    />
                     <span>{item}</span>
                   </li>
                 ))}
