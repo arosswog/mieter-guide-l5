@@ -14,6 +14,7 @@
     "einkauf": "Einkauf",
     "muell": "Müllabholung",
     "sehenswuerdigkeiten": "Sehenswürdigkeiten",
+    "restaurants": "Restaurants",
     "verkehr": "Verkehr",
     "kontakt": "Kontakt",
     "og": "OG-Wohnung",
@@ -23,12 +24,20 @@
     "title": "WLAN & Technik",
     "description": "Alle Zugänge, Gerätehinweise und technische Infos sauber an einem Ort.",
     "heading": "WLAN Zugang",
-    "ssid": "Netzwerkname (SSID): Haus1890-Guest",
-    "password": "Passwort: guestWifi2024!",
-    "tips": "WiFi-Tipps:",
-    "tipsList": ["Bitte nutze nicht Dein privates WiFi-Netzwerk", "Achte auf eine stabile Verbindung", "Bei Problemen: Router neu starten (30 Sekunden trennen)"],
+    "ssid": "Netzwerkname (SSID): LONG-STREET-GUEST",
+    "password": "Passwort: 1sommer!",
     "devices": "Geräte in der Wohnung:",
-    "devicesList": ["Smart TV mit Streaming-Apps", "Bluetooth-Lautsprecher", "USB-Charger in allen Räumen"]
+    "devicesList": [
+      "Smart TV mit Streaming-Apps",
+      "Bluetooth-Lautsprecher",
+      "USB-Charger in allen Räumen"
+    ],
+    "smartHome": "SmartHome & Technik im Haus:",
+    "smartHomeList": [
+      "Shelly Rauch- und Flutmelder sorgen für Deine Sicherheit – bitte nicht entfernen.",
+      "Fenster- und Temperatursensoren unterstützen die automatische Klimasteuerung.",
+      "Die EVE Thread/Matter Repeater in Steckdosenform sind wichtig für ein stabiles Funknetz – bitte stecken lassen."
+    ]
   },
   "checkin": {
     "title": "Check-in Infos",
@@ -39,18 +48,38 @@
     "keyPickup": "Schlüsselübergabe: Bitte unter der Fußmatte",
     "codeMessage": "Der Code für die Haustür befindet sich in Deiner Bestätigungsemail.",
     "important": "Wichtig:",
-    "importantList": ["Halte Dich an die Check-in Zeit", "Lese die Hausregeln durch", "Aktiviere die Heizung im Winter", "Speichere unsere Kontaktnummer"]
+    "importantList": [
+      "Halte Dich an die Check-in Zeit",
+      "Lese die Hausregeln durch",
+      "Aktiviere die Heizung im Winter",
+      "Speichere unsere Kontaktnummer"
+    ]
   },
   "hausregeln": {
     "title": "Hausregeln",
     "description": "Regeln für ein harmonisches Zusammenleben – bitte beachten.",
     "heading": "Hausregeln",
     "general": "Allgemeine Regeln:",
-    "generalList": ["Respekt vor anderen Gästen und dem Nachbarn", "Ruhezeiten: 22:00 - 08:00 Uhr", "Keine lauten Partys", "Bitte um Erlaubnis vor Gästen"],
+    "generalList": [
+      "Respekt vor anderen Gästen und dem Nachbarn",
+      "Ruhezeiten: 22:00 - 08:00 Uhr",
+      "Keine lauten Partys",
+      "Bitte um Erlaubnis vor Gästen"
+    ],
     "cleaning": "Reinigung:",
-    "cleaningList": ["Halte die Wohnung sauber", "Spül das Geschirr nach dem Essen", "Leere den Mülleimer regelmäßig", "Kehre vor dem Check-out"],
+    "cleaningList": [
+      "Halte die Wohnung sauber",
+      "Spül das Geschirr nach dem Essen",
+      "Leere den Mülleimer regelmäßig",
+      "Kehre vor dem Check-out"
+    ],
     "safety": "Sicherheit:",
-    "safetyList": ["Sperre die Tür ab, wenn Du ausgehst", "Beachte die Brandschutzordnung", "Rauchen nur auf dem Balkon", "Keine offenen Flammen"]
+    "safetyList": [
+      "Sperre die Tür ab, wenn Du ausgehst",
+      "Beachte die Brandschutzordnung",
+      "Rauchen nur auf dem Balkon",
+      "Keine offenen Flammen"
+    ]
   },
   "einkauf": {
     "title": "Einkaufsmöglichkeiten",
@@ -58,11 +87,20 @@
     "heading": "Einkaufsmöglichkeiten in Ludwigsburg",
     "location": "Standort: Lange Straße 5, 71640 Ludwigsburg",
     "bakery": "Bäckerei:",
-    "bakeryList": ["Bäckerei Meyer - 150m", "Backstube Müller - 300m"],
+    "bakeryList": [
+      "Bäckerei Meyer - 150m",
+      "Backstube Müller - 300m"
+    ],
     "butcher": "Metzgerei:",
-    "butcherList": ["Metzgerei Schmidt - 200m", "Fleischerei Weibel - 350m"],
+    "butcherList": [
+      "Metzgerei Schmidt - 200m",
+      "Fleischerei Weibel - 350m"
+    ],
     "discounter": "Discounter:",
-    "discounterList": ["Aldi Nord - 250m", "Lidl - 400m"],
+    "discounterList": [
+      "Aldi Nord - 250m",
+      "Lidl - 400m"
+    ],
     "mapInfo": "Karte: Alle Shops und unser Haus sind in der Karte unten markiert."
   },
   "muell": {
@@ -72,9 +110,19 @@
     "pickupTimes": "Abholungszeiten:",
     "pickupInfo": "Restmüll: Dienstags | Papier: Donnerstags | Gelber Sack: 1x monatlich",
     "separation": "Müllseparation:",
-    "separationList": ["Restmüll in der grünen Tonne", "Papier/Pappe in der blauen Tonne", "Gelber Sack für Kunststoff & Metall", "Glas in den Glascontainer"],
+    "separationList": [
+      "Restmüll in der grünen Tonne",
+      "Papier/Pappe in der blauen Tonne",
+      "Gelber Sack für Kunststoff & Metall",
+      "Glas in den Glascontainer"
+    ],
     "tips": "Müll-Tipps:",
-    "tipsList": ["Stelle die Tonnen am Vorabend raus", "Fülle den Gelben Sack nicht zu voll", "Binde Plastiktüten zu vor dem Werfen", "Kompost gehört in die Bio-Tonne"]
+    "tipsList": [
+      "Stelle die Tonnen am Vorabend raus",
+      "Fülle den Gelben Sack nicht zu voll",
+      "Binde Plastiktüten zu vor dem Werfen",
+      "Kompost gehört in die Bio-Tonne"
+    ]
   },
   "sehenswuerdigkeiten": {
     "title": "Sehenswürdigkeiten",
@@ -96,11 +144,19 @@
     "description": "Öffentliche Verkehrsmittel, Parkplätze und Anfahrt.",
     "heading": "Mobilität",
     "publicTransport": "Öffentliche Verkehrsmittel:",
-    "publicTransportList": ["U-Bahn Linie 5 - 50m Fußweg", "Bus 23 & 45 - direkt vor dem Haus", "Straßenbahn - 200m entfernt"],
+    "publicTransportList": [
+      "U-Bahn Linie 5 - 50m Fußweg",
+      "Bus 23 & 45 - direkt vor dem Haus",
+      "Straßenbahn - 200m entfernt"
+    ],
     "parking": "Parkplätze:",
     "parkingInfo": "Kostenlose Straßenparkplätze in der Nähe (keine Garantie). Tiefgarage 500m für €15/Tag.",
     "cycling": "Radfahren:",
-    "cyclingList": ["Fahrradständer im Hof", "Fahrradwerkstatt 100m entfernt", "Bike-Sharing Station direkt vor dem Haus"],
+    "cyclingList": [
+      "Fahrradständer im Hof",
+      "Fahrradwerkstatt 100m entfernt",
+      "Bike-Sharing Station direkt vor dem Haus"
+    ],
     "taxi": "Taxi & Ride-Sharing:",
     "taxiInfo": "Uber & Bolt verfügbar. Lokales Taxi: +49 (0) 123 456789"
   },
@@ -109,7 +165,11 @@
     "description": "Notfallkontakte und Ansprechpartner.",
     "heading": "Kontakte",
     "emergency": "Notfall:",
-    "emergencyNumbers": ["Polizei: 110", "Feuerwehr: 112", "Ärztlicher Notfalldienst: 0911 / 19292"],
+    "emergencyNumbers": [
+      "Polizei: 110",
+      "Feuerwehr: 112",
+      "Ärztlicher Notfalldienst: 0911 / 19292"
+    ],
     "support": "Unterstützung:",
     "supportInfo": "Hausverwaltung: +49 (0) 123 4567890 | Email: support@haus1890.de | Webseite: www.haus1890.de",
     "maintenance": "Wartung & Reparaturen:",
@@ -122,21 +182,51 @@
     "description": "Informationen zur Oberwohnung.",
     "heading": "Oberwohnung (OG)",
     "rooms": "Zimmer & Ausstattung:",
-    "roomsList": ["Wohnzimmer mit Balkon", "Schlafzimmer mit Box-Frederking", "Küche mit allen Geräten", "Bad mit Dusche & Wanne", "Flur mit Stauraum"],
+    "roomsList": [
+      "Wohnzimmer mit Balkon",
+      "Schlafzimmer mit Box-Frederking",
+      "Küche mit allen Geräten",
+      "Bad mit Dusche & Wanne",
+      "Flur mit Stauraum"
+    ],
     "features": "Besonderheiten:",
-    "featuresList": ["Balkon mit Stadtblick", "Fußbodenheizung", "Doppelte Isolierung", "Waschmaschine vorhanden"],
+    "featuresList": [
+      "Balkon mit Stadtblick",
+      "Fußbodenheizung",
+      "Doppelte Isolierung",
+      "Waschmaschine vorhanden"
+    ],
     "rules": "Spezifische Regeln:",
-    "rulesList": ["Balkon: Keine Wäsche hängen", "Fenster nachts schließen (Wärmeverlust)", "Haustiere nur nach Absprache"]
+    "rulesList": [
+      "Balkon: Keine Wäsche hängen",
+      "Fenster nachts schließen (Wärmeverlust)",
+      "Haustiere nur nach Absprache"
+    ]
   },
   "eg": {
     "title": "EG-Wohnung",
     "description": "Informationen zur Erdgeschoss-Wohnung.",
     "heading": "Erdgeschoss (EG)",
     "rooms": "Zimmer & Ausstattung:",
-    "roomsList": ["Wohnbereich offen gestaltet", "Schlafzimmer", "Küche mit neuem Design", "Bad mit Fußbodenheizung", "Terrasse mit Gartennutzung"],
+    "roomsList": [
+      "Wohnbereich offen gestaltet",
+      "Schlafzimmer",
+      "Küche mit neuem Design",
+      "Bad mit Fußbodenheizung",
+      "Terrasse mit Gartennutzung"
+    ],
     "features": "Besonderheiten:",
-    "featuresList": ["Terrasse mit Privatgarten", "Bodenebener Zugang", "Moderne Smart-Home Ausstattung", "Parkplatz zugeordnet"],
+    "featuresList": [
+      "Terrasse mit Privatgarten",
+      "Bodenebener Zugang",
+      "Moderne Smart-Home Ausstattung",
+      "Parkplatz zugeordnet"
+    ],
     "rules": "Spezifische Regeln:",
-    "rulesList": ["Garten: Gartenarbeit nur bis 19:00 Uhr", "Keine lauten Geräte am Sonntag", "Hecke nicht über 2m hinaus schneiden"]
+    "rulesList": [
+      "Garten: Gartenarbeit nur bis 19:00 Uhr",
+      "Keine lauten Geräte am Sonntag",
+      "Hecke nicht über 2m hinaus schneiden"
+    ]
   }
 }

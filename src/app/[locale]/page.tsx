@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
-import { MdWifi, MdLogin, MdHome, MdContactPhone, MdDirectionsTransit, MdShoppingCart, MdLocationOn, MdShoppingBag } from 'react-icons/md';
+import { MdWifi, MdLogin, MdHome, MdContactPhone, MdDirectionsTransit, MdShoppingCart, MdLocationOn, MdShoppingBag, MdRestaurant } from 'react-icons/md';
 
 const langFlags = {
   de: { flag: '🇩🇪', name: 'Deutsch' },
@@ -174,6 +174,16 @@ export default function Home() {
             </div>
             <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
               {t('sehenswuerdigkeiten.description')}
+            </p>
+          </Link>
+
+          <Link href={`/${locale}/restaurants`} className="group rounded-2xl bg-white p-4 min-h-[110px] shadow-sm ring-1 ring-stone-200 transition hover:shadow-md hover:ring-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-400">
+            <div className="flex flex-col items-center mb-2">
+              <MdRestaurant className="text-4xl text-amber-600 drop-shadow-sm mb-2 group-hover:scale-110 transition" />
+              <h3 className="text-xl font-semibold text-center leading-tight">{t('nav.restaurants')}</h3>
+            </div>
+            <p className="mt-1 text-xs leading-5 text-stone-600 text-center">
+              {t('restaurants.description')}
             </p>
           </Link>
         </section>

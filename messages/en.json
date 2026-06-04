@@ -14,6 +14,7 @@
     "einkauf": "Shopping",
     "muell": "Trash",
     "sehenswuerdigkeiten": "Attractions",
+    "restaurants": "Restaurants",
     "verkehr": "Transportation",
     "kontakt": "Contact",
     "og": "Upper Apartment",
@@ -23,12 +24,20 @@
     "title": "WiFi & Tech",
     "description": "All access, device instructions and technical info in one place.",
     "heading": "WiFi Access",
-    "ssid": "Network Name (SSID): Haus1890-Guest",
-    "password": "Password: guestWifi2024!",
-    "tips": "WiFi Tips:",
-    "tipsList": ["Please don't use your private WiFi network", "Maintain a stable connection", "If problems occur: Restart router (disconnect for 30 seconds)"],
+    "ssid": "Network Name (SSID): LONG-STREET-GUEST",
+    "password": "Password: 1sommer!",
     "devices": "Devices in the apartment:",
-    "devicesList": ["Smart TV with streaming apps", "Bluetooth speaker", "USB chargers in all rooms"]
+    "devicesList": [
+      "Smart TV with streaming apps",
+      "Bluetooth speaker",
+      "USB chargers in all rooms"
+    ],
+    "smartHome": "SmartHome & tech in the house:",
+    "smartHomeList": [
+      "Shelly smoke and flood detectors keep things safe – please don't remove them.",
+      "Window and temperature sensors support the automatic climate control.",
+      "The EVE Thread/Matter repeaters (in plug form) are important for a stable wireless network – please leave them plugged in."
+    ]
   },
   "checkin": {
     "title": "Check-in Info",
@@ -39,18 +48,38 @@
     "keyPickup": "Key Handover: Please look under the doormat",
     "codeMessage": "The code for the front door is in your confirmation email.",
     "important": "Important:",
-    "importantList": ["Stick to check-in time", "Read the house rules", "Activate heating in winter", "Save our contact number"]
+    "importantList": [
+      "Stick to check-in time",
+      "Read the house rules",
+      "Activate heating in winter",
+      "Save our contact number"
+    ]
   },
   "hausregeln": {
     "title": "House Rules",
     "description": "Rules for harmonious living – please observe.",
     "heading": "House Rules",
     "general": "General Rules:",
-    "generalList": ["Respect for other guests and neighbors", "Quiet hours: 22:00 - 08:00", "No loud parties", "Ask permission before inviting guests"],
+    "generalList": [
+      "Respect for other guests and neighbors",
+      "Quiet hours: 22:00 - 08:00",
+      "No loud parties",
+      "Ask permission before inviting guests"
+    ],
     "cleaning": "Cleaning:",
-    "cleaningList": ["Keep the apartment clean", "Wash dishes after eating", "Empty trash regularly", "Sweep before check-out"],
+    "cleaningList": [
+      "Keep the apartment clean",
+      "Wash dishes after eating",
+      "Empty trash regularly",
+      "Sweep before check-out"
+    ],
     "safety": "Safety:",
-    "safetyList": ["Lock the door when leaving", "Observe fire safety regulations", "Smoking only on the balcony", "No open flames"]
+    "safetyList": [
+      "Lock the door when leaving",
+      "Observe fire safety regulations",
+      "Smoking only on the balcony",
+      "No open flames"
+    ]
   },
   "einkauf": {
     "title": "Shopping",
@@ -58,11 +87,20 @@
     "heading": "Shopping Opportunities in Ludwigsburg",
     "location": "Location: Lange Straße 5, 71640 Ludwigsburg",
     "bakery": "Bakery:",
-    "bakeryList": ["Bäckerei Meyer - 150m", "Backstube Müller - 300m"],
+    "bakeryList": [
+      "Bäckerei Meyer - 150m",
+      "Backstube Müller - 300m"
+    ],
     "butcher": "Butcher:",
-    "butcherList": ["Metzgerei Schmidt - 200m", "Fleischerei Weibel - 350m"],
+    "butcherList": [
+      "Metzgerei Schmidt - 200m",
+      "Fleischerei Weibel - 350m"
+    ],
     "discounter": "Discount Stores:",
-    "discounterList": ["Aldi Nord - 250m", "Lidl - 400m"],
+    "discounterList": [
+      "Aldi Nord - 250m",
+      "Lidl - 400m"
+    ],
     "mapInfo": "Map: All shops and our house are marked on the map below."
   },
   "muell": {
@@ -72,9 +110,19 @@
     "pickupTimes": "Collection times:",
     "pickupInfo": "General waste: Tuesdays | Paper: Thursdays | Yellow Sack: Once monthly",
     "separation": "Waste Separation:",
-    "separationList": ["General waste in green bin", "Paper/cardboard in blue bin", "Yellow sack for plastic & metal", "Glass in glass container"],
+    "separationList": [
+      "General waste in green bin",
+      "Paper/cardboard in blue bin",
+      "Yellow sack for plastic & metal",
+      "Glass in glass container"
+    ],
     "tips": "Trash Tips:",
-    "tipsList": ["Put bins out the night before", "Don't overfill yellow sack", "Tie plastic bags before throwing", "Compost belongs in bio-bin"]
+    "tipsList": [
+      "Put bins out the night before",
+      "Don't overfill yellow sack",
+      "Tie plastic bags before throwing",
+      "Compost belongs in bio-bin"
+    ]
   },
   "sehenswuerdigkeiten": {
     "title": "Attractions",
@@ -96,11 +144,19 @@
     "description": "Public transport, parking and directions.",
     "heading": "Mobility",
     "publicTransport": "Public Transport:",
-    "publicTransportList": ["U-Bahn Line 5 - 50m walk", "Buses 23 & 45 - right in front of the house", "Tram - 200m away"],
+    "publicTransportList": [
+      "U-Bahn Line 5 - 50m walk",
+      "Buses 23 & 45 - right in front of the house",
+      "Tram - 200m away"
+    ],
     "parking": "Parking:",
     "parkingInfo": "Free street parking nearby (no guarantee). Underground garage 500m for €15/day.",
     "cycling": "Cycling:",
-    "cyclingList": ["Bike stand in courtyard", "Bike repair shop 100m away", "Bike-sharing station right in front"],
+    "cyclingList": [
+      "Bike stand in courtyard",
+      "Bike repair shop 100m away",
+      "Bike-sharing station right in front"
+    ],
     "taxi": "Taxi & Ride-Sharing:",
     "taxiInfo": "Uber & Bolt available. Local taxi: +49 (0) 123 456789"
   },
@@ -109,7 +165,11 @@
     "description": "Emergency contacts and support.",
     "heading": "Contacts",
     "emergency": "Emergency:",
-    "emergencyNumbers": ["Police: 110", "Fire: 112", "Medical Emergency: 0911 / 19292"],
+    "emergencyNumbers": [
+      "Police: 110",
+      "Fire: 112",
+      "Medical Emergency: 0911 / 19292"
+    ],
     "support": "Support:",
     "supportInfo": "Building Management: +49 (0) 123 4567890 | Email: support@haus1890.de | Website: www.haus1890.de",
     "maintenance": "Maintenance & Repairs:",
@@ -122,21 +182,51 @@
     "description": "Information about the upper apartment.",
     "heading": "Upper Apartment (OG)",
     "rooms": "Rooms & Equipment:",
-    "roomsList": ["Living room with balcony", "Bedroom with box spring", "Kitchen with all appliances", "Bathroom with shower & tub", "Hallway with storage"],
+    "roomsList": [
+      "Living room with balcony",
+      "Bedroom with box spring",
+      "Kitchen with all appliances",
+      "Bathroom with shower & tub",
+      "Hallway with storage"
+    ],
     "features": "Special Features:",
-    "featuresList": ["Balcony with city view", "Floor heating", "Double insulation", "Washing machine included"],
+    "featuresList": [
+      "Balcony with city view",
+      "Floor heating",
+      "Double insulation",
+      "Washing machine included"
+    ],
     "rules": "Specific Rules:",
-    "rulesList": ["Balcony: No laundry hanging", "Close windows at night (heat loss)", "Pets only with permission"]
+    "rulesList": [
+      "Balcony: No laundry hanging",
+      "Close windows at night (heat loss)",
+      "Pets only with permission"
+    ]
   },
   "eg": {
     "title": "Ground Floor",
     "description": "Information about the ground floor apartment.",
     "heading": "Ground Floor (EG)",
     "rooms": "Rooms & Equipment:",
-    "roomsList": ["Open-plan living area", "Bedroom", "Kitchen with modern design", "Bathroom with floor heating", "Terrace with garden access"],
+    "roomsList": [
+      "Open-plan living area",
+      "Bedroom",
+      "Kitchen with modern design",
+      "Bathroom with floor heating",
+      "Terrace with garden access"
+    ],
     "features": "Special Features:",
-    "featuresList": ["Terrace with private garden", "Ground-level access", "Modern smart home equipment", "Assigned parking space"],
+    "featuresList": [
+      "Terrace with private garden",
+      "Ground-level access",
+      "Modern smart home equipment",
+      "Assigned parking space"
+    ],
     "rules": "Specific Rules:",
-    "rulesList": ["Garden: Garden work only until 19:00", "No loud equipment on Sundays", "Hedge cutting max 2m height"]
+    "rulesList": [
+      "Garden: Garden work only until 19:00",
+      "No loud equipment on Sundays",
+      "Hedge cutting max 2m height"
+    ]
   }
 }

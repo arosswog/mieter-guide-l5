@@ -21,7 +21,7 @@ function isPlace(value: unknown): value is Place {
 }
 
 interface PageProps {
-  section: 'wlan' | 'checkin' | 'hausregeln' | 'einkauf' | 'muell' | 'sehenswuerdigkeiten' | 'verkehr' | 'kontakt' | 'og' | 'eg';
+  section: 'wlan' | 'checkin' | 'hausregeln' | 'einkauf' | 'muell' | 'sehenswuerdigkeiten' | 'restaurants' | 'verkehr' | 'kontakt' | 'og' | 'eg';
 }
 
 export default function PageTemplate({ section }: PageProps) {
