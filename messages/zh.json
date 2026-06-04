@@ -57,13 +57,15 @@
     "description": "日常购物和用品的周边选项。",
     "heading": "路德维希堡的购物机会",
     "location": "地址: Lange Straße 5, 71640 Ludwigsburg",
+    "note": "提示：距离为从 Lange Straße 5 出发的大致步行距离。",
+    "supermarket": "超市:",
+    "supermarketList": ["REWE – Wilhelmstraße 26：商品齐全的超市，约400米（步行约5分钟）", "REWE – Myliusstraße 6：火车站附近的超市，约550米（步行约7分钟）"],
     "bakery": "面包店:",
-    "bakeryList": ["Bäckerei Meyer - 150米", "Backstube Müller - 300米"],
-    "butcher": "肉铺:",
-    "butcherList": ["Metzgerei Schmidt - 200米", "Fleischerei Weibel - 350米"],
+    "bakeryList": ["Bäckerei Konditorei Lutz (Café Stüble) – Marktplatz 11：带咖啡馆的面包店，约150米（步行约2分钟）", "Bäckerei Trölsch – Körnerstraße 5 (WilhelmGalerie)：带咖啡馆的面包店，约300米（步行约4分钟）", "Bäckerei Luckscheiter – Wilhelmstraße 18：手工面包店，约350米（步行约5分钟）"],
     "discounter": "折扣店:",
-    "discounterList": ["Aldi Nord - 250米", "Lidl - 400米"],
-    "mapInfo": "地图: 所有商店和我们的房子都标记在下面的地图上。"
+    "discounterList": ["ALDI SÜD – Marstallstraße 13 (Marstall-Center)：购物中心内的折扣店，约450米（步行约6分钟）", "Lidl – Steinbeisstraße 6：商品丰富的折扣店，约700米（步行约9分钟）"],
+    "post": "邮局:",
+    "postList": ["德国邮政分店 – Max-Holland-Straße 14：办理信件和包裹的邮局，约600米（步行约8分钟）", "市中心零售店内的 Post 与 DHL 包裹点：如文具店和超市，步行几分钟即到"]
   },
   "muell": {
     "title": "垃圾",

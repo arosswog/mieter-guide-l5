@@ -57,13 +57,15 @@
     "description": "Nahegelegene Einkaufsmöglichkeiten für den täglichen Bedarf.",
     "heading": "Einkaufsmöglichkeiten in Ludwigsburg",
     "location": "Standort: Lange Straße 5, 71640 Ludwigsburg",
+    "note": "Hinweis: Die Entfernungen sind ungefähre Fußweg-Angaben ab Lange Straße 5.",
+    "supermarket": "Supermarkt:",
+    "supermarketList": ["REWE – Wilhelmstraße 26: Supermarkt mit Vollsortiment, ca. 400 m (~5 Min. zu Fuß)", "REWE – Myliusstraße 6: Supermarkt nahe Bahnhof, ca. 550 m (~7 Min. zu Fuß)"],
     "bakery": "Bäckerei:",
-    "bakeryList": ["Bäckerei Meyer - 150m", "Backstube Müller - 300m"],
-    "butcher": "Metzgerei:",
-    "butcherList": ["Metzgerei Schmidt - 200m", "Fleischerei Weibel - 350m"],
+    "bakeryList": ["Bäckerei Konditorei Lutz (Café Stüble) – Marktplatz 11: Bäckerei mit Café, ca. 150 m (~2 Min. zu Fuß)", "Bäckerei Trölsch – Körnerstraße 5 (WilhelmGalerie): Bäckerei mit Café, ca. 300 m (~4 Min. zu Fuß)", "Bäckerei Luckscheiter – Wilhelmstraße 18: Handwerksbäckerei, ca. 350 m (~5 Min. zu Fuß)"],
     "discounter": "Discounter:",
-    "discounterList": ["Aldi Nord - 250m", "Lidl - 400m"],
-    "mapInfo": "Karte: Alle Shops und unser Haus sind in der Karte unten markiert."
+    "discounterList": ["ALDI SÜD – Marstallstraße 13 (Marstall-Center): Discounter im Einkaufszentrum, ca. 450 m (~6 Min. zu Fuß)", "Lidl – Steinbeisstraße 6: Discounter mit großem Sortiment, ca. 700 m (~9 Min. zu Fuß)"],
+    "post": "Poststelle:",
+    "postList": ["Deutsche Post Filiale – Max-Holland-Straße 14: Postfiliale für Briefe & Pakete, ca. 600 m (~8 Min. zu Fuß)", "Post- & DHL-Paketshops im Einzelhandel der Innenstadt: u. a. in Schreibwarenläden und Supermärkten, wenige Minuten zu Fuß"]
   },
   "muell": {
     "title": "Müllabholung",

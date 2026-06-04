@@ -57,13 +57,15 @@
     "description": "日常の必要品のための近くのショッピングオプション。",
     "heading": "ルートヴィヒスブルクのショッピング機会",
     "location": "住所: Lange Straße 5, 71640 Ludwigsburg",
+    "note": "注: 距離はLange Straße 5からのおおよその徒歩距離です。",
+    "supermarket": "スーパーマーケット:",
+    "supermarketList": ["REWE – Wilhelmstraße 26: 品揃え豊富なスーパー、約400 m（徒歩約5分）", "REWE – Myliusstraße 6: 駅近くのスーパー、約550 m（徒歩約7分）"],
     "bakery": "ベーカリー:",
-    "bakeryList": ["Bäckerei Meyer - 150m", "Backstube Müller - 300m"],
-    "butcher": "肉屋:",
-    "butcherList": ["Metzgerei Schmidt - 200m", "Fleischerei Weibel - 350m"],
+    "bakeryList": ["Bäckerei Konditorei Lutz (Café Stüble) – Marktplatz 11: カフェ併設のベーカリー、約150 m（徒歩約2分）", "Bäckerei Trölsch – Körnerstraße 5 (WilhelmGalerie): カフェ併設のベーカリー、約300 m（徒歩約4分）", "Bäckerei Luckscheiter – Wilhelmstraße 18: 手づくりベーカリー、約350 m（徒歩約5分）"],
     "discounter": "ディスカウント店:",
-    "discounterList": ["Aldi Nord - 250m", "Lidl - 400m"],
-    "mapInfo": "地図: すべての店舗と私たちの家は下の地図にマークされています。"
+    "discounterList": ["ALDI SÜD – Marstallstraße 13 (Marstall-Center): ショッピングセンター内のディスカウント店、約450 m（徒歩約6分）", "Lidl – Steinbeisstraße 6: 品揃え豊富なディスカウント店、約700 m（徒歩約9分）"],
+    "post": "郵便局:",
+    "postList": ["ドイツポスト支店 – Max-Holland-Straße 14: 手紙・小包用の郵便局、約600 m（徒歩約8分）", "市内中心部の小売店内のPost・DHL受取所: 文具店やスーパーなど、徒歩数分"]
   },
   "muell": {
     "title": "Śmieci",

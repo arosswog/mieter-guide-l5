@@ -57,13 +57,15 @@
     "description": "Nearby shopping options for daily needs.",
     "heading": "Shopping Opportunities in Ludwigsburg",
     "location": "Location: Lange Straße 5, 71640 Ludwigsburg",
+    "note": "Note: Distances are approximate walking distances from Lange Straße 5.",
+    "supermarket": "Supermarket:",
+    "supermarketList": ["REWE – Wilhelmstraße 26: Full-range supermarket, approx. 400 m (~5 min walk)", "REWE – Myliusstraße 6: Supermarket near the train station, approx. 550 m (~7 min walk)"],
     "bakery": "Bakery:",
-    "bakeryList": ["Bäckerei Meyer - 150m", "Backstube Müller - 300m"],
-    "butcher": "Butcher:",
-    "butcherList": ["Metzgerei Schmidt - 200m", "Fleischerei Weibel - 350m"],
+    "bakeryList": ["Bäckerei Konditorei Lutz (Café Stüble) – Marktplatz 11: Bakery with café, approx. 150 m (~2 min walk)", "Bäckerei Trölsch – Körnerstraße 5 (WilhelmGalerie): Bakery with café, approx. 300 m (~4 min walk)", "Bäckerei Luckscheiter – Wilhelmstraße 18: Artisan bakery, approx. 350 m (~5 min walk)"],
     "discounter": "Discount Stores:",
-    "discounterList": ["Aldi Nord - 250m", "Lidl - 400m"],
-    "mapInfo": "Map: All shops and our house are marked on the map below."
+    "discounterList": ["ALDI SÜD – Marstallstraße 13 (Marstall Center): Discounter in the shopping centre, approx. 450 m (~6 min walk)", "Lidl – Steinbeisstraße 6: Discounter with a large range, approx. 700 m (~9 min walk)"],
+    "post": "Post Office:",
+    "postList": ["Deutsche Post branch – Max-Holland-Straße 14: Post office for letters & parcels, approx. 600 m (~8 min walk)", "Post & DHL parcel shops in city-centre retailers: e.g. in stationery shops and supermarkets, a few minutes' walk"]
   },
   "muell": {
     "title": "Trash",
