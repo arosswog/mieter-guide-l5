@@ -139,6 +139,18 @@
       { "name": "Schloss Solitude", "description": "Elegantes Rokokoschloss über den Höhen von Stuttgart mit herrlicher Aussicht.", "distance": "ca. 14 km", "url": "https://www.schloss-solitude.de" }
     ]
   },
+  "restaurants": {
+    "title": "Restaurants",
+    "description": "Empfehlenswerte Restaurants in Oßweil.",
+    "heading": "Restaurants in Oßweil",
+    "places": [
+      { "name": "FSV Oßweil – Vereinsheim", "description": "Gemütliches Vereinsheim des FSV Oßweil mit bürgerlicher Küche und Biergarten.", "distance": "ca. 2,5 km" },
+      { "name": "ASV Oßweil – Vereinsheim", "description": "Vereinsgaststätte des ASV Oßweil mit herzhafter Küche in geselliger Atmosphäre.", "distance": "ca. 2,7 km" },
+      { "name": "Blutsbrüder", "description": "Lockeres Lokal in Oßweil mit Burgern, Snacks und Getränken.", "distance": "ca. 2,4 km" },
+      { "name": "Kleintierzüchter Oßweil – Vereinsheim", "description": "Vereinsheim der Kleintierzüchter mit gutbürgerlicher Küche und gemütlichem Ambiente.", "distance": "ca. 2,6 km" },
+      { "name": "Pizzeria Oßweil", "description": "Italienische Pizzeria in Oßweil mit Pizza, Pasta und Lieferservice.", "distance": "ca. 2,3 km" }
+    ]
+  },
   "verkehr": {
     "title": "Verkehr",
     "description": "Öffentliche Verkehrsmittel, Parkplätze und Anfahrt.",
