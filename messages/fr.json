@@ -221,7 +221,7 @@
         "RT": "Ordures ménagères",
         "BT": "Biodéchets",
         "PT": "Papier",
-        "LT": "Sac jaune",
+        "LT": "Bac jaune",
         "GT": "Déchets verts / Verre",
         "UNKNOWN": "Collecte"
       }
@@ -229,19 +229,20 @@
     "separation": {
       "heading": "Tri des déchets",
       "list": [
-        "Ordures ménagères dans le bac vert",
-        "Papier/carton dans le bac bleu",
-        "Sac jaune pour plastique & métal",
-        "Verre au conteneur à verre"
+        "Verre dans le bac bleu",
+        "Plastique/polystyrène dans le bac jaune",
+        "Ordures ménagères dans le bac noir",
+        "Biodéchets dans le bac brun",
+        "Papier/carton dans le bac vert"
       ]
     },
     "tips": {
       "heading": "Conseils déchets",
       "list": [
         "Mettez les bacs dehors la veille",
-        "Ne remplissez pas trop le sac jaune",
-        "Attachez les sacs plastiques avant de jeter",
-        "Le compost va dans le bac bio"
+        "Ne remplissez pas trop le bac jaune",
+        "Nous n'avons pas de sacs – tout va directement dans les bacs",
+        "Le compost va dans le bac brun bio"
       ]
     }
   },
