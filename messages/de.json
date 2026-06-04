@@ -83,25 +83,62 @@
   },
   "einkauf": {
     "title": "Einkaufsmöglichkeiten",
-    "description": "Nahegelegene Einkaufsmöglichkeiten für den täglichen Bedarf.",
-    "heading": "Einkaufsmöglichkeiten in Ludwigsburg",
-    "location": "Standort: Lange Straße 5, 71640 Ludwigsburg",
-    "bakery": "Bäckerei:",
-    "bakeryList": [
-      "Bäckerei Meyer - 150m",
-      "Backstube Müller - 300m"
-    ],
-    "butcher": "Metzgerei:",
-    "butcherList": [
-      "Metzgerei Schmidt - 200m",
-      "Fleischerei Weibel - 350m"
-    ],
-    "discounter": "Discounter:",
-    "discounterList": [
-      "Aldi Nord - 250m",
-      "Lidl - 400m"
-    ],
-    "mapInfo": "Karte: Alle Shops und unser Haus sind in der Karte unten markiert."
+    "description": "Geschäfte für den täglichen Bedarf im Umkreis von rund 1 km – ab Lange Straße 5, Oßweil.",
+    "heading": "Einkaufen in Oßweil",
+    "places": [
+      {
+        "name": "Kreissparkasse Ludwigsburg – Filiale Oßweil",
+        "description": "Filiale der Kreissparkasse mit Geldautomat – nur wenige Schritte vom Haus entfernt.",
+        "distance": "ca. 50 m",
+        "url": "https://www.ksklb.de",
+        "icon": "bank"
+      },
+      {
+        "name": "Bäckerei Lutz am Wettemarkt",
+        "description": "Traditionelle Familienbäckerei am Wettemarkt mit frischem Brot, Brötchen und Kuchen.",
+        "distance": "ca. 200 m",
+        "icon": "bakery"
+      },
+      {
+        "name": "Döner & Pizza Imbiss am Wettemarkt",
+        "description": "Imbiss am Wettemarkt mit Döner, Pizza und schnellen Snacks zum Mitnehmen.",
+        "distance": "ca. 220 m",
+        "icon": "doener"
+      },
+      {
+        "name": "Apotheke am Wettemarkt",
+        "description": "Apotheke am Wettemarkt für Medikamente und Beratung im Ortskern von Oßweil.",
+        "distance": "ca. 250 m",
+        "url": "https://www.apotheke-am-wettemarkt.de",
+        "icon": "pharmacy"
+      },
+      {
+        "name": "NORMA Oßweil",
+        "description": "Discounter mit großem Sortiment für den günstigen Wocheneinkauf.",
+        "distance": "ca. 250 m",
+        "url": "https://www.norma-online.de",
+        "icon": "discounter"
+      },
+      {
+        "name": "BOS Hairlines",
+        "description": "Friseursalon in der Westfalenstraße für Damen und Herren.",
+        "distance": "ca. 250 m",
+        "icon": "hairdresser"
+      },
+      {
+        "name": "Frischemarkt KIWI (EDEKA)",
+        "description": "Gut sortierter Frischemarkt (EDEKA) mit Fleisch- und Wursttheke, Backshop und regionalen Produkten.",
+        "distance": "ca. 350 m",
+        "url": "https://frischemarkt-kiwi.de",
+        "icon": "supermarket"
+      },
+      {
+        "name": "Mark Anders Bäckerei-Konditorei",
+        "description": "Bäckerei und Konditorei in der Friesenstraße mit Backwaren und Konditoreispezialitäten.",
+        "distance": "ca. 400 m",
+        "icon": "bakery"
+      }
+    ]
   },
   "muell": {
     "title": "Müllabholung",
@@ -129,14 +166,54 @@
     "description": "Highlights und Attraktionen in Ludwigsburg und Umgebung.",
     "heading": "Sehenswürdigkeiten in Ludwigsburg & Umgebung",
     "places": [
-      { "name": "Residenzschloss Ludwigsburg", "description": "Eines der größten Barockschlösser Europas mit prunkvollen Sälen, Museen und weitläufigen Gartenanlagen.", "distance": "ca. 1,3 km", "url": "https://www.schloss-ludwigsburg.de" },
-      { "name": "Blühendes Barock & Märchengarten", "description": "Historische Gartenanlage rund um das Schloss mit dem beliebten Märchengarten und der herbstlichen Kürbisausstellung.", "distance": "ca. 1,4 km", "url": "https://www.blueba.de" },
-      { "name": "Schloss Favorite & Favoritepark", "description": "Barockes Jagd- und Lustschloss inmitten eines weitläufigen Wildparks mit frei lebendem Damwild.", "distance": "ca. 2,5 km", "url": "https://www.schloss-favorite-ludwigsburg.de" },
-      { "name": "Seeschloss Monrepos", "description": "Idyllisches Seeschloss am Eglosheimer See mit Park, Bootsverleih und Restaurant.", "distance": "ca. 3,5 km", "url": "https://www.monrepos.de" },
-      { "name": "Marktplatz Ludwigsburg", "description": "Barocker Marktplatz mit Arkaden, zwei Kirchen und Wochenmarkt im Herzen der Barockstadt.", "distance": "ca. 0,4 km", "url": "https://www.ludwigsburg.de" },
-      { "name": "Porsche Museum", "description": "Spektakuläres Museum in Stuttgart-Zuffenhausen mit über 80 historischen Sport- und Rennwagen.", "distance": "ca. 12 km", "url": "https://www.porsche.com/museum" },
-      { "name": "Mercedes-Benz Museum", "description": "Automobilgeschichte über neun Ebenen – von der ersten Kutsche bis zu modernen Rennwagen.", "distance": "ca. 15 km", "url": "https://www.mercedes-benz.com/de/art-and-culture/museum/" },
-      { "name": "Schloss Solitude", "description": "Elegantes Rokokoschloss über den Höhen von Stuttgart mit herrlicher Aussicht.", "distance": "ca. 14 km", "url": "https://www.schloss-solitude.de" }
+      {
+        "name": "Residenzschloss Ludwigsburg",
+        "description": "Eines der größten Barockschlösser Europas mit prunkvollen Sälen, Museen und weitläufigen Gartenanlagen.",
+        "distance": "ca. 1,3 km",
+        "url": "https://www.schloss-ludwigsburg.de"
+      },
+      {
+        "name": "Blühendes Barock & Märchengarten",
+        "description": "Historische Gartenanlage rund um das Schloss mit dem beliebten Märchengarten und der herbstlichen Kürbisausstellung.",
+        "distance": "ca. 1,4 km",
+        "url": "https://www.blueba.de"
+      },
+      {
+        "name": "Schloss Favorite & Favoritepark",
+        "description": "Barockes Jagd- und Lustschloss inmitten eines weitläufigen Wildparks mit frei lebendem Damwild.",
+        "distance": "ca. 2,5 km",
+        "url": "https://www.schloss-favorite-ludwigsburg.de"
+      },
+      {
+        "name": "Seeschloss Monrepos",
+        "description": "Idyllisches Seeschloss am Eglosheimer See mit Park, Bootsverleih und Restaurant.",
+        "distance": "ca. 3,5 km",
+        "url": "https://www.monrepos.de"
+      },
+      {
+        "name": "Marktplatz Ludwigsburg",
+        "description": "Barocker Marktplatz mit Arkaden, zwei Kirchen und Wochenmarkt im Herzen der Barockstadt.",
+        "distance": "ca. 0,4 km",
+        "url": "https://www.ludwigsburg.de"
+      },
+      {
+        "name": "Porsche Museum",
+        "description": "Spektakuläres Museum in Stuttgart-Zuffenhausen mit über 80 historischen Sport- und Rennwagen.",
+        "distance": "ca. 12 km",
+        "url": "https://www.porsche.com/museum"
+      },
+      {
+        "name": "Mercedes-Benz Museum",
+        "description": "Automobilgeschichte über neun Ebenen – von der ersten Kutsche bis zu modernen Rennwagen.",
+        "distance": "ca. 15 km",
+        "url": "https://www.mercedes-benz.com/de/art-and-culture/museum/"
+      },
+      {
+        "name": "Schloss Solitude",
+        "description": "Elegantes Rokokoschloss über den Höhen von Stuttgart mit herrlicher Aussicht.",
+        "distance": "ca. 14 km",
+        "url": "https://www.schloss-solitude.de"
+      }
     ]
   },
   "restaurants": {
@@ -144,11 +221,36 @@
     "description": "Empfehlenswerte Restaurants in Oßweil.",
     "heading": "Restaurants in Oßweil",
     "places": [
-      { "name": "FSV Oßweil – Vereinsheim", "description": "Gemütliches Vereinsheim des FSV Oßweil mit bürgerlicher Küche und Biergarten.", "distance": "ca. 400 m", "url": "https://www.fsv-ossweil.de" },
-      { "name": "ASV Oßweil – Vereinsheim", "description": "Vereinsgaststätte des ASV Oßweil mit herzhafter Küche in geselliger Atmosphäre.", "distance": "ca. 400 m", "url": "https://www.asv-ossweil.de" },
-      { "name": "Blutsbrüder", "description": "Lockeres Lokal in Oßweil mit Burgern, Snacks und Getränken.", "distance": "ca. 500 m", "url": "https://restaurant-blutsbrueder.de" },
-      { "name": "Kleintierzüchter Oßweil – Vereinsheim", "description": "Vereinsheim der Kleintierzüchter mit gutbürgerlicher Küche und gemütlichem Ambiente.", "distance": "ca. 1,1 km", "url": "https://www.ktzvo.de" },
-      { "name": "Pizzeria Oßweil", "description": "Italienische Pizzeria in Oßweil mit Pizza, Pasta und Lieferservice.", "distance": "ca. 350 m", "url": "https://www.pizzeria-dagennaro.de" }
+      {
+        "name": "FSV Oßweil – Vereinsheim",
+        "description": "Gemütliches Vereinsheim des FSV Oßweil mit bürgerlicher Küche und Biergarten.",
+        "distance": "ca. 400 m",
+        "url": "https://www.fsv-ossweil.de"
+      },
+      {
+        "name": "ASV Oßweil – Vereinsheim",
+        "description": "Vereinsgaststätte des ASV Oßweil mit herzhafter Küche in geselliger Atmosphäre.",
+        "distance": "ca. 400 m",
+        "url": "https://www.asv-ossweil.de"
+      },
+      {
+        "name": "Blutsbrüder",
+        "description": "Lockeres Lokal in Oßweil mit Burgern, Snacks und Getränken.",
+        "distance": "ca. 500 m",
+        "url": "https://restaurant-blutsbrueder.de"
+      },
+      {
+        "name": "Kleintierzüchter Oßweil – Vereinsheim",
+        "description": "Vereinsheim der Kleintierzüchter mit gutbürgerlicher Küche und gemütlichem Ambiente.",
+        "distance": "ca. 1,1 km",
+        "url": "https://www.ktzvo.de"
+      },
+      {
+        "name": "Pizzeria Oßweil",
+        "description": "Italienische Pizzeria in Oßweil mit Pizza, Pasta und Lieferservice.",
+        "distance": "ca. 350 m",
+        "url": "https://www.pizzeria-dagennaro.de"
+      }
     ]
   },
   "verkehr": {

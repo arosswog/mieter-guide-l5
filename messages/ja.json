@@ -83,25 +83,62 @@
   },
   "einkauf": {
     "title": "ショッピング",
-    "description": "日常の必要品のための近くのショッピングオプション。",
-    "heading": "ルートヴィヒスブルクのショッピング機会",
-    "location": "住所: Lange Straße 5, 71640 Ludwigsburg",
-    "bakery": "ベーカリー:",
-    "bakeryList": [
-      "Bäckerei Meyer - 150m",
-      "Backstube Müller - 300m"
-    ],
-    "butcher": "肉屋:",
-    "butcherList": [
-      "Metzgerei Schmidt - 200m",
-      "Fleischerei Weibel - 350m"
-    ],
-    "discounter": "ディスカウント店:",
-    "discounterList": [
-      "Aldi Nord - 250m",
-      "Lidl - 400m"
-    ],
-    "mapInfo": "地図: すべての店舗と私たちの家は下の地図にマークされています。"
+    "description": "ランゲ通り5番地（オスヴァイル）から約1km圏内の日用品のお店。",
+    "heading": "オスヴァイルでの買い物",
+    "places": [
+      {
+        "name": "Kreissparkasse Ludwigsburg – Filiale Oßweil",
+        "description": "ATM併設のクライスシュパルカッセ支店。家からほんの数歩。",
+        "distance": "約50m",
+        "url": "https://www.ksklb.de",
+        "icon": "bank"
+      },
+      {
+        "name": "Bäckerei Lutz am Wettemarkt",
+        "description": "ヴェッテマルクトにある伝統的な家族経営のパン屋。焼きたてのパンやケーキ。",
+        "distance": "約200m",
+        "icon": "bakery"
+      },
+      {
+        "name": "Döner & Pizza Imbiss am Wettemarkt",
+        "description": "ヴェッテマルクトの軽食店。ドネルやピザなどのテイクアウト。",
+        "distance": "約220m",
+        "icon": "doener"
+      },
+      {
+        "name": "Apotheke am Wettemarkt",
+        "description": "オスヴァイル中心部、ヴェッテマルクトの薬局。薬と相談。",
+        "distance": "約250m",
+        "url": "https://www.apotheke-am-wettemarkt.de",
+        "icon": "pharmacy"
+      },
+      {
+        "name": "NORMA Oßweil",
+        "description": "品揃え豊富なディスカウントスーパー。お得な週末の買い物に。",
+        "distance": "約250m",
+        "url": "https://www.norma-online.de",
+        "icon": "discounter"
+      },
+      {
+        "name": "BOS Hairlines",
+        "description": "ヴェストファーレン通りの美容室。男女どちらも対応。",
+        "distance": "約250m",
+        "icon": "hairdresser"
+      },
+      {
+        "name": "Frischemarkt KIWI (EDEKA)",
+        "description": "品揃えの良い生鮮市場（EDEKA）。精肉・ソーセージ売場、ベーカリー、地元産品。",
+        "distance": "約350m",
+        "url": "https://frischemarkt-kiwi.de",
+        "icon": "supermarket"
+      },
+      {
+        "name": "Mark Anders Bäckerei-Konditorei",
+        "description": "フリーゼン通りのパン・洋菓子店。各種焼き菓子と洋菓子。",
+        "distance": "約400m",
+        "icon": "bakery"
+      }
+    ]
   },
   "muell": {
     "title": "ゴミ",
@@ -129,14 +166,54 @@
     "description": "ルートヴィヒスブルクと周辺のおすすめ観光スポット。",
     "heading": "ルートヴィヒスブルクと周辺の観光スポット",
     "places": [
-      { "name": "ルートヴィヒスブルク城（レジデンツ宮殿）", "description": "ヨーロッパ最大級のバロック宮殿。豪華な広間、博物館、広大な庭園があります。", "distance": "約1.3 km", "url": "https://www.schloss-ludwigsburg.de" },
-      { "name": "花咲くバロック庭園＆おとぎの国", "description": "宮殿を囲む歴史的な庭園。人気のおとぎの国や秋のカボチャ展も開催されます。", "distance": "約1.4 km", "url": "https://www.blueba.de" },
-      { "name": "ファヴォリーテ城＆野生公園", "description": "広大な野生動物公園に建つバロック様式の狩猟用離宮。ダマジカが自由に歩き回ります。", "distance": "約2.5 km", "url": "https://www.schloss-favorite-ludwigsburg.de" },
-      { "name": "モンレポ湖上宮殿", "description": "エグロスハイム湖畔にある美しい宮殿。公園、ボートレンタル、レストランがあります。", "distance": "約3.5 km", "url": "https://www.monrepos.de" },
-      { "name": "ルートヴィヒスブルク マルクト広場", "description": "アーケード、2つの教会、週市があるバロックの街の中心にある広場。", "distance": "約0.4 km", "url": "https://www.ludwigsburg.de" },
-      { "name": "ポルシェ博物館", "description": "シュトゥットガルト・ツッフェンハウゼンにある博物館。80台以上の歴史的なスポーツカーやレーシングカーを展示。", "distance": "約12 km", "url": "https://www.porsche.com/museum" },
-      { "name": "メルセデス・ベンツ博物館", "description": "9つのフロアにわたる自動車の歴史。最初の馬車から最新のレーシングカーまで。", "distance": "約15 km", "url": "https://www.mercedes-benz.com/en/art-and-culture/museum/" },
-      { "name": "ゾリチュード城", "description": "シュトゥットガルトの丘の上に建つ優美なロココ様式の宮殿。素晴らしい眺望が楽しめます。", "distance": "約14 km", "url": "https://www.schloss-solitude.de" }
+      {
+        "name": "ルートヴィヒスブルク城（レジデンツ宮殿）",
+        "description": "ヨーロッパ最大級のバロック宮殿。豪華な広間、博物館、広大な庭園があります。",
+        "distance": "約1.3 km",
+        "url": "https://www.schloss-ludwigsburg.de"
+      },
+      {
+        "name": "花咲くバロック庭園＆おとぎの国",
+        "description": "宮殿を囲む歴史的な庭園。人気のおとぎの国や秋のカボチャ展も開催されます。",
+        "distance": "約1.4 km",
+        "url": "https://www.blueba.de"
+      },
+      {
+        "name": "ファヴォリーテ城＆野生公園",
+        "description": "広大な野生動物公園に建つバロック様式の狩猟用離宮。ダマジカが自由に歩き回ります。",
+        "distance": "約2.5 km",
+        "url": "https://www.schloss-favorite-ludwigsburg.de"
+      },
+      {
+        "name": "モンレポ湖上宮殿",
+        "description": "エグロスハイム湖畔にある美しい宮殿。公園、ボートレンタル、レストランがあります。",
+        "distance": "約3.5 km",
+        "url": "https://www.monrepos.de"
+      },
+      {
+        "name": "ルートヴィヒスブルク マルクト広場",
+        "description": "アーケード、2つの教会、週市があるバロックの街の中心にある広場。",
+        "distance": "約0.4 km",
+        "url": "https://www.ludwigsburg.de"
+      },
+      {
+        "name": "ポルシェ博物館",
+        "description": "シュトゥットガルト・ツッフェンハウゼンにある博物館。80台以上の歴史的なスポーツカーやレーシングカーを展示。",
+        "distance": "約12 km",
+        "url": "https://www.porsche.com/museum"
+      },
+      {
+        "name": "メルセデス・ベンツ博物館",
+        "description": "9つのフロアにわたる自動車の歴史。最初の馬車から最新のレーシングカーまで。",
+        "distance": "約15 km",
+        "url": "https://www.mercedes-benz.com/en/art-and-culture/museum/"
+      },
+      {
+        "name": "ゾリチュード城",
+        "description": "シュトゥットガルトの丘の上に建つ優美なロココ様式の宮殿。素晴らしい眺望が楽しめます。",
+        "distance": "約14 km",
+        "url": "https://www.schloss-solitude.de"
+      }
     ]
   },
   "restaurants": {
@@ -144,11 +221,36 @@
     "description": "オスヴァイル（Oßweil）のおすすめレストラン。",
     "heading": "オスヴァイルのレストラン",
     "places": [
-      { "name": "FSV Oßweil（クラブハウス）", "description": "FSVオスヴァイルの居心地の良いクラブハウス。家庭的な料理とビアガーデンが楽しめます。", "distance": "約400 m", "url": "https://www.fsv-ossweil.de" },
-      { "name": "ASV Oßweil（クラブハウス）", "description": "ASVオスヴァイルのクラブ食堂。和やかな雰囲気で素朴な料理を味わえます。", "distance": "約400 m", "url": "https://www.asv-ossweil.de" },
-      { "name": "Blutsbrüder", "description": "オスヴァイルのカジュアルなお店。バーガーや軽食、ドリンクが楽しめます。", "distance": "約500 m", "url": "https://restaurant-blutsbrueder.de" },
-      { "name": "Kleintierzüchter Oßweil（クラブハウス）", "description": "小動物飼育クラブのクラブハウス。家庭的な料理と落ち着いた雰囲気が魅力です。", "distance": "約1.1 km", "url": "https://www.ktzvo.de" },
-      { "name": "Pizzeria Oßweil", "description": "オスヴァイルのイタリアンピッツェリア。ピザやパスタ、宅配サービスもあります。", "distance": "約350 m", "url": "https://www.pizzeria-dagennaro.de" }
+      {
+        "name": "FSV Oßweil（クラブハウス）",
+        "description": "FSVオスヴァイルの居心地の良いクラブハウス。家庭的な料理とビアガーデンが楽しめます。",
+        "distance": "約400 m",
+        "url": "https://www.fsv-ossweil.de"
+      },
+      {
+        "name": "ASV Oßweil（クラブハウス）",
+        "description": "ASVオスヴァイルのクラブ食堂。和やかな雰囲気で素朴な料理を味わえます。",
+        "distance": "約400 m",
+        "url": "https://www.asv-ossweil.de"
+      },
+      {
+        "name": "Blutsbrüder",
+        "description": "オスヴァイルのカジュアルなお店。バーガーや軽食、ドリンクが楽しめます。",
+        "distance": "約500 m",
+        "url": "https://restaurant-blutsbrueder.de"
+      },
+      {
+        "name": "Kleintierzüchter Oßweil（クラブハウス）",
+        "description": "小動物飼育クラブのクラブハウス。家庭的な料理と落ち着いた雰囲気が魅力です。",
+        "distance": "約1.1 km",
+        "url": "https://www.ktzvo.de"
+      },
+      {
+        "name": "Pizzeria Oßweil",
+        "description": "オスヴァイルのイタリアンピッツェリア。ピザやパスタ、宅配サービスもあります。",
+        "distance": "約350 m",
+        "url": "https://www.pizzeria-dagennaro.de"
+      }
     ]
   },
   "verkehr": {
