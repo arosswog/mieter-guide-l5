@@ -289,20 +289,90 @@
   },
   "kontakt": {
     "title": "連絡先",
-    "description": "緊急連絡先と担当者。",
-    "heading": "連絡先",
-    "emergency": "緊急:",
-    "emergencyNumbers": [
-      "警察: 110",
-      "消防: 112",
-      "救急医療サービス: 0911 / 19292"
+    "description": "重要な緊急電話番号、近くの医師と病院、そして住まいに関するご質問のための直通窓口です。",
+    "heading": "緊急時とご質問について",
+    "emergencyHeading": "緊急通報 – 24時間対応",
+    "emergency": [
+      {
+        "name": "警察",
+        "description": "危険、事故、空き巣、盗難の際に。",
+        "distance": "110",
+        "icon": "police",
+        "url": "tel:110"
+      },
+      {
+        "name": "消防・救急",
+        "description": "火災、事故、医療上の緊急時に。",
+        "distance": "112",
+        "icon": "fire",
+        "url": "tel:112"
+      },
+      {
+        "name": "救急医療サービス（当直）",
+        "description": "診療所が閉まっているが、生命に関わる緊急ではない場合に。",
+        "distance": "116 117",
+        "icon": "ambulance",
+        "url": "tel:116117"
+      }
     ],
-    "support": "サポート:",
-    "supportInfo": "建物管理: +49 (0) 123 4567890 | メール: support@haus1890.de | ウェブサイト: www.haus1890.de",
-    "maintenance": "メンテナンス & 修理:",
-    "maintenanceInfo": "24時間対応緊急ホットライン: +49 (0) 123 9999999",
-    "feedback": "フィードバック & 苦情:",
-    "feedbackInfo": "メールをお送りください: feedback@haus1890.de"
+    "doctorsHeading": "近くの医師（Oßweil）",
+    "doctors": [
+      {
+        "name": "Dr. Buhn & Mareike Graf 診療所",
+        "description": "一般内科 · Westfalenstraße 30, 71640 Ludwigsburg-Oßweil · 電話 07141 863050",
+        "distance": "約700 m",
+        "icon": "doctor",
+        "url": "tel:07141863050"
+      },
+      {
+        "name": "Dr. med. Roger Klingel",
+        "description": "一般内科 · Elfriede-Breitenbach-Str. 2, 71640 Ludwigsburg-Oßweil · 電話 07141 926955",
+        "distance": "約850 m",
+        "icon": "doctor",
+        "url": "tel:07141926955"
+      },
+      {
+        "name": "Dr. med. Joachim Ulmer",
+        "description": "一般内科 · Friesenstraße 27, 71640 Ludwigsburg-Oßweil · 電話 07141 86755",
+        "distance": "約600 m",
+        "icon": "doctor",
+        "url": "tel:0714186755"
+      },
+      {
+        "name": "Dr. med. Gunther Witzig",
+        "description": "一般内科 · Friesenstraße 54, 71640 Ludwigsburg-Oßweil · 電話 07141 86715",
+        "distance": "約650 m",
+        "icon": "doctor",
+        "url": "tel:0714186715"
+      }
+    ],
+    "hospitalsHeading": "近くの病院",
+    "hospitals": [
+      {
+        "name": "RKH Klinikum Ludwigsburg – 救急外来",
+        "description": "中央救急外来、24時間対応 · Posilipostraße 4, 71640 Ludwigsburg · 電話 07141 9966699",
+        "distance": "約2.5 km",
+        "icon": "hospital",
+        "url": "tel:071419966699"
+      },
+      {
+        "name": "RKH Klinikum Ludwigsburg – 受付",
+        "description": "総合案内・代表番号、24時間対応 · 電話 07141 9990",
+        "distance": "約2.5 km",
+        "icon": "hospital",
+        "url": "tel:071419990"
+      }
+    ],
+    "apartmentHeading": "住まいに関するご質問",
+    "apartment": [
+      {
+        "name": "住まいに関する質問・お困りごと",
+        "description": "何か足りない、故障、または住まいについてのご質問がありますか？お気軽にご連絡ください。対応いたします：wohnung@rosswog.info",
+        "distance": "メール",
+        "icon": "mail",
+        "url": "mailto:wohnung@rosswog.info"
+      }
+    ]
   },
   "og": {
     "title": "上階のお部屋",

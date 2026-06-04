@@ -16,6 +16,11 @@ import {
   MdLunchDining,
   MdStorefront,
   MdLocalGasStation,
+  MdLocalPolice,
+  MdLocalFireDepartment,
+  MdMedicalServices,
+  MdLocalHospital,
+  MdEmail,
 } from 'react-icons/md';
 import Footer from './Footer';
 
@@ -38,6 +43,12 @@ const placeIcons: Record<string, { Icon: IconType; className: string }> = {
   butcher: { Icon: MdLunchDining, className: 'bg-red-100 text-red-700' },
   gasstation: { Icon: MdLocalGasStation, className: 'bg-yellow-100 text-yellow-700' },
   shop: { Icon: MdStorefront, className: 'bg-stone-200 text-stone-700' },
+  police: { Icon: MdLocalPolice, className: 'bg-blue-100 text-blue-700' },
+  fire: { Icon: MdLocalFireDepartment, className: 'bg-red-100 text-red-600' },
+  ambulance: { Icon: MdMedicalServices, className: 'bg-rose-100 text-rose-600' },
+  doctor: { Icon: MdMedicalServices, className: 'bg-teal-100 text-teal-700' },
+  hospital: { Icon: MdLocalHospital, className: 'bg-sky-100 text-sky-700' },
+  mail: { Icon: MdEmail, className: 'bg-indigo-100 text-indigo-700' },
 };
 
 function isPlace(value: unknown): value is Place {
